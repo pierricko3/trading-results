@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T08:57:34Z",
+ "generated_at": "2026-11-04T09:48:10Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.0062,
+  "bench_pct": 0.0064,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,11 +16,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 78453.64,
+   "price": 78501.05,
    "trend": "neutre",
-   "score": -0.027,
-   "news_score": 0.0,
-   "news_conf": 0.48,
+   "score": 0.023,
+   "news_score": 0.25,
+   "news_conf": 0.36,
    "tech_score": -0.059,
    "in_position": false,
    "patterns": [
@@ -29,7 +29,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2321.73,
+   "price": 2323.51,
    "trend": "neutre",
    "score": 0.251,
    "news_score": 0.5,
@@ -42,11 +42,11 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 93.23,
+   "price": 93.25,
    "trend": "baissière",
-   "score": -0.121,
-   "news_score": 0.25,
-   "news_conf": 0.12,
+   "score": -0.138,
+   "news_score": 0.0,
+   "news_conf": 0.24,
    "tech_score": -0.306,
    "in_position": false,
    "patterns": [
@@ -57,9 +57,9 @@
    "symbol": "NVDA",
    "price": 206.57000732421875,
    "trend": "baissière",
-   "score": -0.029,
-   "news_score": 1.0,
-   "news_conf": 0.48,
+   "score": -0.342,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -68,9 +68,9 @@
    "symbol": "AAPL",
    "price": 331.739990234375,
    "trend": "neutre",
-   "score": -0.027,
-   "news_score": -0.125,
-   "news_conf": 0.34,
+   "score": -0.001,
+   "news_score": 0.013,
+   "news_conf": 0.381,
    "tech_score": -0.008,
    "in_position": false,
    "patterns": [
@@ -130,6 +130,11 @@
    1793782643,
    100.0,
    100.62
+  ],
+  [
+   1793785680,
+   100.0,
+   100.64
   ]
  ],
  "last_directive": {
@@ -143,7 +148,7 @@
    "value": 34,
    "label": "Fear"
   },
-  "vix": 19.12
+  "vix": 18.56
  },
  "indicator_stress": "",
  "directive_track_record": {
