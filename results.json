@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T09:48:10Z",
+ "generated_at": "2026-11-04T09:50:10Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.0064,
+  "bench_pct": 0.006,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,7 +16,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 78501.05,
+   "price": 78441.46,
    "trend": "neutre",
    "score": 0.023,
    "news_score": 0.25,
@@ -29,7 +29,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2323.51,
+   "price": 2321.75,
    "trend": "neutre",
    "score": 0.251,
    "news_score": 0.5,
@@ -42,7 +42,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 93.25,
+   "price": 93.16,
    "trend": "baissière",
    "score": -0.138,
    "news_score": 0.0,
@@ -135,6 +135,11 @@
    1793785680,
    100.0,
    100.64
+  ],
+  [
+   1793785801,
+   100.0,
+   100.6
   ]
  ],
  "last_directive": {
@@ -148,7 +153,7 @@
    "value": 34,
    "label": "Fear"
   },
-  "vix": 18.56
+  "vix": 18.61
  },
  "indicator_stress": "",
  "directive_track_record": {
