@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T20:00:35Z",
+ "generated_at": "2026-11-04T20:50:44Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.028,
+  "bench_pct": 0.0269,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,10 +16,10 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 80016.83,
+   "price": 80095.65,
    "trend": "neutre",
-   "score": 0.128,
-   "news_score": 0.333,
+   "score": 0.065,
+   "news_score": 0.143,
    "news_conf": 0.6,
    "tech_score": 0.039,
    "in_position": false,
@@ -27,11 +27,11 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2408.11,
+   "price": 2415.05,
    "trend": "neutre",
-   "score": 0.238,
-   "news_score": 0.6,
-   "news_conf": 0.6,
+   "score": 0.09,
+   "news_score": 0.25,
+   "news_conf": 0.36,
    "tech_score": 0.09,
    "in_position": false,
    "patterns": [
@@ -40,11 +40,11 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 94.54,
+   "price": 94.72,
    "trend": "neutre",
-   "score": 0.044,
-   "news_score": 0.25,
-   "news_conf": 0.36,
+   "score": -0.022,
+   "news_score": -0.25,
+   "news_conf": 0.12,
    "tech_score": -0.013,
    "in_position": false,
    "patterns": [
@@ -53,22 +53,22 @@
   },
   {
    "symbol": "NVDA",
-   "price": 202.50999450683594,
+   "price": 200.8699951171875,
    "trend": "baissière",
-   "score": -0.161,
-   "news_score": 0.5,
-   "news_conf": 0.48,
+   "score": -0.441,
+   "news_score": -0.75,
+   "news_conf": 0.36,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "AAPL",
-   "price": 352.0050048828125,
+   "price": 350.6700134277344,
    "trend": "neutre",
-   "score": 0.244,
-   "news_score": 0.75,
-   "news_conf": 0.6,
+   "score": -0.004,
+   "news_score": 0.0,
+   "news_conf": 0.48,
    "tech_score": -0.008,
    "in_position": false,
    "patterns": [
@@ -77,11 +77,11 @@
   },
   {
    "symbol": "SPY",
-   "price": 767.4099731445312,
+   "price": 766.9249877929688,
    "trend": "neutre",
-   "score": 0.243,
-   "news_score": 1.0,
-   "news_conf": 0.48,
+   "score": 0.045,
+   "news_score": 0.5,
+   "news_conf": 0.24,
    "tech_score": -0.048,
    "in_position": false,
    "patterns": []
@@ -158,20 +158,25 @@
    1793822430,
    100.0,
    102.8
+  ],
+  [
+   1793825439,
+   100.0,
+   102.69
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 0,
-  "text": "Aucune actualité récente (moins de 36 h) vérifiable via les sources ciblées ce passage : posture neutre par défaut, aucune annotation d'actif. — Aucune source financière récente et fiable n'a pu être vérifiée ce passage : fichier neutre, aucun actif annoté. · À venir : 4 nov. refinancement du Trésor",
-  "received_at": "2026-11-04T13:50:44Z"
+  "text": "Aucune actualité de moins de 36 h vérifiable ce passage (recherche ciblée en échec, résultats généraux datant de 2025) : posture neutre par défaut, aucune annotation. — Aucune source financière récente et fiable n'a pu être vérifiée ce passage : fichier neutre, aucun actif annoté. · À venir : calend",
+  "received_at": "2026-11-04T20:50:39Z"
  },
  "indicators": {
   "fear_greed": {
    "value": 34,
    "label": "Fear"
   },
-  "vix": 16.76
+  "vix": 16.62
  },
  "indicator_stress": "",
  "directive_track_record": {
