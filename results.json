@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T20:50:44Z",
+ "generated_at": "2026-11-04T21:30:53Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.0269,
+  "bench_pct": 0.026,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,10 +16,10 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 80095.65,
+   "price": 80112.01,
    "trend": "neutre",
-   "score": 0.065,
-   "news_score": 0.143,
+   "score": 0.1,
+   "news_score": 0.25,
    "news_conf": 0.6,
    "tech_score": 0.039,
    "in_position": false,
@@ -27,11 +27,11 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2415.05,
+   "price": 2419.49,
    "trend": "neutre",
-   "score": 0.09,
-   "news_score": 0.25,
-   "news_conf": 0.36,
+   "score": -0.026,
+   "news_score": -0.2,
+   "news_conf": 0.6,
    "tech_score": 0.09,
    "in_position": false,
    "patterns": [
@@ -40,11 +40,11 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 94.72,
+   "price": 94.6,
    "trend": "neutre",
-   "score": -0.022,
-   "news_score": -0.25,
-   "news_conf": 0.12,
+   "score": -0.154,
+   "news_score": -0.75,
+   "news_conf": 0.36,
    "tech_score": -0.013,
    "in_position": false,
    "patterns": [
@@ -53,22 +53,22 @@
   },
   {
    "symbol": "NVDA",
-   "price": 200.8699951171875,
+   "price": 200.28500366210938,
    "trend": "baissière",
-   "score": -0.441,
-   "news_score": -0.75,
-   "news_conf": 0.36,
+   "score": -0.513,
+   "news_score": -0.667,
+   "news_conf": 0.6,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "AAPL",
-   "price": 350.6700134277344,
+   "price": 349.6199951171875,
    "trend": "neutre",
-   "score": -0.004,
-   "news_score": 0.0,
-   "news_conf": 0.48,
+   "score": -0.202,
+   "news_score": -0.6,
+   "news_conf": 0.6,
    "tech_score": -0.008,
    "in_position": false,
    "patterns": [
@@ -77,11 +77,11 @@
   },
   {
    "symbol": "SPY",
-   "price": 766.9249877929688,
+   "price": 766.72998046875,
    "trend": "neutre",
-   "score": 0.045,
-   "news_score": 0.5,
-   "news_conf": 0.24,
+   "score": -0.021,
+   "news_score": 0.0,
+   "news_conf": 0.48,
    "tech_score": -0.048,
    "in_position": false,
    "patterns": []
@@ -163,6 +163,11 @@
    1793825439,
    100.0,
    102.69
+  ],
+  [
+   1793827848,
+   100.0,
+   102.6
   ]
  ],
  "last_directive": {
@@ -176,7 +181,7 @@
    "value": 34,
    "label": "Fear"
   },
-  "vix": 16.62
+  "vix": 16.61
  },
  "indicator_stress": "",
  "directive_track_record": {
