@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T08:14:10Z",
+ "generated_at": "2026-11-04T08:57:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.0057,
+  "bench_pct": 0.0062,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,11 +16,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 78422.39,
+   "price": 78453.64,
    "trend": "neutre",
-   "score": -0.093,
-   "news_score": -0.2,
-   "news_conf": 0.6,
+   "score": -0.027,
+   "news_score": 0.0,
+   "news_conf": 0.48,
    "tech_score": -0.059,
    "in_position": false,
    "patterns": [
@@ -29,11 +29,11 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2314.01,
+   "price": 2321.73,
    "trend": "neutre",
-   "score": 0.229,
-   "news_score": 0.333,
-   "news_conf": 0.6,
+   "score": 0.251,
+   "news_score": 0.5,
+   "news_conf": 0.48,
    "tech_score": 0.265,
    "in_position": false,
    "patterns": [
@@ -42,11 +42,11 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 93.29,
+   "price": 93.23,
    "trend": "baissière",
-   "score": -0.088,
+   "score": -0.121,
    "news_score": 0.25,
-   "news_conf": 0.36,
+   "news_conf": 0.12,
    "tech_score": -0.306,
    "in_position": false,
    "patterns": [
@@ -57,9 +57,9 @@
    "symbol": "NVDA",
    "price": 206.57000732421875,
    "trend": "baissière",
-   "score": -0.073,
-   "news_score": 0.667,
-   "news_conf": 0.6,
+   "score": -0.029,
+   "news_score": 1.0,
+   "news_conf": 0.48,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -68,9 +68,9 @@
    "symbol": "AAPL",
    "price": 331.739990234375,
    "trend": "neutre",
-   "score": -0.001,
-   "news_score": 0.013,
-   "news_conf": 0.381,
+   "score": -0.027,
+   "news_score": -0.125,
+   "news_conf": 0.34,
    "tech_score": -0.008,
    "in_position": false,
    "patterns": [
@@ -81,9 +81,9 @@
    "symbol": "SPY",
    "price": 754.4099731445312,
    "trend": "neutre",
-   "score": -0.067,
-   "news_score": -0.16,
-   "news_conf": 0.52,
+   "score": -0.077,
+   "news_score": -0.227,
+   "news_conf": 0.444,
    "tech_score": -0.048,
    "in_position": false,
    "patterns": []
@@ -125,6 +125,11 @@
    1793780039,
    100.0,
    100.57
+  ],
+  [
+   1793782643,
+   100.0,
+   100.62
   ]
  ],
  "last_directive": {
@@ -138,7 +143,7 @@
    "value": 34,
    "label": "Fear"
   },
-  "vix": 20.83
+  "vix": 19.12
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -149,5 +154,98 @@
   "enough": false,
   "min_sample": 20,
   "by_symbol": {}
+ },
+ "costs": {
+  "currency": "$",
+  "initial": 100.0,
+  "equity": 100.0,
+  "profiles": {
+   "crypto": "Kraken, ordres au marché",
+   "stock": "Alpaca, actions et ETF américains"
+  },
+  "fees": 0,
+  "slippage": 0,
+  "fees_pct_capital": 0.0,
+  "gross_pl": 0.0,
+  "before_fees": 0.0,
+  "net_pl": 0.0,
+  "tax_rate": 0.314,
+  "tax_est": 0.0,
+  "net_after_tax": 0.0,
+  "trade_count": 0,
+  "platforms": {
+   "crypto": [
+    {
+     "key": "kraken",
+     "label": "Kraken, ordres au marché",
+     "note": "0,40 % taker sous 50 000 $/mois ; accessible depuis la France (agrément irlandais, passeport UE)",
+     "fees": 0,
+     "net": 0.0,
+     "active": true
+    },
+    {
+     "key": "kraken_limit",
+     "label": "Kraken, ordres à cours limité",
+     "note": "0,25 % maker, mais un ordre limite peut ne pas être exécuté",
+     "fees": 0,
+     "net": 0.0,
+     "active": false
+    },
+    {
+     "key": "coinbase",
+     "label": "Coinbase Advanced",
+     "note": "0,50 % taker au palier de base",
+     "fees": 0,
+     "net": 0.0,
+     "active": false
+    },
+    {
+     "key": "binance",
+     "label": "Binance",
+     "note": "0,10 % : mais n'accepte plus de nouveaux clients en France d'après plusieurs sources",
+     "fees": 0,
+     "net": 0.0,
+     "active": false
+    },
+    {
+     "key": "etoro_crypto",
+     "label": "eToro, crypto réelle",
+     "note": "1 % par position, soit 2 % l'aller-retour, spread en plus",
+     "fees": 0,
+     "net": 0.0,
+     "active": false
+    }
+   ],
+   "stock": [
+    {
+     "key": "alpaca",
+     "label": "Alpaca, actions et ETF américains",
+     "note": "0 commission ; compte à déclarer (3916-bis), pas de marge",
+     "fees": 0,
+     "net": 0.0,
+     "active": true
+    },
+    {
+     "key": "ibkr_fixed",
+     "label": "Interactive Brokers, tarif fixe",
+     "note": "0,005 $/action, minimum 1 $, plafonné à 1 % du montant",
+     "fees": 0,
+     "net": 0.0,
+     "active": false
+    },
+    {
+     "key": "etoro_stock",
+     "label": "eToro, actions réelles",
+     "note": "1 $ (parfois 2 $) par ordre, achat et vente",
+     "fees": 0,
+     "net": 0.0,
+     "active": false
+    }
+   ]
+  },
+  "min_units": {
+   "BTC/USDT": 0.0001,
+   "ETH/USDT": 0.01
+  }
  }
 }
