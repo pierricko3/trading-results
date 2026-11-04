@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T12:00:35Z",
+ "generated_at": "2026-11-04T13:50:49Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.0075,
+  "bench_pct": 0.0054,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,7 +16,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 78498.43,
+   "price": 78374.01,
    "trend": "neutre",
    "score": 0.072,
    "news_score": 0.2,
@@ -29,7 +29,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2329.01,
+   "price": 2319.97,
    "trend": "neutre",
    "score": 0.147,
    "news_score": 0.2,
@@ -42,7 +42,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 93.62,
+   "price": 92.99,
    "trend": "neutre",
    "score": -0.001,
    "news_score": -0.25,
@@ -68,9 +68,9 @@
    "symbol": "AAPL",
    "price": 331.739990234375,
    "trend": "neutre",
-   "score": -0.027,
-   "news_score": -0.125,
-   "news_conf": 0.34,
+   "score": -0.004,
+   "news_score": 0.0,
+   "news_conf": 0.48,
    "tech_score": -0.008,
    "in_position": false,
    "patterns": [
@@ -81,9 +81,9 @@
    "symbol": "SPY",
    "price": 754.4099731445312,
    "trend": "neutre",
-   "score": -0.01,
-   "news_score": 0.063,
-   "news_conf": 0.34,
+   "score": 0.028,
+   "news_score": 0.25,
+   "news_conf": 0.36,
    "tech_score": -0.048,
    "in_position": false,
    "patterns": []
@@ -145,20 +145,25 @@
    1793793630,
    100.0,
    100.75
+  ],
+  [
+   1793800244,
+   100.0,
+   100.54
   ]
  ],
  "last_directive": {
   "regime": "neutral",
-  "assets_annotated": 2,
-  "text": "Séance du 3 nov. mitigée (Nasdaq +0,83 %, S&P +0,36 %, Dow -0,38 %), rendements élevés, pétrole haut (WTI ~98 $) avec tensions Iran, moral des ménages très bas : signaux contradictoires, pas assez pour risk_off. — Wall Street mitigée le 3 nov. : Nasdaq +0,83 %, S&P 500 +0,36 %, Dow -0,38 %. · Pétrol",
-  "received_at": "2026-11-04T07:24:47Z"
+  "assets_annotated": 0,
+  "text": "Aucune actualité récente (moins de 36 h) vérifiable via les sources ciblées ce passage : posture neutre par défaut, aucune annotation d'actif. — Aucune source financière récente et fiable n'a pu être vérifiée ce passage : fichier neutre, aucun actif annoté. · À venir : 4 nov. refinancement du Trésor",
+  "received_at": "2026-11-04T13:50:44Z"
  },
  "indicators": {
   "fear_greed": {
    "value": 34,
    "label": "Fear"
   },
-  "vix": 18.19
+  "vix": 18.43
  },
  "indicator_stress": "",
  "directive_track_record": {
