@@ -1,0 +1,153 @@
+{
+ "generated_at": "2026-11-04T08:14:10Z",
+ "mode": "simulation",
+ "capital": {
+  "currency": "$",
+  "initial": 100.0,
+  "equity": 100.0,
+  "cash": 100.0,
+  "perf_pct": 0.0,
+  "bench_pct": 0.0057,
+  "drawdown": 0.0,
+  "halted": false,
+  "trade_count": 0
+ },
+ "positions": [],
+ "assets": [
+  {
+   "symbol": "BTC/USDT",
+   "price": 78422.39,
+   "trend": "neutre",
+   "score": -0.093,
+   "news_score": -0.2,
+   "news_conf": 0.6,
+   "tech_score": -0.059,
+   "in_position": false,
+   "patterns": [
+    "Étoile filante (essoufflement)"
+   ]
+  },
+  {
+   "symbol": "ETH/USDT",
+   "price": 2314.01,
+   "trend": "neutre",
+   "score": 0.229,
+   "news_score": 0.333,
+   "news_conf": 0.6,
+   "tech_score": 0.265,
+   "in_position": false,
+   "patterns": [
+    "Avalement haussier"
+   ]
+  },
+  {
+   "symbol": "SOL/USDT",
+   "price": 93.29,
+   "trend": "baissière",
+   "score": -0.088,
+   "news_score": 0.25,
+   "news_conf": 0.36,
+   "tech_score": -0.306,
+   "in_position": false,
+   "patterns": [
+    "Avalement haussier"
+   ]
+  },
+  {
+   "symbol": "NVDA",
+   "price": 206.57000732421875,
+   "trend": "baissière",
+   "score": -0.073,
+   "news_score": 0.667,
+   "news_conf": 0.6,
+   "tech_score": -0.65,
+   "in_position": false,
+   "patterns": []
+  },
+  {
+   "symbol": "AAPL",
+   "price": 331.739990234375,
+   "trend": "neutre",
+   "score": -0.001,
+   "news_score": 0.013,
+   "news_conf": 0.381,
+   "tech_score": -0.008,
+   "in_position": false,
+   "patterns": [
+    "Marteau inversé (rebond possible)"
+   ]
+  },
+  {
+   "symbol": "SPY",
+   "price": 754.4099731445312,
+   "trend": "neutre",
+   "score": -0.067,
+   "news_score": -0.16,
+   "news_conf": 0.52,
+   "tech_score": -0.048,
+   "in_position": false,
+   "patterns": []
+  }
+ ],
+ "recent_trades": [],
+ "equity_curve": [
+  [
+   1793750480,
+   100.0,
+   100.0
+  ],
+  [
+   1793764830,
+   100.0,
+   99.27
+  ],
+  [
+   1793777087,
+   100.0,
+   100.38
+  ],
+  [
+   1793778367,
+   100.0,
+   100.44
+  ],
+  [
+   1793779230,
+   100.0,
+   100.41
+  ],
+  [
+   1793779717,
+   100.0,
+   100.59
+  ],
+  [
+   1793780039,
+   100.0,
+   100.57
+  ]
+ ],
+ "last_directive": {
+  "regime": "neutral",
+  "assets_annotated": 2,
+  "text": "Séance du 3 nov. mitigée (Nasdaq +0,83 %, S&P +0,36 %, Dow -0,38 %), rendements élevés, pétrole haut (WTI ~98 $) avec tensions Iran, moral des ménages très bas : signaux contradictoires, pas assez pour risk_off. — Wall Street mitigée le 3 nov. : Nasdaq +0,83 %, S&P 500 +0,36 %, Dow -0,38 %. · Pétrol",
+  "received_at": "2026-11-04T07:24:47Z"
+ },
+ "indicators": {
+  "fear_greed": {
+   "value": 34,
+   "label": "Fear"
+  },
+  "vix": 20.83
+ },
+ "indicator_stress": "",
+ "directive_track_record": {
+  "n": 0,
+  "pending": 2,
+  "hit_rate": null,
+  "mean_signed": null,
+  "enough": false,
+  "min_sample": 20,
+  "by_symbol": {}
+ }
+}
