@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T06:12:52Z",
+ "generated_at": "2026-11-05T06:23:05Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.0297,
+  "bench_pct": 0.0302,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,11 +16,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 80491.42,
+   "price": 80564.4,
    "trend": "neutre",
-   "score": 0.087,
-   "news_score": 0.0,
-   "news_conf": 0.48,
+   "score": 0.095,
+   "news_score": 0.038,
+   "news_conf": 0.411,
    "tech_score": 0.193,
    "in_position": false,
    "patterns": [
@@ -30,7 +30,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2424.8,
+   "price": 2427.0,
    "trend": "haussière",
    "score": 0.274,
    "news_score": 0.0,
@@ -43,7 +43,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 95.99,
+   "price": 96.1,
    "trend": "neutre",
    "score": 0.0,
    "news_score": -0.25,
@@ -67,9 +67,9 @@
    "symbol": "AAPL",
    "price": 349.6199951171875,
    "trend": "haussière",
-   "score": 0.416,
-   "news_score": 0.5,
-   "news_conf": 0.6,
+   "score": 0.352,
+   "news_score": 0.367,
+   "news_conf": 0.5,
    "tech_score": 0.557,
    "in_position": false,
    "patterns": [
@@ -80,9 +80,9 @@
    "symbol": "SPY",
    "price": 766.72998046875,
    "trend": "neutre",
-   "score": 0.244,
-   "news_score": 0.75,
-   "news_conf": 0.36,
+   "score": 0.426,
+   "news_score": 1.0,
+   "news_conf": 0.6,
    "tech_score": 0.213,
    "in_position": false,
    "patterns": [
@@ -196,13 +196,23 @@
    1793859161,
    100.0,
    102.97
+  ],
+  [
+   1793859474,
+   100.0,
+   103.04
+  ],
+  [
+   1793859780,
+   100.0,
+   103.02
   ]
  ],
  "last_directive": {
   "regime": "neutral",
-  "assets_annotated": 0,
-  "text": "Aucune source récente (moins de 36 h) et fiable vérifiable : les recherches ont renvoyé surtout des articles anciens. Régime neutre par prudence. — Pas d'actualité récente et fiable vérifiée sur ce passage : aucune annotation d'actif. · À venir : rapport emploi américain d'octobre (NFP) vendredi 6 n",
-  "received_at": "2026-11-05T06:00:50Z"
+  "assets_annotated": 2,
+  "text": "Rebond post-électoral (midterms, victoire démocrate) mais futures mixtes ; 2 sources : Yahoo Finance, CoinDesk. Pas assez d'indicateurs concrets pour risk_on ou risk_off. — Contexte : rebond post-électoral aux États-Unis (victoire démocrate aux midterms), futures mixtes, techs en léger repli (Yahoo ",
+  "received_at": "2026-11-05T06:23:00Z"
  },
  "indicators": {
   "fear_greed": {
@@ -214,7 +224,7 @@
  "indicator_stress": "",
  "directive_track_record": {
   "n": 0,
-  "pending": 2,
+  "pending": 4,
   "hit_rate": null,
   "mean_signed": null,
   "enough": false,
