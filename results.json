@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T20:50:44Z",
+ "generated_at": "2026-11-05T21:30:53Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0255,
+  "bench_pct": -0.0299,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,10 +16,10 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 76316.46,
+   "price": 76002.61,
    "trend": "baissière",
-   "score": -0.384,
-   "news_score": -0.25,
+   "score": -0.338,
+   "news_score": -0.111,
    "news_conf": 0.6,
    "tech_score": -0.669,
    "in_position": false,
@@ -31,7 +31,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2253.98,
+   "price": 2234.66,
    "trend": "neutre",
    "score": -0.087,
    "news_score": -0.25,
@@ -45,7 +45,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 90.32,
+   "price": 89.97,
    "trend": "baissière",
    "score": -0.301,
    "news_score": -0.25,
@@ -60,18 +60,18 @@
   },
   {
    "symbol": "NVDA",
-   "price": 182.00999450683594,
+   "price": 181.57000732421875,
    "trend": "baissière",
-   "score": -0.434,
-   "news_score": -0.506,
-   "news_conf": 0.508,
+   "score": -0.321,
+   "news_score": -0.176,
+   "news_conf": 0.291,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "AAPL",
-   "price": 345.7998962402344,
+   "price": 344.30999755859375,
    "trend": "haussière",
    "score": 0.168,
    "news_score": -0.455,
@@ -84,7 +84,7 @@
   },
   {
    "symbol": "SPY",
-   "price": 735.4600219726562,
+   "price": 733.1300048828125,
    "trend": "neutre",
    "score": 0.039,
    "news_score": -0.2,
@@ -242,6 +242,11 @@
    1793911839,
    100.0,
    97.45
+  ],
+  [
+   1793914248,
+   100.0,
+   97.01
   ]
  ],
  "last_directive": {
@@ -255,7 +260,7 @@
    "value": 50,
    "label": "Neutral"
   },
-  "vix": 26.22
+  "vix": 28.18
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -371,16 +376,160 @@
  },
  "headlines": [
   {
+   "published": "2026-11-05T21:26:00Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Stock Is Below $200. What History Suggests Is the Floor.",
+   "link": "https://finance.yahoo.com/m/c9f327b9-16c5-3a50-a74d-937a12644740/nvidia-stock-is-below-%24200..html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T21:20:03Z",
+   "source": "CNBC",
+   "title": "Retail traders dump the most stocks in a single day since Covid sell-off",
+   "link": "https://www.cnbc.com/2026/11/05/retail-traders-dump-the-most-stocks-in-single-day-since-covid-sell-off.html"
+  },
+  {
+   "published": "2026-11-05T21:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "SpaceX Stock Is Still Falling. It Trades at Apple’s Valuation.",
+   "link": "https://finance.yahoo.com/m/12c89445-f84d-308c-a32e-1b9535c6322f/spacex-stock-is-still.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T21:17:05Z",
+   "source": "Yahoo Finance",
+   "title": "Why Joby Aviation Stock Flew Higher Today",
+   "link": "https://www.fool.com/investing/2026/11/05/why-joby-aviation-stock-flew-higher-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T21:16:39Z",
+   "source": "CNBC",
+   "title": "AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025",
+   "link": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+  },
+  {
+   "published": "2026-11-05T21:15:00Z",
+   "source": "Yahoo Finance",
+   "title": "Realty Income Pays You 12 Times a Year. I'd Own It for a Lifetime of Income.",
+   "link": "https://www.fool.com/investing/2026/11/05/realty-income-pays-you-12-times-a-year-id-own-it-f/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T21:11:00Z",
+   "source": "Yahoo Finance",
+   "title": "Is Nvidia Still a Millionaire-Maker Stock?",
+   "link": "https://www.fool.com/investing/2026/11/05/is-nvidia-still-a-millionaire-maker-stock/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T21:10:01Z",
+   "source": "Yahoo Finance",
+   "title": "Paramount and Warner Bros.: The $110 Billion Bet That Could Reshape Streaming",
+   "link": "https://www.fool.com/investing/2026/11/05/paramount-and-warner-bros-the-usd110-billion-bet-that-could-reshape-streaming/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T21:09:56Z",
+   "source": "CNBC",
+   "title": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+   "link": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html"
+  },
+  {
+   "published": "2026-11-05T21:06:53Z",
+   "source": "Yahoo Finance",
+   "title": "Best Mag7 dip buys: NVIDIA leads on valuation, Alphabet on RSI",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/best-mag7-dip-buys-nvidia-210653656.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T21:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "Synaptics Reports First Quarter Fiscal 2027 Results",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/synaptics-reports-first-quarter-fiscal-210500107.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T21:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "IonQ Wants to Be the Nvidia of Quantum. Its Latest Numbers Back Up the Swagger.",
+   "link": "https://finance.yahoo.com/m/daf77303-800e-3e89-88c8-ad99c3913f9c/ionq-wants-to-be-the-nvidia.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T21:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "10x Genomics Reports Third Quarter 2026 Financial Results",
+   "link": "https://finance.yahoo.com/healthcare/articles/10x-genomics-reports-third-quarter-210500999.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T21:03:35Z",
+   "source": "Yahoo Finance",
+   "title": "SpaceX and Tesla Stock Plunges Have Wiped About $450 Billion in Value Since the Midterms. Is It Time to Buy?",
+   "link": "https://www.fool.com/investing/2026/11/05/spacex-and-tesla-stock-plunges-have-wiped-about-usd450-billion-in-value-since-the-midterms-is-it-time-to-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T21:03:05Z",
+   "source": "Yahoo Finance",
+   "title": "Apple Reportedly Set To Raise $7.5B From Bond Offering Amid Market Selloff",
+   "link": "https://stocktwits.com/news-articles/markets/equity/apple-reportedly-set-to-raise-7-5-b-from-bond-offering-amid-market-selloff/cNG1HDrR948?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T21:02:50Z",
+   "source": "Yahoo Finance",
+   "title": "Tesla Optimus Rival Agility Robotics Begins Trading After SPAC Merger",
+   "link": "https://finance.yahoo.com/m/d7c384d4-af62-3dae-a383-dac5c15508c9/tesla-optimus-rival-agility.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T20:57:40Z",
+   "source": "Yahoo Finance",
+   "title": "This Canadian tech stock is getting crushed as AI sell-off spreads across the mark",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/canadian-tech-stock-getting-crushed-205740646.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T20:52:21Z",
+   "source": "Yahoo Finance",
+   "title": "Why Lumen Technologies Sank Today",
+   "link": "https://www.fool.com/investing/2026/11/05/why-lumen-technologies-sank-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T20:51:57Z",
+   "source": "CNBC",
+   "title": "IRS announces bigger estate and gift tax exemption for 2027",
+   "link": "https://www.cnbc.com/2026/11/05/2027-estate-and-gift-tax-exemption-irs-raises-limit.html"
+  },
+  {
+   "published": "2026-11-05T20:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "Waiting for a Stock Market Crash Before You Invest? Here's What the Data Says It Can Cost You.",
+   "link": "https://www.fool.com/investing/2026/11/05/waiting-for-a-stock-market-crash-before-you-invest/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-05T20:46:02Z",
    "source": "Decrypt",
    "title": "DOJ Creates 'Super Intelligence' Task Force to Guard Against AI Abuse",
    "link": "https://decrypt.co/382672/doj-creates-super-intelligence-task-force-to-guard-against-ai-abuse"
   },
   {
+   "published": "2026-11-05T20:44:10Z",
+   "source": "CNBC",
+   "title": "Here's where we stand on Kimberly-Clark shares after a better-than-feared quarter",
+   "link": "https://www.cnbc.com/investingclub/2026/11/05/heres-where-we-stand-on-kimberly-clark-shares-after-a-better-than-feared-quarter.html"
+  },
+  {
+   "published": "2026-11-05T20:39:00Z",
+   "source": "Yahoo Finance",
+   "title": "Is AMD Stock a Buy as AI Revenue Soars?",
+   "link": "https://www.fool.com/investing/2026/11/05/is-amd-stock-a-buy-as-ai-revenue-soars/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-05T20:37:22Z",
    "source": "CNBC",
    "title": "IRS announces new federal income tax brackets for 2027",
    "link": "https://www.cnbc.com/2026/11/05/2027-federal-tax-brackets.html"
+  },
+  {
+   "published": "2026-11-05T20:37:02Z",
+   "source": "Yahoo Finance",
+   "title": "Berkshire Hathaway Reports Nov. 7 With Its Stock at a Record. Its Cash Pile Is the Number to Watch.",
+   "link": "https://www.fool.com/investing/2026/11/05/berkshire-hathaway-reports-nov-7-with-its-stock-at-a-record-its-cash-pile-is-the-number-to-watch/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T20:28:13Z",
+   "source": "Yahoo Finance",
+   "title": "Nintendo’s Q2 Results Reveal Switch 2 Can’t Catch A Bid",
+   "link": "https://app.moby.co/home/news/news-nintendos-q2-results-reveal-switch-2-cant-catch-a-bid?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
   },
   {
    "published": "2026-11-05T20:17:16Z",
@@ -401,154 +550,10 @@
    "link": "https://www.tikr.com/blog/navitas-sinks-15-as-ai-chip-stocks-slide-after-midterms?ref=yahoofinance&tlnk=yf-261105-pvcvf42r&.tsrc=rss"
   },
   {
-   "published": "2026-11-05T20:09:42Z",
-   "source": "Yahoo Finance",
-   "title": "Bank Earnings Have Entered the Upside-Down",
-   "link": "https://www.fool.com/investing/2026/11/05/bank-earnings-have-entered-the-upside-down/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T20:08:49Z",
-   "source": "CNBC",
-   "title": "AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025",
-   "link": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-  },
-  {
-   "published": "2026-11-05T20:06:31Z",
-   "source": "CNBC",
-   "title": "How Wall Street's postelection rally got obliterated — and what's next",
-   "link": "https://www.cnbc.com/investingclub/2026/11/05/how-wall-streets-postelection-rally-got-obliterated-and-whats-next.html"
-  },
-  {
-   "published": "2026-11-05T20:05:02Z",
-   "source": "Yahoo Finance",
-   "title": "Why Marvell Stock Is Falling Today",
-   "link": "https://www.fool.com/investing/2026/11/05/why-marvell-stock-is-falling-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T20:05:00Z",
-   "source": "Yahoo Finance",
-   "title": "3 Dividend Kings to Buy in November and Never Sell",
-   "link": "https://www.fool.com/investing/2026/11/05/3-dividend-kings-to-buy-in-november-and-never-sell/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T20:04:44Z",
-   "source": "Yahoo Finance",
-   "title": "Himax Blames 'Abrupt nd Significant Correction' in Auto Chip Demand as Stock Crashes Nearly 30%. Is Now the Time to Buy?",
-   "link": "https://www.fool.com/investing/2026/11/05/himax-blames-abrupt-and-significant-correction-in-auto-chip-demand-as-stock-crashes-nearly-30-is-now-the-time-to-buy/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T20:00:01Z",
-   "source": "Yahoo Finance",
-   "title": "Why AMD Stock Is Down Today",
-   "link": "https://www.fool.com/investing/2026/11/05/why-amd-stock-is-down-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:54:26Z",
-   "source": "CNBC",
-   "title": "IRS announces bigger estate and gift tax exemption for 2027",
-   "link": "https://www.cnbc.com/2026/11/05/2027-estate-and-gift-tax-exemption-irs-raises-limit.html"
-  },
-  {
    "published": "2026-11-05T19:46:03Z",
    "source": "Decrypt",
    "title": "Zcash Upgrade Could Lock $16 Million in Crypto Forever",
    "link": "https://decrypt.co/382663/zcash-upgrade-could-lock-16-million-crypto"
-  },
-  {
-   "published": "2026-11-05T19:46:00Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: These Will Be Nvidia's and Palantir's Stock Prices by 2027 (Hint: Only 1 Is a Buy)",
-   "link": "https://www.fool.com/investing/2026/11/05/prediction-these-will-be-nvidias-and-palantirs-sto/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:37:37Z",
-   "source": "Yahoo Finance",
-   "title": "Historically Bullish Signal Emerges for Nvidia Stock",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/historically-bullish-signal-emerges-nvidia-193737196.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:34:51Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia and Microsoft Get a New Spotlight From Bank of America",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-microsoft-spotlight-bank-america-193451774.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:29:00Z",
-   "source": "Yahoo Finance",
-   "title": "SpaceX Stock Is Still Falling. It Trades At Apple’s Valuation.",
-   "link": "https://finance.yahoo.com/m/12c89445-f84d-308c-a32e-1b9535c6322f/spacex-stock-is-still.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:21:38Z",
-   "source": "Yahoo Finance",
-   "title": "Anthropic's IPO plans run up against a battered Wall Street",
-   "link": "https://finance.yahoo.com/technology/article/anthropics-ipo-plans-run-up-against-a-battered-wall-street-192138177.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:21:17Z",
-   "source": "Yahoo Finance",
-   "title": "This Semiconductor ETF Is Set For Its Worst Week In Over 18 Months As Democratic Sweep Raises Data Center Skepticism",
-   "link": "https://stocktwits.com/news-articles/markets/equity/soxx-etf-semiconductor-is-set-for-its-worst-week-in-over-18-months/cNG1sEhR94Z?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:20:48Z",
-   "source": "Yahoo Finance",
-   "title": "Apple Stocks Move Lower as Investors Revisit Earnings Quality",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/apple-stocks-move-lower-investors-192048060.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:20:21Z",
-   "source": "CNBC",
-   "title": "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
-   "link": "https://www.cnbc.com/2026/11/05/wall-streets-fear-gauge-surges-the-most-since-april-why-traders-think-it-should-be-even-higher.html"
-  },
-  {
-   "published": "2026-11-05T19:16:48Z",
-   "source": "Yahoo Finance",
-   "title": "Why Shift4 Payments Stock Crashed Today",
-   "link": "https://www.fool.com/investing/2026/11/05/why-shift4-payments-stock-crashed-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:16:03Z",
-   "source": "Decrypt",
-   "title": "OpenAI Found 948 Linux Security Flaws—And Figured Out How to Exploit Them",
-   "link": "https://decrypt.co/382632/openai-linux-security-flaws-exploit"
-  },
-  {
-   "published": "2026-11-05T19:14:42Z",
-   "source": "Yahoo Finance",
-   "title": "Equities Plunge in Tech-Led Sell-Off Amid Data Center Restriction Fears",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/equities-plunge-tech-led-sell-191442459.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:13:06Z",
-   "source": "CNBC",
-   "title": "Trump's energy deals are about to face a wave of investigations by Democrats",
-   "link": "https://www.cnbc.com/2026/11/05/trump-election-energy-venezuela-critical-mineral-renewable-iran.html"
-  },
-  {
-   "published": "2026-11-05T19:07:02Z",
-   "source": "Yahoo Finance",
-   "title": "Why Intel Stock Is Down Today",
-   "link": "https://www.fool.com/investing/2026/11/05/why-intel-stock-is-down-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:05:00Z",
-   "source": "Yahoo Finance",
-   "title": "Here's What a $10,000 Investment in Anthropic Could Be Worth by 2030",
-   "link": "https://www.fool.com/investing/2026/11/05/heres-what-a-10000-investment-in-anthropic-could-b/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:04:00Z",
-   "source": "Yahoo Finance",
-   "title": "Everything Is Going Wrong for Chip Stocks. 5 Names at Fire-Sale Prices.",
-   "link": "https://finance.yahoo.com/m/db9dc8c9-48da-3af2-bda6-9642ba3e2d40/everything-is-going-wrong-for.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:02:32Z",
-   "source": "CNBC",
-   "title": "Blue Origin pushes launch to January 2027 as it races to rebuild damaged launch pad",
-   "link": "https://www.cnbc.com/2026/11/05/blue-origin-launch-new-glenn.html"
   }
  ]
 }
