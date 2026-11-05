@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T20:00:35Z",
+ "generated_at": "2026-11-05T20:50:44Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0226,
+  "bench_pct": -0.0255,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,11 +16,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 76332.0,
+   "price": 76316.46,
    "trend": "baissière",
-   "score": -0.292,
-   "news_score": 0.033,
-   "news_conf": 0.5,
+   "score": -0.384,
+   "news_score": -0.25,
+   "news_conf": 0.6,
    "tech_score": -0.669,
    "in_position": false,
    "patterns": [
@@ -31,10 +31,10 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2261.07,
+   "price": 2253.98,
    "trend": "neutre",
-   "score": -0.054,
-   "news_score": 0.25,
+   "score": -0.087,
+   "news_score": -0.25,
    "news_conf": 0.12,
    "tech_score": -0.156,
    "in_position": false,
@@ -45,10 +45,10 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 90.09,
+   "price": 90.32,
    "trend": "baissière",
-   "score": -0.268,
-   "news_score": 0.25,
+   "score": -0.301,
+   "news_score": -0.25,
    "news_conf": 0.12,
    "tech_score": -0.633,
    "in_position": false,
@@ -60,21 +60,21 @@
   },
   {
    "symbol": "NVDA",
-   "price": 184.22999572753906,
+   "price": 182.00999450683594,
    "trend": "baissière",
-   "score": -0.34,
-   "news_score": -0.143,
-   "news_conf": 0.6,
+   "score": -0.434,
+   "news_score": -0.506,
+   "news_conf": 0.508,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "AAPL",
-   "price": 346.1300048828125,
+   "price": 345.7998962402344,
    "trend": "haussière",
-   "score": 0.234,
-   "news_score": -0.091,
+   "score": 0.168,
+   "news_score": -0.455,
    "news_conf": 0.333,
    "tech_score": 0.557,
    "in_position": false,
@@ -84,11 +84,11 @@
   },
   {
    "symbol": "SPY",
-   "price": 739.3099975585938,
+   "price": 735.4600219726562,
    "trend": "neutre",
-   "score": 0.162,
-   "news_score": 0.2,
-   "news_conf": 0.6,
+   "score": 0.039,
+   "news_score": -0.2,
+   "news_conf": 0.52,
    "tech_score": 0.213,
    "in_position": false,
    "patterns": [
@@ -237,25 +237,30 @@
    1793908830,
    100.0,
    97.74
+  ],
+  [
+   1793911839,
+   100.0,
+   97.45
   ]
  ],
  "last_directive": {
   "regime": "neutral",
-  "assets_annotated": 2,
-  "text": "Futures mixtes (Dow en hausse, techs en baisse), 1 source : Yahoo Finance ; crypto stable au-dessus de 80 000 $ après un octobre difficile, 1 source : CoinDesk. Pas assez d'indicateurs pour risk_on/off. — Contexte : futures mixtes, Dow en hausse et techs en repli (Yahoo Finance) ; Microsoft se retir",
-  "received_at": "2026-11-05T13:50:43Z"
+  "assets_annotated": 3,
+  "text": "2 sources : CNBC, Yahoo Finance (05/11) — VIX en forte hausse et vente tech sur craintes data centers ; un seul épisode de stress, le bot mesure lui-même le VIX : pas de risk_off. — Contexte : séance du 5/11 marquée par une vente tech sur les craintes de restrictions de data centers et un bond du VI",
+  "received_at": "2026-11-05T20:50:39Z"
  },
  "indicators": {
   "fear_greed": {
    "value": 50,
    "label": "Neutral"
   },
-  "vix": 24.5
+  "vix": 26.22
  },
  "indicator_stress": "",
  "directive_track_record": {
   "n": 2,
-  "pending": 4,
+  "pending": 7,
   "hit_rate": 0.5,
   "mean_signed": -0.018783497100662738,
   "enough": false,
@@ -366,16 +371,82 @@
  },
  "headlines": [
   {
+   "published": "2026-11-05T20:46:02Z",
+   "source": "Decrypt",
+   "title": "DOJ Creates 'Super Intelligence' Task Force to Guard Against AI Abuse",
+   "link": "https://decrypt.co/382672/doj-creates-super-intelligence-task-force-to-guard-against-ai-abuse"
+  },
+  {
+   "published": "2026-11-05T20:37:22Z",
+   "source": "CNBC",
+   "title": "IRS announces new federal income tax brackets for 2027",
+   "link": "https://www.cnbc.com/2026/11/05/2027-federal-tax-brackets.html"
+  },
+  {
+   "published": "2026-11-05T20:17:16Z",
+   "source": "CNBC",
+   "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+   "link": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+  },
+  {
+   "published": "2026-11-05T20:16:03Z",
+   "source": "Decrypt",
+   "title": "Mercado Bitcoin Said Its Hack Was Contained, But Blockchain Data Tells a Different Story",
+   "link": "https://decrypt.co/382670/mercado-bitcoin-hack-contained-blockchain-data"
+  },
+  {
+   "published": "2026-11-05T20:14:17Z",
+   "source": "Yahoo Finance",
+   "title": "Navitas Sinks 15% as AI Chip Stocks Slide After Midterms",
+   "link": "https://www.tikr.com/blog/navitas-sinks-15-as-ai-chip-stocks-slide-after-midterms?ref=yahoofinance&tlnk=yf-261105-pvcvf42r&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T20:09:42Z",
+   "source": "Yahoo Finance",
+   "title": "Bank Earnings Have Entered the Upside-Down",
+   "link": "https://www.fool.com/investing/2026/11/05/bank-earnings-have-entered-the-upside-down/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T20:08:49Z",
+   "source": "CNBC",
+   "title": "AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025",
+   "link": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+  },
+  {
+   "published": "2026-11-05T20:06:31Z",
+   "source": "CNBC",
+   "title": "How Wall Street's postelection rally got obliterated — and what's next",
+   "link": "https://www.cnbc.com/investingclub/2026/11/05/how-wall-streets-postelection-rally-got-obliterated-and-whats-next.html"
+  },
+  {
+   "published": "2026-11-05T20:05:02Z",
+   "source": "Yahoo Finance",
+   "title": "Why Marvell Stock Is Falling Today",
+   "link": "https://www.fool.com/investing/2026/11/05/why-marvell-stock-is-falling-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T20:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "3 Dividend Kings to Buy in November and Never Sell",
+   "link": "https://www.fool.com/investing/2026/11/05/3-dividend-kings-to-buy-in-november-and-never-sell/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T20:04:44Z",
+   "source": "Yahoo Finance",
+   "title": "Himax Blames 'Abrupt nd Significant Correction' in Auto Chip Demand as Stock Crashes Nearly 30%. Is Now the Time to Buy?",
+   "link": "https://www.fool.com/investing/2026/11/05/himax-blames-abrupt-and-significant-correction-in-auto-chip-demand-as-stock-crashes-nearly-30-is-now-the-time-to-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T20:00:01Z",
+   "source": "Yahoo Finance",
+   "title": "Why AMD Stock Is Down Today",
+   "link": "https://www.fool.com/investing/2026/11/05/why-amd-stock-is-down-today/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-05T19:54:26Z",
    "source": "CNBC",
    "title": "IRS announces bigger estate and gift tax exemption for 2027",
    "link": "https://www.cnbc.com/2026/11/05/2027-estate-and-gift-tax-exemption-irs-raises-limit.html"
-  },
-  {
-   "published": "2026-11-05T19:53:13Z",
-   "source": "CNBC",
-   "title": "IRS announces new federal income tax brackets for 2027",
-   "link": "https://www.cnbc.com/2026/11/05/2027-federal-tax-brackets.html"
   },
   {
    "published": "2026-11-05T19:46:03Z",
@@ -474,76 +545,10 @@
    "link": "https://finance.yahoo.com/m/db9dc8c9-48da-3af2-bda6-9642ba3e2d40/everything-is-going-wrong-for.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T19:03:00Z",
-   "source": "Yahoo Finance",
-   "title": "Sandisk Stock Is Down 45% Over the Past Four Months. Is It a Bargain or a Value Trap?",
-   "link": "https://www.fool.com/investing/2026/11/05/sandisk-stock-is-down-47-over-the-past-four-months/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-05T19:02:32Z",
    "source": "CNBC",
    "title": "Blue Origin pushes launch to January 2027 as it races to rebuild damaged launch pad",
    "link": "https://www.cnbc.com/2026/11/05/blue-origin-launch-new-glenn.html"
-  },
-  {
-   "published": "2026-11-05T19:02:19Z",
-   "source": "Cointelegraph",
-   "title": "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack",
-   "link": "https://cointelegraph.com/news/binance-deribit-revoke-signalplus-api-fake-teams-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-05T19:02:19Z",
-   "source": "Yahoo Finance",
-   "title": "Is First Solar Stock Still Worth Owning After Its Quarter?",
-   "link": "https://www.trefis.com/stock/fslr/articles/622915/is-first-solar-stock-still-worth-owning-after-its-quarter/2026-11-05?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:02:01Z",
-   "source": "Yahoo Finance",
-   "title": "Why Oracle Stock Is Sinking Today",
-   "link": "https://www.fool.com/investing/2026/11/05/why-oracle-stock-is-sinking-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T19:01:00Z",
-   "source": "Yahoo Finance",
-   "title": "Where Will Ethereum Be in 3 Years?",
-   "link": "https://www.fool.com/investing/2026/11/05/where-will-ethereum-be-in-3-years/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T18:59:45Z",
-   "source": "CoinDesk",
-   "title": "U.S. Justice Department assembles force to shield against foreign AI threats",
-   "link": "https://www.coindesk.com/policy/2026/11/05/u-s-justice-department-assembles-force-to-shield-against-foreign-ai-threats"
-  },
-  {
-   "published": "2026-11-05T18:57:08Z",
-   "source": "CNBC",
-   "title": "HSA-eligible health plans in 2027: What to know about tax savings vs. higher deductibles",
-   "link": "https://www.cnbc.com/2026/11/05/hsa-health-plan-2027.html"
-  },
-  {
-   "published": "2026-11-05T18:55:55Z",
-   "source": "Yahoo Finance",
-   "title": "America has the GPUs, but China has the power",
-   "link": "https://finance.yahoo.com/video/america-has-the-gpus-but-china-has-the-power-185555747.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T18:55:00Z",
-   "source": "Yahoo Finance",
-   "title": "Texas Could Host 41% of New U.S. Data Center Capacity in 2028, and Its Next Governor Wants a Pause",
-   "link": "https://www.fool.com/investing/2026/11/05/texas-could-host-41-of-new-us-data-center-capacity/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T18:52:21Z",
-   "source": "CNBC",
-   "title": "Voters rejected AI data centers over resource concerns. Here's why measuring water usage is hard",
-   "link": "https://www.cnbc.com/2026/11/05/meta-spacex-ai-data-centers-use-millions-of-gallons-of-water-a-day.html"
-  },
-  {
-   "published": "2026-11-05T18:50:00Z",
-   "source": "Yahoo Finance",
-   "title": "Can This Popular Cryptocurrency Hit a Price of $1 in 2027? The Answer Will Surprise You.",
-   "link": "https://www.fool.com/investing/2026/11/05/can-this-popular-cryptocurrency-hit-a-price-of-1-i/?.tsrc=rss"
   }
  ]
 }
