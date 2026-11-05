@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T16:00:47Z",
+ "generated_at": "2026-11-05T20:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -16,27 +16,27 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 76031.17,
+   "price": 76332.0,
    "trend": "baissière",
-   "score": -0.501,
-   "news_score": -0.443,
+   "score": -0.292,
+   "news_score": 0.033,
    "news_conf": 0.5,
-   "tech_score": -0.843,
+   "tech_score": -0.669,
    "in_position": false,
    "patterns": [
-    "Avalement haussier",
     "Doji (indécision)",
-    "Avalement baissier"
+    "Avalement baissier",
+    "Doji (indécision)"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2253.57,
+   "price": 2261.07,
    "trend": "neutre",
-   "score": -0.114,
-   "news_score": 0.0,
-   "news_conf": 0.0,
-   "tech_score": -0.254,
+   "score": -0.054,
+   "news_score": 0.25,
+   "news_conf": 0.12,
+   "tech_score": -0.156,
    "in_position": false,
    "patterns": [
     "Doji (indécision)",
@@ -45,36 +45,37 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 90.13,
+   "price": 90.09,
    "trend": "baissière",
-   "score": -0.313,
-   "news_score": -0.25,
+   "score": -0.268,
+   "news_score": 0.25,
    "news_conf": 0.12,
-   "tech_score": -0.658,
+   "tech_score": -0.633,
    "in_position": false,
    "patterns": [
     "Avalement haussier",
-    "Avalement baissier"
+    "Avalement baissier",
+    "Doji (indécision)"
    ]
   },
   {
    "symbol": "NVDA",
-   "price": 183.6300048828125,
+   "price": 184.22999572753906,
    "trend": "baissière",
-   "score": -0.342,
-   "news_score": -0.25,
-   "news_conf": 0.36,
+   "score": -0.34,
+   "news_score": -0.143,
+   "news_conf": 0.6,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "AAPL",
-   "price": 348.4100036621094,
+   "price": 346.1300048828125,
    "trend": "haussière",
-   "score": 0.226,
-   "news_score": -0.167,
-   "news_conf": 0.273,
+   "score": 0.234,
+   "news_score": -0.091,
+   "news_conf": 0.333,
    "tech_score": 0.557,
    "in_position": false,
    "patterns": [
@@ -83,10 +84,10 @@
   },
   {
    "symbol": "SPY",
-   "price": 741.1799926757812,
+   "price": 739.3099975585938,
    "trend": "neutre",
-   "score": 0.294,
-   "news_score": 0.6,
+   "score": 0.162,
+   "news_score": 0.2,
    "news_conf": 0.6,
    "tech_score": 0.213,
    "in_position": false,
@@ -231,6 +232,11 @@
    1793894430,
    100.0,
    97.74
+  ],
+  [
+   1793908830,
+   100.0,
+   97.74
   ]
  ],
  "last_directive": {
@@ -244,7 +250,7 @@
    "value": 50,
    "label": "Neutral"
   },
-  "vix": 24.96
+  "vix": 24.5
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -360,184 +366,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-05T15:46:01Z",
-   "source": "Yahoo Finance",
-   "title": "AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8%",
-   "link": "https://247wallst.com/investing/2026/11/05/amd-tumbles-13-nvidia-slides-7-as-ai-regulation-fears-hit-chip-stocks-intel-sinks-8/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:45:06Z",
-   "source": "Yahoo Finance",
-   "title": "AppLovin’s Surge Is a Rare Bright Spot for Growth ETF Holders",
-   "link": "https://247wallst.com/investing/etf/2026/11/05/applovins-surge-is-a-rare-bright-spot-for-growth-etf-holders/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:43:08Z",
+   "published": "2026-11-05T19:54:26Z",
    "source": "CNBC",
-   "title": "Democratic sweep puts crypto on defensive in Washington",
-   "link": "https://www.cnbc.com/2026/11/05/crypto-midterms-democrats-clarity-act.html"
+   "title": "IRS announces bigger estate and gift tax exemption for 2027",
+   "link": "https://www.cnbc.com/2026/11/05/2027-estate-and-gift-tax-exemption-irs-raises-limit.html"
   },
   {
-   "published": "2026-11-05T15:43:02Z",
-   "source": "Yahoo Finance",
-   "title": "Oracle Has Incredible News for Intel Stock Investors",
-   "link": "https://www.fool.com/investing/2026/11/05/oracle-has-incredible-news-for-intel-stock-investors/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:38:00Z",
-   "source": "Yahoo Finance",
-   "title": "Port Announces PortCon - the First AI Software Factory Summit",
-   "link": "https://finance.yahoo.com/technology/ai/articles/port-announces-portcon-first-ai-153800616.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:35:00Z",
-   "source": "Yahoo Finance",
-   "title": "Better Space Stock: Rocket Lab vs. AST SpaceMobile (Hint: It Comes Down to Dilution)",
-   "link": "https://www.fool.com/investing/2026/11/05/better-space-stock-rocket-lab-vs-ast-spacemobile/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:34:55Z",
+   "published": "2026-11-05T19:53:13Z",
    "source": "CNBC",
-   "title": "Expedia CEO says AI agents aren't changing booking habits — yet",
-   "link": "https://www.cnbc.com/2026/11/05/expedia-ai-agents-booking-habits.html"
+   "title": "IRS announces new federal income tax brackets for 2027",
+   "link": "https://www.cnbc.com/2026/11/05/2027-federal-tax-brackets.html"
   },
   {
-   "published": "2026-11-05T15:34:22Z",
+   "published": "2026-11-05T19:46:03Z",
+   "source": "Decrypt",
+   "title": "Zcash Upgrade Could Lock $16 Million in Crypto Forever",
+   "link": "https://decrypt.co/382663/zcash-upgrade-could-lock-16-million-crypto"
+  },
+  {
+   "published": "2026-11-05T19:46:00Z",
    "source": "Yahoo Finance",
-   "title": "BC-Most Active Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153422188.html?.tsrc=rss"
+   "title": "Prediction: These Will Be Nvidia's and Palantir's Stock Prices by 2027 (Hint: Only 1 Is a Buy)",
+   "link": "https://www.fool.com/investing/2026/11/05/prediction-these-will-be-nvidias-and-palantirs-sto/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T15:33:43Z",
+   "published": "2026-11-05T19:37:37Z",
    "source": "Yahoo Finance",
-   "title": "This Is the Number That Could Change Nvidia Stock’s Outlook for 2027",
-   "link": "https://247wallst.com/investing/2026/11/05/this-is-the-number-that-could-change-nvidia-stocks-outlook-for-2027/?.tsrc=rss"
+   "title": "Historically Bullish Signal Emerges for Nvidia Stock",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/historically-bullish-signal-emerges-nvidia-193737196.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T15:29:22Z",
+   "published": "2026-11-05T19:34:51Z",
    "source": "Yahoo Finance",
-   "title": "Why Sandisk Stock Keeps Going Down",
-   "link": "https://www.fool.com/investing/2026/11/05/why-sandisk-stock-keeps-going-down/?.tsrc=rss"
+   "title": "Nvidia and Microsoft Get a New Spotlight From Bank of America",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-microsoft-spotlight-bank-america-193451774.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T15:28:34Z",
+   "published": "2026-11-05T19:29:00Z",
    "source": "Yahoo Finance",
-   "title": "Why Wingstop Rallied in October",
-   "link": "https://www.fool.com/investing/2026/11/05/why-wingstop-rallied-in-october/?.tsrc=rss"
+   "title": "SpaceX Stock Is Still Falling. It Trades At Apple’s Valuation.",
+   "link": "https://finance.yahoo.com/m/12c89445-f84d-308c-a32e-1b9535c6322f/spacex-stock-is-still.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T15:28:00Z",
+   "published": "2026-11-05T19:21:38Z",
    "source": "Yahoo Finance",
-   "title": "Human Augmentation - Global Strategic Business Report: Capitalize on an 18.8% CAGR to Secure the US$716.4 Billion 2030 Market as Apple, Amazon, Cyberdyne and Ekso Bionics Disrupt the Value Chain",
-   "link": "https://finance.yahoo.com/technology/ai/articles/human-augmentation-global-strategic-business-152800707.html?.tsrc=rss"
+   "title": "Anthropic's IPO plans run up against a battered Wall Street",
+   "link": "https://finance.yahoo.com/technology/article/anthropics-ipo-plans-run-up-against-a-battered-wall-street-192138177.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T15:27:57Z",
+   "published": "2026-11-05T19:21:17Z",
+   "source": "Yahoo Finance",
+   "title": "This Semiconductor ETF Is Set For Its Worst Week In Over 18 Months As Democratic Sweep Raises Data Center Skepticism",
+   "link": "https://stocktwits.com/news-articles/markets/equity/soxx-etf-semiconductor-is-set-for-its-worst-week-in-over-18-months/cNG1sEhR94Z?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T19:20:48Z",
+   "source": "Yahoo Finance",
+   "title": "Apple Stocks Move Lower as Investors Revisit Earnings Quality",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/apple-stocks-move-lower-investors-192048060.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T19:20:21Z",
    "source": "CNBC",
-   "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
-   "link": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html"
+   "title": "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
+   "link": "https://www.cnbc.com/2026/11/05/wall-streets-fear-gauge-surges-the-most-since-april-why-traders-think-it-should-be-even-higher.html"
   },
   {
-   "published": "2026-11-05T15:26:06Z",
+   "published": "2026-11-05T19:16:48Z",
+   "source": "Yahoo Finance",
+   "title": "Why Shift4 Payments Stock Crashed Today",
+   "link": "https://www.fool.com/investing/2026/11/05/why-shift4-payments-stock-crashed-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T19:16:03Z",
+   "source": "Decrypt",
+   "title": "OpenAI Found 948 Linux Security Flaws—And Figured Out How to Exploit Them",
+   "link": "https://decrypt.co/382632/openai-linux-security-flaws-exploit"
+  },
+  {
+   "published": "2026-11-05T19:14:42Z",
+   "source": "Yahoo Finance",
+   "title": "Equities Plunge in Tech-Led Sell-Off Amid Data Center Restriction Fears",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/equities-plunge-tech-led-sell-191442459.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T19:13:06Z",
    "source": "CNBC",
-   "title": "Bomb threats disrupt flights across Europe for the second time. Here’s what we know",
-   "link": "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html"
+   "title": "Trump's energy deals are about to face a wave of investigations by Democrats",
+   "link": "https://www.cnbc.com/2026/11/05/trump-election-energy-venezuela-critical-mineral-renewable-iran.html"
   },
   {
-   "published": "2026-11-05T15:24:47Z",
+   "published": "2026-11-05T19:07:02Z",
+   "source": "Yahoo Finance",
+   "title": "Why Intel Stock Is Down Today",
+   "link": "https://www.fool.com/investing/2026/11/05/why-intel-stock-is-down-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T19:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "Here's What a $10,000 Investment in Anthropic Could Be Worth by 2030",
+   "link": "https://www.fool.com/investing/2026/11/05/heres-what-a-10000-investment-in-anthropic-could-b/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T19:04:00Z",
+   "source": "Yahoo Finance",
+   "title": "Everything Is Going Wrong for Chip Stocks. 5 Names at Fire-Sale Prices.",
+   "link": "https://finance.yahoo.com/m/db9dc8c9-48da-3af2-bda6-9642ba3e2d40/everything-is-going-wrong-for.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T19:03:00Z",
+   "source": "Yahoo Finance",
+   "title": "Sandisk Stock Is Down 45% Over the Past Four Months. Is It a Bargain or a Value Trap?",
+   "link": "https://www.fool.com/investing/2026/11/05/sandisk-stock-is-down-47-over-the-past-four-months/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T19:02:32Z",
    "source": "CNBC",
-   "title": "Qualcomm slides 9% after earnings, leading postelection chip stock sell-off",
-   "link": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+   "title": "Blue Origin pushes launch to January 2027 as it races to rebuild damaged launch pad",
+   "link": "https://www.cnbc.com/2026/11/05/blue-origin-launch-new-glenn.html"
   },
   {
-   "published": "2026-11-05T15:22:00Z",
+   "published": "2026-11-05T19:02:19Z",
+   "source": "Cointelegraph",
+   "title": "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack",
+   "link": "https://cointelegraph.com/news/binance-deribit-revoke-signalplus-api-fake-teams-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-05T19:02:19Z",
    "source": "Yahoo Finance",
-   "title": "Nvidia vs. Taiwan Semiconductor: The AI Revolution Is Big Enough for Both. Here's the Better Buy.",
-   "link": "https://www.fool.com/investing/2026/11/05/nvidia-vs-taiwan-semiconductor-the-ai-revolution-i/?.tsrc=rss"
+   "title": "Is First Solar Stock Still Worth Owning After Its Quarter?",
+   "link": "https://www.trefis.com/stock/fslr/articles/622915/is-first-solar-stock-still-worth-owning-after-its-quarter/2026-11-05?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T15:17:28Z",
+   "published": "2026-11-05T19:02:01Z",
    "source": "Yahoo Finance",
-   "title": "Learn Why The Bull Case For Resideo Technologies (REZI) Could Change Following Apple HomeView Update",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-resideo-151728521.html?.tsrc=rss"
+   "title": "Why Oracle Stock Is Sinking Today",
+   "link": "https://www.fool.com/investing/2026/11/05/why-oracle-stock-is-sinking-today/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T15:16:10Z",
+   "published": "2026-11-05T19:01:00Z",
+   "source": "Yahoo Finance",
+   "title": "Where Will Ethereum Be in 3 Years?",
+   "link": "https://www.fool.com/investing/2026/11/05/where-will-ethereum-be-in-3-years/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T18:59:45Z",
+   "source": "CoinDesk",
+   "title": "U.S. Justice Department assembles force to shield against foreign AI threats",
+   "link": "https://www.coindesk.com/policy/2026/11/05/u-s-justice-department-assembles-force-to-shield-against-foreign-ai-threats"
+  },
+  {
+   "published": "2026-11-05T18:57:08Z",
    "source": "CNBC",
-   "title": "Three tax proposals targeting the rich that the new Congress could revive",
-   "link": "https://www.cnbc.com/2026/11/05/three-tax-proposals-targeting-the-rich-the-new-congress-could-revive.html"
+   "title": "HSA-eligible health plans in 2027: What to know about tax savings vs. higher deductibles",
+   "link": "https://www.cnbc.com/2026/11/05/hsa-health-plan-2027.html"
   },
   {
-   "published": "2026-11-05T15:15:08Z",
+   "published": "2026-11-05T18:55:55Z",
    "source": "Yahoo Finance",
-   "title": "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson",
-   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/62926393/amazon-google-nvidia?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+   "title": "America has the GPUs, but China has the power",
+   "link": "https://finance.yahoo.com/video/america-has-the-gpus-but-china-has-the-power-185555747.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T15:11:24Z",
+   "published": "2026-11-05T18:55:00Z",
    "source": "Yahoo Finance",
-   "title": "Fewer Families Own Stocks Directly, 19.0% in 2025, but Their Typical Holding Jumped 83% to $30,000",
-   "link": "https://247wallst.com/personal-finance/2026/11/05/fewer-families-own-stocks-directly-19-0-in-2025-but-their-typical-holding-jumped-83-to-30000/?.tsrc=rss"
+   "title": "Texas Could Host 41% of New U.S. Data Center Capacity in 2028, and Its Next Governor Wants a Pause",
+   "link": "https://www.fool.com/investing/2026/11/05/texas-could-host-41-of-new-us-data-center-capacity/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T15:09:41Z",
-   "source": "Yahoo Finance",
-   "title": "Sandisk Sinks 14%, Micron Down 10% as a Top Phone Chipmaker Blames Weak Sales on “Industry-Wide Memory Dynamics”",
-   "link": "https://www.tikr.com/blog/sandisk-sinks-14-micron-down-10-as-a-top-phone-chipmaker-blames-weak-sales-on-industry-wide-memory-dynamics?ref=yahoofinance&tlnk=yf-261105-8gc35pvp&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:08:33Z",
-   "source": "Yahoo Finance",
-   "title": "SK hynix Sinks 9% as Qualcomm’s 26% Handset Plunge Deepens Memory Chip Rout",
-   "link": "https://www.tikr.com/blog/sk-hynix-sinks-9-as-qualcomms-26-handset-plunge-deepens-memory-chip-rout?ref=yahoofinance&tlnk=yf-261105-5324ff3r&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:08:05Z",
+   "published": "2026-11-05T18:52:21Z",
    "source": "CNBC",
-   "title": "Wendy's rejects $1.4 billion takeover proposal from Nelson Peltz’s Trian",
-   "link": "https://www.cnbc.com/2026/11/05/wendys-rejects-takeover-proposal.html"
+   "title": "Voters rejected AI data centers over resource concerns. Here's why measuring water usage is hard",
+   "link": "https://www.cnbc.com/2026/11/05/meta-spacex-ai-data-centers-use-millions-of-gallons-of-water-a-day.html"
   },
   {
-   "published": "2026-11-05T15:05:11Z",
+   "published": "2026-11-05T18:50:00Z",
    "source": "Yahoo Finance",
-   "title": "Arm Stock Plunges -- Smartphone Business Delivers a Major Disappointment",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/arm-stock-plunges-smartphone-business-150511881.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:05:01Z",
-   "source": "Yahoo Finance",
-   "title": "Is Host Hotels & Resorts a Buy After Its Latest Earnings Report?",
-   "link": "https://www.fool.com/investing/2026/11/05/is-host-hotels-resorts-a-buy-after-its-latest-earnings-report/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:05:00Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: Berkshire Hathaway Stock Tops $700 a Share Before the End of 2030",
-   "link": "https://www.fool.com/investing/2026/11/05/prediction-berkshire-hathaway-stock-tops-700-share/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:04:53Z",
-   "source": "Yahoo Finance",
-   "title": "AMD CEO Su on earnings outlook, new Starbucks holiday menu, and Hilton CEO on hotel demand",
-   "link": "https://finance.yahoo.com/video/amd-ceo-su-on-earnings-outlook-new-starbucks-holiday-menu-and-hilton-ceo-on-hotel-demand-150453106.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:04:21Z",
-   "source": "Yahoo Finance",
-   "title": "Toyota sees stock upswing after raising full-year guidance",
-   "link": "https://finance.yahoo.com/video/toyota-sees-stock-upswing-after-raising-full-year-guidance-150421407.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:03:09Z",
-   "source": "Yahoo Finance",
-   "title": "Wall Street Is Being Asked to Take Part of SpaceX’s $40 Billion AI Bet",
-   "link": "https://247wallst.com/investing/2026/11/05/wall-street-is-being-asked-to-take-part-of-spacexs-40-billion-ai-bet/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T15:01:32Z",
-   "source": "Yahoo Finance",
-   "title": "Tesla Optimus Rival Agility Robotics Begins Trading After SPAC Merger",
-   "link": "https://finance.yahoo.com/m/d7c384d4-af62-3dae-a383-dac5c15508c9/tesla-optimus-rival-agility.html?.tsrc=rss"
+   "title": "Can This Popular Cryptocurrency Hit a Price of $1 in 2027? The Answer Will Surprise You.",
+   "link": "https://www.fool.com/investing/2026/11/05/can-this-popular-cryptocurrency-hit-a-price-of-1-i/?.tsrc=rss"
   }
  ]
 }
