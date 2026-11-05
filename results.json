@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T21:30:53Z",
+ "generated_at": "2026-11-05T00:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.026,
+  "bench_pct": 0.0292,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,23 +16,25 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 80112.01,
+   "price": 80534.0,
    "trend": "neutre",
-   "score": 0.1,
-   "news_score": 0.25,
+   "score": 0.174,
+   "news_score": 0.143,
    "news_conf": 0.6,
-   "tech_score": 0.039,
+   "tech_score": 0.282,
    "in_position": false,
-   "patterns": []
+   "patterns": [
+    "Avalement haussier"
+   ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2419.49,
-   "trend": "neutre",
-   "score": -0.026,
-   "news_score": -0.2,
-   "news_conf": 0.6,
-   "tech_score": 0.09,
+   "price": 2425.26,
+   "trend": "haussière",
+   "score": 0.272,
+   "news_score": 0.0,
+   "news_conf": 0.48,
+   "tech_score": 0.604,
    "in_position": false,
    "patterns": [
     "Avalement haussier"
@@ -40,12 +42,12 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 94.6,
+   "price": 95.64,
    "trend": "neutre",
-   "score": -0.154,
-   "news_score": -0.75,
-   "news_conf": 0.36,
-   "tech_score": -0.013,
+   "score": -0.06,
+   "news_score": -0.5,
+   "news_conf": 0.24,
+   "tech_score": 0.013,
    "in_position": false,
    "patterns": [
     "Avalement haussier"
@@ -55,9 +57,9 @@
    "symbol": "NVDA",
    "price": 200.28500366210938,
    "trend": "baissière",
-   "score": -0.513,
-   "news_score": -0.667,
-   "news_conf": 0.6,
+   "score": -0.293,
+   "news_score": 0.0,
+   "news_conf": 0.24,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -65,11 +67,11 @@
   {
    "symbol": "AAPL",
    "price": 349.6199951171875,
-   "trend": "neutre",
-   "score": -0.202,
-   "news_score": -0.6,
+   "trend": "haussière",
+   "score": 0.392,
+   "news_score": 0.429,
    "news_conf": 0.6,
-   "tech_score": -0.008,
+   "tech_score": 0.557,
    "in_position": false,
    "patterns": [
     "Marteau inversé (rebond possible)"
@@ -79,10 +81,10 @@
    "symbol": "SPY",
    "price": 766.72998046875,
    "trend": "neutre",
-   "score": -0.021,
-   "news_score": 0.0,
-   "news_conf": 0.48,
-   "tech_score": -0.048,
+   "score": 0.189,
+   "news_score": 0.6,
+   "news_conf": 0.6,
+   "tech_score": -0.02,
    "in_position": false,
    "patterns": []
   }
@@ -168,6 +170,11 @@
    1793827848,
    100.0,
    102.6
+  ],
+  [
+   1793836830,
+   100.0,
+   102.92
   ]
  ],
  "last_directive": {
@@ -178,8 +185,8 @@
  },
  "indicators": {
   "fear_greed": {
-   "value": 34,
-   "label": "Fear"
+   "value": 50,
+   "label": "Neutral"
   },
   "vix": 16.61
  },
