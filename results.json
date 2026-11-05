@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T08:00:34Z",
+ "generated_at": "2026-11-05T12:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.0291,
+  "bench_pct": 0.0295,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,12 +16,12 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 80401.0,
+   "price": 80293.62,
    "trend": "neutre",
-   "score": -0.047,
-   "news_score": 0.033,
-   "news_conf": 0.5,
-   "tech_score": -0.125,
+   "score": -0.039,
+   "news_score": 0.038,
+   "news_conf": 0.411,
+   "tech_score": -0.107,
    "in_position": false,
    "patterns": [
     "Avalement haussier",
@@ -31,12 +31,12 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2419.07,
+   "price": 2417.98,
    "trend": "haussière",
-   "score": 0.267,
+   "score": 0.258,
    "news_score": 0.0,
-   "news_conf": 0.24,
-   "tech_score": 0.593,
+   "news_conf": 0.0,
+   "tech_score": 0.573,
    "in_position": false,
    "patterns": [
     "Doji (indécision)"
@@ -44,22 +44,24 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 95.98,
+   "price": 96.38,
    "trend": "neutre",
-   "score": -0.04,
+   "score": 0.095,
    "news_score": -0.25,
-   "news_conf": 0.36,
-   "tech_score": 0.022,
+   "news_conf": 0.12,
+   "tech_score": 0.248,
    "in_position": false,
-   "patterns": []
+   "patterns": [
+    "Avalement haussier"
+   ]
   },
   {
    "symbol": "NVDA",
    "price": 200.28500366210938,
    "trend": "baissière",
-   "score": -0.161,
-   "news_score": 0.5,
-   "news_conf": 0.48,
+   "score": -0.309,
+   "news_score": -0.25,
+   "news_conf": 0.12,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -68,9 +70,9 @@
    "symbol": "AAPL",
    "price": 349.6199951171875,
    "trend": "haussière",
-   "score": 0.333,
-   "news_score": 0.3,
-   "news_conf": 0.5,
+   "score": 0.259,
+   "news_score": 0.056,
+   "news_conf": 0.273,
    "tech_score": 0.557,
    "in_position": false,
    "patterns": [
@@ -81,9 +83,9 @@
    "symbol": "SPY",
    "price": 766.72998046875,
    "trend": "neutre",
-   "score": 0.332,
-   "news_score": 0.714,
-   "news_conf": 0.6,
+   "score": 0.096,
+   "news_score": 0.0,
+   "news_conf": 0.0,
    "tech_score": 0.213,
    "in_position": false,
    "patterns": [
@@ -212,6 +214,11 @@
    1793865630,
    100.0,
    102.91
+  ],
+  [
+   1793880030,
+   100.0,
+   102.95
   ]
  ],
  "last_directive": {
@@ -225,7 +232,7 @@
    "value": 50,
    "label": "Neutral"
   },
-  "vix": 16.61
+  "vix": 16.8
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -341,184 +348,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-05T07:30:58Z",
-   "source": "CNBC",
-   "title": "Nintendo Switch 2 sales plunge 41% as price hikes and memory crunch bite",
-   "link": "https://www.cnbc.com/2026/11/05/nintendo-earnings-switch-2-sales.html"
-  },
-  {
-   "published": "2026-11-05T07:25:00Z",
+   "published": "2026-11-05T11:53:13Z",
    "source": "Yahoo Finance",
-   "title": "Should Investors Buy Into the Chipotle Turnaround?",
-   "link": "https://www.fool.com/investing/2026/11/05/should-investors-buy-into-the-chipotle-turnaround/?.tsrc=rss"
+   "title": "Microsoft walks away from AI deal as $170 billion question grows",
+   "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-walks-away-ai-deal-115313384.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T07:23:06Z",
+   "published": "2026-11-05T11:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "Could Archer Aviation Stock Make You a Millionaire by 2036?",
+   "link": "https://www.fool.com/investing/2026/11/05/could-archer-make-you-a-millionaire-by-2036/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:49:23Z",
+   "source": "CoinDesk",
+   "title": "Bitcoin miners are oversold following 35% October rout, VanEck says",
+   "link": "https://www.coindesk.com/markets/2026/11/05/bitcoin-miners-are-oversold-following-35-october-rout-says-vaneck"
+  },
+  {
+   "published": "2026-11-05T11:45:54Z",
+   "source": "CoinDesk",
+   "title": "Trump-linked American Bitcoin swings to $126 million profit but misses revenue estimates",
+   "link": "https://www.coindesk.com/business/2026/11/05/trump-linked-american-bitcoin-swings-to-usd126-million-profit-in-q3-2026"
+  },
+  {
+   "published": "2026-11-05T11:42:28Z",
+   "source": "CNBC",
+   "title": "World's largest olive oil company plummets 18% after rivals agree to takeover deal",
+   "link": "https://www.cnbc.com/2026/11/05/deoleo-olive-oil-takeover-dcoop-acesur.html"
+  },
+  {
+   "published": "2026-11-05T11:35:00Z",
+   "source": "Yahoo Finance",
+   "title": "Palantir Just Made Company History. Is the Stock a Buy?",
+   "link": "https://www.fool.com/investing/2026/11/05/palantir-just-made-company-history-is-the-stock-a/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:34:37Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures Rise As Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals",
+   "link": "https://finance.yahoo.com/m/a147bf9a-4218-3171-97a4-fb80fda211eb/dow-jones-futures-rise-as.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:34:36Z",
+   "source": "Yahoo Finance",
+   "title": "AMD Faces Nvidia Software Hurdle, While Intel Could Reclaim PC Market Share, Morningstar Says",
+   "link": "https://stocktwits.com/news-articles/markets/equity/nvda-intc-stocks-look-cheaper-than-amd-against-fair-value/cNG1iYXR9EM?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:33:20Z",
    "source": "Cointelegraph",
-   "title": "Crédit Mutuel Arkéa resumes operations after attack, assesses losses",
-   "link": "https://cointelegraph.com/news/credit-mutuel-arkea-resumes-operations-133m-crypto-theft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   "title": "Thailand to block Bitget in December over unlicensed crypto trading",
+   "link": "https://cointelegraph.com/news/thailand-block-bitget-december-unlicensed-crypto-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-05T07:15:43Z",
-   "source": "CNBC",
-   "title": "NextDC shares soar nearly 51% after Goodman, Digital Realty stake purchases",
-   "link": "https://www.cnbc.com/2026/11/05/nextdc-goodman-group-digital-realty-data-centers-.html"
-  },
-  {
-   "published": "2026-11-05T07:12:43Z",
+   "published": "2026-11-05T11:32:40Z",
    "source": "Yahoo Finance",
-   "title": "Qualcomm Says Non-Handset Revenue Will Make Up 50% Of Chip Sales This Fiscal — Retail Sentiment Turns Bullish",
-   "link": "https://stocktwits.com/news-articles/markets/equity/qualcomm-says-non-handset-revenue-will-make-up-50-of-chip-sales-this-fiscal-retail-sentiment-turns-bullish/cNG1BpuR9ES?.tsrc=rss"
+   "title": "Why Qualcomm stock is tumbling today",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/why-qualcomm-stock-tumbling-today-113240644.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T06:54:52Z",
-   "source": "CNBC",
-   "title": "What the Democratic midterms sweep changes for U.S.-China relations",
-   "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html"
-  },
-  {
-   "published": "2026-11-05T06:37:01Z",
-   "source": "Yahoo Finance",
-   "title": "The Midterms Are Over. Here's What Chip Stocks Did in the Year After Each of the Last 8.",
-   "link": "https://www.fool.com/investing/2026/11/05/the-midterms-are-over-here-s-what-chip-stocks-did-in-the-year-after-each-of-the-last-8/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T06:35:00Z",
-   "source": "Yahoo Finance",
-   "title": "Amazon Trades at a Fraction of Costco's Valuation. Is the Discount Deserved?",
-   "link": "https://www.fool.com/investing/2026/11/05/amazon-trades-at-a-fraction-of-costcos-valuation-i/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T06:21:12Z",
-   "source": "Cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-05T06:02:29Z",
-   "source": "Cointelegraph",
-   "title": "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto",
-   "link": "https://cointelegraph.com/news/polygon-hard-fork-binance-polymarket-6-8m-hack-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-05T05:58:33Z",
-   "source": "CNBC",
-   "title": "Russia, China may be more aggressive if they feel Trump is on 'his way out': Brookings",
-   "link": "https://www.cnbc.com/2026/11/05/trump-russia-china-summit-apec-midterms.html"
-  },
-  {
-   "published": "2026-11-05T05:48:44Z",
-   "source": "Yahoo Finance",
-   "title": "Why Did AAPL, MSFT, AMC Stocks Surge To 52-Week Highs?",
-   "link": "https://stocktwits.com/news-articles/markets/equity/why-did-aapl-msft-amc-stocks-surge-to-52-week-highs/cNG1I0fR9Ei?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T05:47:01Z",
+   "published": "2026-11-05T11:30:00Z",
    "source": "CoinDesk",
-   "title": "Zcash is about to freeze $16 million in its oldest privacy pool",
-   "link": "https://www.coindesk.com/tech/2026/11/05/zcash-is-about-to-freeze-usd16-million-in-its-oldest-privacy-pool"
+   "title": "Bitcoin holds above $80,000 after Wednesday’s jump as injective rallies on staked ETF listing",
+   "link": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-after-wednesday-s-jump-as-injective-rallies-on-staked-etf-listing"
   },
   {
-   "published": "2026-11-05T05:28:52Z",
-   "source": "CoinDesk",
-   "title": "The pile of lawsuits against Kalshi just grew by one",
-   "link": "https://www.coindesk.com/policy/2026/11/05/the-pile-of-lawsuits-against-kalshi-just-grew-by-one"
-  },
-  {
-   "published": "2026-11-05T05:25:06Z",
-   "source": "CoinDesk",
-   "title": "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens",
-   "link": "https://www.coindesk.com/markets/2026/11/05/xrp-ledger-closes-bug-that-let-approved-token-burners-create-new-tokens"
-  },
-  {
-   "published": "2026-11-05T05:13:45Z",
-   "source": "CoinDesk",
-   "title": "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
-   "link": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound"
-  },
-  {
-   "published": "2026-11-05T05:11:39Z",
+   "published": "2026-11-05T11:30:00Z",
    "source": "Yahoo Finance",
-   "title": "History Says This Is the Best Time of the Presidential Cycle To Invest. Could Wednesday's Rally Spark an Epic Bull Market?",
-   "link": "https://www.fool.com/investing/2026/11/04/history-says-this-is-the-best-time-of-the-presidential-cycle-to-invest-could-wednesday-s-rally-be-the-beginning-of-an-epic-bull-market/?.tsrc=rss"
+   "title": "2 Bank Stocks to Buy After Their Third-Quarter Earnings Reports",
+   "link": "https://www.fool.com/investing/2026/11/05/2-bank-stocks-to-buy-after-their-third-quarter-ear/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T05:01:01Z",
+   "published": "2026-11-05T11:26:02Z",
    "source": "Yahoo Finance",
-   "title": "SpaceX Just Picked Qualcomm for Its Own 5G Network. I Still See the Stock as a Hold.",
-   "link": "https://www.fool.com/investing/2026/11/04/spacex-just-picked-qualcomm-for-its-own-5g-network-i-still-see-the-stock-as-a-hold/?.tsrc=rss"
+   "title": "The Wait Is Over: 2 Historic Artificial Intelligence (AI) Stock Splits Were Just Announced",
+   "link": "https://www.fool.com/investing/2026/11/05/the-wait-is-over-2-historic-artificial-intelligence-ai-stock-splits-were-just-announced/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T04:52:49Z",
-   "source": "Cointelegraph",
-   "title": "‘Lawyer up’: Democrats target Trump, Big Tech after midterm sweep",
-   "link": "https://cointelegraph.com/news/lawyer-up-democrats-target-trump-big-tech-after-midterm-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-05T04:37:01Z",
+   "published": "2026-11-05T11:25:00Z",
    "source": "Yahoo Finance",
-   "title": "AMD Stock Jumped After Its Report. I'd Wait for a Lower Price to Buy.",
-   "link": "https://www.fool.com/investing/2026/11/04/amd-stock-jumped-after-its-report-i-d-wait-for-a-lower-price-to-buy/?.tsrc=rss"
+   "title": "3 High-Yielding Dividend Stocks That Investors Can Safely Buy and Hold for Decades",
+   "link": "https://www.fool.com/investing/2026/11/05/3-high-yielding-dividend-stocks-that-investors-can/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T04:20:00Z",
+   "published": "2026-11-05T11:20:00Z",
    "source": "Yahoo Finance",
-   "title": "Better Nuclear Energy Stock to Buy After the Sell-Off: Oklo vs. BWX Technologies",
-   "link": "https://www.fool.com/investing/2026/11/04/better-nuclear-energy-stock-to-buy-after-the-sell/?.tsrc=rss"
+   "title": "REITs Usually Underperform When Interest Rates Are Rising. Not This Year. Here's Why.",
+   "link": "https://www.fool.com/investing/2026/11/05/reits-usually-underperform-when-interest-rates-are/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T04:11:33Z",
-   "source": "CoinDesk",
-   "title": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
-   "link": "https://www.coindesk.com/markets/2026/11/05/trump-media-moves-usd434-million-in-bitcoin-to-crypto-com-blockchain-data-show"
-  },
-  {
-   "published": "2026-11-05T04:05:31Z",
+   "published": "2026-11-05T11:13:28Z",
    "source": "Yahoo Finance",
-   "title": "Why McDonald's Stock Popped Today",
-   "link": "https://www.fool.com/investing/2026/11/04/why-mcdonald-s-stock-popped-today/?.tsrc=rss"
+   "title": "Will Memory Costs Change Apple (AAPL) Narrative",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/memory-costs-change-apple-aapl-111328864.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T04:04:28Z",
+   "published": "2026-11-05T11:10:00Z",
    "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Rise, Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally",
-   "link": "https://finance.yahoo.com/m/a147bf9a-4218-3171-97a4-fb80fda211eb/dow-jones-futures-rise%2C-techs.html?.tsrc=rss"
+   "title": "Worried About AI Stocks? Your Best Move Might Be: Do Nothing.",
+   "link": "https://www.fool.com/investing/2026/11/05/worried-about-ai-stocks-your-best-move-might-be-do/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T03:53:18Z",
-   "source": "CNBC",
-   "title": "Inside the chip talent war: Trade secrets and rising Chinese rivals",
-   "link": "https://www.cnbc.com/2026/11/05/semiconductor-china-korea-talents-rivalry.html"
-  },
-  {
-   "published": "2026-11-05T03:35:00Z",
+   "published": "2026-11-05T11:05:35Z",
    "source": "Yahoo Finance",
-   "title": "Mine, Enrich, Build, Operate: Which Link in the Nuclear Supply Chain Is the Best Stock Right Now?",
-   "link": "https://www.fool.com/investing/2026/11/04/mine-enrich-build-operate-which-link-in-the-nuclea/?.tsrc=rss"
+   "title": "Invesco QQQ (QQQ) Buys $19.6 Million More NVIDIA on Tuesday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-qqq-buys-19-110535090.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T03:11:58Z",
-   "source": "CNBC",
-   "title": "LIV Golf faces liquidation after BC Partners scraps rescue plan",
-   "link": "https://www.cnbc.com/2026/11/05/liv-golf-liquidation-bc-partners.html"
-  },
-  {
-   "published": "2026-11-05T02:55:24Z",
+   "published": "2026-11-05T11:05:20Z",
    "source": "Yahoo Finance",
-   "title": "Dow, S&P 500, Nasdaq Futures Mixed After A Democratic Sweep In Midterms: NVDA, MU, SNDK, NBIS, IREN In Focus",
-   "link": "https://stocktwits.com/news-articles/markets/equity/dow-nasdaq-sp500-futures-mixed-democratic-sweep-nvda-mu-sndk-nbis-iren-stocks/cNG1cuLR9E7?.tsrc=rss"
+   "title": "ProShares Ultra S&P500 2x Shares (SSO) Buys $2.7 Million More OKTA on Nov. 3",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/proshares-ultra-p500-2x-shares-110520984.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T02:20:00Z",
+   "published": "2026-11-05T11:05:16Z",
    "source": "Yahoo Finance",
-   "title": "Could Investing $400 per Month in VTI Make You a Millionaire? Here's the Math.",
-   "link": "https://www.fool.com/investing/2026/11/04/could-investing-400-per-month-in-vti-make-you-a-mi/?.tsrc=rss"
+   "title": "Invesco NASDAQ 100 ETF (QQQM) Adds NVIDIA and Apple on Tuesday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-nasdaq-100-etf-qqqm-110516688.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T02:07:35Z",
-   "source": "CNBC",
-   "title": "Prediction markets cement their status after forecasting Democratic sweep of Congress",
-   "link": "https://www.cnbc.com/2026/11/04/prediction-markets-2026-midterms-election-results.html"
+   "published": "2026-11-05T11:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "Warren Buffett Said 11 Words Warning That \"Prices for an Awful Lot of Things Will Look Very Silly.\" Here's Why His Market Warning Still Matters for Investors.",
+   "link": "https://www.fool.com/investing/2026/11/05/warren-buffett-11-word-warning-matters-investors/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "Gilead Sciences Has Raised Its Dividend for 11 Straight Years. Here's Why the Streak Looks Safe.",
+   "link": "https://www.fool.com/investing/2026/11/05/gilead-sciences-raise-dividend-11-years-safe/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:04:44Z",
+   "source": "Yahoo Finance",
+   "title": "What State Street Tech Select SPDR (XLK) Bought: Okta Leads on Nov. 3",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-tech-select-spdr-110444156.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:04:41Z",
+   "source": "Yahoo Finance",
+   "title": "iShares PHLX SOX Semiconductor (SOXX) Sells AMD and NVDA on Nov. 3",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110441023.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:04:20Z",
+   "source": "Yahoo Finance",
+   "title": "What State Street SPDR Portfolio S&P 500 ETF (SPYM) Bought: Okta Leads on Nov. 3",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-portfolio-p-110420807.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:04:04Z",
+   "source": "Yahoo Finance",
+   "title": "ProShares Ultra QQQ (QLD) Sells $50.5 Million of NVIDIA on Nov. 3",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/proshares-ultra-qqq-qld-sells-110404057.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:03:52Z",
+   "source": "Yahoo Finance",
+   "title": "What SPDR S&P 500 ETF (SPY) Bought: Okta Leads on Nov. 3",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110352492.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:03:45Z",
+   "source": "Yahoo Finance",
+   "title": "What iShares Core S&P 500 ETF (IVV) Bought: Okta Leads on Nov. 3",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-core-p-500-etf-110345284.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:01:51Z",
+   "source": "Yahoo Finance",
+   "title": "ETFs Bought $52.3 Million of Kla-Tencor (KLAC) on Nov. 3",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-52-3-million-110151156.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T11:01:41Z",
+   "source": "Yahoo Finance",
+   "title": "24 ETFs Add to Intercontinental Exchange (ICE) on Nov. 3",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/24-etfs-add-intercontinental-exchange-110141933.html?.tsrc=rss"
   }
  ]
 }
