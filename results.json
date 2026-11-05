@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T04:00:34Z",
+ "generated_at": "2026-11-05T05:50:48Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.0298,
+  "bench_pct": 0.0288,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,11 +16,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 80518.56,
+   "price": 80427.29,
    "trend": "neutre",
-   "score": 0.197,
-   "news_score": 0.333,
-   "news_conf": 0.6,
+   "score": 0.087,
+   "news_score": 0.0,
+   "news_conf": 0.48,
    "tech_score": 0.193,
    "in_position": false,
    "patterns": [
@@ -30,7 +30,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2422.45,
+   "price": 2420.43,
    "trend": "haussière",
    "score": 0.274,
    "news_score": 0.0,
@@ -43,7 +43,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 96.11,
+   "price": 95.76,
    "trend": "neutre",
    "score": 0.0,
    "news_score": -0.25,
@@ -56,9 +56,9 @@
    "symbol": "NVDA",
    "price": 200.28500366210938,
    "trend": "baissière",
-   "score": -0.293,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": -0.144,
+   "news_score": 0.75,
+   "news_conf": 0.36,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -181,13 +181,18 @@
    1793851230,
    100.0,
    102.98
+  ],
+  [
+   1793857842,
+   100.0,
+   102.88
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 0,
-  "text": "Aucune actualité de moins de 36 h vérifiable ce passage (recherche ciblée en échec, résultats généraux datant de 2025) : posture neutre par défaut, aucune annotation. — Aucune source financière récente et fiable n'a pu être vérifiée ce passage : fichier neutre, aucun actif annoté. · À venir : calend",
-  "received_at": "2026-11-04T20:50:39Z"
+  "text": "Aucune actualité de moins de 36 h vérifiable ce passage (recherche filtrée sur les médias financiers rejetée par le proxy) : posture neutre par défaut, aucune annotation. — Aucune source financière récente et fiable n'a pu être vérifiée ce passage : fichier neutre, aucun actif annoté. · À venir : NF",
+  "received_at": "2026-11-05T05:50:42Z"
  },
  "indicators": {
   "fear_greed": {
