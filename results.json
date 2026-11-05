@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T13:50:49Z",
+ "generated_at": "2026-11-05T16:00:47Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.0251,
+  "bench_pct": -0.0226,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,12 +16,12 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 79839.94,
-   "trend": "neutre",
-   "score": -0.075,
-   "news_score": -0.1,
+   "price": 76031.17,
+   "trend": "baissière",
+   "score": -0.501,
+   "news_score": -0.443,
    "news_conf": 0.5,
-   "tech_score": -0.107,
+   "tech_score": -0.843,
    "in_position": false,
    "patterns": [
     "Avalement haussier",
@@ -31,48 +31,50 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2392.47,
-   "trend": "haussière",
-   "score": 0.258,
+   "price": 2253.57,
+   "trend": "neutre",
+   "score": -0.114,
    "news_score": 0.0,
    "news_conf": 0.0,
-   "tech_score": 0.573,
+   "tech_score": -0.254,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)"
+    "Doji (indécision)",
+    "Avalement baissier"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 95.54,
-   "trend": "neutre",
-   "score": 0.095,
+   "price": 90.13,
+   "trend": "baissière",
+   "score": -0.313,
    "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": 0.248,
+   "tech_score": -0.658,
    "in_position": false,
    "patterns": [
-    "Avalement haussier"
+    "Avalement haussier",
+    "Avalement baissier"
    ]
   },
   {
    "symbol": "NVDA",
-   "price": 200.28500366210938,
+   "price": 183.6300048828125,
    "trend": "baissière",
-   "score": -0.227,
-   "news_score": 0.5,
-   "news_conf": 0.24,
+   "score": -0.342,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "AAPL",
-   "price": 349.6199951171875,
+   "price": 348.4100036621094,
    "trend": "haussière",
-   "score": 0.284,
-   "news_score": 0.182,
-   "news_conf": 0.333,
+   "score": 0.226,
+   "news_score": -0.167,
+   "news_conf": 0.273,
    "tech_score": 0.557,
    "in_position": false,
    "patterns": [
@@ -81,11 +83,11 @@
   },
   {
    "symbol": "SPY",
-   "price": 766.72998046875,
+   "price": 741.1799926757812,
    "trend": "neutre",
-   "score": 0.145,
-   "news_score": 0.25,
-   "news_conf": 0.36,
+   "score": 0.294,
+   "news_score": 0.6,
+   "news_conf": 0.6,
    "tech_score": 0.213,
    "in_position": false,
    "patterns": [
@@ -224,6 +226,11 @@
    1793886643,
    100.0,
    102.51
+  ],
+  [
+   1793894430,
+   100.0,
+   97.74
   ]
  ],
  "last_directive": {
@@ -237,7 +244,7 @@
    "value": 50,
    "label": "Neutral"
   },
-  "vix": 16.85
+  "vix": 24.96
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -353,184 +360,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-05T13:45:49Z",
+   "published": "2026-11-05T15:46:01Z",
+   "source": "Yahoo Finance",
+   "title": "AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8%",
+   "link": "https://247wallst.com/investing/2026/11/05/amd-tumbles-13-nvidia-slides-7-as-ai-regulation-fears-hit-chip-stocks-intel-sinks-8/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T15:45:06Z",
+   "source": "Yahoo Finance",
+   "title": "AppLovin’s Surge Is a Rare Bright Spot for Growth ETF Holders",
+   "link": "https://247wallst.com/investing/etf/2026/11/05/applovins-surge-is-a-rare-bright-spot-for-growth-etf-holders/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T15:43:08Z",
    "source": "CNBC",
-   "title": "World's largest olive oil company plummets 20% after rivals agree to takeover deal",
-   "link": "https://www.cnbc.com/2026/11/05/deoleo-olive-oil-takeover-dcoop-acesur.html"
+   "title": "Democratic sweep puts crypto on defensive in Washington",
+   "link": "https://www.cnbc.com/2026/11/05/crypto-midterms-democrats-clarity-act.html"
   },
   {
-   "published": "2026-11-05T13:45:09Z",
+   "published": "2026-11-05T15:43:02Z",
    "source": "Yahoo Finance",
-   "title": "Ed Yardeni Says Slowing AI Boom Is Actually Bullish for Big Tech",
-   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/62917838/yardeni-ai-spending?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+   "title": "Oracle Has Incredible News for Intel Stock Investors",
+   "link": "https://www.fool.com/investing/2026/11/05/oracle-has-incredible-news-for-intel-stock-investors/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T13:44:45Z",
+   "published": "2026-11-05T15:38:00Z",
+   "source": "Yahoo Finance",
+   "title": "Port Announces PortCon - the First AI Software Factory Summit",
+   "link": "https://finance.yahoo.com/technology/ai/articles/port-announces-portcon-first-ai-153800616.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T15:35:00Z",
+   "source": "Yahoo Finance",
+   "title": "Better Space Stock: Rocket Lab vs. AST SpaceMobile (Hint: It Comes Down to Dilution)",
+   "link": "https://www.fool.com/investing/2026/11/05/better-space-stock-rocket-lab-vs-ast-spacemobile/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T15:34:55Z",
    "source": "CNBC",
-   "title": "OpenAI pledges to halt NDAs in new data center policy proposal after election rebuke",
-   "link": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html"
+   "title": "Expedia CEO says AI agents aren't changing booking habits — yet",
+   "link": "https://www.cnbc.com/2026/11/05/expedia-ai-agents-booking-habits.html"
   },
   {
-   "published": "2026-11-05T13:44:27Z",
+   "published": "2026-11-05T15:34:22Z",
+   "source": "Yahoo Finance",
+   "title": "BC-Most Active Stocks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153422188.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T15:33:43Z",
+   "source": "Yahoo Finance",
+   "title": "This Is the Number That Could Change Nvidia Stock’s Outlook for 2027",
+   "link": "https://247wallst.com/investing/2026/11/05/this-is-the-number-that-could-change-nvidia-stocks-outlook-for-2027/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T15:29:22Z",
+   "source": "Yahoo Finance",
+   "title": "Why Sandisk Stock Keeps Going Down",
+   "link": "https://www.fool.com/investing/2026/11/05/why-sandisk-stock-keeps-going-down/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T15:28:34Z",
+   "source": "Yahoo Finance",
+   "title": "Why Wingstop Rallied in October",
+   "link": "https://www.fool.com/investing/2026/11/05/why-wingstop-rallied-in-october/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T15:28:00Z",
+   "source": "Yahoo Finance",
+   "title": "Human Augmentation - Global Strategic Business Report: Capitalize on an 18.8% CAGR to Secure the US$716.4 Billion 2030 Market as Apple, Amazon, Cyberdyne and Ekso Bionics Disrupt the Value Chain",
+   "link": "https://finance.yahoo.com/technology/ai/articles/human-augmentation-global-strategic-business-152800707.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T15:27:57Z",
    "source": "CNBC",
-   "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
-   "link": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html"
+   "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
+   "link": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html"
   },
   {
-   "published": "2026-11-05T13:44:00Z",
-   "source": "Yahoo Finance",
-   "title": "One of the First 50 Websites on the Internet (Est. 1991) Reinvents Itself as an Agentic Systems Company: ARADIA Unveils Turnkey Private AI Appliances and the World's First B2A Partner Program for Auto",
-   "link": "https://finance.yahoo.com/technology/ai/articles/one-first-50-websites-internet-134400114.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T13:41:00Z",
-   "source": "Yahoo Finance",
-   "title": "Should You Buy C3.ai Stock After Its 93% Decline? The Answer Might Surprise You.",
-   "link": "https://www.fool.com/investing/2026/11/05/should-buy-c3ai-stock-93-decline-answer-surprise/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T13:39:51Z",
-   "source": "Yahoo Finance",
-   "title": "Tesla Optimus Rival Agility Robotics Begins Trading After SPAC Merger",
-   "link": "https://finance.yahoo.com/m/d7c384d4-af62-3dae-a383-dac5c15508c9/tesla-optimus-rival-agility.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T13:37:25Z",
-   "source": "Decrypt",
-   "title": "Sam Altman Says It's 'Fucking Annoying' His RAM Comments Were Taken Out of Context",
-   "link": "https://decrypt.co/382606/sam-altman-says-its-fucking-annoying-his-ram-comments-were-taken-out-of-context"
-  },
-  {
-   "published": "2026-11-05T13:34:57Z",
-   "source": "Cointelegraph",
-   "title": "Blockchain is ‘perfect solution’ for AI agent trust, VeChain CEO says",
-   "link": "https://cointelegraph.com/news/blockchain-is-perfect-solution-for-ai-agent-trust-vechain-ceo-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-05T13:34:45Z",
-   "source": "Yahoo Finance",
-   "title": "Apple cuts staff AI usage in scramble to rein in costs",
-   "link": "https://uk.finance.yahoo.com/news/apple-cuts-staff-ai-usage-133445303.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T13:34:14Z",
+   "published": "2026-11-05T15:26:06Z",
    "source": "CNBC",
-   "title": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
-   "link": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html"
+   "title": "Bomb threats disrupt flights across Europe for the second time. Here’s what we know",
+   "link": "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html"
   },
   {
-   "published": "2026-11-05T13:33:38Z",
+   "published": "2026-11-05T15:24:47Z",
+   "source": "CNBC",
+   "title": "Qualcomm slides 9% after earnings, leading postelection chip stock sell-off",
+   "link": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+  },
+  {
+   "published": "2026-11-05T15:22:00Z",
    "source": "Yahoo Finance",
-   "title": "China's Rare-Earth Export Pause Expires Nov. 10. Here's What It Means for USA Rare Earth and MP Materials.",
-   "link": "https://www.fool.com/investing/2026/11/05/china-rare-earth-export-pause-usar-mp-materials/?.tsrc=rss"
+   "title": "Nvidia vs. Taiwan Semiconductor: The AI Revolution Is Big Enough for Both. Here's the Better Buy.",
+   "link": "https://www.fool.com/investing/2026/11/05/nvidia-vs-taiwan-semiconductor-the-ai-revolution-i/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T13:33:37Z",
+   "published": "2026-11-05T15:17:28Z",
    "source": "Yahoo Finance",
-   "title": "TSMC’s AI Opportunity Is Expanding. Here’s the Question That Matters for Its Stock Price",
-   "link": "https://247wallst.com/investing/2026/11/05/tsmcs-ai-opportunity-is-expanding-heres-the-question-that-matters-for-its-stock-price/?.tsrc=rss"
+   "title": "Learn Why The Bull Case For Resideo Technologies (REZI) Could Change Following Apple HomeView Update",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-resideo-151728521.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T13:30:00Z",
-   "source": "Cointelegraph",
-   "title": "Can decentralized phone networks power the AI revolution?",
-   "link": "https://cointelegraph.com/magazine/can-decentralized-phone-networks-power-the-ai-revolution?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   "published": "2026-11-05T15:16:10Z",
+   "source": "CNBC",
+   "title": "Three tax proposals targeting the rich that the new Congress could revive",
+   "link": "https://www.cnbc.com/2026/11/05/three-tax-proposals-targeting-the-rich-the-new-congress-could-revive.html"
   },
   {
-   "published": "2026-11-05T13:29:40Z",
-   "source": "CoinDesk",
-   "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-   "link": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults"
+   "published": "2026-11-05T15:15:08Z",
+   "source": "Yahoo Finance",
+   "title": "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson",
+   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/62926393/amazon-google-nvidia?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
   },
   {
-   "published": "2026-11-05T13:26:28Z",
+   "published": "2026-11-05T15:11:24Z",
+   "source": "Yahoo Finance",
+   "title": "Fewer Families Own Stocks Directly, 19.0% in 2025, but Their Typical Holding Jumped 83% to $30,000",
+   "link": "https://247wallst.com/personal-finance/2026/11/05/fewer-families-own-stocks-directly-19-0-in-2025-but-their-typical-holding-jumped-83-to-30000/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T15:09:41Z",
+   "source": "Yahoo Finance",
+   "title": "Sandisk Sinks 14%, Micron Down 10% as a Top Phone Chipmaker Blames Weak Sales on “Industry-Wide Memory Dynamics”",
+   "link": "https://www.tikr.com/blog/sandisk-sinks-14-micron-down-10-as-a-top-phone-chipmaker-blames-weak-sales-on-industry-wide-memory-dynamics?ref=yahoofinance&tlnk=yf-261105-8gc35pvp&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T15:08:33Z",
+   "source": "Yahoo Finance",
+   "title": "SK hynix Sinks 9% as Qualcomm’s 26% Handset Plunge Deepens Memory Chip Rout",
+   "link": "https://www.tikr.com/blog/sk-hynix-sinks-9-as-qualcomms-26-handset-plunge-deepens-memory-chip-rout?ref=yahoofinance&tlnk=yf-261105-5324ff3r&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T15:08:05Z",
    "source": "CNBC",
    "title": "Wendy's rejects $1.4 billion takeover proposal from Nelson Peltz’s Trian",
    "link": "https://www.cnbc.com/2026/11/05/wendys-rejects-takeover-proposal.html"
   },
   {
-   "published": "2026-11-05T13:25:00Z",
+   "published": "2026-11-05T15:05:11Z",
    "source": "Yahoo Finance",
-   "title": "Could $10,000 Invested in ASML Set You Up for Life?",
-   "link": "https://www.fool.com/investing/2026/11/05/could-10000-invested-in-asml-set-you-up-for-life/?.tsrc=rss"
+   "title": "Arm Stock Plunges -- Smartphone Business Delivers a Major Disappointment",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/arm-stock-plunges-smartphone-business-150511881.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T13:14:05Z",
-   "source": "Decrypt",
-   "title": "Morning Minute: Democrat Sweep Pumps Crypto as Clarity Act Resurfaces",
-   "link": "https://decrypt.co/382603/morning-minute-democrat-sweep-pumps-crypto-as-clarity-act-resurfaces"
-  },
-  {
-   "published": "2026-11-05T13:13:38Z",
+   "published": "2026-11-05T15:05:01Z",
    "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Rise As Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals",
-   "link": "https://finance.yahoo.com/m/a147bf9a-4218-3171-97a4-fb80fda211eb/dow-jones-futures-rise-as.html?.tsrc=rss"
+   "title": "Is Host Hotels & Resorts a Buy After Its Latest Earnings Report?",
+   "link": "https://www.fool.com/investing/2026/11/05/is-host-hotels-resorts-a-buy-after-its-latest-earnings-report/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T13:13:08Z",
+   "published": "2026-11-05T15:05:00Z",
    "source": "Yahoo Finance",
-   "title": "Buy, Sell Or Hold AMD Stock?",
-   "link": "https://www.trefis.com/stock/amd/articles/622729/buy-sell-or-hold-amd-stock/2026-11-05?.tsrc=rss"
+   "title": "Prediction: Berkshire Hathaway Stock Tops $700 a Share Before the End of 2030",
+   "link": "https://www.fool.com/investing/2026/11/05/prediction-berkshire-hathaway-stock-tops-700-share/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T13:13:06Z",
+   "published": "2026-11-05T15:04:53Z",
    "source": "Yahoo Finance",
-   "title": "Can Democrats Slow The $800 Billion AI Boom?",
-   "link": "https://www.trefis.com/stock/mu/articles/622728/can-democrats-slow-the-800-billion-ai-boom/2026-11-05?.tsrc=rss"
+   "title": "AMD CEO Su on earnings outlook, new Starbucks holiday menu, and Hilton CEO on hotel demand",
+   "link": "https://finance.yahoo.com/video/amd-ceo-su-on-earnings-outlook-new-starbucks-holiday-menu-and-hilton-ceo-on-hotel-demand-150453106.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T13:13:00Z",
+   "published": "2026-11-05T15:04:21Z",
    "source": "Yahoo Finance",
-   "title": "Why Did Amazon And Google Stock Rise?",
-   "link": "https://www.trefis.com/stock/amzn/articles/622738/why-did-amazon-and-google-stock-rise/2026-11-05?.tsrc=rss"
+   "title": "Toyota sees stock upswing after raising full-year guidance",
+   "link": "https://finance.yahoo.com/video/toyota-sees-stock-upswing-after-raising-full-year-guidance-150421407.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T13:12:45Z",
+   "published": "2026-11-05T15:03:09Z",
    "source": "Yahoo Finance",
-   "title": "Stock Market Crash Or Rally? Plan For Both",
-   "link": "https://www.trefis.com/stock/spy/articles/622741/stock-market-crash-or-rally-plan-for-both/2026-11-05?.tsrc=rss"
+   "title": "Wall Street Is Being Asked to Take Part of SpaceX’s $40 Billion AI Bet",
+   "link": "https://247wallst.com/investing/2026/11/05/wall-street-is-being-asked-to-take-part-of-spacexs-40-billion-ai-bet/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T13:07:00Z",
+   "published": "2026-11-05T15:01:32Z",
    "source": "Yahoo Finance",
-   "title": "If You'd Invested $1,000 Alongside Warren Buffett in Coca-Cola, Here's How Much You'd Have Today",
-   "link": "https://www.fool.com/investing/2026/11/05/if-youd-invested-1000-alongside-warren-buffett-in/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T13:03:07Z",
-   "source": "Yahoo Finance",
-   "title": "Broadcom Stock Could Be Approaching a Major Turning Point. Here’s the Price Target",
-   "link": "https://247wallst.com/investing/2026/11/05/broadcom-stock-could-be-approaching-a-major-turning-point-heres-the-price-target/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T13:01:02Z",
-   "source": "Decrypt",
-   "title": "Stablecoins Go Mainstream as Samsung Wallet Adds USDC on Solana",
-   "link": "https://decrypt.co/382586/stablecoins-samsung-wallet-adds-usdc-solana"
-  },
-  {
-   "published": "2026-11-05T13:00:01Z",
-   "source": "CNBC",
-   "title": "Voters rejected AI data centers over resource concerns. Here's why measuring water usage is hard",
-   "link": "https://www.cnbc.com/2026/11/05/meta-spacex-ai-data-centers-use-millions-of-gallons-of-water-a-day.html"
-  },
-  {
-   "published": "2026-11-05T13:00:00Z",
-   "source": "Yahoo Finance",
-   "title": "Verizon Makes the Holidays Simple with Our Best Deals and Rewards Just for Being a Customer",
-   "link": "https://finance.yahoo.com/technology/articles/verizon-makes-holidays-simple-best-130000570.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T12:57:58Z",
-   "source": "Yahoo Finance",
-   "title": "The Dow Just Jumped 1,569 Points for Its Best Post-Midterm Day in 44 Years",
-   "link": "https://247wallst.com/investing/2026/11/05/the-dow-just-jumped-1569-points-for-its-best-post-midterm-day-in-44-years/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T12:57:10Z",
-   "source": "CNBC",
-   "title": "What the Democratic midterms sweep changes for U.S.-China relations",
-   "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html"
+   "title": "Tesla Optimus Rival Agility Robotics Begins Trading After SPAC Merger",
+   "link": "https://finance.yahoo.com/m/d7c384d4-af62-3dae-a383-dac5c15508c9/tesla-optimus-rival-agility.html?.tsrc=rss"
   }
  ]
 }
