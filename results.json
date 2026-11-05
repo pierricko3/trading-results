@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T06:23:05Z",
+ "generated_at": "2026-11-05T08:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.0302,
+  "bench_pct": 0.0291,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,26 +16,27 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 80564.4,
+   "price": 80401.0,
    "trend": "neutre",
-   "score": 0.095,
-   "news_score": 0.038,
-   "news_conf": 0.411,
-   "tech_score": 0.193,
+   "score": -0.047,
+   "news_score": 0.033,
+   "news_conf": 0.5,
+   "tech_score": -0.125,
    "in_position": false,
    "patterns": [
     "Avalement haussier",
-    "Doji (indécision)"
+    "Doji (indécision)",
+    "Avalement baissier"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2427.0,
+   "price": 2419.07,
    "trend": "haussière",
-   "score": 0.274,
+   "score": 0.267,
    "news_score": 0.0,
-   "news_conf": 0.0,
-   "tech_score": 0.61,
+   "news_conf": 0.24,
+   "tech_score": 0.593,
    "in_position": false,
    "patterns": [
     "Doji (indécision)"
@@ -43,12 +44,12 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 96.1,
+   "price": 95.98,
    "trend": "neutre",
-   "score": 0.0,
+   "score": -0.04,
    "news_score": -0.25,
-   "news_conf": 0.12,
-   "tech_score": 0.037,
+   "news_conf": 0.36,
+   "tech_score": 0.022,
    "in_position": false,
    "patterns": []
   },
@@ -56,9 +57,9 @@
    "symbol": "NVDA",
    "price": 200.28500366210938,
    "trend": "baissière",
-   "score": -0.144,
-   "news_score": 0.75,
-   "news_conf": 0.36,
+   "score": -0.161,
+   "news_score": 0.5,
+   "news_conf": 0.48,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -67,8 +68,8 @@
    "symbol": "AAPL",
    "price": 349.6199951171875,
    "trend": "haussière",
-   "score": 0.352,
-   "news_score": 0.367,
+   "score": 0.333,
+   "news_score": 0.3,
    "news_conf": 0.5,
    "tech_score": 0.557,
    "in_position": false,
@@ -80,8 +81,8 @@
    "symbol": "SPY",
    "price": 766.72998046875,
    "trend": "neutre",
-   "score": 0.426,
-   "news_score": 1.0,
+   "score": 0.332,
+   "news_score": 0.714,
    "news_conf": 0.6,
    "tech_score": 0.213,
    "in_position": false,
@@ -206,6 +207,11 @@
    1793859780,
    100.0,
    103.02
+  ],
+  [
+   1793865630,
+   100.0,
+   102.91
   ]
  ],
  "last_directive": {
@@ -223,13 +229,22 @@
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 0,
-  "pending": 4,
-  "hit_rate": null,
-  "mean_signed": null,
+  "n": 2,
+  "pending": 2,
+  "hit_rate": 0.5,
+  "mean_signed": -0.018783497100662738,
   "enough": false,
   "min_sample": 20,
-  "by_symbol": {}
+  "by_symbol": {
+   "SPY": {
+    "n": 1,
+    "hit_rate": 1.0
+   },
+   "AAPL": {
+    "n": 1,
+    "hit_rate": 0.0
+   }
+  }
  },
  "costs": {
   "currency": "$",
@@ -325,6 +340,60 @@
   }
  },
  "headlines": [
+  {
+   "published": "2026-11-05T07:30:58Z",
+   "source": "CNBC",
+   "title": "Nintendo Switch 2 sales plunge 41% as price hikes and memory crunch bite",
+   "link": "https://www.cnbc.com/2026/11/05/nintendo-earnings-switch-2-sales.html"
+  },
+  {
+   "published": "2026-11-05T07:25:00Z",
+   "source": "Yahoo Finance",
+   "title": "Should Investors Buy Into the Chipotle Turnaround?",
+   "link": "https://www.fool.com/investing/2026/11/05/should-investors-buy-into-the-chipotle-turnaround/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T07:23:06Z",
+   "source": "Cointelegraph",
+   "title": "Crédit Mutuel Arkéa resumes operations after attack, assesses losses",
+   "link": "https://cointelegraph.com/news/credit-mutuel-arkea-resumes-operations-133m-crypto-theft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-05T07:15:43Z",
+   "source": "CNBC",
+   "title": "NextDC shares soar nearly 51% after Goodman, Digital Realty stake purchases",
+   "link": "https://www.cnbc.com/2026/11/05/nextdc-goodman-group-digital-realty-data-centers-.html"
+  },
+  {
+   "published": "2026-11-05T07:12:43Z",
+   "source": "Yahoo Finance",
+   "title": "Qualcomm Says Non-Handset Revenue Will Make Up 50% Of Chip Sales This Fiscal — Retail Sentiment Turns Bullish",
+   "link": "https://stocktwits.com/news-articles/markets/equity/qualcomm-says-non-handset-revenue-will-make-up-50-of-chip-sales-this-fiscal-retail-sentiment-turns-bullish/cNG1BpuR9ES?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T06:54:52Z",
+   "source": "CNBC",
+   "title": "What the Democratic midterms sweep changes for U.S.-China relations",
+   "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html"
+  },
+  {
+   "published": "2026-11-05T06:37:01Z",
+   "source": "Yahoo Finance",
+   "title": "The Midterms Are Over. Here's What Chip Stocks Did in the Year After Each of the Last 8.",
+   "link": "https://www.fool.com/investing/2026/11/05/the-midterms-are-over-here-s-what-chip-stocks-did-in-the-year-after-each-of-the-last-8/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T06:35:00Z",
+   "source": "Yahoo Finance",
+   "title": "Amazon Trades at a Fraction of Costco's Valuation. Is the Discount Deserved?",
+   "link": "https://www.fool.com/investing/2026/11/05/amazon-trades-at-a-fraction-of-costcos-valuation-i/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T06:21:12Z",
+   "source": "Cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
   {
    "published": "2026-11-05T06:02:29Z",
    "source": "Cointelegraph",
@@ -450,60 +519,6 @@
    "source": "CNBC",
    "title": "Prediction markets cement their status after forecasting Democratic sweep of Congress",
    "link": "https://www.cnbc.com/2026/11/04/prediction-markets-2026-midterms-election-results.html"
-  },
-  {
-   "published": "2026-11-05T01:51:21Z",
-   "source": "Cointelegraph",
-   "title": "India warns AI-powered hackers targeting crypto exchanges at ‘machine speed’",
-   "link": "https://cointelegraph.com/news/india-warns-ai-powered-hackers-targeting-crypto-exchanges-at-machine-speed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-05T01:50:01Z",
-   "source": "Yahoo Finance",
-   "title": "Why Intuit Stock Jumped 24% in October",
-   "link": "https://www.fool.com/investing/2026/11/04/why-intuit-stock-jumped-24-in-october/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T01:43:01Z",
-   "source": "Yahoo Finance",
-   "title": "Is Broadcom Stock a Buy After Marvell's $115 Billion Deal?",
-   "link": "https://www.fool.com/investing/2026/11/04/is-broadcom-stock-a-buy-after-marvell-s-usd115-billion-deal/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T01:33:45Z",
-   "source": "Yahoo Finance",
-   "title": "SPCX Slides Overnight: SpaceX’s $40B Chip Financing Reportedly Hits Market — Texas Senator Says Democrats Will ‘Go After Elon Musk’",
-   "link": "https://stocktwits.com/news-articles/markets/equity/spcx-spacex-40b-chip-financing-market-texas-senator-democrats-go-after-elon-musk/cNG1bF6R9Ed?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T01:32:01Z",
-   "source": "Yahoo Finance",
-   "title": "Why Accel Entertainment Was a Huge Winner on Wednesday",
-   "link": "https://www.fool.com/investing/2026/11/04/why-accel-entertainment-was-a-huge-winner-on-wednesday/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T01:25:09Z",
-   "source": "Yahoo Finance",
-   "title": "Why Duolingo Stock Skyrocketed Today",
-   "link": "https://www.fool.com/investing/2026/11/04/why-duolingo-stock-skyrocketed-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T01:16:38Z",
-   "source": "Yahoo Finance",
-   "title": "Is the AI Bubble Popping?",
-   "link": "https://www.fool.com/investing/2026/11/04/is-the-ai-bubble-popping/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T01:11:26Z",
-   "source": "CNBC",
-   "title": "White House panel delays hearing on Fed's Lisa Cook to Dec. 14",
-   "link": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html"
-  },
-  {
-   "published": "2026-11-05T01:05:04Z",
-   "source": "Yahoo Finance",
-   "title": "At 68, He Will Sell the S&P 500 Fund He Bought in 1996 to Move Into Bonds. The $310,000 Gain Will Push Him Into a Higher Medicare Premium Bracket in 2028",
-   "link": "https://247wallst.com/personal-finance/2026/11/04/at-68-he-will-sell-the-sp-500-fund-he-bought-in-1996-to-move-into-bonds-the-310000-gain-will-push-him-into-a-higher-medicare-premium-bracket-in-2028/?.tsrc=rss"
   }
  ]
 }
