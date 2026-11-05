@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T06:00:55Z",
+ "generated_at": "2026-11-05T06:12:52Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": 0.029,
+  "bench_pct": 0.0297,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,7 +16,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 80432.0,
+   "price": 80491.42,
    "trend": "neutre",
    "score": 0.087,
    "news_score": 0.0,
@@ -30,7 +30,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2420.38,
+   "price": 2424.8,
    "trend": "haussière",
    "score": 0.274,
    "news_score": 0.0,
@@ -43,7 +43,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 95.84,
+   "price": 95.99,
    "trend": "neutre",
    "score": 0.0,
    "news_score": -0.25,
@@ -80,9 +80,9 @@
    "symbol": "SPY",
    "price": 766.72998046875,
    "trend": "neutre",
-   "score": 0.426,
-   "news_score": 1.0,
-   "news_conf": 0.6,
+   "score": 0.244,
+   "news_score": 0.75,
+   "news_conf": 0.36,
    "tech_score": 0.213,
    "in_position": false,
    "patterns": [
@@ -191,6 +191,11 @@
    1793858450,
    100.0,
    102.9
+  ],
+  [
+   1793859161,
+   100.0,
+   102.97
   ]
  ],
  "last_directive": {
@@ -308,5 +313,187 @@
    "BTC/USDT": 0.0001,
    "ETH/USDT": 0.01
   }
- }
+ },
+ "headlines": [
+  {
+   "published": "2026-11-05T06:02:29Z",
+   "source": "Cointelegraph",
+   "title": "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto",
+   "link": "https://cointelegraph.com/news/polygon-hard-fork-binance-polymarket-6-8m-hack-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-05T05:58:33Z",
+   "source": "CNBC",
+   "title": "Russia, China may be more aggressive if they feel Trump is on 'his way out': Brookings",
+   "link": "https://www.cnbc.com/2026/11/05/trump-russia-china-summit-apec-midterms.html"
+  },
+  {
+   "published": "2026-11-05T05:48:44Z",
+   "source": "Yahoo Finance",
+   "title": "Why Did AAPL, MSFT, AMC Stocks Surge To 52-Week Highs?",
+   "link": "https://stocktwits.com/news-articles/markets/equity/why-did-aapl-msft-amc-stocks-surge-to-52-week-highs/cNG1I0fR9Ei?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T05:47:01Z",
+   "source": "CoinDesk",
+   "title": "Zcash is about to freeze $16 million in its oldest privacy pool",
+   "link": "https://www.coindesk.com/tech/2026/11/05/zcash-is-about-to-freeze-usd16-million-in-its-oldest-privacy-pool"
+  },
+  {
+   "published": "2026-11-05T05:28:52Z",
+   "source": "CoinDesk",
+   "title": "The pile of lawsuits against Kalshi just grew by one",
+   "link": "https://www.coindesk.com/policy/2026/11/05/the-pile-of-lawsuits-against-kalshi-just-grew-by-one"
+  },
+  {
+   "published": "2026-11-05T05:25:06Z",
+   "source": "CoinDesk",
+   "title": "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens",
+   "link": "https://www.coindesk.com/markets/2026/11/05/xrp-ledger-closes-bug-that-let-approved-token-burners-create-new-tokens"
+  },
+  {
+   "published": "2026-11-05T05:13:45Z",
+   "source": "CoinDesk",
+   "title": "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
+   "link": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound"
+  },
+  {
+   "published": "2026-11-05T05:11:39Z",
+   "source": "Yahoo Finance",
+   "title": "History Says This Is the Best Time of the Presidential Cycle To Invest. Could Wednesday's Rally Spark an Epic Bull Market?",
+   "link": "https://www.fool.com/investing/2026/11/04/history-says-this-is-the-best-time-of-the-presidential-cycle-to-invest-could-wednesday-s-rally-be-the-beginning-of-an-epic-bull-market/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T05:01:01Z",
+   "source": "Yahoo Finance",
+   "title": "SpaceX Just Picked Qualcomm for Its Own 5G Network. I Still See the Stock as a Hold.",
+   "link": "https://www.fool.com/investing/2026/11/04/spacex-just-picked-qualcomm-for-its-own-5g-network-i-still-see-the-stock-as-a-hold/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T04:52:49Z",
+   "source": "Cointelegraph",
+   "title": "‘Lawyer up’: Democrats target Trump, Big Tech after midterm sweep",
+   "link": "https://cointelegraph.com/news/lawyer-up-democrats-target-trump-big-tech-after-midterm-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-05T04:37:01Z",
+   "source": "Yahoo Finance",
+   "title": "AMD Stock Jumped After Its Report. I'd Wait for a Lower Price to Buy.",
+   "link": "https://www.fool.com/investing/2026/11/04/amd-stock-jumped-after-its-report-i-d-wait-for-a-lower-price-to-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T04:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Better Nuclear Energy Stock to Buy After the Sell-Off: Oklo vs. BWX Technologies",
+   "link": "https://www.fool.com/investing/2026/11/04/better-nuclear-energy-stock-to-buy-after-the-sell/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T04:11:33Z",
+   "source": "CoinDesk",
+   "title": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
+   "link": "https://www.coindesk.com/markets/2026/11/05/trump-media-moves-usd434-million-in-bitcoin-to-crypto-com-blockchain-data-show"
+  },
+  {
+   "published": "2026-11-05T04:05:31Z",
+   "source": "Yahoo Finance",
+   "title": "Why McDonald's Stock Popped Today",
+   "link": "https://www.fool.com/investing/2026/11/04/why-mcdonald-s-stock-popped-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T04:04:28Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures Rise, Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally",
+   "link": "https://finance.yahoo.com/m/a147bf9a-4218-3171-97a4-fb80fda211eb/dow-jones-futures-rise%2C-techs.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T03:53:18Z",
+   "source": "CNBC",
+   "title": "Inside the chip talent war: Trade secrets and rising Chinese rivals",
+   "link": "https://www.cnbc.com/2026/11/05/semiconductor-china-korea-talents-rivalry.html"
+  },
+  {
+   "published": "2026-11-05T03:35:00Z",
+   "source": "Yahoo Finance",
+   "title": "Mine, Enrich, Build, Operate: Which Link in the Nuclear Supply Chain Is the Best Stock Right Now?",
+   "link": "https://www.fool.com/investing/2026/11/04/mine-enrich-build-operate-which-link-in-the-nuclea/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T03:11:58Z",
+   "source": "CNBC",
+   "title": "LIV Golf faces liquidation after BC Partners scraps rescue plan",
+   "link": "https://www.cnbc.com/2026/11/05/liv-golf-liquidation-bc-partners.html"
+  },
+  {
+   "published": "2026-11-05T02:55:24Z",
+   "source": "Yahoo Finance",
+   "title": "Dow, S&P 500, Nasdaq Futures Mixed After A Democratic Sweep In Midterms: NVDA, MU, SNDK, NBIS, IREN In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/dow-nasdaq-sp500-futures-mixed-democratic-sweep-nvda-mu-sndk-nbis-iren-stocks/cNG1cuLR9E7?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T02:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Could Investing $400 per Month in VTI Make You a Millionaire? Here's the Math.",
+   "link": "https://www.fool.com/investing/2026/11/04/could-investing-400-per-month-in-vti-make-you-a-mi/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T02:07:35Z",
+   "source": "CNBC",
+   "title": "Prediction markets cement their status after forecasting Democratic sweep of Congress",
+   "link": "https://www.cnbc.com/2026/11/04/prediction-markets-2026-midterms-election-results.html"
+  },
+  {
+   "published": "2026-11-05T01:51:21Z",
+   "source": "Cointelegraph",
+   "title": "India warns AI-powered hackers targeting crypto exchanges at ‘machine speed’",
+   "link": "https://cointelegraph.com/news/india-warns-ai-powered-hackers-targeting-crypto-exchanges-at-machine-speed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-05T01:50:01Z",
+   "source": "Yahoo Finance",
+   "title": "Why Intuit Stock Jumped 24% in October",
+   "link": "https://www.fool.com/investing/2026/11/04/why-intuit-stock-jumped-24-in-october/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T01:43:01Z",
+   "source": "Yahoo Finance",
+   "title": "Is Broadcom Stock a Buy After Marvell's $115 Billion Deal?",
+   "link": "https://www.fool.com/investing/2026/11/04/is-broadcom-stock-a-buy-after-marvell-s-usd115-billion-deal/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T01:33:45Z",
+   "source": "Yahoo Finance",
+   "title": "SPCX Slides Overnight: SpaceX’s $40B Chip Financing Reportedly Hits Market — Texas Senator Says Democrats Will ‘Go After Elon Musk’",
+   "link": "https://stocktwits.com/news-articles/markets/equity/spcx-spacex-40b-chip-financing-market-texas-senator-democrats-go-after-elon-musk/cNG1bF6R9Ed?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T01:32:01Z",
+   "source": "Yahoo Finance",
+   "title": "Why Accel Entertainment Was a Huge Winner on Wednesday",
+   "link": "https://www.fool.com/investing/2026/11/04/why-accel-entertainment-was-a-huge-winner-on-wednesday/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T01:25:09Z",
+   "source": "Yahoo Finance",
+   "title": "Why Duolingo Stock Skyrocketed Today",
+   "link": "https://www.fool.com/investing/2026/11/04/why-duolingo-stock-skyrocketed-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T01:16:38Z",
+   "source": "Yahoo Finance",
+   "title": "Is the AI Bubble Popping?",
+   "link": "https://www.fool.com/investing/2026/11/04/is-the-ai-bubble-popping/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T01:11:26Z",
+   "source": "CNBC",
+   "title": "White House panel delays hearing on Fed's Lisa Cook to Dec. 14",
+   "link": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html"
+  },
+  {
+   "published": "2026-11-05T01:05:04Z",
+   "source": "Yahoo Finance",
+   "title": "At 68, He Will Sell the S&P 500 Fund He Bought in 1996 to Move Into Bonds. The $310,000 Gain Will Push Him Into a Higher Medicare Premium Bracket in 2028",
+   "link": "https://247wallst.com/personal-finance/2026/11/04/at-68-he-will-sell-the-sp-500-fund-he-bought-in-1996-to-move-into-bonds-the-310000-gain-will-push-him-into-a-higher-medicare-premium-bracket-in-2028/?.tsrc=rss"
+  }
+ ]
 }
