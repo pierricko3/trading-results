@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T12:00:34Z",
+ "generated_at": "2026-11-06T13:50:48Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0282,
+  "bench_pct": -0.0288,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,10 +16,10 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 76134.01,
+   "price": 75969.57,
    "trend": "baissière",
-   "score": -0.127,
-   "news_score": 0.0,
+   "score": -0.174,
+   "news_score": -0.143,
    "news_conf": 0.6,
    "tech_score": -0.282,
    "in_position": false,
@@ -30,10 +30,10 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2243.13,
+   "price": 2239.39,
    "trend": "neutre",
-   "score": 0.126,
-   "news_score": 0.5,
+   "score": 0.06,
+   "news_score": 0.0,
    "news_conf": 0.24,
    "tech_score": 0.134,
    "in_position": false,
@@ -44,10 +44,10 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 90.41,
+   "price": 90.43,
    "trend": "baissière",
-   "score": -0.116,
-   "news_score": 0.25,
+   "score": -0.149,
+   "news_score": -0.25,
    "news_conf": 0.12,
    "tech_score": -0.295,
    "in_position": false,
@@ -61,9 +61,9 @@
    "symbol": "NVDA",
    "price": 181.57000732421875,
    "trend": "baissière",
-   "score": -0.326,
-   "news_score": -0.182,
-   "news_conf": 0.333,
+   "score": -0.436,
+   "news_score": -0.635,
+   "news_conf": 0.411,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -72,8 +72,8 @@
    "symbol": "AAPL",
    "price": 344.30999755859375,
    "trend": "haussière",
-   "score": 0.232,
-   "news_score": 0.0,
+   "score": 0.166,
+   "news_score": -0.5,
    "news_conf": 0.24,
    "tech_score": 0.517,
    "in_position": false,
@@ -83,9 +83,9 @@
    "symbol": "SPY",
    "price": 733.1300048828125,
    "trend": "baissière",
-   "score": -0.199,
-   "news_score": -0.011,
-   "news_conf": 0.291,
+   "score": -0.208,
+   "news_score": -0.059,
+   "news_conf": 0.305,
    "tech_score": -0.439,
    "in_position": false,
    "patterns": [
@@ -269,27 +269,32 @@
    1793966430,
    100.0,
    97.18
+  ],
+  [
+   1793973043,
+   100.0,
+   97.12
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 2,
-  "text": "2 sources : CNBC, Yahoo Finance (05-06/11) — Nasdaq en chute record (-5%), Magnificent 7 -1000 Md$, puces asiatiques en baisse ; futures hésitants. Direction incertaine (rebond ou suite) : pas de risk_off, le bot mesure le VIX. — Contexte : le 5/11, le Nasdaq a chuté d'environ 5 % (record de perte e",
-  "received_at": "2026-11-06T05:50:43Z"
+  "text": "2 sources : Yahoo Finance, CNBC (06/11) — Nasdaq -5,5 % la veille, puces asiatiques écrasées (SK Hynix -11,7 %), mais futures Nasdaq repartis à la hausse. Signaux contradictoires : pas de risk_off, le bot mesure le VIX. — Contexte : Nasdaq -5,5 % le 5/11 (Yahoo Finance), puces asiatiques en chute (S",
+  "received_at": "2026-11-06T13:50:43Z"
  },
  "indicators": {
   "fear_greed": {
    "value": 28,
    "label": "Fear"
   },
-  "vix": 26.48
+  "vix": 27.02
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 4,
-  "pending": 7,
-  "hit_rate": 0.25,
-  "mean_signed": -0.028637361316345644,
+  "n": 6,
+  "pending": 6,
+  "hit_rate": 0.16666666666666666,
+  "mean_signed": -0.029702328565402225,
   "enough": false,
   "min_sample": 20,
   "by_symbol": {
@@ -298,11 +303,11 @@
     "hit_rate": 1.0
    },
    "AAPL": {
-    "n": 2,
+    "n": 3,
     "hit_rate": 0.0
    },
    "BTC/USDT": {
-    "n": 1,
+    "n": 2,
     "hit_rate": 0.0
    }
   }
@@ -402,184 +407,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-06T11:56:04Z",
+   "published": "2026-11-06T13:47:54Z",
    "source": "CNBC",
-   "title": "Moderna raises 2026 outlook as CEO says newer vaccines are gaining traction",
-   "link": "https://www.cnbc.com/2026/11/06/moderna-mrna-earnings-q3-2026.html"
+   "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate at 4.1%",
+   "link": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
   },
   {
-   "published": "2026-11-06T11:50:00Z",
+   "published": "2026-11-06T13:47:43Z",
+   "source": "CNBC",
+   "title": "Nasdaq drops into correction territory — here’s what typically happens next",
+   "link": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html"
+  },
+  {
+   "published": "2026-11-06T13:43:36Z",
    "source": "Yahoo Finance",
-   "title": "Visa Has Grown Earnings per Share by 17% a Year for a Decade. Can the Stock Keep Compounding?",
-   "link": "https://www.fool.com/investing/2026/11/06/visa-eps-17-a-year-decade-stock-compounding/?.tsrc=rss"
+   "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+   "link": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T11:49:44Z",
+   "published": "2026-11-06T13:37:52Z",
    "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Fall, AI Stocks Nvidia, Sandisk, CoreWeave, SpaceX Bounce After Nasdaq Dives 5.5%",
-   "link": "https://finance.yahoo.com/m/0cd2227b-7753-3d54-a8c5-286efe82ac39/dow-jones-futures-fall%2C-ai.html?.tsrc=rss"
+   "title": "Rate Hikes Could Be Coming: History Likes These 4 Consumer Staples Stocks",
+   "link": "https://247wallst.com/investing/2026/11/06/rate-hikes-could-be-coming-history-likes-these-4-consumer-staples-stocks/?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T11:45:20Z",
+   "published": "2026-11-06T13:35:23Z",
+   "source": "CNBC",
+   "title": "Market sell-off hits hard: Advisors say 'stay the course with an eye on buying'",
+   "link": "https://www.cnbc.com/2026/11/06/market-sell-off-hits-hard-advisors-say-stay-the-course-with-an-eye-on-buying-.html"
+  },
+  {
+   "published": "2026-11-06T13:35:00Z",
    "source": "Yahoo Finance",
-   "title": "Asia’s Chip Stocks Crashed Overnight, With SK Hynix Down 11.7% And Taiwan Off More Than 8%. Now Nasdaq Futures Are Pointing Higher",
-   "link": "https://247wallst.com/investing/2026/11/06/asias-chip-stocks-crashed-overnight-with-sk-hynix-down-11-7-and-taiwan-off-more-than-8-now-nasdaq-futures-are-pointing-higher/?.tsrc=rss"
+   "title": "These 6 Utility Stocks Offer Income and a Link to Power Demand",
+   "link": "https://www.fool.com/investing/2026/11/06/these-6-utility-stocks-offer-income-and-a-link-to/?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T11:37:48Z",
+   "published": "2026-11-06T13:33:00Z",
+   "source": "Cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-06T13:31:54Z",
+   "source": "CoinDesk",
+   "title": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
+   "link": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate"
+  },
+  {
+   "published": "2026-11-06T13:30:45Z",
+   "source": "CNBC",
+   "title": "IRS unveils higher capital gains tax brackets for 2027",
+   "link": "https://www.cnbc.com/2026/11/05/capital-gains-tax-2027-federal.html"
+  },
+  {
+   "published": "2026-11-06T13:29:20Z",
+   "source": "Decrypt",
+   "title": "Morning Minute: Bitcoin Erases Election Rally as AI Stocks Crater",
+   "link": "https://decrypt.co/382700/morning-minute-bitcoin-erases-election-rally-as-ai-stocks-crater"
+  },
+  {
+   "published": "2026-11-06T13:25:27Z",
+   "source": "CNBC",
+   "title": "A long-term Elon Musk backer is cashing out of Tesla — and cutting its SpaceX exposure",
+   "link": "https://www.cnbc.com/2026/11/06/scottish-mortgage-tesla-spacex.html"
+  },
+  {
+   "published": "2026-11-06T13:23:08Z",
+   "source": "Cointelegraph",
+   "title": "Ethereum devs won’t fork Glamsterdam on Hoodi until smart contract risks resolved",
+   "link": "https://cointelegraph.com/news/ethereum-devs-fork-glamsterdam-hoodi-smart-contract-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-06T13:22:37Z",
    "source": "Yahoo Finance",
-   "title": "Latest News In AI Chips - Race to Dominate AI Infrastructure Accelerates Globally",
-   "link": "https://finance.yahoo.com/technology/ai/articles/latest-news-ai-chips-race-113748036.html?.tsrc=rss"
+   "title": "Cathie Wood sells $120 million in AI stock, buys Nvidia",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-sells-120-million-132237793.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T11:35:00Z",
+   "published": "2026-11-06T13:22:06Z",
    "source": "Yahoo Finance",
-   "title": "Here's What $5,000 in USA Rare Earth Could Be Worth by 2030 If It Reaches MP Materials' Market Cap",
-   "link": "https://www.fool.com/investing/2026/11/06/what-5k-usa-rare-earth-worth-mp-materials-stock/?.tsrc=rss"
+   "title": "Apple Is Now Worth $600 Billion More Than Nvidia",
+   "link": "https://247wallst.com/investing/2026/11/06/apple-is-now-worth-600-billion-more-than-nvidia/?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T11:30:01Z",
+   "published": "2026-11-06T13:20:49Z",
+   "source": "Yahoo Finance",
+   "title": "Equity Futures Mostly Point Higher Following Tech-Led Selloff",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/equity-futures-mostly-point-higher-132049207.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T13:20:49Z",
+   "source": "Yahoo Finance",
+   "title": "Tech just had a crisis-sized day — the kind that came in 2000, 2008, and 2020: Chart of the Day",
+   "link": "https://finance.yahoo.com/markets/article/tech-just-had-a-crisis-sized-day--the-kind-that-came-in-2000-2008-and-2020-chart-of-the-day-132049015.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T13:20:41Z",
+   "source": "CNBC",
+   "title": "'The whole landscape changed': Gaming CEOs see new opportunities post-midterms",
+   "link": "https://www.cnbc.com/2026/11/06/midterm-gambling-prediction-markets.html"
+  },
+  {
+   "published": "2026-11-06T13:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Democrats Retake the House and Senate: Here's What It Could Mean for SpaceX and Tesla",
+   "link": "https://www.fool.com/investing/2026/11/06/democrats-retake-the-house-and-senate-heres-what-i/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T13:19:53Z",
+   "source": "CNBC",
+   "title": "Where's the growth? Legacy automakers face a tougher 2027 as costs rise, market tightens",
+   "link": "https://www.cnbc.com/2026/11/06/automakers-rising-costs-flat-production-2027.html"
+  },
+  {
+   "published": "2026-11-06T13:18:43Z",
+   "source": "Yahoo Finance",
+   "title": "Micron's 17% stock plunge reveals a surprising valuation",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/microns-17-stock-plunge-reveals-131843845.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T13:15:40Z",
+   "source": "CNBC",
+   "title": "Dynasties or Parity? How MLB, the NFL, and the NBA try to find competitive balance",
+   "link": "https://www.cnbc.com/2026/11/06/dynasties-or-parity-how-mlb-nfl-nba-try-to-find-competitive-balance.html"
+  },
+  {
+   "published": "2026-11-06T13:12:44Z",
+   "source": "Yahoo Finance",
+   "title": "Michael Burry Dumps 25% of His Semiconductor Bet Amid Brutal Tech Selloff",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-dumps-25-semiconductor-131244639.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T13:12:36Z",
+   "source": "CNBC",
+   "title": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says",
+   "link": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html"
+  },
+  {
+   "published": "2026-11-06T13:10:09Z",
+   "source": "Yahoo Finance",
+   "title": "TSX futures edged lower amid fallout from AI-driven stock rout",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-edged-lower-amid-131009870.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T13:08:58Z",
    "source": "CNBC",
    "title": "Outside groups urge congressional Dems to target corporate interests over Trump",
    "link": "https://www.cnbc.com/2026/11/06/democrats-corporate-oversight-trump.html"
   },
   {
-   "published": "2026-11-06T11:26:30Z",
-   "source": "Cointelegraph",
-   "title": "Binance hackers had 8 weeks of access before $6.3B exploit, Security Alliance estimates",
-   "link": "https://cointelegraph.com/news/binance-hackers-8-weeks-access-63b-exploit-security-alliance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-06T11:24:52Z",
-   "source": "CNBC",
-   "title": "AI debt concerns grow as ING reportedly seeks buyers for $500 million of data center loans",
-   "link": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html"
-  },
-  {
-   "published": "2026-11-06T11:20:00Z",
+   "published": "2026-11-06T13:07:00Z",
    "source": "Yahoo Finance",
-   "title": "How These 5 Bond ETFs Differ and When Each One Fits",
-   "link": "https://www.fool.com/retirement/2026/11/06/how-these-5-bond-etfs-differ-and-when-each-one-fit/?.tsrc=rss"
+   "title": "Musk-Free ETFs Arrive: Investing Without the Tesla Factor",
+   "link": "https://www.fool.com/investing/2026/11/06/musk-free-etf-arrive-investing-without-tesla-stock/?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T11:20:00Z",
+   "published": "2026-11-06T13:06:46Z",
    "source": "Yahoo Finance",
-   "title": "Not Nvidia. Not Palantir. The Midterms Just Made This Magnificent Artificial Intelligence (AI) Stock the Safer Bet.",
-   "link": "https://www.fool.com/investing/2026/11/06/not-nvidia-not-palantir-the-midterms-just-made-thi/?.tsrc=rss"
+   "title": "Cathie Wood Just Dumped $134 Million of Broadcom and Bought Nvidia and SpaceX",
+   "link": "https://247wallst.com/investing/2026/11/06/cathie-wood-just-dumped-134-million-of-broadcom-and-bought-nvidia-and-spacex/?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T11:16:53Z",
-   "source": "Cointelegraph",
-   "title": "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash",
-   "link": "https://cointelegraph.com/markets/bitcoin-holds-ai-regulation-fears-kospi-halted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-06T11:07:00Z",
+   "published": "2026-11-06T13:02:53Z",
    "source": "Yahoo Finance",
-   "title": "Here's How Many Shares of McDonald's You'd Need for $2,000 in Yearly Dividends",
-   "link": "https://www.fool.com/investing/2026/11/06/heres-how-many-shares-of-mcdonalds-youd-need-for-2/?.tsrc=rss"
+   "title": "Healthcare and Staples Hold the Line Against Tech. The Time to Be Fearful When Others Are Greedy Has Arrived.",
+   "link": "https://247wallst.com/investing/2026/11/06/healthcare-and-staples-hold-the-line-against-tech-the-time-to-be-fearful-when-others-are-greedy-has-arrived/?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T11:06:58Z",
-   "source": "CNBC",
-   "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
-   "link": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"
-  },
-  {
-   "published": "2026-11-06T11:05:56Z",
+   "published": "2026-11-06T13:02:42Z",
    "source": "Yahoo Finance",
-   "title": "SPDR Portfolio S&P 500 Growth (SPYG) Buys $29.8 Million More NVDA on Nov. 4",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-portfolio-p-500-growth-110556098.html?.tsrc=rss"
+   "title": "Stock Market Today: Dow Slides 500 Points Ahead Of Jobs Report; Nvidia Stock Leads Tech Rebound (Live Coverage)",
+   "link": "https://finance.yahoo.com/m/259a2432-7041-3624-978f-9a7336f10b31/stock-market-today%3A-dow.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T11:05:46Z",
+   "published": "2026-11-06T13:01:21Z",
    "source": "Yahoo Finance",
-   "title": "Technology Select Sector SPDR (XLK) Adds Oracle, Trims Apple on Nov. 4",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/technology-select-sector-spdr-xlk-110546788.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:05:36Z",
-   "source": "Cointelegraph",
-   "title": "Greece approves 10% tax on crypto gains starting in 2027",
-   "link": "https://cointelegraph.com/news/greece-approves-10-tax-crypto-gains-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-06T11:05:29Z",
-   "source": "Yahoo Finance",
-   "title": "What iShares MSCI World ETF (URTH) Bought: Apple Leads on Wednesday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-msci-world-etf-urth-110529877.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:05:21Z",
-   "source": "Yahoo Finance",
-   "title": "Proshares Trust (TQQQ) Adds Apple and Nvidia on Nov. 4",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/proshares-trust-tqqq-adds-apple-110521279.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:05:13Z",
-   "source": "Yahoo Finance",
-   "title": "INVESCO QQQ (QQQ) Adds Apple and NVIDIA on Nov. 4",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-qqq-adds-apple-110513112.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:05:02Z",
-   "source": "Yahoo Finance",
-   "title": "iShares PHLX SOX Semi Sector Index Fund (SOXX) Adds AMD and NVDA on Wednesday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semi-sector-110502951.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:04:43Z",
-   "source": "Yahoo Finance",
-   "title": "What ProShares Ultra S&P500 2x Shares (SSO) Sold: Apple Leads on Nov. 4",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/proshares-ultra-p500-2x-shares-110443562.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:04:26Z",
-   "source": "Yahoo Finance",
-   "title": "What State Street SPDR Portfolio S&P 500 ETF (SPYM) Bought: Oracle Leads on Wednesday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-portfolio-p-110426479.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:04:15Z",
-   "source": "Yahoo Finance",
-   "title": "iShares Core S&P 500 (IVV) Buys $394.7 Million More Oracle on Nov. 4",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-core-p-500-ivv-110415526.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:04:12Z",
-   "source": "Yahoo Finance",
-   "title": "What SPDR S&P 500 ETF (SPY) Sold: Apple Leads on Wednesday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110412129.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:03:44Z",
-   "source": "Yahoo Finance",
-   "title": "ETFs Are Net Sellers of Williams (WMB) on Nov. 4",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-williams-wmb-110344609.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:03:37Z",
-   "source": "Yahoo Finance",
-   "title": "ETFs Are Net Sellers of General Dynamics (GD) on Nov. 4",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-general-dynamics-110337384.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:03:32Z",
-   "source": "Yahoo Finance",
-   "title": "ETFs Are Net Sellers of Marathon Petroleum (MPC) on Wednesday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-marathon-petroleum-110332611.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:03:28Z",
-   "source": "Yahoo Finance",
-   "title": "ETFs Are Net Sellers of ConocoPhillips (COP) on Nov. 4",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-conocophillips-cop-110328169.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T11:03:18Z",
-   "source": "Yahoo Finance",
-   "title": "ETFs Are Net Sellers of ServiceNow (NOW) on Wednesday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-servicenow-now-110318563.html?.tsrc=rss"
+   "title": "Dow Jones Futures Fall, AI Stocks Nvidia, Sandisk, CoreWeave, SpaceX Bounce; Tesla To End Cybertruck Production",
+   "link": "https://finance.yahoo.com/m/0cd2227b-7753-3d54-a8c5-286efe82ac39/dow-jones-futures-fall%2C-ai.html?.tsrc=rss"
   }
  ]
 }
