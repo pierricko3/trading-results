@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T20:50:45Z",
+ "generated_at": "2026-11-06T21:30:54Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.026,
+  "bench_pct": -0.0274,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,7 +16,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 75888.16,
+   "price": 75776.01,
    "trend": "baissière",
    "score": -0.191,
    "news_score": -0.25,
@@ -31,7 +31,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2232.57,
+   "price": 2227.95,
    "trend": "neutre",
    "score": 0.096,
    "news_score": 0.0,
@@ -46,7 +46,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 89.94,
+   "price": 89.89,
    "trend": "baissière",
    "score": -0.227,
    "news_score": -0.25,
@@ -60,7 +60,7 @@
   },
   {
    "symbol": "NVDA",
-   "price": 186.9499969482422,
+   "price": 186.67999267578125,
    "trend": "baissière",
    "score": -0.334,
    "news_score": -0.278,
@@ -71,18 +71,18 @@
   },
   {
    "symbol": "AAPL",
-   "price": 343.010009765625,
+   "price": 342.364990234375,
    "trend": "haussière",
-   "score": 0.232,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": 0.216,
+   "news_score": -0.25,
+   "news_conf": 0.12,
    "tech_score": 0.517,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "SPY",
-   "price": 736.27001953125,
+   "price": 735.3400268554688,
    "trend": "baissière",
    "score": -0.208,
    "news_score": -0.042,
@@ -290,6 +290,11 @@
    1793998240,
    100.0,
    97.4
+  ],
+  [
+   1794000649,
+   100.0,
+   97.26
   ]
  ],
  "last_directive": {
@@ -303,7 +308,7 @@
    "value": 28,
    "label": "Fear"
   },
-  "vix": 24.3
+  "vix": 25.64
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -427,6 +432,90 @@
  },
  "headlines": [
   {
+   "published": "2026-11-06T21:15:47Z",
+   "source": "CNBC",
+   "title": "OpenAI bugging suspect Alfozan pleads not guilty",
+   "link": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html"
+  },
+  {
+   "published": "2026-11-06T21:12:42Z",
+   "source": "Yahoo Finance",
+   "title": "Micron vs. Nvidia: Which AI Stock Is a Better Buy for 2027?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/micron-vs-nvidia-ai-stock-211242383.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T21:10:11Z",
+   "source": "Yahoo Finance",
+   "title": "5 Latest Jim Cramer Stock Picks on Twitter and Mad Money",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/5-latest-jim-cramer-stock-211011014.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T21:07:19Z",
+   "source": "Yahoo Finance",
+   "title": "Sandisk Stock Has Lost About 64% Since June. Here's the Price at Which I'd Buy It.",
+   "link": "https://www.fool.com/investing/2026/11/06/sandisk-stock-has-lost-about-64-since-june-here-s-the-price-at-which-i-d-buy-it/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T21:07:07Z",
+   "source": "CNBC",
+   "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+   "link": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html"
+  },
+  {
+   "published": "2026-11-06T21:06:03Z",
+   "source": "Decrypt",
+   "title": "Treasury Cuts Crypto Exchange MEXC Off From US Financial System",
+   "link": "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system"
+  },
+  {
+   "published": "2026-11-06T21:05:25Z",
+   "source": "Cointelegraph",
+   "title": "US Treasury cuts off MEXC over alleged $16B in illicit transactions",
+   "link": "https://cointelegraph.com/news/us-treasury-bans-mexc-over-alleged-16b-illicit-transactions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-06T21:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "Broadcom's AI Revenue Is Exploding. Here's What Investors Should Watch Next.",
+   "link": "https://www.fool.com/investing/2026/11/06/broadcoms-ai-revenue-is-exploding-heres-what-inves/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T21:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "TOKEN2049: Fundamentals Are Shaping Crypto Investing",
+   "link": "https://www.fool.com/investing/general/2026/11/06/token2049-fundamentals-are-shaping-crypto/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T21:03:14Z",
+   "source": "Yahoo Finance",
+   "title": "Stocks See Slight Rebound After Thursday's Rout But Remain Well Below Highs",
+   "link": "https://www.ibtimes.com/stocks-rebound-nasdaq-correction-jobs-report-3809523?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T20:53:13Z",
+   "source": "CNBC",
+   "title": "Sen. Chris Murphy released from hospital after stroke, will miss votes for 'several weeks' as he rehabs",
+   "link": "https://www.cnbc.com/2026/11/06/chris-murphy-stroke-hospital-senate.html"
+  },
+  {
+   "published": "2026-11-06T20:51:23Z",
+   "source": "Cointelegraph",
+   "title": "Gnosis Pay breach exposes card details, personal data and crypto wallet information",
+   "link": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-06T20:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "American Express Has Cut Its Share Count by 27% Since 2016. Here's What That Did for the Stock.",
+   "link": "https://www.fool.com/investing/2026/11/06/axp-cut-share-count-27-2016-what-it-did/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T20:47:18Z",
+   "source": "Yahoo Finance",
+   "title": "Why Gogo Stock Skyrocketed 68.7% On Friday",
+   "link": "https://www.fool.com/investing/2026/11/06/why-gogo-stock-skyrocketed-68-7-on-friday/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-06T20:42:28Z",
    "source": "CNBC",
    "title": "Nasdaq drops into correction territory — here’s what typically happens next",
@@ -437,6 +526,12 @@
    "source": "CNBC",
    "title": "Trump says Stephen Miller to replace Susie Wiles as White House chief of staff",
    "link": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html"
+  },
+  {
+   "published": "2026-11-06T20:40:00Z",
+   "source": "Yahoo Finance",
+   "title": "The Price of Solana Just Dropped Below $100. Time to Buy the Dip?",
+   "link": "https://www.fool.com/investing/2026/11/06/the-price-of-solana-just-dropped-below-100-time-to/?.tsrc=rss"
   },
   {
    "published": "2026-11-06T20:36:25Z",
@@ -451,16 +546,16 @@
    "link": "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi"
   },
   {
+   "published": "2026-11-06T20:36:03Z",
+   "source": "CNBC",
+   "title": "Here's a rapid-fire update on all 31 of our stocks, including 2 to buy now",
+   "link": "https://www.cnbc.com/investingclub/2026/11/06/heres-a-rapid-fire-update-on-our-31-stocks-including-2-to-buy-now.html"
+  },
+  {
    "published": "2026-11-06T20:35:00Z",
    "source": "Yahoo Finance",
    "title": "Here's How Many Shares of Procter & Gamble You'd Need for $1,000 in Yearly Dividends",
    "link": "https://www.fool.com/investing/2026/11/06/how-many-shares-procter-gamble-1k-dividends/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T20:30:32Z",
-   "source": "CNBC",
-   "title": "OpenAI bugging suspect Alfozan pleads not guilty",
-   "link": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html"
   },
   {
    "published": "2026-11-06T20:30:07Z",
@@ -515,96 +610,6 @@
    "source": "Cointelegraph",
    "title": "US 401(k) proposal leaves door open to altcoins, but hurdles remain",
    "link": "https://cointelegraph.com/news/us-401k-proposal-leaves-door-open-altcoins-hurdles?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-06T20:03:19Z",
-   "source": "Yahoo Finance",
-   "title": "Broadcom Is Still Down 22% in the Past Month: Is AVGO Stock Really on a Road to Recovery?",
-   "link": "https://247wallst.com/investing/2026/11/06/broadcom-is-still-down-22-in-the-past-month-is-avgo-stock-really-on-a-road-to-recovery/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:57:00Z",
-   "source": "Yahoo Finance",
-   "title": "The AI Crash Broke the Market. Here Are 3 Things That Decide What’s Next.",
-   "link": "https://finance.yahoo.com/m/ca4c3ede-280b-3770-8c3a-3472b5489769/the-ai-crash-broke-the.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:52:46Z",
-   "source": "CNBC",
-   "title": "Outside groups urge congressional Dems to target corporate interests over Trump",
-   "link": "https://www.cnbc.com/2026/11/06/democrats-corporate-oversight-trump.html"
-  },
-  {
-   "published": "2026-11-06T19:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "Dell vs. Nvidia: Chip Stocks Just Suffered Their Worst Sell-Off Since 2020. Which Is the Better Buy for 2027?",
-   "link": "https://www.fool.com/coverage/better-buy/2026/11/06/dell-vs-nvidia-chip-stocks-just-suffered-their-worst-sell-off-since-2020-which-is-the-better-buy-for-2027/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:50:00Z",
-   "source": "Yahoo Finance",
-   "title": "After the Midterm Rally, the Dow Is on Track to Beat the Nasdaq for the First Time Since 2022. Here's What History Says Could Come Next.",
-   "link": "https://www.fool.com/investing/2026/11/06/after-the-midterm-rally-the-dow-is-on-track-to-bea/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:50:00Z",
-   "source": "Yahoo Finance",
-   "title": "NuScale Power Has Lost 67% of Its Value in 2026. Is It Finally Time to Buy?",
-   "link": "https://www.fool.com/investing/2026/11/06/nuscale-power-has-lost-67-of-its-value-in-2026-is/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:49:38Z",
-   "source": "Yahoo Finance",
-   "title": "Why IonQ Stock Is Soaring Today",
-   "link": "https://www.fool.com/investing/2026/11/06/why-ionq-stock-is-soaring-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:48:17Z",
-   "source": "Yahoo Finance",
-   "title": "Update: Market Chatter: TSMC Mulls Expanding Into Advanced Memory Chip Production",
-   "link": "https://finance.yahoo.com/technology/articles/market-chatter-tsmc-mulls-expanding-194817754.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:46:03Z",
-   "source": "Decrypt",
-   "title": "Why a Hyperliquid Treasury Firm Wants to Become a US Futures Broker",
-   "link": "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker"
-  },
-  {
-   "published": "2026-11-06T19:44:33Z",
-   "source": "CNBC",
-   "title": "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
-   "link": "https://www.cnbc.com/2026/11/06/mississippi-senate-ty-pinkins-colom-hyde-smith.html"
-  },
-  {
-   "published": "2026-11-06T19:42:36Z",
-   "source": "CNBC",
-   "title": "Top House Oversight Democrat warns Trump family to 'lawyer up'",
-   "link": "https://www.cnbc.com/2026/11/06/robert-garcia-trump-congress-oversight-investigations.html"
-  },
-  {
-   "published": "2026-11-06T19:36:12Z",
-   "source": "CNBC",
-   "title": "Watch the Annual Meeting: Cramer on the fate of the AI buildout and stocks to buy now",
-   "link": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html"
-  },
-  {
-   "published": "2026-11-06T19:35:00Z",
-   "source": "Yahoo Finance",
-   "title": "3 Stocks Down More Than 30% From Their Record Highs to Buy in November",
-   "link": "https://www.fool.com/investing/2026/11/06/3-stocks-down-more-than-30-from-their-record-highs/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:34:42Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang Out of the World’s 10 Richest People as AI Selloff Hits Wall Street",
-   "link": "https://247wallst.com/investing/2026/11/06/jensen-huang-out-of-the-worlds-10-richest-people-as-ai-selloff-hits-wall-street/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:26:24Z",
-   "source": "Yahoo Finance",
-   "title": "Dan Ives: “20% of the World” Will Access AI Through an Apple Device",
-   "link": "https://www.tikr.com/blog/dan-ives-20-of-the-world-will-access-ai-through-an-apple-device?ref=yahoofinance&tlnk=yf-261106-pxjfqqvq&.tsrc=rss"
   }
  ]
 }
