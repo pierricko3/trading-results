@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T05:50:47Z",
+ "generated_at": "2026-11-06T08:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -16,45 +16,45 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 75730.0,
+   "price": 75585.96,
    "trend": "baissière",
-   "score": -0.172,
+   "score": -0.204,
    "news_score": 0.0,
    "news_conf": 0.6,
-   "tech_score": -0.383,
+   "tech_score": -0.453,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)",
     "Avalement baissier",
     "Marteau (rebond possible)"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2226.9,
+   "price": 2226.59,
    "trend": "neutre",
-   "score": -0.005,
+   "score": 0.098,
    "news_score": 0.0,
    "news_conf": 0.0,
-   "tech_score": -0.012,
+   "tech_score": 0.217,
    "in_position": false,
    "patterns": [
     "Avalement baissier",
-    "Doji (indécision)"
+    "Doji (indécision)",
+    "Marteau (rebond possible)"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 89.45,
+   "price": 89.64,
    "trend": "baissière",
-   "score": -0.24,
+   "score": -0.242,
    "news_score": 0.0,
    "news_conf": 0.0,
-   "tech_score": -0.533,
+   "tech_score": -0.538,
    "in_position": false,
    "patterns": [
-    "Avalement haussier",
     "Avalement baissier",
+    "Doji (indécision)",
     "Doji (indécision)"
    ]
   },
@@ -62,8 +62,8 @@
    "symbol": "NVDA",
    "price": 181.57000732421875,
    "trend": "baissière",
-   "score": -0.302,
-   "news_score": -0.033,
+   "score": -0.265,
+   "news_score": 0.1,
    "news_conf": 0.5,
    "tech_score": -0.65,
    "in_position": false,
@@ -73,8 +73,8 @@
    "symbol": "AAPL",
    "price": 344.30999755859375,
    "trend": "haussière",
-   "score": 0.232,
-   "news_score": 0.0,
+   "score": 0.185,
+   "news_score": -0.143,
    "news_conf": 0.6,
    "tech_score": 0.517,
    "in_position": false,
@@ -260,6 +260,11 @@
    1793944243,
    100.0,
    96.8
+  ],
+  [
+   1793952030,
+   100.0,
+   96.8
   ]
  ],
  "last_directive": {
@@ -277,10 +282,10 @@
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 2,
-  "pending": 9,
-  "hit_rate": 0.5,
-  "mean_signed": -0.018783497100662738,
+  "n": 4,
+  "pending": 7,
+  "hit_rate": 0.25,
+  "mean_signed": -0.028637361316345644,
   "enough": false,
   "min_sample": 20,
   "by_symbol": {
@@ -289,6 +294,10 @@
     "hit_rate": 1.0
    },
    "AAPL": {
+    "n": 2,
+    "hit_rate": 0.0
+   },
+   "BTC/USDT": {
     "n": 1,
     "hit_rate": 0.0
    }
@@ -389,16 +398,76 @@
  },
  "headlines": [
   {
-   "published": "2026-11-06T05:41:51Z",
+   "published": "2026-11-06T07:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "Inflation Just Hit 3.7%. History Says to Own Companies That Can Do This 1 Thing.",
+   "link": "https://www.fool.com/investing/2026/11/06/inflation-history-says-own-stocks-1-thing/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T07:32:26Z",
+   "source": "CNBC",
+   "title": "The 'World's Best Airline' is updating its business and first-class experience",
+   "link": "https://www.cnbc.com/2026/11/06/singapore-airlines-new-first-business-class-a350-starlink.html"
+  },
+  {
+   "published": "2026-11-06T07:23:02Z",
+   "source": "CNBC",
+   "title": "Equinix points to smaller facilities as scrutiny of U.S. data center construction grows",
+   "link": "https://www.cnbc.com/2026/11/06/equinix-us-data-center-growth-asia.html"
+  },
+  {
+   "published": "2026-11-06T07:17:56Z",
+   "source": "Yahoo Finance",
+   "title": "Beijing seeks to bolster AI shares",
+   "link": "https://finance.yahoo.com/technology/ai/articles/beijing-seeks-bolster-ai-shares-071756887.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T06:54:34Z",
+   "source": "Cointelegraph",
+   "title": "Chainalysis says breach exposed password hashes and live tokens",
+   "link": "https://cointelegraph.com/news/chainalysis-cyberattack-password-hashes-live-tokens-exposed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-06T06:27:02Z",
+   "source": "Yahoo Finance",
+   "title": "Nasdaq Stock Market Correction: 3 Words From Warren Buffett To Remember RIght Now",
+   "link": "https://www.fool.com/investing/2026/11/06/nasdaq-stock-market-correction-three-words-from-warren-buffett-to-remember-now/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T06:13:02Z",
+   "source": "Yahoo Finance",
+   "title": "Micron Stock Has Lost Over 40% Since Its June Record. I'd Still Buy It.",
+   "link": "https://www.fool.com/investing/2026/11/06/micron-stock-has-lost-over-40-since-its-june-record-i-d-still-buy-it/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T06:04:41Z",
+   "source": "Cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-06T06:02:36Z",
    "source": "CNBC",
    "title": "India as an AI hedge? The country's stocks could see robust inflows as markets globally tank",
    "link": "https://www.cnbc.com/2026/11/06/india-ai-tech-hedge-nifty50.html"
   },
   {
-   "published": "2026-11-06T05:36:10Z",
-   "source": "CNBC",
-   "title": "The world's best airline is updating its business and first-class experience",
-   "link": "https://www.cnbc.com/2026/11/06/singapore-airlines-new-first-business-class-a350-starlink.html"
+   "published": "2026-11-06T06:01:00Z",
+   "source": "Yahoo Finance",
+   "title": "Physical AI Empowers Smart Mobility: LUXEED Builds a New Full-Scenario Intelligent Ecosystem",
+   "link": "https://finance.yahoo.com/technology/ai/articles/physical-ai-empowers-smart-mobility-060100011.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T05:56:08Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/62966566/stock-market-will-sp-500-open-up-or-down-today-74?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T05:55:17Z",
+   "source": "Yahoo Finance",
+   "title": "AOI Sales Up 127%, Gross Margin Stuck at 28%: Rapid Earnings Reaction",
+   "link": "https://www.fool.com/investing/2026/11/06/aoi-sales-up-127-gross-margin-stuck-at-28-rapid-earnings-reaction/?.tsrc=rss"
   },
   {
    "published": "2026-11-06T05:27:24Z",
@@ -507,66 +576,6 @@
    "source": "Yahoo Finance",
    "title": "The 2027 Tax Brackets Are Worth $384,000 to a 61-Year-Old With $35 Million. Here’s Why.",
    "link": "https://247wallst.com/investing/2026/11/05/the-2027-tax-brackets-are-worth-384000-to-a-61-year-old-with-35-million-heres-why/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T01:38:07Z",
-   "source": "Yahoo Finance",
-   "title": "U.S. stock futures rise after AI rout batters Wall St; payrolls data in focus",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-rise-ai-013807565.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T01:30:00Z",
-   "source": "CoinDesk",
-   "title": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
-   "link": "https://www.coindesk.com/tech/2026/11/05/bitcoin-developer-proposes-landmines-to-make-quantum-thieves-lose-their-own-btc"
-  },
-  {
-   "published": "2026-11-06T01:21:08Z",
-   "source": "CNBC",
-   "title": "IRS announces new federal income tax brackets for 2027",
-   "link": "https://www.cnbc.com/2026/11/05/2027-federal-tax-brackets.html"
-  },
-  {
-   "published": "2026-11-06T01:20:00Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: This Is How Much XRP Will Be Worth by the End of 2030",
-   "link": "https://www.fool.com/investing/2026/11/05/prediction-this-is-how-much-xrp-will-be-worth-by-t/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T01:15:00Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: This Will Be SpaceX's Stock Price by the End of 2029",
-   "link": "https://www.fool.com/investing/2026/11/05/prediction-this-will-be-spacexs-stock-price-by-the/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T01:11:24Z",
-   "source": "Yahoo Finance",
-   "title": "Chatham Lodging Trust (CLDT) (Q3 2026) Earnings Call Highlights: Silicon Valley Surge Drives ...",
-   "link": "https://finance.yahoo.com/real-estate/articles/chatham-lodging-trust-cldt-q3-011124012.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T01:10:02Z",
-   "source": "Yahoo Finance",
-   "title": "The Nasdaq Composite Just Shattered Its Single-Session Point-Loss Record: 3 Reasons These Elevator-Down Moves May Be Just Beginning",
-   "link": "https://www.fool.com/investing/2026/11/05/nasdaq-composite-shattered-single-session-point-loss-record-3-reasons-elevator-down-moves-just-beginning/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T01:00:30Z",
-   "source": "Yahoo Finance",
-   "title": "S&P 500, Nasdaq, Dow Futures Dip As Investors Step Back From AI And Tech With Nasdaq In Correction Territory — NVDA, AAPL, UBER, SOXX In Focus",
-   "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-futures-dip-as-investors-step-back-from-ai-and-tech-with-nasdaq-in-correction-territory-nvda-aapl-uber-soxx-in-focus/cNGlIylR94A?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T01:00:10Z",
-   "source": "CNBC",
-   "title": "IRS unveils higher capital gains tax brackets for 2027",
-   "link": "https://www.cnbc.com/2026/11/05/capital-gains-tax-2027-federal.html"
-  },
-  {
-   "published": "2026-11-06T00:50:01Z",
-   "source": "Yahoo Finance",
-   "title": "Is Appian a Buy After Its Latest Earnings Report?",
-   "link": "https://www.fool.com/investing/2026/11/05/is-appian-a-buy-after-its-latest-earnings-report/?.tsrc=rss"
   }
  ]
 }
