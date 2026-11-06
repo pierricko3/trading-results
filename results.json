@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T00:00:34Z",
+ "generated_at": "2026-11-06T04:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0304,
+  "bench_pct": -0.0306,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,40 +16,41 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 76076.97,
+   "price": 75874.0,
    "trend": "baissière",
-   "score": -0.296,
-   "news_score": -0.4,
+   "score": -0.255,
+   "news_score": -0.25,
    "news_conf": 0.6,
-   "tech_score": -0.364,
+   "tech_score": -0.383,
    "in_position": false,
    "patterns": [
-    "Avalement baissier",
     "Doji (indécision)",
-    "Avalement baissier"
+    "Avalement baissier",
+    "Marteau (rebond possible)"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2238.9,
+   "price": 2234.69,
    "trend": "neutre",
-   "score": -0.108,
+   "score": -0.071,
    "news_score": -0.5,
    "news_conf": 0.24,
-   "tech_score": -0.093,
+   "tech_score": -0.012,
    "in_position": false,
    "patterns": [
-    "Avalement baissier"
+    "Avalement baissier",
+    "Doji (indécision)"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 89.39,
+   "price": 89.73,
    "trend": "baissière",
-   "score": -0.353,
+   "score": -0.306,
    "news_score": -0.5,
    "news_conf": 0.24,
-   "tech_score": -0.638,
+   "tech_score": -0.533,
    "in_position": false,
    "patterns": [
     "Avalement haussier",
@@ -61,9 +62,9 @@
    "symbol": "NVDA",
    "price": 181.57000732421875,
    "trend": "baissière",
-   "score": -0.443,
-   "news_score": -0.642,
-   "news_conf": 0.425,
+   "score": -0.367,
+   "news_score": -0.266,
+   "news_conf": 0.508,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -72,8 +73,8 @@
    "symbol": "AAPL",
    "price": 344.30999755859375,
    "trend": "haussière",
-   "score": 0.092,
-   "news_score": -0.51,
+   "score": 0.145,
+   "news_score": -0.319,
    "news_conf": 0.5,
    "tech_score": 0.517,
    "in_position": false,
@@ -249,6 +250,11 @@
    1793923230,
    100.0,
    96.96
+  ],
+  [
+   1793937630,
+   100.0,
+   96.94
   ]
  ],
  "last_directive": {
@@ -378,52 +384,160 @@
  },
  "headlines": [
   {
-   "published": "2026-11-05T23:54:44Z",
+   "published": "2026-11-06T03:50:15Z",
    "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Fall; Nasdaq Dives 5.5%, Nvidia, Sandisk, CoreWeave, SpaceX Plunge, But Sell-Off Spreads Beyond AI",
-   "link": "https://finance.yahoo.com/m/0cd2227b-7753-3d54-a8c5-286efe82ac39/dow-jones-futures-fall%3B.html?.tsrc=rss"
+   "title": "Why Warby Parker Stock Popped Today",
+   "link": "https://www.fool.com/investing/2026/11/05/why-warby-parker-stock-popped-today/?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T23:52:15Z",
+   "published": "2026-11-06T03:46:57Z",
    "source": "Yahoo Finance",
-   "title": "Amylyx Pharmaceuticals, Inc. Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-amylyx-pharmaceuticals-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
+   "title": "Dow Jones Futures Fall, Techs Rise After Nasdaq Dives 5.5%; Nvidia, Sandisk, CoreWeave, SpaceX Plunge",
+   "link": "https://finance.yahoo.com/m/0cd2227b-7753-3d54-a8c5-286efe82ac39/dow-jones-futures-fall%2C-techs.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-05T23:49:18Z",
-   "source": "Yahoo Finance",
-   "title": "Evolent Health, Inc. Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-evolent-health-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:45:32Z",
-   "source": "Yahoo Finance",
-   "title": "Duke Energy Corporation Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-duke-energy-corporation-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:45:31Z",
-   "source": "Yahoo Finance",
-   "title": "The Middleby Corporation Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-the-middleby-corporation-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:45:29Z",
-   "source": "Yahoo Finance",
-   "title": "Frontdoor, Inc. Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-frontdoor-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:43:56Z",
-   "source": "Yahoo Finance",
-   "title": "Haemonetics Corporation Q2 2027 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-haemonetics-corporation-q2-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:40:00Z",
+   "published": "2026-11-06T03:20:43Z",
    "source": "CNBC",
-   "title": "Mississippi Senate election: Democrat Scott Colom narrowly leads Republican Cindy Hyde-Smith",
+   "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
+   "link": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html"
+  },
+  {
+   "published": "2026-11-06T03:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "The Nasdaq Plunges 5%. What the Data Center Crash Means for Investors",
+   "link": "https://www.fool.com/investing/2026/11/05/the-nasdaq-plunges-5-what-the-data-center-crash-means-for-investors/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T02:58:02Z",
+   "source": "CNBC",
+   "title": "Mississippi Senate: Colom, Hyde-Smith gird for ballot legal fight in razor-thin race",
    "link": "https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html"
+  },
+  {
+   "published": "2026-11-06T02:54:01Z",
+   "source": "Yahoo Finance",
+   "title": "Rocket Lab Stock Has Lost About 70% From Its Record. Is It Finally a Buy?",
+   "link": "https://www.fool.com/investing/2026/11/05/rocket-lab-stock-has-lost-about-70-from-its-record-is-it-finally-a-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T02:40:15Z",
+   "source": "CNBC",
+   "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+   "link": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"
+  },
+  {
+   "published": "2026-11-06T02:24:23Z",
+   "source": "CoinDesk",
+   "title": "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform",
+   "link": "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform"
+  },
+  {
+   "published": "2026-11-06T02:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Should You Buy Nvidia Stock Before Nov. 17?",
+   "link": "https://www.fool.com/investing/2026/11/05/should-you-buy-nvidia-stock-before-nov-17/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T02:06:18Z",
+   "source": "Yahoo Finance",
+   "title": "The 2027 Tax Brackets Are Worth $384,000 to a 61-Year-Old With $35 Million. Here’s Why.",
+   "link": "https://247wallst.com/investing/2026/11/05/the-2027-tax-brackets-are-worth-384000-to-a-61-year-old-with-35-million-heres-why/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T01:38:07Z",
+   "source": "Yahoo Finance",
+   "title": "U.S. stock futures rise after AI rout batters Wall St; payrolls data in focus",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-rise-ai-013807565.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T01:30:00Z",
+   "source": "CoinDesk",
+   "title": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
+   "link": "https://www.coindesk.com/tech/2026/11/05/bitcoin-developer-proposes-landmines-to-make-quantum-thieves-lose-their-own-btc"
+  },
+  {
+   "published": "2026-11-06T01:21:08Z",
+   "source": "CNBC",
+   "title": "IRS announces new federal income tax brackets for 2027",
+   "link": "https://www.cnbc.com/2026/11/05/2027-federal-tax-brackets.html"
+  },
+  {
+   "published": "2026-11-06T01:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Prediction: This Is How Much XRP Will Be Worth by the End of 2030",
+   "link": "https://www.fool.com/investing/2026/11/05/prediction-this-is-how-much-xrp-will-be-worth-by-t/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T01:15:00Z",
+   "source": "Yahoo Finance",
+   "title": "Prediction: This Will Be SpaceX's Stock Price by the End of 2029",
+   "link": "https://www.fool.com/investing/2026/11/05/prediction-this-will-be-spacexs-stock-price-by-the/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T01:11:24Z",
+   "source": "Yahoo Finance",
+   "title": "Chatham Lodging Trust (CLDT) (Q3 2026) Earnings Call Highlights: Silicon Valley Surge Drives ...",
+   "link": "https://finance.yahoo.com/real-estate/articles/chatham-lodging-trust-cldt-q3-011124012.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T01:10:02Z",
+   "source": "Yahoo Finance",
+   "title": "The Nasdaq Composite Just Shattered Its Single-Session Point-Loss Record: 3 Reasons These Elevator-Down Moves May Be Just Beginning",
+   "link": "https://www.fool.com/investing/2026/11/05/nasdaq-composite-shattered-single-session-point-loss-record-3-reasons-elevator-down-moves-just-beginning/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T01:00:30Z",
+   "source": "Yahoo Finance",
+   "title": "S&P 500, Nasdaq, Dow Futures Dip As Investors Step Back From AI And Tech With Nasdaq In Correction Territory — NVDA, AAPL, UBER, SOXX In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-futures-dip-as-investors-step-back-from-ai-and-tech-with-nasdaq-in-correction-territory-nvda-aapl-uber-soxx-in-focus/cNGlIylR94A?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T01:00:10Z",
+   "source": "CNBC",
+   "title": "IRS unveils higher capital gains tax brackets for 2027",
+   "link": "https://www.cnbc.com/2026/11/05/capital-gains-tax-2027-federal.html"
+  },
+  {
+   "published": "2026-11-06T00:50:01Z",
+   "source": "Yahoo Finance",
+   "title": "Is Appian a Buy After Its Latest Earnings Report?",
+   "link": "https://www.fool.com/investing/2026/11/05/is-appian-a-buy-after-its-latest-earnings-report/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T00:45:56Z",
+   "source": "Yahoo Finance",
+   "title": "Why Krispy Kreme Stock Crushed It Today",
+   "link": "https://www.fool.com/investing/2026/11/05/why-krispy-kreme-stock-crushed-it-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T00:19:49Z",
+   "source": "Cointelegraph",
+   "title": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
+   "link": "https://cointelegraph.com/news/core-scientific-to-quit-bitcoin-mining-by-year-end-as-ai-business-surges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-06T00:14:32Z",
+   "source": "Yahoo Finance",
+   "title": "Box Unveils AI Agent Tools and NVIDIA Partnership at BoxWorks 2026",
+   "link": "https://www.marketbeat.com/instant-alerts/event-box-unveils-ai-agent-tools-and-nvidia-partnership-at-boxworks-2026-2026-11-05/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T00:09:51Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Stock Just Crashed 22%. Jim Cramer Says It’s the Cheapest in a Decade",
+   "link": "https://247wallst.com/investing/2026/11/05/nvidia-stock-just-crashed-22-jim-cramer-says-its-the-cheapest-in-a-decade/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T00:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "Palantir Is Down 16% From Its High. History Suggests This Is What Happens Next.",
+   "link": "https://www.fool.com/investing/2026/11/05/palantir-is-down-16-from-its-high-history-suggests/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-05T23:56:24Z",
+   "source": "CNBC",
+   "title": "Costco is taking aim at its May record high — how it got here and where's it going",
+   "link": "https://www.cnbc.com/investingclub/2026/11/05/costco-is-taking-aim-at-its-may-record-high-how-it-got-here-and-wheres-going.html"
   },
   {
    "published": "2026-11-05T23:39:32Z",
@@ -432,130 +546,22 @@
    "link": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html"
   },
   {
-   "published": "2026-11-05T23:36:13Z",
-   "source": "Yahoo Finance",
-   "title": "ConocoPhillips Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-conocophillips-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:33:58Z",
-   "source": "Yahoo Finance",
-   "title": "Ralph Lauren Corporation Q2 2027 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-ralph-lauren-corporation-q2-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:33:01Z",
-   "source": "Yahoo Finance",
-   "title": "What Tom Gardner Said About Days Like This",
-   "link": "https://www.fool.com/investing/2026/11/05/what-tom-gardner-said-about-days-like-this/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:28:11Z",
-   "source": "Yahoo Finance",
-   "title": "Collegium Pharmaceutical, Inc. Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-collegium-pharmaceutical-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:26:34Z",
-   "source": "Yahoo Finance",
-   "title": "BKV Corporation Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-bkv-corporation-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:25:32Z",
-   "source": "Yahoo Finance",
-   "title": "Cognition Therapeutics, Inc. Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-cognition-therapeutics-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
    "published": "2026-11-05T23:25:02Z",
    "source": "CNBC",
    "title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
    "link": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html"
   },
   {
-   "published": "2026-11-05T23:24:23Z",
-   "source": "Yahoo Finance",
-   "title": "Six Flags Entertainment Corporation Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-six-flags-entertainment-corporation-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:23:31Z",
-   "source": "Yahoo Finance",
-   "title": "Why Ecovyst Stock Topped the Market Today",
-   "link": "https://www.fool.com/investing/2026/11/05/why-ecovyst-stock-topped-the-market-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:23:30Z",
-   "source": "Yahoo Finance",
-   "title": "Himax Blames 'Abrupt and Significant Correction' in Auto Chip Demand as Stock Crashes Nearly 30%. Is Now the Time to Buy?",
-   "link": "https://www.fool.com/investing/2026/11/05/himax-blames-abrupt-and-significant-correction-in-auto-chip-demand-as-stock-crashes-nearly-30-is-now-the-time-to-buy/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:22:35Z",
-   "source": "Yahoo Finance",
-   "title": "Celsius Holdings, Inc. Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-celsius-holdings-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:21:54Z",
-   "source": "Yahoo Finance",
-   "title": "FS KKR Capital Corp. Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-fs-kkr-capital-corp-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:20:39Z",
-   "source": "Yahoo Finance",
-   "title": "DXP Enterprises, Inc. Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-dxp-enterprises-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T23:20:35Z",
-   "source": "Yahoo Finance",
-   "title": "Krispy Kreme, Inc. Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-krispy-kreme-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
+   "published": "2026-11-05T23:17:51Z",
+   "source": "CNBC",
+   "title": "Jim Cramer says the AI sell-off isn't over, but it isn't another dot-com crash",
+   "link": "https://www.cnbc.com/2026/11/05/jim-cramer-ai-stocks-sell-off.html"
   },
   {
    "published": "2026-11-05T23:06:02Z",
    "source": "Decrypt",
    "title": "Claude Gets Personal Finance—Anthony Pompliano Accuses Anthropic of Copying His Startup",
    "link": "https://decrypt.co/382689/claude-personal-finance-anthony-pompliano-anthropic"
-  },
-  {
-   "published": "2026-11-05T23:03:41Z",
-   "source": "Cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-05T23:02:14Z",
-   "source": "CNBC",
-   "title": "Blue Origin pushes launch to January 2027 as it races to rebuild damaged launchpad",
-   "link": "https://www.cnbc.com/2026/11/05/blue-origin-launch-new-glenn.html"
-  },
-  {
-   "published": "2026-11-05T22:53:24Z",
-   "source": "Yahoo Finance",
-   "title": "Berkshire After Buffett: Steady Hands, Big Bets In The Greg Abel Era",
-   "link": "https://finance.yahoo.com/m/6d694ac8-80af-35c3-ba67-7647c94d58da/berkshire-after-buffett%3A.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-05T22:43:18Z",
-   "source": "Cointelegraph",
-   "title": "American Bitcoin’s $126M profit masks mining pressure as rivals turn to AI",
-   "link": "https://cointelegraph.com/news/american-bitcoins-126m-profit-masks-mining-pressure-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-05T22:31:13Z",
-   "source": "CNBC",
-   "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
-   "link": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html"
-  },
-  {
-   "published": "2026-11-05T22:31:03Z",
-   "source": "CNBC",
-   "title": "Here's where we stand on Kimberly-Clark shares after a better-than-feared quarter",
-   "link": "https://www.cnbc.com/investingclub/2026/11/05/heres-where-we-stand-on-kimberly-clark-shares-after-a-better-than-feared-quarter.html"
   }
  ]
 }
