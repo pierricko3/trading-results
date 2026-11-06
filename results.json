@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T20:00:34Z",
+ "generated_at": "2026-11-06T20:50:45Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0234,
+  "bench_pct": -0.026,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,11 +16,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 75910.01,
+   "price": 75888.16,
    "trend": "baissière",
-   "score": -0.141,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": -0.191,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": -0.314,
    "in_position": false,
    "patterns": [
@@ -31,11 +31,11 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2235.96,
+   "price": 2232.57,
    "trend": "neutre",
-   "score": 0.112,
-   "news_score": 0.25,
-   "news_conf": 0.12,
+   "score": 0.096,
+   "news_score": 0.0,
+   "news_conf": 0.24,
    "tech_score": 0.213,
    "in_position": false,
    "patterns": [
@@ -46,11 +46,11 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 90.25,
+   "price": 89.94,
    "trend": "baissière",
-   "score": -0.211,
-   "news_score": 0.0,
-   "news_conf": 0.0,
+   "score": -0.227,
+   "news_score": -0.25,
+   "news_conf": 0.12,
    "tech_score": -0.468,
    "in_position": false,
    "patterns": [
@@ -60,33 +60,33 @@
   },
   {
    "symbol": "NVDA",
-   "price": 188.3350067138672,
+   "price": 186.9499969482422,
    "trend": "baissière",
-   "score": -0.187,
-   "news_score": 0.383,
-   "news_conf": 0.5,
+   "score": -0.334,
+   "news_score": -0.278,
+   "news_conf": 0.273,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "AAPL",
-   "price": 343.3800048828125,
+   "price": 343.010009765625,
    "trend": "haussière",
-   "score": 0.249,
-   "news_score": 0.25,
-   "news_conf": 0.12,
+   "score": 0.232,
+   "news_score": 0.0,
+   "news_conf": 0.24,
    "tech_score": 0.517,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "SPY",
-   "price": 738.2000122070312,
+   "price": 736.27001953125,
    "trend": "baissière",
-   "score": -0.183,
-   "news_score": 0.077,
-   "news_conf": 0.355,
+   "score": -0.208,
+   "news_score": -0.042,
+   "news_conf": 0.425,
    "tech_score": -0.439,
    "in_position": false,
    "patterns": [
@@ -285,40 +285,49 @@
    1793995230,
    100.0,
    97.66
+  ],
+  [
+   1793998240,
+   100.0,
+   97.4
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 2,
-  "text": "2 sources : Yahoo Finance, CNBC (06/11) — Nasdaq -5,5 % la veille, puces asiatiques écrasées (SK Hynix -11,7 %), mais futures Nasdaq repartis à la hausse. Signaux contradictoires : pas de risk_off, le bot mesure le VIX. — Contexte : Nasdaq -5,5 % le 5/11 (Yahoo Finance), puces asiatiques en chute (S",
-  "received_at": "2026-11-06T13:50:43Z"
+  "text": "2 sources : Yahoo Finance, CNBC (06/11) — pire repli des puces depuis 2020, mais emploi US solide et Dow devant le Nasdaq. Signaux mitigés : pas de risk_off, le bot mesure le VIX. — Contexte : pire repli des valeurs de puces depuis 2020 (Yahoo Finance) ; le Dow devrait battre le Nasdaq pour la premi",
+  "received_at": "2026-11-06T20:50:40Z"
  },
  "indicators": {
   "fear_greed": {
    "value": 28,
    "label": "Fear"
   },
-  "vix": 24.63
+  "vix": 24.3
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 6,
-  "pending": 6,
-  "hit_rate": 0.16666666666666666,
-  "mean_signed": -0.029702328565402225,
+  "n": 9,
+  "pending": 5,
+  "hit_rate": 0.2222222222222222,
+  "mean_signed": -0.02204319755576076,
   "enough": false,
   "min_sample": 20,
   "by_symbol": {
    "SPY": {
-    "n": 1,
-    "hit_rate": 1.0
+    "n": 2,
+    "hit_rate": 0.5
    },
    "AAPL": {
-    "n": 3,
-    "hit_rate": 0.0
+    "n": 4,
+    "hit_rate": 0.25
    },
    "BTC/USDT": {
     "n": 2,
+    "hit_rate": 0.0
+   },
+   "NVDA": {
+    "n": 1,
     "hit_rate": 0.0
    }
   }
@@ -418,16 +427,106 @@
  },
  "headlines": [
   {
-   "published": "2026-11-06T19:58:29Z",
+   "published": "2026-11-06T20:42:28Z",
+   "source": "CNBC",
+   "title": "Nasdaq drops into correction territory — here’s what typically happens next",
+   "link": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html"
+  },
+  {
+   "published": "2026-11-06T20:42:07Z",
+   "source": "CNBC",
+   "title": "Trump says Stephen Miller to replace Susie Wiles as White House chief of staff",
+   "link": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html"
+  },
+  {
+   "published": "2026-11-06T20:36:25Z",
+   "source": "Cointelegraph",
+   "title": "Binance hack is ‘cyber war,’ TRM Labs executive says",
+   "link": "https://cointelegraph.com/interview/trm-labs-binance-hack-interview?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-06T20:36:03Z",
+   "source": "Decrypt",
+   "title": "Greece Passes Crypto Tax Law With 10% Gains Levy, 15% on Staking and DeFi",
+   "link": "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi"
+  },
+  {
+   "published": "2026-11-06T20:35:00Z",
+   "source": "Yahoo Finance",
+   "title": "Here's How Many Shares of Procter & Gamble You'd Need for $1,000 in Yearly Dividends",
+   "link": "https://www.fool.com/investing/2026/11/06/how-many-shares-procter-gamble-1k-dividends/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T20:30:32Z",
    "source": "CNBC",
    "title": "OpenAI bugging suspect Alfozan pleads not guilty",
    "link": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html"
   },
   {
-   "published": "2026-11-06T19:58:28Z",
+   "published": "2026-11-06T20:30:07Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Is Reportedly Pouring Billions Into AI's Next Big Bottleneck: Advanced Chip Packaging",
+   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63010319/nvidia-chip-packaging?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T20:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Amazon's CEO Andy Jassy Just Announced Huge News for Amazon Investors",
+   "link": "https://www.fool.com/investing/2026/11/06/amazons-ceo-andy-jassy-just-announced-huge-news/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T20:19:32Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market Today: Nasdaq Bounces After Jobs Report; Moderna Races Higher (Live Coverage)",
+   "link": "https://finance.yahoo.com/m/259a2432-7041-3624-978f-9a7336f10b31/stock-market-today%3A-nasdaq.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T20:11:17Z",
    "source": "CNBC",
-   "title": "Trump says Stephen Miller to replace Susie Wiles as White House chief of staff",
-   "link": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html"
+   "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
+   "link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html"
+  },
+  {
+   "published": "2026-11-06T20:09:18Z",
+   "source": "CoinDesk",
+   "title": "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+   "link": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch"
+  },
+  {
+   "published": "2026-11-06T20:07:20Z",
+   "source": "Yahoo Finance",
+   "title": "IREN CEO: Old Nvidia H100s Just Recontracted at “Double the Original Contract Price”",
+   "link": "https://www.tikr.com/blog/iren-ceo-old-nvidia-h100s-just-recontracted-at-double-the-original-contract-price?ref=yahoofinance&tlnk=yf-261106-j3qqpw48&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T20:07:18Z",
+   "source": "Yahoo Finance",
+   "title": "5 Companies Buying Back Their Own Stock Hand Over Fist As the Stock Market Sells Off",
+   "link": "https://www.fool.com/investing/2026/11/06/5-companies-buying-back-their-own-stock-hand-over-fist-as-the-stock-market-sells-off/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T20:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "SK Hynix Just Announced Huge News for Micron Shareholders",
+   "link": "https://www.fool.com/investing/2026/11/06/sk-hynix-just-announced-huge-news-for-micron-share/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T20:04:27Z",
+   "source": "Cointelegraph",
+   "title": "US 401(k) proposal leaves door open to altcoins, but hurdles remain",
+   "link": "https://cointelegraph.com/news/us-401k-proposal-leaves-door-open-altcoins-hurdles?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-06T20:03:19Z",
+   "source": "Yahoo Finance",
+   "title": "Broadcom Is Still Down 22% in the Past Month: Is AVGO Stock Really on a Road to Recovery?",
+   "link": "https://247wallst.com/investing/2026/11/06/broadcom-is-still-down-22-in-the-past-month-is-avgo-stock-really-on-a-road-to-recovery/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-06T19:57:00Z",
+   "source": "Yahoo Finance",
+   "title": "The AI Crash Broke the Market. Here Are 3 Things That Decide What’s Next.",
+   "link": "https://finance.yahoo.com/m/ca4c3ede-280b-3770-8c3a-3472b5489769/the-ai-crash-broke-the.html?.tsrc=rss"
   },
   {
    "published": "2026-11-06T19:52:46Z",
@@ -458,12 +557,6 @@
    "source": "Yahoo Finance",
    "title": "Why IonQ Stock Is Soaring Today",
    "link": "https://www.fool.com/investing/2026/11/06/why-ionq-stock-is-soaring-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:49:09Z",
-   "source": "CNBC",
-   "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
-   "link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html"
   },
   {
    "published": "2026-11-06T19:48:17Z",
@@ -508,94 +601,10 @@
    "link": "https://247wallst.com/investing/2026/11/06/jensen-huang-out-of-the-worlds-10-richest-people-as-ai-selloff-hits-wall-street/?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T19:27:27Z",
-   "source": "Yahoo Finance",
-   "title": "Arm CEO Sees Data Center Royalties “Growing Triple Digits” as Phone Royalties Stall",
-   "link": "https://www.tikr.com/blog/arm-ceo-sees-data-center-royalties-growing-triple-digits-as-phone-royalties-stall?ref=yahoofinance&tlnk=yf-261106-xprc4x3x&.tsrc=rss"
-  },
-  {
    "published": "2026-11-06T19:26:24Z",
    "source": "Yahoo Finance",
    "title": "Dan Ives: “20% of the World” Will Access AI Through an Apple Device",
    "link": "https://www.tikr.com/blog/dan-ives-20-of-the-world-will-access-ai-through-an-apple-device?ref=yahoofinance&tlnk=yf-261106-pxjfqqvq&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:20:00Z",
-   "source": "Yahoo Finance",
-   "title": "Texas Gov.-Elect Gina Hinojosa Just Delivered Fantastic News for SpaceX Investors",
-   "link": "https://www.fool.com/investing/2026/11/06/texas-gov-elect-gina-hinojosa-just-delivered-fanta/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:20:00Z",
-   "source": "Yahoo Finance",
-   "title": "Not Alphabet. Not Meta. This Is the Digital Advertising Stock I'd Buy Right Now.",
-   "link": "https://www.fool.com/investing/2026/11/06/not-alphabet-not-meta-this-is-the-digital-ad-stock/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:18:19Z",
-   "source": "Yahoo Finance",
-   "title": "Investing.com’s stocks of the week",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/investing-com-stocks-week-191819455.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:18:01Z",
-   "source": "Yahoo Finance",
-   "title": "Why SpaceX Stock Is Up Today",
-   "link": "https://www.fool.com/investing/2026/11/06/why-spacex-stock-is-up-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:17:35Z",
-   "source": "Yahoo Finance",
-   "title": "If You Invested $1,000 in PepsiCo 10 Years Ago, Here’s What You’d Have Now",
-   "link": "https://247wallst.com/investing/2026/11/06/if-you-invested-1000-in-pepsico-10-years-ago-heres-what-youd-have-now/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:16:03Z",
-   "source": "Decrypt",
-   "title": "Paraguay Protests Over Bank Lockout Intensify as Impeachment Vote Nears",
-   "link": "https://decrypt.co/382740/paraguay-protests-bitcoin-impeachment-vote-nears"
-  },
-  {
-   "published": "2026-11-06T19:15:00Z",
-   "source": "Yahoo Finance",
-   "title": "Sandisk Stock is Falling Sharply. Here's the Price at Which I'd Buy.",
-   "link": "https://www.fool.com/investing/2026/11/06/sandisk-stock-is-falling-sharply-heres-the-price-a/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:14:05Z",
-   "source": "Yahoo Finance",
-   "title": "Oracle Faces Major Wall Street Test After AI Selloff",
-   "link": "https://finance.yahoo.com/technology/ai/articles/oracle-faces-major-wall-street-191405948.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:09:56Z",
-   "source": "CNBC",
-   "title": "Fake job interview scams like the one that hit Binance are getting more sophisticated. Here are the new signs to watch for",
-   "link": "https://www.cnbc.com/make-it/2026/11/06/binance-hack-fake-job-interview-scams.html"
-  },
-  {
-   "published": "2026-11-06T19:09:14Z",
-   "source": "Yahoo Finance",
-   "title": "Tencent Stocks Slip 2.46% After Hunyuan AI Rally as Hong Kong Tech Cools",
-   "link": "https://finance.yahoo.com/technology/ai/articles/tencent-stocks-slip-2-46-190914519.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:05:00Z",
-   "source": "CNBC",
-   "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
-   "link": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
-  },
-  {
-   "published": "2026-11-06T19:05:00Z",
-   "source": "Yahoo Finance",
-   "title": "A Recession Is Coming Eventually. Here's Warren Buffett's Best Investing Advice.",
-   "link": "https://www.fool.com/investing/2026/11/06/recession-coming-eventually-heres-warren-buffett/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T19:00:28Z",
-   "source": "Yahoo Finance",
-   "title": "Telephone and Data Systems, Inc. Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-telephone-and-data-systems-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
   }
  ]
 }
