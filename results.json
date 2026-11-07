@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T08:00:34Z",
+ "generated_at": "2026-11-07T12:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0246,
+  "bench_pct": -0.0255,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,27 +16,27 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 76111.61,
+   "price": 75990.81,
    "trend": "baissière",
-   "score": -0.223,
+   "score": -0.248,
    "news_score": -0.25,
    "news_conf": 0.36,
-   "tech_score": -0.386,
+   "tech_score": -0.44,
    "in_position": false,
    "patterns": [
-    "Marteau (rebond possible)",
     "Doji (indécision)",
-    "Doji (indécision)"
+    "Doji (indécision)",
+    "Avalement haussier"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2246.35,
+   "price": 2245.37,
    "trend": "neutre",
-   "score": -0.009,
+   "score": -0.001,
    "news_score": 0.0,
    "news_conf": 0.24,
-   "tech_score": -0.019,
+   "tech_score": -0.003,
    "in_position": false,
    "patterns": [
     "Marteau (rebond possible)",
@@ -46,12 +46,12 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 90.26,
+   "price": 89.99,
    "trend": "baissière",
-   "score": -0.155,
+   "score": -0.187,
    "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": -0.309,
+   "tech_score": -0.378,
    "in_position": false,
    "patterns": [
     "Doji (indécision)",
@@ -74,9 +74,9 @@
    "symbol": "AAPL",
    "price": 342.364990234375,
    "trend": "neutre",
-   "score": -0.005,
-   "news_score": -0.25,
-   "news_conf": 0.12,
+   "score": 0.011,
+   "news_score": 0.0,
+   "news_conf": 0.24,
    "tech_score": 0.026,
    "in_position": false,
    "patterns": []
@@ -87,7 +87,7 @@
    "trend": "baissière",
    "score": -0.231,
    "news_score": 0.0,
-   "news_conf": 0.48,
+   "news_conf": 0.24,
    "tech_score": -0.513,
    "in_position": false,
    "patterns": [
@@ -317,6 +317,11 @@
    1794038430,
    100.0,
    97.54
+  ],
+  [
+   1794052830,
+   100.0,
+   97.45
   ]
  ],
  "last_directive": {
@@ -454,184 +459,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-07T07:45:24Z",
+   "published": "2026-11-07T11:35:00Z",
+   "source": "Yahoo Finance",
+   "title": "3 Internet Giants to Hold for the Next 10 Years",
+   "link": "https://www.fool.com/investing/2026/11/07/3-internet-giants-to-hold-for-the-next-10-years/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T11:24:00Z",
+   "source": "Yahoo Finance",
+   "title": "Could Investing $10,000 in IonQ Stock Make You a Millionaire?",
+   "link": "https://www.fool.com/investing/2026/11/07/could-investing-10000-in-ionq-stock-make-you-a-mil/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T11:17:21Z",
+   "source": "Yahoo Finance",
+   "title": "Why Blackbaud Stock Soared by Almost 30% Last Month",
+   "link": "https://www.fool.com/investing/2026/11/07/why-blackbaud-stock-soared-by-almost-30-last-month/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T11:14:00Z",
+   "source": "Yahoo Finance",
+   "title": "Is Alphabet's Core Search Business in Trouble? Looking Past the Headline Revenue Growth Provides a Clear Answer.",
+   "link": "https://www.fool.com/investing/2026/11/07/is-alphabets-core-search-business-in-trouble-looki/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T11:10:47Z",
    "source": "Cointelegraph",
-   "title": "Nvidia may face a more hostile post-election Washington: Report",
-   "link": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   "title": "US sanctions Canadian money-exchange firms over Iran ties",
+   "link": "https://cointelegraph.com/news/us-sanctions-canadian-money-exchange-firms-over-iran-ties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-07T07:20:00Z",
+   "published": "2026-11-07T11:03:00Z",
    "source": "Yahoo Finance",
-   "title": "Is Google's New Cryptocurrency Push a Reason to Buy Alphabet Stock?",
-   "link": "https://www.fool.com/investing/2026/11/07/is-googles-new-cryptocurrency-push-a-reason-to-buy/?.tsrc=rss"
+   "title": "Donald Trump's Investment Team Sold Micron. Here's What Investors Should Know Before Following the Money.",
+   "link": "https://www.fool.com/investing/2026/11/07/donald-trumps-investment-team-sold-micron-heres-wh/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T06:15:48Z",
+   "published": "2026-11-07T10:51:17Z",
    "source": "Yahoo Finance",
-   "title": "3 US Semiconductor Stocks With Less China Exposure To Watch Now",
-   "link": "https://finance.yahoo.com/technology/articles/3-us-semiconductor-stocks-less-061548967.html?.tsrc=rss"
+   "title": "Big Tech’s $1 Trillion Rally Bets Regulation Won’t Touch “the Profits of the Tech Companies”",
+   "link": "https://www.tikr.com/blog/big-techs-1-trillion-rally-bets-regulation-wont-touch-the-profits-of-the-tech-companies?ref=yahoofinance&tlnk=yf-261107-76c7gj42&.tsrc=rss"
   },
   {
-   "published": "2026-11-07T06:00:20Z",
+   "published": "2026-11-07T10:50:00Z",
    "source": "Yahoo Finance",
-   "title": "Cathie Wood-Led Ark Loads Up On GOOG, AMD, NVDA And Biotech Stocks — But Sells CRWV, AVGO, LLY",
-   "link": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-ark-invest-buys-goog-amd-nvda-biotech-stocks-sell-crwv-avgo-lly/cNGVV2wR9Ii?.tsrc=rss"
+   "title": "2 Brilliant Stocks to Buy in November and Hold Forever",
+   "link": "https://www.fool.com/investing/2026/11/07/2-brilliant-stocks-buy-november-hold-forever/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T05:42:04Z",
+   "published": "2026-11-07T10:48:00Z",
    "source": "Yahoo Finance",
-   "title": "Axon Plunged To a 2-Year Low. Here's Why It Could Be a Golden Buying Opportunity",
-   "link": "https://www.fool.com/investing/2026/11/07/axon-plunged-to-a-2-year-low-here-s-why-it-could-be-a-golden-buying-opportunity/?.tsrc=rss"
+   "title": "Advanced Micro Devices (AMD) Recently Crashed Out of the $1 Trillion Club. Should You Buy the Dip?",
+   "link": "https://www.fool.com/investing/2026/11/07/advanced-micro-devices-amd-crashed-1-trillion-buy/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T05:20:00Z",
+   "published": "2026-11-07T10:35:00Z",
    "source": "Yahoo Finance",
-   "title": "Better Stock Split to Buy: Meta Platforms vs. Sandisk",
-   "link": "https://www.fool.com/investing/2026/11/07/better-stock-split-to-buy-meta-platforms-vs-sandis/?.tsrc=rss"
+   "title": "Billionaire Investor Bill Ackman Just Issued a Blunt Warning to Wall Street",
+   "link": "https://www.fool.com/investing/2026/11/07/billionaire-investor-bill-ackman-warning-market/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T05:06:52Z",
+   "published": "2026-11-07T10:32:02Z",
    "source": "Yahoo Finance",
-   "title": "A Retiree Who Bought 1,000 Nvidia Shares at $122 Just Watched Chips Have Their Worst Day Since 2020",
-   "link": "https://247wallst.com/investing/2026/11/07/a-retiree-who-bought-1000-nvidia-shares-at-122-just-watched-chips-have-their-worst-day-since-2020/?.tsrc=rss"
+   "title": "Stock Market Faces a Worst-Case Scenario After Midterm Elections. History Says This Will Happen Next.",
+   "link": "https://www.fool.com/investing/2026/11/07/stock-market-faces-worst-case-scenario-after-midterm-elections/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T04:12:08Z",
+   "published": "2026-11-07T10:25:00Z",
    "source": "Yahoo Finance",
-   "title": "5 Best Stocks To Buy According to Billionaire Armitage",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-stocks-buy-according-041208670.html?.tsrc=rss"
+   "title": "Prediction: SpaceX Will Not Cancel the Falcon 9 in 2028",
+   "link": "https://www.fool.com/investing/2026/11/07/prediction-spacex-will-not-cancel-the-falcon-9-in/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T03:35:02Z",
+   "published": "2026-11-07T10:23:02Z",
    "source": "Yahoo Finance",
-   "title": "Sweetgreen Is Finally Growing Again. Time To Buy?",
-   "link": "https://www.fool.com/investing/2026/11/06/sweetgreen-is-finally-growing-again-time-to-buy/?.tsrc=rss"
+   "title": "A $120 Billion Westinghouse Reactor Plan Is Taking Shape. Here’s What History Says Happened the Last Time the U.S. Built Them.",
+   "link": "https://www.fool.com/investing/2026/11/07/a-usd120-billion-westinghouse-reactor-plan-is-taking-shape-here-s-what-history-says-happened-the-last-time-the-u-s-built-them/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T03:05:27Z",
+   "published": "2026-11-07T10:22:41Z",
    "source": "Yahoo Finance",
-   "title": "Think Arm Is Too Expensive? 1 Thing You Need To Understand About the Chip Stock",
-   "link": "https://www.fool.com/investing/2026/11/06/think-arm-is-too-expensive-1-thing-you-need-to-understand-about-the-chip-stock/?.tsrc=rss"
+   "title": "Wall Street’s Fear Gauge Jumped More Than 11 Points In A Day. Buffett’s Most Famous Rule Says It Might Be Time To Get Greedy. Here’s Where The Market Has Historically Gone Over The Next 6 Months.",
+   "link": "https://247wallst.com/investing/2026/11/07/wall-streets-fear-gauge-jumped-more-than-11-points-in-a-day-buffetts-most-famous-rule-says-it-might-be-time-to-get-greedy-heres-where-the-market-has-historically-gone-over-the-next-6-months/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T02:43:02Z",
+   "published": "2026-11-07T10:15:11Z",
    "source": "Yahoo Finance",
-   "title": "The S&P 500 Just Fell More Than 4% in a Day From Near Its Record. Here's What Happened Next in 2 Similar Situations Since 1950.",
-   "link": "https://www.fool.com/investing/2026/11/06/the-s-and-p-500-just-fell-more-than-4-in-a-day-from-near-its-record-here-s-what-happened-next-in-2-similar-situations-since-1950/?.tsrc=rss"
+   "title": "3 Great AI Stocks To Own In November 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-great-ai-stocks-own-101511863.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T02:19:12Z",
+   "published": "2026-11-07T10:13:02Z",
    "source": "Yahoo Finance",
-   "title": "Why Iren Stock Soared Today",
-   "link": "https://www.fool.com/investing/2026/11/06/why-iren-stock-soared-today/?.tsrc=rss"
+   "title": "These 4 Stocks Are Tied to the Smartphone in Your Pocket",
+   "link": "https://www.fool.com/investing/2026/11/07/these-4-stocks-are-tied-to-the-smartphone-in-your-pocket/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T01:34:11Z",
+   "published": "2026-11-07T10:09:00Z",
    "source": "Yahoo Finance",
-   "title": "Why Essent Group Stock Slid by Nearly 8% Today",
-   "link": "https://www.fool.com/investing/2026/11/06/why-essent-group-stock-slid-by-nearly-8-today/?.tsrc=rss"
+   "title": "10 States Where Residents Face the Steepest Risk from Social Security Cuts",
+   "link": "https://www.fool.com/retirement/2026/11/07/10-states-where-residents-face-the-steepest-risk-f/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T01:30:53Z",
+   "published": "2026-11-07T10:08:02Z",
    "source": "Yahoo Finance",
-   "title": "Nvidia-backed Groq seeks $8 billion valuation in new funding round - Bloomberg",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-groq-seeks-8-013053376.html?.tsrc=rss"
+   "title": "Palantir Stock Investors Just Got Great News From a Wall Street Analyst (Hint: The Stock Could Soar)",
+   "link": "https://www.fool.com/investing/2026/11/07/palantir-stock-investors-great-news-wall-street-stock-soar/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T01:14:55Z",
+   "published": "2026-11-07T10:04:01Z",
    "source": "Yahoo Finance",
-   "title": "Lassonde Industries Inc (LSDAF) (Q3 2026) Earnings Call Highlights: Margin Pressure and ...",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/lassonde-industries-inc-lsdaf-q3-011455547.html?.tsrc=rss"
+   "title": "If Stocks Tumble This Winter, History Says Investors Who Make This 1 Move Come Out Ahead",
+   "link": "https://www.fool.com/investing/2026/11/07/if-stocks-tumble-this-winter-history-says-investors-who-make-this-1-move-come-out-ahead/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T01:06:22Z",
+   "published": "2026-11-07T09:54:43Z",
    "source": "Yahoo Finance",
-   "title": "Why Koppers Holdings Stock Flopped on Friday",
-   "link": "https://www.fool.com/investing/2026/11/06/why-koppers-holdings-stock-flopped-on-friday/?.tsrc=rss"
+   "title": "Gary Marcus Warns OpenAI Could Become ‘WeWork Of AI’ — And Nvidia May Pay The Price",
+   "link": "https://stocktwits.com/news-articles/markets/equity/gary-marcus-warns-openai-become-wework-of-ai-nvidia-pay-price/cNGVrOeR9Im?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T00:38:02Z",
+   "published": "2026-11-07T09:30:02Z",
    "source": "Yahoo Finance",
-   "title": "Eli Lilly Is Much More Than a Weight-Loss Drug Company. Here's the Evidence",
-   "link": "https://www.fool.com/investing/2026/11/06/eli-lilly-is-much-more-than-a-weight-loss-drug-company-here-s-the-evidence/?.tsrc=rss"
+   "title": "Amazon’s AI Spending is Pressuring Free Cash Flow. Is the Stock Still a Buy?",
+   "link": "https://www.fool.com/investing/2026/11/07/amazon-s-ai-spending-is-pressuring-free-cash-flow-is-the-stock-still-a-buy/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T00:22:00Z",
+   "published": "2026-11-07T09:26:02Z",
    "source": "Yahoo Finance",
-   "title": "Q3 Earnings Update: Broad-Based Growth, Key Sector Outliers, and What's Ahead for Q4",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-broad-based-growth-002200772.html?.tsrc=rss"
+   "title": "President Donald Trump Just Proclaimed That \"Inflation Is Way Down,\" but Federal Reserve Economists Have a Different Take",
+   "link": "https://www.fool.com/investing/2026/11/07/donald-trump-proclaimed-inflation-is-way-down-federal-reserve-economists-different-take/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T00:19:00Z",
+   "published": "2026-11-07T09:15:00Z",
    "source": "Yahoo Finance",
-   "title": "Uber’s Robo Push",
-   "link": "https://finance.yahoo.com/m/b007a5be-2a9e-3534-973c-5e577846b13e/uber%E2%80%99s-robo-push.html?.tsrc=rss"
+   "title": "Investors Pulled $7 Billion From Three Cash Funds In A Month. Where Did It Go?",
+   "link": "https://www.trefis.com/stock/amd/articles/623130/investors-pulled-7-billion-from-three-cash-funds-in-a-month-where-did-it-go/2026-11-07?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T00:15:52Z",
+   "published": "2026-11-07T09:14:54Z",
    "source": "Yahoo Finance",
-   "title": "Nvidia (NVDA) Tightens Chip Tracking In Southeast Asia",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-tightens-chip-tracking-001552079.html?.tsrc=rss"
+   "title": "The S&P 500 Is Up 75% In 3 Years. Priced In Gold, It Is Down 14%. Which Is Real?",
+   "link": "https://www.trefis.com/stock/nvda/articles/623129/the-s-p-500-is-up-75-in-3-years-priced-in-gold-it-is-down-14-which-is-real/2026-11-07?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T00:09:10Z",
+   "published": "2026-11-07T09:14:49Z",
    "source": "Yahoo Finance",
-   "title": "Jim Cramer Says the AI Sell-Off “Is Not Like 2000.” Here’s His Case",
-   "link": "https://247wallst.com/investing/2026/11/06/jim-cramer-says-the-ai-sell-off-is-not-like-2000-heres-his-case/?.tsrc=rss"
+   "title": "Bonds Now Pay More Than Stocks. Is 60/40 Back?",
+   "link": "https://www.trefis.com/stock/ups/articles/623128/bonds-now-pay-more-than-stocks-is-60-40-back/2026-11-07?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T00:01:02Z",
+   "published": "2026-11-07T09:14:42Z",
    "source": "Yahoo Finance",
-   "title": "Oracle Just Sold $10 Billion of Stock at $116 a Share. Is the Stock a Buy at That Price?",
-   "link": "https://www.fool.com/investing/2026/11/06/oracle-just-sold-usd10-billion-of-stock-at-usd116-a-share-is-the-stock-a-buy-at-that-price/?.tsrc=rss"
+   "title": "What If You Add Gold And Cash To A Dividend Portfolio?",
+   "link": "https://www.trefis.com/stock/pg/articles/623127/what-if-you-add-gold-and-cash-to-a-dividend-portfolio/2026-11-07?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T23:41:36Z",
+   "published": "2026-11-07T09:14:37Z",
    "source": "Yahoo Finance",
-   "title": "Dow Jones Futures: Market Needs Repair But Sandisk, Micron Look Broken; Apple, Amazon, Microsoft Strong",
-   "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures%3A-market.html?.tsrc=rss"
+   "title": "Are Dividends The New Bonds?",
+   "link": "https://www.trefis.com/stock/ko/articles/623126/are-dividends-the-new-bonds/2026-11-07?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T23:08:35Z",
+   "published": "2026-11-07T09:13:10Z",
    "source": "Yahoo Finance",
-   "title": "Dave Ramsey Says You’ll “Never Touch” Your Retirement Principal If You Withdraw Less Than 12%. Here’s the Catch",
-   "link": "https://247wallst.com/personal-finance/2026/11/06/dave-ramsey-says-youll-never-touch-your-retirement-principal-if-you-withdraw-less-than-12-heres-the-catch/?.tsrc=rss"
+   "title": "Where Will Your Portfolio Be In 2031, Not Tomorrow?",
+   "link": "https://www.trefis.com/stock/nvda/articles/623125/where-will-your-portfolio-be-in-2031-not-tomorrow/2026-11-07?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T22:25:58Z",
-   "source": "CNBC",
-   "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
-   "link": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html"
-  },
-  {
-   "published": "2026-11-06T22:22:53Z",
-   "source": "CNBC",
-   "title": "Trump says Stephen Miller to replace Susie Wiles as White House chief of staff",
-   "link": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html"
-  },
-  {
-   "published": "2026-11-06T22:07:28Z",
+   "published": "2026-11-07T09:13:03Z",
    "source": "Yahoo Finance",
-   "title": "Charlie Bilello Says “Some Sanity Has Returned to the Market.” What That Means for Your Portfolio",
-   "link": "https://247wallst.com/investing/2026/11/06/charlie-bilello-says-some-sanity-has-returned-to-the-market-what-that-means-for-your-portfolio/?.tsrc=rss"
+   "title": "Is Your Retirement Portfolio Built For 2008 Or For 2022?",
+   "link": "https://www.trefis.com/stock/spy/articles/623139/is-your-retirement-portfolio-built-for-2008-or-for-2022/2026-11-07?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T22:00:15Z",
+   "published": "2026-11-07T09:10:35Z",
    "source": "Cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-06T21:46:35Z",
-   "source": "Yahoo Finance",
-   "title": "Tech Stock Sell-Off 'Golden Buying Opportunity,' Says Dan Ives",
-   "link": "https://finance.yahoo.com/m/aeb920dc-4bcd-3531-8458-6a642b7135df/tech-stock-sell-off-%27golden.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T21:40:09Z",
-   "source": "CNBC",
-   "title": "Sen. Chris Murphy released from hospital after stroke, will miss votes for 'several weeks' as he rehabs",
-   "link": "https://www.cnbc.com/2026/11/06/chris-murphy-stroke-hospital-senate.html"
+   "title": "Suspicious prediction market activity seen before election poll release: NYT",
+   "link": "https://cointelegraph.com/news/suspicious-prediction-market-activity-seen-before-election-poll-release-nyt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   }
  ]
 }
