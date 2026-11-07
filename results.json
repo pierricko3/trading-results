@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T04:00:34Z",
+ "generated_at": "2026-11-07T05:50:47Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0257,
+  "bench_pct": -0.0247,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,7 +16,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 75880.86,
+   "price": 76021.66,
    "trend": "baissière",
    "score": -0.184,
    "news_score": -0.25,
@@ -31,7 +31,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2244.05,
+   "price": 2248.98,
    "trend": "neutre",
    "score": 0.019,
    "news_score": 0.0,
@@ -45,7 +45,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 90.01,
+   "price": 90.23,
    "trend": "baissière",
    "score": -0.265,
    "news_score": -0.25,
@@ -62,9 +62,9 @@
    "symbol": "NVDA",
    "price": 186.67999267578125,
    "trend": "baissière",
-   "score": -0.232,
-   "news_score": 0.269,
-   "news_conf": 0.411,
+   "score": -0.161,
+   "news_score": 0.5,
+   "news_conf": 0.48,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -84,9 +84,9 @@
    "symbol": "SPY",
    "price": 735.3400268554688,
    "trend": "baissière",
-   "score": -0.241,
-   "news_score": -0.042,
-   "news_conf": 0.425,
+   "score": -0.231,
+   "news_score": 0.0,
+   "news_conf": 0.48,
    "tech_score": -0.513,
    "in_position": false,
    "patterns": [
@@ -306,13 +306,18 @@
    1794024030,
    100.0,
    97.43
+  ],
+  [
+   1794030642,
+   100.0,
+   97.53
   ]
  ],
  "last_directive": {
   "regime": "neutral",
-  "assets_annotated": 2,
-  "text": "2 sources : Yahoo Finance, CNBC (06/11) — pire repli des puces depuis 2020, mais emploi US solide et Dow devant le Nasdaq. Signaux mitigés : pas de risk_off, le bot mesure le VIX. — Contexte : pire repli des valeurs de puces depuis 2020 (Yahoo Finance) ; le Dow devrait battre le Nasdaq pour la premi",
-  "received_at": "2026-11-06T20:50:40Z"
+  "assets_annotated": 0,
+  "text": "Week-end, actions fermées. Titres du 06/11 (Yahoo Finance, CNBC) mitigés : repli tech/IA, mais AMD +11% et avis d'un « retour de la raison ». Aucun signal concret de risk_off. — Contexte (Yahoo Finance, CNBC, 06/11) : forte baisse du S&P 500 en séance récente et débat sur le sell-off IA, mais AMD +1",
+  "received_at": "2026-11-07T05:50:42Z"
  },
  "indicators": {
   "fear_greed": {
@@ -443,6 +448,24 @@
  },
  "headlines": [
   {
+   "published": "2026-11-07T05:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Better Stock Split to Buy: Meta Platforms vs. Sandisk",
+   "link": "https://www.fool.com/investing/2026/11/07/better-stock-split-to-buy-meta-platforms-vs-sandis/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T05:06:52Z",
+   "source": "Yahoo Finance",
+   "title": "A Retiree Who Bought 1,000 Nvidia Shares at $122 Just Watched Chips Have Their Worst Day Since 2020",
+   "link": "https://247wallst.com/investing/2026/11/07/a-retiree-who-bought-1000-nvidia-shares-at-122-just-watched-chips-have-their-worst-day-since-2020/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T04:12:08Z",
+   "source": "Yahoo Finance",
+   "title": "5 Best Stocks To Buy According to Billionaire Armitage",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-stocks-buy-according-041208670.html?.tsrc=rss"
+  },
+  {
    "published": "2026-11-07T03:35:02Z",
    "source": "Yahoo Finance",
    "title": "Sweetgreen Is Finally Growing Again. Time To Buy?",
@@ -557,22 +580,10 @@
    "link": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-47-million-of-popular-semiconductor-stock-nvidia-nvda?.tsrc=rss"
   },
   {
-   "published": "2026-11-06T23:02:00Z",
-   "source": "Yahoo Finance",
-   "title": "IonQ Wants to Be the Nvidia of Quantum. Its Latest Numbers Back Up the Swagger.",
-   "link": "https://finance.yahoo.com/m/daf77303-800e-3e89-88c8-ad99c3913f9c/ionq-wants-to-be-the-nvidia.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-06T22:25:58Z",
    "source": "CNBC",
    "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
    "link": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html"
-  },
-  {
-   "published": "2026-11-06T22:25:02Z",
-   "source": "Yahoo Finance",
-   "title": "Stock Market Today, Nov. 6: AMD Surges 11% on Record Quarterly Revenue and Stronger Growth Outlook",
-   "link": "https://www.fool.com/coverage/stock-market-today/2026/11/06/stock-market-today-nov-6-amd-surges-11-on-record-quarterly-revenue-and-stronger-growth-outlook/?.tsrc=rss"
   },
   {
    "published": "2026-11-06T22:22:53Z",
@@ -615,12 +626,6 @@
    "source": "Yahoo Finance",
    "title": "5 Latest Jim Cramer Stock Picks on Twitter and Mad Money",
    "link": "https://finance.yahoo.com/markets/stocks/articles/5-latest-jim-cramer-stock-211011014.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-06T21:07:07Z",
-   "source": "CNBC",
-   "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
-   "link": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html"
   }
  ]
 }
