@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T20:50:49Z",
+ "generated_at": "2026-11-07T21:30:57Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0289,
+  "bench_pct": -0.0296,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,7 +16,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 75668.66,
+   "price": 75628.44,
    "trend": "baissière",
    "score": -0.297,
    "news_score": -0.25,
@@ -29,7 +29,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2228.42,
+   "price": 2226.34,
    "trend": "neutre",
    "score": -0.043,
    "news_score": -0.25,
@@ -43,7 +43,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 89.16,
+   "price": 88.87,
    "trend": "baissière",
    "score": -0.27,
    "news_score": -0.25,
@@ -338,6 +338,11 @@
    1794084645,
    100.0,
    97.11
+  ],
+  [
+   1794087053,
+   100.0,
+   97.04
   ]
  ],
  "last_directive": {
@@ -475,10 +480,22 @@
  },
  "headlines": [
   {
-   "published": "2026-11-07T20:39:47Z",
+   "published": "2026-11-07T21:17:54Z",
    "source": "CNBC",
    "title": "Trump offers UFC chief Dana White press secretary job",
    "link": "https://www.cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html"
+  },
+  {
+   "published": "2026-11-07T21:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "SpaceX's December Lockup Is Nearly the Biggest Share Unlock in IPO History. History Says This Is What Happens Next.",
+   "link": "https://www.fool.com/investing/2026/11/07/spacexs-december-lockup-is-nearly-the-biggest-shar/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T20:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "This Warren Buffett Dividend Stock Is the One I'd Buy With $1,000 in November",
+   "link": "https://www.fool.com/investing/2026/11/07/this-warren-buffett-dividend-stock-is-the-one-id-b/?.tsrc=rss"
   },
   {
    "published": "2026-11-07T20:35:00Z",
@@ -623,18 +640,6 @@
    "source": "Yahoo Finance",
    "title": "Jim Cramer sends a strong signal to Nvidia stock investors",
    "link": "https://www.thestreet.com/investing/stocks/jim-cramer-sends-a-strong-signal-to-nvidia-stock-investors?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T17:16:41Z",
-   "source": "Yahoo Finance",
-   "title": "Musk Says His Terafab Chip Plant Could Cost $1 Trillion",
-   "link": "https://247wallst.com/investing/2026/11/07/musk-says-his-terafab-chip-plant-could-cost-1-trillion/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T17:05:02Z",
-   "source": "Yahoo Finance",
-   "title": "The Artificial Intelligence (AI) Boom Is Far From Over. Here Are 4 Potential Long-Term Winners",
-   "link": "https://www.fool.com/investing/2026/11/07/the-artificial-intelligence-ai-boom-is-far-from-over-here-are-4-potential-long-term-winners/?.tsrc=rss"
   },
   {
    "published": "2026-11-07T17:01:03Z",
