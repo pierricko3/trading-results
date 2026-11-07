@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T20:00:40Z",
+ "generated_at": "2026-11-07T20:50:49Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0272,
+  "bench_pct": -0.0289,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,11 +16,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 75805.19,
+   "price": 75668.66,
    "trend": "baissière",
-   "score": -0.248,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": -0.297,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": -0.551,
    "in_position": false,
    "patterns": [
@@ -29,10 +29,10 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2235.5,
+   "price": 2228.42,
    "trend": "neutre",
-   "score": -0.01,
-   "news_score": 0.25,
+   "score": -0.043,
+   "news_score": -0.25,
    "news_conf": 0.12,
    "tech_score": -0.06,
    "in_position": false,
@@ -43,11 +43,11 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 89.64,
+   "price": 89.16,
    "trend": "baissière",
-   "score": -0.253,
-   "news_score": 0.0,
-   "news_conf": 0.0,
+   "score": -0.27,
+   "news_score": -0.25,
+   "news_conf": 0.12,
    "tech_score": -0.563,
    "in_position": false,
    "patterns": [
@@ -59,9 +59,9 @@
    "symbol": "NVDA",
    "price": 186.67999267578125,
    "trend": "baissière",
-   "score": -0.293,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": -0.342,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -70,9 +70,9 @@
    "symbol": "AAPL",
    "price": 342.364990234375,
    "trend": "neutre",
-   "score": 0.011,
-   "news_score": 0.0,
-   "news_conf": 0.0,
+   "score": 0.143,
+   "news_score": 0.5,
+   "news_conf": 0.48,
    "tech_score": 0.026,
    "in_position": false,
    "patterns": []
@@ -81,9 +81,9 @@
    "symbol": "SPY",
    "price": 735.3400268554688,
    "trend": "baissière",
-   "score": -0.182,
-   "news_score": 0.25,
-   "news_conf": 0.36,
+   "score": -0.231,
+   "news_score": 0.0,
+   "news_conf": 0.48,
    "tech_score": -0.513,
    "in_position": false,
    "patterns": [
@@ -333,13 +333,18 @@
    1794081630,
    100.0,
    97.28
+  ],
+  [
+   1794084645,
+   100.0,
+   97.11
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 0,
-  "text": "Week-end, actions fermées. Titres du 07/11 (Yahoo Finance) mitigés : débat sur l'IA, VIX en hausse d'environ 11 points sur un jour, mais aucun indicateur concret et confirmé de risk_off. — Contexte (Yahoo Finance, 07/11) : VIX en forte hausse sur une séance, débat sur la bulle IA et inquiétudes de v",
-  "received_at": "2026-11-07T13:50:43Z"
+  "text": "Week-end, actions fermées. Yahoo Finance (07/11) : pire semaine du S&P 500 depuis avril 2025 et probabilité de hausse de taux en décembre à 77 % ; source unique, pas assez pour risk_off. — Contexte (Yahoo Finance, 07/11, source unique) : S&P 500 en pire semaine depuis avril 2025, paris sur une hauss",
+  "received_at": "2026-11-07T20:50:45Z"
  },
  "indicators": {
   "fear_greed": {
@@ -350,16 +355,16 @@
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 12,
-  "pending": 2,
-  "hit_rate": 0.16666666666666666,
-  "mean_signed": -0.019380093020299815,
+  "n": 14,
+  "pending": 0,
+  "hit_rate": 0.2857142857142857,
+  "mean_signed": -0.01641812452418106,
   "enough": false,
   "min_sample": 20,
   "by_symbol": {
    "SPY": {
-    "n": 4,
-    "hit_rate": 0.25
+    "n": 5,
+    "hit_rate": 0.4
    },
    "AAPL": {
     "n": 4,
@@ -370,8 +375,8 @@
     "hit_rate": 0.0
    },
    "NVDA": {
-    "n": 2,
-    "hit_rate": 0.0
+    "n": 3,
+    "hit_rate": 0.3333333333333333
    }
   }
  },
@@ -470,16 +475,40 @@
  },
  "headlines": [
   {
-   "published": "2026-11-07T19:52:07Z",
+   "published": "2026-11-07T20:39:47Z",
    "source": "CNBC",
    "title": "Trump offers UFC chief Dana White press secretary job",
    "link": "https://www.cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html"
+  },
+  {
+   "published": "2026-11-07T20:35:00Z",
+   "source": "Yahoo Finance",
+   "title": "Wall Street Is Ignoring Bristol Myers Squibb's Cash Machine -- and That's an Opportunity for Income Investors",
+   "link": "https://www.fool.com/investing/2026/11/07/wall-street-is-ignoring-bristol-myers-squibbs-cash/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T20:28:17Z",
+   "source": "CNBC",
+   "title": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
+   "link": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html"
+  },
+  {
+   "published": "2026-11-07T19:56:02Z",
+   "source": "Yahoo Finance",
+   "title": "Palantir Stock Just Fell 8 Days in a Row. History Says What Followed Its Only 2 Longer Losing Streaks.",
+   "link": "https://www.fool.com/investing/2026/11/07/palantir-stock-just-fell-8-days-in-a-row-history-says-what-followed-its-only-2-longer-losing-streaks/?.tsrc=rss"
   },
   {
    "published": "2026-11-07T19:50:00Z",
    "source": "Yahoo Finance",
    "title": "Here's What $10,000 Invested in Bloom Energy (BE) Stock Could Be Worth in 3 Years",
    "link": "https://www.fool.com/investing/2026/11/07/heres-what-10000-invested-in-bloom-energy-be-stock/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T19:30:25Z",
+   "source": "Yahoo Finance",
+   "title": "Republican Senator Who Won Reelection Is Selling Magnificent Seven Stocks: Here Are the Trades",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/republican-senator-won-reelection-selling-193025792.html?.tsrc=rss"
   },
   {
    "published": "2026-11-07T19:23:00Z",
@@ -624,30 +653,6 @@
    "source": "CoinDesk",
    "title": "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
    "link": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets"
-  },
-  {
-   "published": "2026-11-07T16:51:00Z",
-   "source": "Yahoo Finance",
-   "title": "AI Stocks Are Falling; Bitcoin Is Holding Ground. Here's What Could Come Next.",
-   "link": "https://www.fool.com/investing/2026/11/07/ai-stocks-are-falling-bitcoin-is-holding-ground/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T16:31:00Z",
-   "source": "CNBC",
-   "title": "Decisive election. Dramatic stock swings. How we handled the market last week",
-   "link": "https://www.cnbc.com/investingclub/2026/11/07/decisive-election-dramatic-stock-swings-how-we-handled-the-market-last-week.html"
-  },
-  {
-   "published": "2026-11-07T16:02:33Z",
-   "source": "CNBC",
-   "title": "Why the prognosis for healthcare stocks is uncertain ahead of Congress’ new makeup",
-   "link": "https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html"
-  },
-  {
-   "published": "2026-11-07T16:01:02Z",
-   "source": "Decrypt",
-   "title": "AI Chip Stocks Bounce After Global Rout—But Is the Bubble Starting to Burst?",
-   "link": "https://decrypt.co/382770/ai-chip-stocks-bounce-global-rout-bubble-starting-burst"
   }
  ]
 }
