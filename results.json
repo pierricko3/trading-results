@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T05:50:46Z",
+ "generated_at": "2026-11-08T08:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0281,
+  "bench_pct": -0.027,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,41 +16,42 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 75799.16,
+   "price": 75965.43,
    "trend": "baissière",
-   "score": -0.118,
-   "news_score": -0.25,
-   "news_conf": 0.12,
-   "tech_score": -0.226,
+   "score": -0.105,
+   "news_score": 0.0,
+   "news_conf": 0.0,
+   "tech_score": -0.234,
    "in_position": false,
    "patterns": [
+    "Marteau (rebond possible)",
     "Marteau (rebond possible)",
     "Marteau (rebond possible)"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2234.46,
+   "price": 2240.98,
    "trend": "baissière",
-   "score": -0.131,
-   "news_score": -0.25,
-   "news_conf": 0.12,
-   "tech_score": -0.255,
+   "score": -0.15,
+   "news_score": 0.0,
+   "news_conf": 0.0,
+   "tech_score": -0.333,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)",
     "Marteau (rebond possible)",
-    "Avalement haussier"
+    "Avalement haussier",
+    "Marteau (rebond possible)"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 89.2,
+   "price": 89.35,
    "trend": "baissière",
-   "score": -0.258,
-   "news_score": -0.25,
-   "news_conf": 0.12,
-   "tech_score": -0.536,
+   "score": -0.269,
+   "news_score": 0.0,
+   "news_conf": 0.0,
+   "tech_score": -0.598,
    "in_position": false,
    "patterns": [
     "Marteau (rebond possible)",
@@ -73,9 +74,9 @@
    "symbol": "AAPL",
    "price": 342.364990234375,
    "trend": "neutre",
-   "score": 0.061,
-   "news_score": 0.25,
-   "news_conf": 0.36,
+   "score": 0.077,
+   "news_score": 0.5,
+   "news_conf": 0.24,
    "tech_score": 0.026,
    "in_position": false,
    "patterns": []
@@ -84,9 +85,9 @@
    "symbol": "SPY",
    "price": 735.3400268554688,
    "trend": "baissière",
-   "score": -0.231,
-   "news_score": 0.0,
-   "news_conf": 0.48,
+   "score": -0.182,
+   "news_score": 0.25,
+   "news_conf": 0.36,
    "tech_score": -0.513,
    "in_position": false,
    "patterns": [
@@ -361,6 +362,11 @@
    1794117042,
    100.0,
    97.19
+  ],
+  [
+   1794124830,
+   100.0,
+   97.3
   ]
  ],
  "last_directive": {
@@ -498,6 +504,42 @@
  },
  "headlines": [
   {
+   "published": "2026-11-08T07:46:39Z",
+   "source": "Yahoo Finance",
+   "title": "Why AT&T Stock Slumped in October",
+   "link": "https://www.fool.com/investing/2026/11/08/why-at-and-t-stock-slumped-in-october/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T07:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move",
+   "link": "https://www.fool.com/investing/2026/11/08/if-the-fed-raises-interest-rates-in-december-im-ma/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T07:10:29Z",
+   "source": "Yahoo Finance",
+   "title": "NVIDIA And 2 More Grid Stocks To Watch",
+   "link": "https://finance.yahoo.com/technology/articles/nvidia-2-more-grid-stocks-071029806.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T06:45:13Z",
+   "source": "Yahoo Finance",
+   "title": "The AI Buildout Has A New Problem, And It’s Not Nvidia — JPMorgan Sounds Alarm",
+   "link": "https://stocktwits.com/news-articles/markets/equity/ai-buildout-data-center-backlash-nvidia/cNGouhgR9Iq?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T06:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Is Broadcom a Buy After Falling 9% in One Day?",
+   "link": "https://www.fool.com/investing/2026/11/08/is-broadcom-a-buy-after-falling-9-in-one-day/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T06:00:01Z",
+   "source": "CNBC",
+   "title": "Cathie Wood 'always feels better when the market is worried' — here's why",
+   "link": "https://www.cnbc.com/2026/11/08/cathie-wood-ai-selloff.html"
+  },
+  {
    "published": "2026-11-08T05:12:45Z",
    "source": "Yahoo Finance",
    "title": "These AI Stocks To Improve Your Portfolio In November 2026",
@@ -606,40 +648,16 @@
    "link": "https://www.cnbc.com/2026/11/07/iran-war-midterm-election-oil-price-trump.html"
   },
   {
-   "published": "2026-11-07T22:01:02Z",
-   "source": "Yahoo Finance",
-   "title": "Elon Musk Is Winding Down Cybertruck Production to Build Cybercabs. The Model S and Model X Already Gave Up Their Factory Space to Robots.",
-   "link": "https://www.fool.com/investing/2026/11/07/elon-musk-is-winding-down-cybertruck-production-to-build-cybercabs-the-model-s-and-model-x-already-gave-up-their-factory-space-to-robots/?.tsrc=rss"
+   "published": "2026-11-07T22:01:17Z",
+   "source": "CNBC",
+   "title": "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO",
+   "link": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html"
   },
   {
    "published": "2026-11-07T21:59:10Z",
    "source": "CNBC",
    "title": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
    "link": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html"
-  },
-  {
-   "published": "2026-11-07T21:05:00Z",
-   "source": "Yahoo Finance",
-   "title": "SpaceX's December Lockup Is Nearly the Biggest Share Unlock in IPO History. History Says This Is What Happens Next.",
-   "link": "https://www.fool.com/investing/2026/11/07/spacexs-december-lockup-is-nearly-the-biggest-shar/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T20:50:00Z",
-   "source": "Yahoo Finance",
-   "title": "This Warren Buffett Dividend Stock Is the One I'd Buy With $1,000 in November",
-   "link": "https://www.fool.com/investing/2026/11/07/this-warren-buffett-dividend-stock-is-the-one-id-b/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T20:35:00Z",
-   "source": "Yahoo Finance",
-   "title": "Wall Street Is Ignoring Bristol Myers Squibb's Cash Machine -- and That's an Opportunity for Income Investors",
-   "link": "https://www.fool.com/investing/2026/11/07/wall-street-is-ignoring-bristol-myers-squibbs-cash/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T19:56:02Z",
-   "source": "Yahoo Finance",
-   "title": "Palantir Stock Just Fell 8 Days in a Row. History Says What Followed Its Only 2 Longer Losing Streaks.",
-   "link": "https://www.fool.com/investing/2026/11/07/palantir-stock-just-fell-8-days-in-a-row-history-says-what-followed-its-only-2-longer-losing-streaks/?.tsrc=rss"
   },
   {
    "published": "2026-11-07T19:30:25Z",
@@ -664,18 +682,6 @@
    "source": "CoinDesk",
    "title": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
    "link": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows"
-  },
-  {
-   "published": "2026-11-07T17:33:39Z",
-   "source": "Yahoo Finance",
-   "title": "The S&P 500 Just Had Its Worst Week Since the April 2025 Tariff Crash",
-   "link": "https://247wallst.com/investing/2026/11/07/the-sp-500-just-had-its-worst-week-since-the-april-2025-tariff-crash/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T17:33:01Z",
-   "source": "Yahoo Finance",
-   "title": "Odds of a December Rate Hike Jump to 77% After a Blowout Jobs Report",
-   "link": "https://247wallst.com/investing/2026/11/07/odds-of-a-december-rate-hike-jump-to-77-after-a-blowout-jobs-report/?.tsrc=rss"
   }
  ]
 }
