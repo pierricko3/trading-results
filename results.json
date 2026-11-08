@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T21:30:57Z",
+ "generated_at": "2026-11-08T00:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0296,
+  "bench_pct": -0.0266,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,52 +16,54 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 75628.44,
+   "price": 75846.95,
    "trend": "baissière",
-   "score": -0.297,
+   "score": -0.207,
    "news_score": -0.25,
    "news_conf": 0.36,
-   "tech_score": -0.551,
+   "tech_score": -0.349,
    "in_position": false,
    "patterns": [
-    "Avalement haussier"
+    "Marteau (rebond possible)"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2226.34,
+   "price": 2239.24,
    "trend": "neutre",
-   "score": -0.043,
+   "score": 0.089,
    "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": -0.06,
+   "tech_score": 0.235,
    "in_position": false,
    "patterns": [
     "Doji (indécision)",
-    "Doji (indécision)"
+    "Doji (indécision)",
+    "Marteau (rebond possible)"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 88.87,
+   "price": 89.76,
    "trend": "baissière",
-   "score": -0.27,
+   "score": -0.132,
    "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": -0.563,
+   "tech_score": -0.257,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)",
-    "Avalement haussier"
+    "Avalement haussier",
+    "Marteau (rebond possible)",
+    "Étoile du matin (retournement haussier)"
    ]
   },
   {
    "symbol": "NVDA",
    "price": 186.67999267578125,
    "trend": "baissière",
-   "score": -0.342,
+   "score": -0.309,
    "news_score": -0.25,
-   "news_conf": 0.36,
+   "news_conf": 0.12,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -70,9 +72,9 @@
    "symbol": "AAPL",
    "price": 342.364990234375,
    "trend": "neutre",
-   "score": 0.143,
-   "news_score": 0.5,
-   "news_conf": 0.48,
+   "score": 0.061,
+   "news_score": 0.25,
+   "news_conf": 0.36,
    "tech_score": 0.026,
    "in_position": false,
    "patterns": []
@@ -343,6 +345,11 @@
    1794087053,
    100.0,
    97.04
+  ],
+  [
+   1794096030,
+   100.0,
+   97.34
   ]
  ],
  "last_directive": {
@@ -353,8 +360,8 @@
  },
  "indicators": {
   "fear_greed": {
-   "value": 25,
-   "label": "Extreme Fear"
+   "value": 28,
+   "label": "Fear"
   },
   "vix": 25.64
  },
@@ -480,10 +487,58 @@
  },
  "headlines": [
   {
-   "published": "2026-11-07T21:17:54Z",
+   "published": "2026-11-07T23:40:02Z",
+   "source": "Yahoo Finance",
+   "title": "Novo Nordisk Just Delivered Great News for Investors. Is a Comeback Finally Underway?",
+   "link": "https://www.fool.com/investing/2026/11/07/novo-nordisk-just-delivered-great-news-for-investors-is-a-comeback-finally-underway/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T23:20:28Z",
+   "source": "Yahoo Finance",
+   "title": "5 Worst Dow Stocks To Buy According to Analysts",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/5-worst-dow-stocks-buy-232028142.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T23:18:19Z",
+   "source": "Yahoo Finance",
+   "title": "5 Best Dow Stocks to Buy for 2027",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-dow-stocks-buy-231819373.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T23:13:38Z",
    "source": "CNBC",
    "title": "Trump offers UFC chief Dana White press secretary job",
    "link": "https://www.cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html"
+  },
+  {
+   "published": "2026-11-07T23:12:49Z",
+   "source": "Yahoo Finance",
+   "title": "NVIDIA And 2 Other AI Stocks To Watch",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-2-other-ai-stocks-231249303.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T22:17:52Z",
+   "source": "CNBC",
+   "title": "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections",
+   "link": "https://www.cnbc.com/2026/11/07/iran-war-midterm-election-oil-price-trump.html"
+  },
+  {
+   "published": "2026-11-07T22:01:02Z",
+   "source": "Yahoo Finance",
+   "title": "Elon Musk Is Winding Down Cybertruck Production to Build Cybercabs. The Model S and Model X Already Gave Up Their Factory Space to Robots.",
+   "link": "https://www.fool.com/investing/2026/11/07/elon-musk-is-winding-down-cybertruck-production-to-build-cybercabs-the-model-s-and-model-x-already-gave-up-their-factory-space-to-robots/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-07T21:59:10Z",
+   "source": "CNBC",
+   "title": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
+   "link": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html"
+  },
+  {
+   "published": "2026-11-07T21:45:54Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures: Market Needs Repair But Apple, Amazon, Microsoft Strong; Berkshire Doubles Stock Buyback",
+   "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures%3A-market.html?.tsrc=rss"
   },
   {
    "published": "2026-11-07T21:05:00Z",
@@ -502,12 +557,6 @@
    "source": "Yahoo Finance",
    "title": "Wall Street Is Ignoring Bristol Myers Squibb's Cash Machine -- and That's an Opportunity for Income Investors",
    "link": "https://www.fool.com/investing/2026/11/07/wall-street-is-ignoring-bristol-myers-squibbs-cash/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T20:28:17Z",
-   "source": "CNBC",
-   "title": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
-   "link": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html"
   },
   {
    "published": "2026-11-07T19:56:02Z",
@@ -588,12 +637,6 @@
    "link": "https://247wallst.com/investing/2026/11/07/older-nvidia-chips-just-cost-oracle-its-microsoft-ai-deal/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T17:51:16Z",
-   "source": "CNBC",
-   "title": "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO",
-   "link": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html"
-  },
-  {
    "published": "2026-11-07T17:50:00Z",
    "source": "Yahoo Finance",
    "title": "Micron and Sandisk Lead the Memory Market. 1 Stock Has Far Greater Upside.",
@@ -604,12 +647,6 @@
    "source": "CoinDesk",
    "title": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
    "link": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows"
-  },
-  {
-   "published": "2026-11-07T17:35:00Z",
-   "source": "Yahoo Finance",
-   "title": "This Dividend King Yielding 2X the S&P 500 Looks Like a Buy in November.",
-   "link": "https://www.fool.com/investing/2026/11/07/this-dividend-king-yielding-2x-the-sp-500-looks/?.tsrc=rss"
   },
   {
    "published": "2026-11-07T17:33:39Z",
@@ -624,40 +661,10 @@
    "link": "https://247wallst.com/investing/2026/11/07/odds-of-a-december-rate-hike-jump-to-77-after-a-blowout-jobs-report/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T17:29:00Z",
-   "source": "Yahoo Finance",
-   "title": "Here's How Many Shares of PepsiCo You'd Need for $500 in Yearly Dividends",
-   "link": "https://www.fool.com/investing/2026/11/07/heres-how-many-shares-of-pepsico-youd-need-for-500/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T17:20:00Z",
-   "source": "Yahoo Finance",
-   "title": "Every Humanoid Robot Needs Rare-Earth Magnets. Here's the American Stock Positioned to Sell Them -- and It's Down 62%.",
-   "link": "https://www.fool.com/investing/2026/11/07/every-humanoid-robot-needs-rare-earth-magnets-here/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T17:17:00Z",
-   "source": "Yahoo Finance",
-   "title": "Jim Cramer sends a strong signal to Nvidia stock investors",
-   "link": "https://www.thestreet.com/investing/stocks/jim-cramer-sends-a-strong-signal-to-nvidia-stock-investors?.tsrc=rss"
-  },
-  {
    "published": "2026-11-07T17:01:03Z",
    "source": "Decrypt",
    "title": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
    "link": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue"
-  },
-  {
-   "published": "2026-11-07T17:01:03Z",
-   "source": "Yahoo Finance",
-   "title": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
-   "link": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T16:51:00Z",
-   "source": "CoinDesk",
-   "title": "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
-   "link": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets"
   }
  ]
 }
