@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T16:00:34Z",
+ "generated_at": "2026-11-08T20:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0258,
+  "bench_pct": -0.0274,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,55 +16,55 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 76077.7,
+   "price": 75929.04,
    "trend": "baissière",
-   "score": -0.246,
+   "score": -0.384,
    "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": -0.51,
+   "tech_score": -0.817,
    "in_position": false,
    "patterns": [
     "Marteau (rebond possible)",
     "Marteau (rebond possible)",
-    "Marteau (rebond possible)"
+    "Doji (indécision)"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2243.01,
+   "price": 2231.57,
    "trend": "baissière",
-   "score": -0.185,
+   "score": -0.336,
    "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": -0.375,
+   "tech_score": -0.71,
    "in_position": false,
    "patterns": [
     "Marteau (rebond possible)",
-    "Avalement haussier",
-    "Marteau (rebond possible)"
+    "Doji (indécision)",
+    "Avalement haussier"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 89.79,
+   "price": 89.52,
    "trend": "baissière",
-   "score": -0.222,
+   "score": -0.363,
    "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": -0.457,
+   "tech_score": -0.771,
    "in_position": false,
    "patterns": [
-    "Marteau (rebond possible)",
-    "Étoile du matin (retournement haussier)",
-    "Avalement baissier"
+    "Avalement baissier",
+    "Doji (indécision)",
+    "Étoile du matin (retournement haussier)"
    ]
   },
   {
    "symbol": "NVDA",
    "price": 186.67999267578125,
    "trend": "baissière",
-   "score": -0.359,
-   "news_score": -0.2,
+   "score": -0.293,
+   "news_score": 0.0,
    "news_conf": 0.6,
    "tech_score": -0.65,
    "in_position": false,
@@ -85,9 +85,9 @@
    "symbol": "SPY",
    "price": 735.3400268554688,
    "trend": "baissière",
-   "score": -0.231,
-   "news_score": 0.0,
-   "news_conf": 0.48,
+   "score": -0.165,
+   "news_score": 0.2,
+   "news_conf": 0.6,
    "tech_score": -0.513,
    "in_position": false,
    "patterns": [
@@ -382,6 +382,11 @@
    1794153630,
    100.0,
    97.42
+  ],
+  [
+   1794168030,
+   100.0,
+   97.26
   ]
  ],
  "last_directive": {
@@ -519,10 +524,166 @@
  },
  "headlines": [
   {
-   "published": "2026-11-08T15:43:02Z",
+   "published": "2026-11-08T19:30:00Z",
+   "source": "CoinDesk",
+   "title": "What the election results mean for crypto: State of Crypto",
+   "link": "https://www.coindesk.com/policy/2026/11/08/what-the-election-results-mean-for-crypto-state-of-crypto"
+  },
+  {
+   "published": "2026-11-08T19:26:12Z",
    "source": "Yahoo Finance",
-   "title": "Broadcom Stock Has Lost Nearly 40% From Its Record. I'd Buy It Now.",
-   "link": "https://www.fool.com/investing/2026/11/08/broadcom-stock-has-lost-nearly-40-from-its-record-i-d-buy-it-now/?.tsrc=rss"
+   "title": "Why Centrus Energy Stock Crashed 26% in October",
+   "link": "https://www.fool.com/investing/2026/11/08/why-centrus-energy-stock-crashed-26-in-october/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T19:16:42Z",
+   "source": "CoinDesk",
+   "title": "Stablecoin growth has stalled. The payments boom hasn't",
+   "link": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t"
+  },
+  {
+   "published": "2026-11-08T19:16:00Z",
+   "source": "Yahoo Finance",
+   "title": "Here's How Much $10,000 in Altria Stock Pays You Each Year",
+   "link": "https://www.fool.com/investing/2026/11/08/how-much-10k-altria-stock-pays-you-each-year/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T19:14:24Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures Loom With Market Damaged, Big Winners Broken; Apple, Amazon, Microsoft Strong",
+   "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-loom-with.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T18:57:56Z",
+   "source": "CNBC",
+   "title": "Democrats amp up Trump investigation threats, Blanche counters he may probe lawmakers",
+   "link": "https://www.cnbc.com/2026/11/08/democrats-trump-oversight-blanche-doj-investigations.html"
+  },
+  {
+   "published": "2026-11-08T18:55:00Z",
+   "source": "Yahoo Finance",
+   "title": "AppLovin Shares Surge as Revenue Continues to Soar. Is It Too Late to Buy the Stock?",
+   "link": "https://www.fool.com/investing/2026/11/08/applovin-shares-surge-revenue-soar-buy-stock/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T18:42:00Z",
+   "source": "Yahoo Finance",
+   "title": "This Stock Is a Nearly Guaranteed Winner From the AI Infrastructure Buildout",
+   "link": "https://www.fool.com/investing/2026/11/08/this-stock-is-a-nearly-guaranteed-winner-from-the/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T18:35:00Z",
+   "source": "Yahoo Finance",
+   "title": "A Stock Market Crash Could Be Life-Changing for Investors Who Have These 3 Things",
+   "link": "https://www.fool.com/investing/2026/11/08/stock-market-crash-life-changing-investors/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T18:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Where Gold and Copper Prices Go From Here -- and 3 Mining Stocks to Own Either Way",
+   "link": "https://www.fool.com/investing/2026/11/08/where-gold-and-copper-prices-go-from-here-and/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T18:18:30Z",
+   "source": "CNBC",
+   "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
+   "link": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html"
+  },
+  {
+   "published": "2026-11-08T18:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "Not Bloom Energy. Not Vistra. This AI Power Stock Just Posted a 96% Jump in Orders.",
+   "link": "https://www.fool.com/investing/2026/11/08/not-bloom-energy-not-vistra-this-ai-power-stock/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T17:58:02Z",
+   "source": "Yahoo Finance",
+   "title": "Microsoft Is Reportedly Getting Pickier About AI Data Center Deals. Is the Stock a Buy Now?",
+   "link": "https://www.fool.com/investing/2026/11/08/microsoft-is-reportedly-getting-pickier-about-ai-data-center-deals-is-the-stock-a-buy-now/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T17:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "The 1 Stock I'd Buy With $2,500 in November and Not Check Until 2051",
+   "link": "https://www.fool.com/investing/2026/11/08/the-1-stock-id-buy-with-2500-in-november-and-not/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T17:40:15Z",
+   "source": "CNBC",
+   "title": "Here are the 2 big things we're watching in the stock market in the week ahead",
+   "link": "https://www.cnbc.com/investingclub/2026/11/08/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
+  },
+  {
+   "published": "2026-11-08T17:35:00Z",
+   "source": "Yahoo Finance",
+   "title": "Green Thumb Ended Its String of Profitable Quarters. Is the Stock a Buy?",
+   "link": "https://www.fool.com/investing/2026/11/08/green-thumb-ended-its-string-of-profitable-quarter/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T17:23:00Z",
+   "source": "Yahoo Finance",
+   "title": "Tesla Isn’t a Mag-Y Stock. This Is.",
+   "link": "https://finance.yahoo.com/m/1989a8d6-2668-3d81-b94f-8613123a1e6b/tesla-isn%E2%80%99t-a-mag-y-stock..html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T17:17:00Z",
+   "source": "Yahoo Finance",
+   "title": "Democrats prepare to go after Apple, Meta and Elon Musk companies",
+   "link": "https://www.thestreet.com/technology/democrats-prepare-to-go-after-apple-meta-and-elon-musk-companies?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T17:10:00Z",
+   "source": "Yahoo Finance",
+   "title": "Why Nvidia Stock Looks Like a Bargain Right Now",
+   "link": "https://www.fool.com/investing/2026/11/08/why-nvidia-stock-looks-like-a-bargain-right-now/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T17:01:00Z",
+   "source": "Yahoo Finance",
+   "title": "No Matter What Happens to the S&P 500 in November, These 3 Dividend Stocks Belong in Your Portfolio",
+   "link": "https://www.fool.com/investing/2026/11/08/no-matter-what-happens-to-the-sp-500-in-november/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T16:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "SoFi Has 17.1 Million Members. Prediction: It Tops 20 Million in 2027.",
+   "link": "https://www.fool.com/investing/2026/11/08/sofi-17-million-members-prediction-20-million-2027/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T16:47:47Z",
+   "source": "Yahoo Finance",
+   "title": "Wall Street Just Set a Record That Could Signal Trouble for the Stock Market",
+   "link": "https://247wallst.com/investing/2026/11/08/wall-street-just-set-a-record-that-could-signal-trouble-for-the-stock-market/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T16:35:00Z",
+   "source": "Yahoo Finance",
+   "title": "Revolution Medicines' Pancreatic Cancer Drug Nearly Doubled Survival. Is the High-Flying Stock Still a Buy?",
+   "link": "https://www.fool.com/investing/2026/11/08/revolution-medicines-pancreatic-cancer-drug-nearly/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T16:29:58Z",
+   "source": "Yahoo Finance",
+   "title": "Intel Stock Has Gone Nowhere in 8 Years. Why This Time Could Be Different",
+   "link": "https://247wallst.com/investing/2026/11/08/intel-stock-has-gone-nowhere-in-8-years-why-this-time-could-be-different/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T16:23:46Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic’s $1.5 Trillion IPO Could Expose the Biggest Risk Facing the AI Boom",
+   "link": "https://247wallst.com/investing/2026/11/08/anthropics-1-5-trillion-ipo-could-expose-the-biggest-risk-facing-the-ai-boom/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T16:20:41Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic’s $895 Billion AI Gamble Could Become Wall Street’s Next Debt Nightmare",
+   "link": "https://247wallst.com/investing/2026/11/08/anthropics-895-billion-ai-gamble-could-become-wall-streets-next-debt-nightmare/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T16:20:25Z",
+   "source": "Yahoo Finance",
+   "title": "Top 5 stocks to watch this week",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/top-5-stocks-watch-week-162025831.html?.tsrc=rss"
   },
   {
    "published": "2026-11-08T15:36:39Z",
@@ -531,172 +692,16 @@
    "link": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html"
   },
   {
-   "published": "2026-11-08T15:34:33Z",
-   "source": "Yahoo Finance",
-   "title": "Why Qualcomm Stock Fell 9% Despite Beating Earnings Estimates",
-   "link": "https://www.fool.com/investing/2026/11/08/why-qualcomm-stock-fell-11-despite-beating-earning/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T15:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "SpaceX Stock Fell After the Midterm Elections. Is This a Buying Opportunity?",
-   "link": "https://www.fool.com/investing/2026/11/08/spacex-stock-fell-after-the-midterm-elections-is-this-a-buying-opportunity/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T15:10:00Z",
-   "source": "Yahoo Finance",
-   "title": "Tesla's FSD (Supervised) Attach Rate Hit 75% on New Vehicles. Here's Why That Single Number Could Matter More Than Robotaxi for the Stock in 2027.",
-   "link": "https://www.fool.com/investing/2026/11/08/teslas-fsd-supervised-attach-rate-hit-75-on-new-ve/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T15:05:00Z",
-   "source": "Yahoo Finance",
-   "title": "How These 4 Transportation Stocks Move the Economy",
-   "link": "https://www.fool.com/investing/2026/11/08/these-4-transportation-stocks-move-the-economy/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T14:55:00Z",
-   "source": "Yahoo Finance",
-   "title": "AI Power Stocks Just Fell 6.3% to 9.3% on Financing Fears. SpaceX Just Said New Compute Pays Back in Under a Year.",
-   "link": "https://www.fool.com/investing/2026/11/08/ai-power-stocks-just-fell-63-to-93-on-financing-fe/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T14:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: A Stock Market Crash Is Coming. Here's What Dividend Investors Should Do Based on Warren Buffett's Advice",
-   "link": "https://www.fool.com/investing/2026/11/08/prediction-a-stock-market-crash-is-coming-here-s-what-dividend-investors-should-do-based-on-warren-buffett-s-advice/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T14:35:00Z",
-   "source": "Yahoo Finance",
-   "title": "Obamacare Subsidies Lapsed. Here's Why Health Insurer Stocks Are Watching the New Congress.",
-   "link": "https://www.fool.com/investing/2026/11/08/obamacare-subsidies-health-insure-stock-election/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T14:21:04Z",
-   "source": "Yahoo Finance",
-   "title": "Ben Thompson: NVIDIA Will “Almost Certainly Be a Short-Term Loser” From the Blue Wave",
-   "link": "https://www.tikr.com/blog/ben-thompson-nvidia-will-almost-certainly-be-a-short-term-loser-from-the-blue-wave?ref=yahoofinance&tlnk=yf-261108-5q4fjcqc&.tsrc=rss"
-  },
-  {
    "published": "2026-11-08T14:15:00Z",
    "source": "CNBC",
    "title": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
    "link": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html"
   },
   {
-   "published": "2026-11-08T14:14:55Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Loom With Market Damaged, Big Winners Broken; Apple, Amazon, Microsoft Strong",
-   "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-loom-with.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-08T14:14:11Z",
    "source": "CNBC",
    "title": "Recent AI agent experiments reveal a risky future of machine 'teamwork' inside corporations",
    "link": "https://www.cnbc.com/2026/11/08/ai-agents-risks.html"
-  },
-  {
-   "published": "2026-11-08T14:09:00Z",
-   "source": "Yahoo Finance",
-   "title": "Is a Market Crash Coming? Warren Buffett's Warning Is Ringing Loud and Clear.",
-   "link": "https://www.fool.com/investing/2026/11/08/is-a-market-crash-coming-warren-buffetts-warning-i/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T14:01:03Z",
-   "source": "Decrypt",
-   "title": "This Bitcoin Developer’s Idea Would Make Quantum Attacks a Losing Bet",
-   "link": "https://decrypt.co/382761/bitcoin-developer-quantum-landmines-losing-bet"
-  },
-  {
-   "published": "2026-11-08T14:00:01Z",
-   "source": "CNBC",
-   "title": "Poppi founders are going after PepsiCo's Gatorade with new beverage startup Jetty",
-   "link": "https://www.cnbc.com/2026/11/08/poppi-founders-jetty-hydration-gatorade.html"
-  },
-  {
-   "published": "2026-11-08T13:57:00Z",
-   "source": "Yahoo Finance",
-   "title": "Should You Forget IonQ and Buy These 2 Quantum Computing Stocks Instead?",
-   "link": "https://www.fool.com/investing/2026/11/08/should-you-forget-ionq-and-buy-these-2-quantum-com/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T13:50:00Z",
-   "source": "Yahoo Finance",
-   "title": "Morgan Stanley Says $300. Michael Burry Says Overvalued. Here's Who Is Right About SpaceX Stock.",
-   "link": "https://www.fool.com/investing/2026/11/08/morgan-stanley-michael-burry-spacex-stock/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T13:49:00Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: This Glorious Growth Stock Is Going to Soar in 2027",
-   "link": "https://www.fool.com/investing/2026/11/08/prediction-glorious-growth-stock-going-soar-2027/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T13:33:00Z",
-   "source": "Cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-08T13:25:00Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: This Will Be the Best-Performing AI Stock of 2027",
-   "link": "https://www.fool.com/investing/2026/11/08/prediction-this-will-be-the-best-performing-ai-sto/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T13:04:00Z",
-   "source": "Yahoo Finance",
-   "title": "These 3 Unstoppable ETFs Could Build a Million-Dollar Portfolio With Little Effort on Your Part. Here's How.",
-   "link": "https://www.fool.com/investing/2026/11/08/these-3-unstoppable-etfs-could-build-a-million-dol/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T13:00:01Z",
-   "source": "CNBC",
-   "title": "Using miles to fly for Thanksgiving? These are the most expensive and cheapest routes",
-   "link": "https://www.cnbc.com/2026/11/08/frequent-flyer-miles-points-thanksgiving.html"
-  },
-  {
-   "published": "2026-11-08T13:00:01Z",
-   "source": "CNBC",
-   "title": "Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again",
-   "link": "https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html"
-  },
-  {
-   "published": "2026-11-08T13:00:01Z",
-   "source": "CNBC",
-   "title": "Brands are sponsoring IRL communities. Some experts say that could spell their end",
-   "link": "https://www.cnbc.com/make-it/2026/11/08/brand-sponsorship-local-communities.html"
-  },
-  {
-   "published": "2026-11-08T12:57:51Z",
-   "source": "Cointelegraph",
-   "title": "Binance France emails announce closure of its users’ accounts on Dec. 31",
-   "link": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-08T12:55:59Z",
-   "source": "CoinDesk",
-   "title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
-   "link": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000"
-  },
-  {
-   "published": "2026-11-08T12:53:00Z",
-   "source": "Yahoo Finance",
-   "title": "Elon Musk Says Tesla Will End Cybertruck Production -- Here's Why",
-   "link": "https://www.fool.com/investing/2026/11/08/elon-musk-tesla-end-cybertruck-production-why/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T12:50:00Z",
-   "source": "Yahoo Finance",
-   "title": "Should You Buy VOO Before the Market Rebounds?",
-   "link": "https://www.fool.com/investing/2026/11/08/should-you-buy-voo-before-market-rebounds/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T12:35:00Z",
-   "source": "Yahoo Finance",
-   "title": "3 Reasons Why Ultra High Yield Realty Income Is a Buy After Its Latest Earnings Report",
-   "link": "https://www.fool.com/investing/2026/11/08/3-reasons-why-ultra-high-yield-realty-income-is-a/?.tsrc=rss"
   }
  ]
 }
