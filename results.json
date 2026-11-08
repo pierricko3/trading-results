@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T04:00:34Z",
+ "generated_at": "2026-11-08T05:50:46Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0273,
+  "bench_pct": -0.0281,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,11 +16,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 75928.78,
+   "price": 75799.16,
    "trend": "baissière",
-   "score": -0.168,
-   "news_score": -0.5,
-   "news_conf": 0.24,
+   "score": -0.118,
+   "news_score": -0.25,
+   "news_conf": 0.12,
    "tech_score": -0.226,
    "in_position": false,
    "patterns": [
@@ -30,7 +30,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2238.42,
+   "price": 2234.46,
    "trend": "baissière",
    "score": -0.131,
    "news_score": -0.25,
@@ -45,7 +45,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 89.34,
+   "price": 89.2,
    "trend": "baissière",
    "score": -0.258,
    "news_score": -0.25,
@@ -62,9 +62,9 @@
    "symbol": "NVDA",
    "price": 186.67999267578125,
    "trend": "baissière",
-   "score": -0.309,
-   "news_score": -0.25,
-   "news_conf": 0.12,
+   "score": -0.359,
+   "news_score": -0.5,
+   "news_conf": 0.24,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -356,13 +356,18 @@
    1794110430,
    100.0,
    97.27
+  ],
+  [
+   1794117042,
+   100.0,
+   97.19
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 0,
-  "text": "Week-end, actions fermées. Yahoo Finance (07/11) : pire semaine du S&P 500 depuis avril 2025 et probabilité de hausse de taux en décembre à 77 % ; source unique, pas assez pour risk_off. — Contexte (Yahoo Finance, 07/11, source unique) : S&P 500 en pire semaine depuis avril 2025, paris sur une hauss",
-  "received_at": "2026-11-07T20:50:45Z"
+  "text": "Week-end, marchés actions fermés. 2 sources : Yahoo Finance (pire semaine du S&P 500 depuis avril 2025, hausse de taux en décembre à 77 %), CNBC (risque d'escalade Iran). Pas assez pour risk_off. — Contexte (Yahoo Finance, 07-08/11) : S&P 500 en pire semaine depuis avril 2025, probabilité d'une haus",
+  "received_at": "2026-11-08T05:50:42Z"
  },
  "indicators": {
   "fear_greed": {
@@ -492,6 +497,18 @@
   }
  },
  "headlines": [
+  {
+   "published": "2026-11-08T05:12:45Z",
+   "source": "Yahoo Finance",
+   "title": "These AI Stocks To Improve Your Portfolio In November 2026",
+   "link": "https://finance.yahoo.com/technology/ai/articles/ai-stocks-improve-portfolio-november-051245618.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T04:33:00Z",
+   "source": "Yahoo Finance",
+   "title": "Bank of America has unexpected advice for tech stock investors after midterms",
+   "link": "https://www.thestreet.com/investing/stocks/bofa-tech-stock-midterm-outlook?.tsrc=rss"
+  },
   {
    "published": "2026-11-08T03:20:00Z",
    "source": "Yahoo Finance",
@@ -625,12 +642,6 @@
    "link": "https://www.fool.com/investing/2026/11/07/palantir-stock-just-fell-8-days-in-a-row-history-says-what-followed-its-only-2-longer-losing-streaks/?.tsrc=rss"
   },
   {
-   "published": "2026-11-07T19:50:00Z",
-   "source": "Yahoo Finance",
-   "title": "Here's What $10,000 Invested in Bloom Energy (BE) Stock Could Be Worth in 3 Years",
-   "link": "https://www.fool.com/investing/2026/11/07/heres-what-10000-invested-in-bloom-energy-be-stock/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-07T19:30:25Z",
    "source": "Yahoo Finance",
    "title": "Republican Senator Who Won Reelection Is Selling Magnificent Seven Stocks: Here Are the Trades",
@@ -665,12 +676,6 @@
    "source": "Yahoo Finance",
    "title": "Odds of a December Rate Hike Jump to 77% After a Blowout Jobs Report",
    "link": "https://247wallst.com/investing/2026/11/07/odds-of-a-december-rate-hike-jump-to-77-after-a-blowout-jobs-report/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T17:01:03Z",
-   "source": "Decrypt",
-   "title": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
-   "link": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue"
   }
  ]
 }
