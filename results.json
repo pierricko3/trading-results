@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T20:00:35Z",
+ "generated_at": "2026-11-08T20:50:44Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0274,
+  "bench_pct": -0.0284,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,7 +16,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 75929.04,
+   "price": 75780.19,
    "trend": "baissière",
    "score": -0.384,
    "news_score": -0.25,
@@ -31,7 +31,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2231.57,
+   "price": 2227.45,
    "trend": "baissière",
    "score": -0.336,
    "news_score": -0.25,
@@ -46,7 +46,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 89.52,
+   "price": 89.31,
    "trend": "baissière",
    "score": -0.363,
    "news_score": -0.25,
@@ -65,7 +65,7 @@
    "trend": "baissière",
    "score": -0.293,
    "news_score": 0.0,
-   "news_conf": 0.6,
+   "news_conf": 0.48,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -387,13 +387,18 @@
    1794168030,
    100.0,
    97.26
+  ],
+  [
+   1794171039,
+   100.0,
+   97.16
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 0,
-  "text": "Week-end, marchés actions fermés. 2 sources : Yahoo Finance (hausse de taux de la Fed en décembre pricée, secteur puces volatil), CNBC (risque d'escalade Iran). Pas d'indicateurs concrets suffisants pour risk_off. — Contexte (Yahoo Finance, 08/11) : les marchés price une hausse de taux de la Fed en ",
-  "received_at": "2026-11-08T13:50:42Z"
+  "text": "Week-end, marchés actions fermés. 2 sources : Yahoo Finance (futures Dow sous pression, grandes valeurs tech solides), CNBC (tensions politiques, droits de douane). Pas d'indicateurs concrets suffisants pour risk_off. — Contexte (Yahoo Finance, CNBC, 08/11) : marché américain jugé fragilisé avant l'",
+  "received_at": "2026-11-08T20:50:39Z"
  },
  "indicators": {
   "fear_greed": {
@@ -524,6 +529,36 @@
  },
  "headlines": [
   {
+   "published": "2026-11-08T20:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "2 ETFs I'd Buy in November and Hold for the Next 20 Years",
+   "link": "https://www.fool.com/investing/2026/11/08/2-etfs-id-buy-in-november-and-hold-for-the-next-20/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T20:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "A Once-in-a-Decade Opportunity: 1 Super Growth Stock Down 58% to Buy and Hold for a Decade",
+   "link": "https://www.fool.com/investing/2026/11/08/once-in-a-decade-opportunity-super-growth-stock/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T19:54:08Z",
+   "source": "Yahoo Finance",
+   "title": "In March 2000, Cisco Briefly Became The World’s Most Valuable Company As Its Stock Closed At $80.06. Buyers That Day Waited More Than 25 Years For It To Close Higher. Here’s What AI Investors Need To ",
+   "link": "https://247wallst.com/investing/2026/11/08/in-march-2000-cisco-briefly-became-the-worlds-most-valuable-company-as-its-stock-closed-at-80-06-buyers-that-day-waited-more-than-25-years-for-it-to-close-higher-heres-what-ai-investors-need-t/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T19:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "This Is the Best-Performing Magnificent Seven Stock of 2026. Is It Still a Buy?",
+   "link": "https://www.fool.com/investing/2026/11/08/this-is-best-performing-magnificent-seven-stock/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T19:44:00Z",
+   "source": "Yahoo Finance",
+   "title": "Tesla Isn’t a Mag-7 Stock. This Is.",
+   "link": "https://finance.yahoo.com/m/1989a8d6-2668-3d81-b94f-8613123a1e6b/tesla-isn%E2%80%99t-a-mag-7-stock..html?.tsrc=rss"
+  },
+  {
    "published": "2026-11-08T19:30:00Z",
    "source": "CoinDesk",
    "title": "What the election results mean for crypto: State of Crypto",
@@ -620,12 +655,6 @@
    "link": "https://www.fool.com/investing/2026/11/08/green-thumb-ended-its-string-of-profitable-quarter/?.tsrc=rss"
   },
   {
-   "published": "2026-11-08T17:23:00Z",
-   "source": "Yahoo Finance",
-   "title": "Tesla Isn’t a Mag-Y Stock. This Is.",
-   "link": "https://finance.yahoo.com/m/1989a8d6-2668-3d81-b94f-8613123a1e6b/tesla-isn%E2%80%99t-a-mag-y-stock..html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-08T17:17:00Z",
    "source": "Yahoo Finance",
    "title": "Democrats prepare to go after Apple, Meta and Elon Musk companies",
@@ -668,24 +697,6 @@
    "link": "https://247wallst.com/investing/2026/11/08/intel-stock-has-gone-nowhere-in-8-years-why-this-time-could-be-different/?.tsrc=rss"
   },
   {
-   "published": "2026-11-08T16:23:46Z",
-   "source": "Yahoo Finance",
-   "title": "Anthropic’s $1.5 Trillion IPO Could Expose the Biggest Risk Facing the AI Boom",
-   "link": "https://247wallst.com/investing/2026/11/08/anthropics-1-5-trillion-ipo-could-expose-the-biggest-risk-facing-the-ai-boom/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T16:20:41Z",
-   "source": "Yahoo Finance",
-   "title": "Anthropic’s $895 Billion AI Gamble Could Become Wall Street’s Next Debt Nightmare",
-   "link": "https://247wallst.com/investing/2026/11/08/anthropics-895-billion-ai-gamble-could-become-wall-streets-next-debt-nightmare/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T16:20:25Z",
-   "source": "Yahoo Finance",
-   "title": "Top 5 stocks to watch this week",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/top-5-stocks-watch-week-162025831.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-08T15:36:39Z",
    "source": "CNBC",
    "title": "How Democrats will try to end Trump's tariffs",
@@ -696,12 +707,6 @@
    "source": "CNBC",
    "title": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
    "link": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html"
-  },
-  {
-   "published": "2026-11-08T14:14:11Z",
-   "source": "CNBC",
-   "title": "Recent AI agent experiments reveal a risky future of machine 'teamwork' inside corporations",
-   "link": "https://www.cnbc.com/2026/11/08/ai-agents-risks.html"
   }
  ]
 }
