@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T00:00:34Z",
+ "generated_at": "2026-11-08T04:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0266,
+  "bench_pct": -0.0273,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,45 +16,46 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 75846.95,
+   "price": 75928.78,
    "trend": "baissière",
-   "score": -0.207,
-   "news_score": -0.25,
-   "news_conf": 0.36,
-   "tech_score": -0.349,
+   "score": -0.168,
+   "news_score": -0.5,
+   "news_conf": 0.24,
+   "tech_score": -0.226,
    "in_position": false,
    "patterns": [
+    "Marteau (rebond possible)",
     "Marteau (rebond possible)"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2239.24,
-   "trend": "neutre",
-   "score": 0.089,
+   "price": 2238.42,
+   "trend": "baissière",
+   "score": -0.131,
    "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": 0.235,
+   "tech_score": -0.255,
    "in_position": false,
    "patterns": [
     "Doji (indécision)",
-    "Doji (indécision)",
-    "Marteau (rebond possible)"
+    "Marteau (rebond possible)",
+    "Avalement haussier"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 89.76,
+   "price": 89.34,
    "trend": "baissière",
-   "score": -0.132,
+   "score": -0.258,
    "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": -0.257,
+   "tech_score": -0.536,
    "in_position": false,
    "patterns": [
-    "Avalement haussier",
     "Marteau (rebond possible)",
-    "Étoile du matin (retournement haussier)"
+    "Étoile du matin (retournement haussier)",
+    "Avalement baissier"
    ]
   },
   {
@@ -350,6 +351,11 @@
    1794096030,
    100.0,
    97.34
+  ],
+  [
+   1794110430,
+   100.0,
+   97.27
   ]
  ],
  "last_directive": {
@@ -487,6 +493,66 @@
  },
  "headlines": [
   {
+   "published": "2026-11-08T03:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "History Says Energy Led All Sectors in the Last Bear Market. Here's What's Different Now.",
+   "link": "https://www.fool.com/investing/2026/11/07/history-says-energy-led-all-sectors-in-the-last-be/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T03:19:56Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures: Market Damaged, Big Winners Broken; Apple, Amazon, Microsoft Strong",
+   "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures%3A-market.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T02:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "Anduril Keeps Winning Billion-Dollar Contracts and You Can't Buy It. Here Are 3 Public Stocks That Get Paid Alongside It.",
+   "link": "https://www.fool.com/investing/2026/11/07/anduril-keeps-winning-billion-dollar-contracts-and/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T02:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Trump's Recent Warning Is Sending Shockwaves Through Wall Street. Here's What It Could Mean for Your Retirement Savings.",
+   "link": "https://www.fool.com/investing/2026/11/07/trumps-recent-warning-is-sending-shockwaves-throug/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T01:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "The 1 Investing Habit That Separates Stock Market Millionaires From Everyone Else",
+   "link": "https://www.fool.com/investing/2026/11/07/the-1-investing-habit-that-separates-stock-market/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T01:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Alphabet's $15 Billion Investment in Malaysia Data Centers Shows That Midterm Results Won't Stop the AI Boom",
+   "link": "https://www.fool.com/investing/2026/11/07/alphabets-15-billion-investment-in-malaysia-data-c/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T00:58:02Z",
+   "source": "Yahoo Finance",
+   "title": "AMD Stock Just Fell Below the Price I Said I'd Pay for It.",
+   "link": "https://www.fool.com/investing/2026/11/07/amd-stock-just-fell-below-the-price-i-said-i-d-pay-for-it/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T00:43:01Z",
+   "source": "Yahoo Finance",
+   "title": "Warren Buffett and Greg Abel Just Sent Shockwaves Through Wall Street With This $377 Billion Warning",
+   "link": "https://www.fool.com/investing/2026/11/07/warren-buffett-greg-abel-just-sent-shockwaves-through-wall-street-with-377-billion-warning/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T00:23:16Z",
+   "source": "Yahoo Finance",
+   "title": "How to invest in AI amid AI spending worries?",
+   "link": "https://finance.yahoo.com/technology/ai/articles/invest-ai-amid-ai-spending-002316174.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T00:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Energy Transfer Just Raised Its Distribution for the 20th Straight Quarter. Here's How Much $10,000 Invested Pays Annually.",
+   "link": "https://www.fool.com/investing/2026/11/07/energy-transfer-just-raised-its-distribution-for-t/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-07T23:40:02Z",
    "source": "Yahoo Finance",
    "title": "Novo Nordisk Just Delivered Great News for Investors. Is a Comeback Finally Underway?",
@@ -535,12 +601,6 @@
    "link": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html"
   },
   {
-   "published": "2026-11-07T21:45:54Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures: Market Needs Repair But Apple, Amazon, Microsoft Strong; Berkshire Doubles Stock Buyback",
-   "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures%3A-market.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-07T21:05:00Z",
    "source": "Yahoo Finance",
    "title": "SpaceX's December Lockup Is Nearly the Biggest Share Unlock in IPO History. History Says This Is What Happens Next.",
@@ -587,60 +647,6 @@
    "source": "CoinDesk",
    "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
    "link": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end"
-  },
-  {
-   "published": "2026-11-07T19:13:00Z",
-   "source": "Yahoo Finance",
-   "title": "Think It's Too Late to Buy Cloudflare Stock? Here's the 1 Reason Why There's Still Time",
-   "link": "https://www.fool.com/investing/2026/11/07/too-late-buy-cloudflare-stock-1-reason-still-time/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T19:11:44Z",
-   "source": "Yahoo Finance",
-   "title": "Alphabet (GOOGL) Expands SpaceX Stake to $69 Billion and Deepens AI Ties",
-   "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-expands-spacex-stake-191144041.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T19:05:02Z",
-   "source": "Yahoo Finance",
-   "title": "MercadoLibre's Profits Fall Again. What It Means for Investors",
-   "link": "https://www.fool.com/investing/2026/11/07/mercadolibre-s-profits-fall-again-what-it-means-for-investors/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T18:57:00Z",
-   "source": "Yahoo Finance",
-   "title": "Where Will Rigetti Computing Stock Be in 3 Years?",
-   "link": "https://www.fool.com/investing/2026/11/07/where-will-rigetti-computing-stock-be-in-3-years/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T18:50:00Z",
-   "source": "Yahoo Finance",
-   "title": "Eli Lilly Just Raised Its 2026 Revenue Forecast by $5.5 Billion. Is the Stock Still a Buy?",
-   "link": "https://www.fool.com/investing/2026/11/07/eli-lilly-just-raised-its-2026-revenue-forecast-by/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T18:35:00Z",
-   "source": "Yahoo Finance",
-   "title": "3 Dividend Stocks I'd Buy With $5,000 Before the End of November",
-   "link": "https://www.fool.com/investing/2026/11/07/3-dividend-stocks-buy-5000-november/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T18:20:00Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Stock Has More Than 60% Upside According to Analysts' Average Price Target. Should You Buy While the AI Trade Wobbles?",
-   "link": "https://www.fool.com/investing/2026/11/07/nvidia-stock-has-more-than-60-upside-according-to/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T18:08:44Z",
-   "source": "Yahoo Finance",
-   "title": "Older Nvidia Chips Just Cost Oracle Its Microsoft AI Deal",
-   "link": "https://247wallst.com/investing/2026/11/07/older-nvidia-chips-just-cost-oracle-its-microsoft-ai-deal/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-07T17:50:00Z",
-   "source": "Yahoo Finance",
-   "title": "Micron and Sandisk Lead the Memory Market. 1 Stock Has Far Greater Upside.",
-   "link": "https://www.fool.com/investing/2026/11/07/micron-and-sandisk-lead-the-memory-market-1-stock/?.tsrc=rss"
   },
   {
    "published": "2026-11-07T17:36:46Z",
