@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T20:50:44Z",
+ "generated_at": "2026-11-08T21:30:53Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0284,
+  "bench_pct": -0.0293,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,7 +16,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 75780.19,
+   "price": 75695.17,
    "trend": "baissière",
    "score": -0.384,
    "news_score": -0.25,
@@ -31,7 +31,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2227.45,
+   "price": 2224.34,
    "trend": "baissière",
    "score": -0.336,
    "news_score": -0.25,
@@ -46,7 +46,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 89.31,
+   "price": 89.03,
    "trend": "baissière",
    "score": -0.363,
    "news_score": -0.25,
@@ -63,9 +63,9 @@
    "symbol": "NVDA",
    "price": 186.67999267578125,
    "trend": "baissière",
-   "score": -0.293,
-   "news_score": 0.0,
-   "news_conf": 0.48,
+   "score": -0.441,
+   "news_score": -0.75,
+   "news_conf": 0.36,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -74,9 +74,9 @@
    "symbol": "AAPL",
    "price": 342.364990234375,
    "trend": "neutre",
-   "score": 0.011,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": -0.038,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": 0.026,
    "in_position": false,
    "patterns": []
@@ -392,6 +392,11 @@
    1794171039,
    100.0,
    97.16
+  ],
+  [
+   1794173448,
+   100.0,
+   97.07
   ]
  ],
  "last_directive": {
@@ -529,6 +534,54 @@
  },
  "headlines": [
   {
+   "published": "2026-11-08T21:28:12Z",
+   "source": "CNBC",
+   "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+   "link": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html"
+  },
+  {
+   "published": "2026-11-08T21:13:38Z",
+   "source": "CNBC",
+   "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+   "link": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+  },
+  {
+   "published": "2026-11-08T21:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "Why Nov. 9 Could Be a Huge Day for Rocket Lab Investors",
+   "link": "https://www.fool.com/investing/2026/11/08/why-nov-9-could-be-a-huge-day-for-rocket-lab-inves/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T21:00:11Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-investigate-ceo-jensen-huang-210011206.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T20:59:04Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures Loom For Damaged Market; Nvidia Probes Huang Spying Case",
+   "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-loom-for.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T20:57:30Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Board Launches Probe In CEO Jensen Huang Spying Case",
+   "link": "https://finance.yahoo.com/m/7d4c4e40-eb01-324f-b03d-99c6800c4248/nvidia-board-launches-probe.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T20:52:00Z",
+   "source": "Yahoo Finance",
+   "title": "Should You Buy Meta Platforms Before Its Stock Split?",
+   "link": "https://www.fool.com/investing/2026/11/08/should-you-buy-meta-platforms-before-its-stock-spl/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-08T20:51:22Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia's Jensen Huang admits to affair after allegations of romance with Chinese spy: Report",
+   "link": "https://finance.yahoo.com/markets/article/nvidias-jensen-huang-admits-to-affair-after-allegations-of-romance-with-chinese-spy-report-205122263.html?.tsrc=rss"
+  },
+  {
    "published": "2026-11-08T20:20:00Z",
    "source": "Yahoo Finance",
    "title": "2 ETFs I'd Buy in November and Hold for the Next 20 Years",
@@ -583,12 +636,6 @@
    "link": "https://www.fool.com/investing/2026/11/08/how-much-10k-altria-stock-pays-you-each-year/?.tsrc=rss"
   },
   {
-   "published": "2026-11-08T19:14:24Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Loom With Market Damaged, Big Winners Broken; Apple, Amazon, Microsoft Strong",
-   "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-loom-with.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-08T18:57:56Z",
    "source": "CNBC",
    "title": "Democrats amp up Trump investigation threats, Blanche counters he may probe lawmakers",
@@ -619,12 +666,6 @@
    "link": "https://www.fool.com/investing/2026/11/08/where-gold-and-copper-prices-go-from-here-and/?.tsrc=rss"
   },
   {
-   "published": "2026-11-08T18:18:30Z",
-   "source": "CNBC",
-   "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
-   "link": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html"
-  },
-  {
    "published": "2026-11-08T18:05:00Z",
    "source": "Yahoo Finance",
    "title": "Not Bloom Energy. Not Vistra. This AI Power Stock Just Posted a 96% Jump in Orders.",
@@ -649,46 +690,16 @@
    "link": "https://www.cnbc.com/investingclub/2026/11/08/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
   },
   {
-   "published": "2026-11-08T17:35:00Z",
-   "source": "Yahoo Finance",
-   "title": "Green Thumb Ended Its String of Profitable Quarters. Is the Stock a Buy?",
-   "link": "https://www.fool.com/investing/2026/11/08/green-thumb-ended-its-string-of-profitable-quarter/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-08T17:17:00Z",
    "source": "Yahoo Finance",
    "title": "Democrats prepare to go after Apple, Meta and Elon Musk companies",
    "link": "https://www.thestreet.com/technology/democrats-prepare-to-go-after-apple-meta-and-elon-musk-companies?.tsrc=rss"
   },
   {
-   "published": "2026-11-08T17:10:00Z",
-   "source": "Yahoo Finance",
-   "title": "Why Nvidia Stock Looks Like a Bargain Right Now",
-   "link": "https://www.fool.com/investing/2026/11/08/why-nvidia-stock-looks-like-a-bargain-right-now/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T17:01:00Z",
-   "source": "Yahoo Finance",
-   "title": "No Matter What Happens to the S&P 500 in November, These 3 Dividend Stocks Belong in Your Portfolio",
-   "link": "https://www.fool.com/investing/2026/11/08/no-matter-what-happens-to-the-sp-500-in-november/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T16:50:00Z",
-   "source": "Yahoo Finance",
-   "title": "SoFi Has 17.1 Million Members. Prediction: It Tops 20 Million in 2027.",
-   "link": "https://www.fool.com/investing/2026/11/08/sofi-17-million-members-prediction-20-million-2027/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-08T16:47:47Z",
    "source": "Yahoo Finance",
    "title": "Wall Street Just Set a Record That Could Signal Trouble for the Stock Market",
    "link": "https://247wallst.com/investing/2026/11/08/wall-street-just-set-a-record-that-could-signal-trouble-for-the-stock-market/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T16:35:00Z",
-   "source": "Yahoo Finance",
-   "title": "Revolution Medicines' Pancreatic Cancer Drug Nearly Doubled Survival. Is the High-Flying Stock Still a Buy?",
-   "link": "https://www.fool.com/investing/2026/11/08/revolution-medicines-pancreatic-cancer-drug-nearly/?.tsrc=rss"
   },
   {
    "published": "2026-11-08T16:29:58Z",
@@ -701,12 +712,6 @@
    "source": "CNBC",
    "title": "How Democrats will try to end Trump's tariffs",
    "link": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html"
-  },
-  {
-   "published": "2026-11-08T14:15:00Z",
-   "source": "CNBC",
-   "title": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
-   "link": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html"
   }
  ]
 }
