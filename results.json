@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T05:50:47Z",
+ "generated_at": "2026-11-09T08:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0425,
+  "bench_pct": -0.0486,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,46 +16,46 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 74520.99,
+   "price": 73939.71,
    "trend": "baissière",
-   "score": -0.286,
+   "score": -0.366,
    "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": -0.6,
+   "tech_score": -0.777,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)",
     "Avalement baissier",
-    "Doji (indécision)"
+    "Doji (indécision)",
+    "Avalement baissier"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2131.57,
+   "price": 2095.05,
    "trend": "baissière",
-   "score": -0.293,
+   "score": -0.373,
    "news_score": 0.0,
    "news_conf": 0.0,
-   "tech_score": -0.65,
+   "tech_score": -0.83,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)",
     "Avalement haussier",
+    "Avalement baissier",
     "Avalement baissier"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 86.9,
+   "price": 85.67,
    "trend": "baissière",
-   "score": -0.276,
-   "news_score": 0.0,
-   "news_conf": 0.0,
-   "tech_score": -0.614,
+   "score": -0.375,
+   "news_score": -0.25,
+   "news_conf": 0.12,
+   "tech_score": -0.796,
    "in_position": false,
    "patterns": [
-    "Étoile du matin (retournement haussier)",
     "Doji (indécision)",
+    "Avalement baissier",
     "Avalement baissier"
    ]
   },
@@ -63,9 +63,9 @@
    "symbol": "NVDA",
    "price": 186.67999267578125,
    "trend": "baissière",
-   "score": -0.403,
-   "news_score": -0.333,
-   "news_conf": 0.6,
+   "score": -0.342,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -74,9 +74,9 @@
    "symbol": "AAPL",
    "price": 342.364990234375,
    "trend": "neutre",
-   "score": 0.143,
-   "news_score": 0.5,
-   "news_conf": 0.48,
+   "score": 0.209,
+   "news_score": 0.6,
+   "news_conf": 0.6,
    "tech_score": 0.026,
    "in_position": false,
    "patterns": []
@@ -412,6 +412,11 @@
    1794203442,
    100.0,
    95.75
+  ],
+  [
+   1794211230,
+   100.0,
+   95.14
   ]
  ],
  "last_directive": {
@@ -549,10 +554,76 @@
  },
  "headlines": [
   {
+   "published": "2026-11-09T07:23:16Z",
+   "source": "Yahoo Finance",
+   "title": "Tech firms claw back some losses after midterms rout, eyes on Nvidia",
+   "link": "https://finance.yahoo.com/technology/articles/tech-firms-claw-back-losses-025428116.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T07:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "If You'd Invested $5,000 in QQQ the Day It Launched, Here's What You'd Have Today",
+   "link": "https://www.fool.com/investing/2026/11/09/if-invest-5000-qqq-day-it-launched-how-much-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T07:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "Why Last Week's Market Sell-Off Was a Good Thing",
+   "link": "https://www.fool.com/investing/2026/11/09/why-last-weeks-market-sell-off-was-a-good-thing/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T06:54:41Z",
+   "source": "CoinDesk",
+   "title": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
+   "link": "https://www.coindesk.com/markets/2026/11/09/spacex-proposes-a-usd24-billion-texas-supercomputer-worth-17-times-its-bitcoin-pile"
+  },
+  {
+   "published": "2026-11-09T06:45:12Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia CEO Jensen Huang admits affair as company launches investigation into foreign spy claims",
+   "link": "https://www.cnn.com/business/video/nvidia-affair-hnk-digvid?cid=external-feeds_iluminar_yahoo&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T06:36:45Z",
+   "source": "CoinDesk",
+   "title": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
+   "link": "https://www.coindesk.com/tech/2026/11/09/solana-moves-to-scrap-the-transaction-feature-used-in-the-usd270-million-drift-hack"
+  },
+  {
+   "published": "2026-11-09T06:34:28Z",
+   "source": "Yahoo Finance",
+   "title": "Tech stocks recover after midterms rout as Nvidia takes centre stage",
+   "link": "https://www.euronews.com/2026/11/09/tech-stocks-recover-after-midterms-rout-as-nvidia-takes-centre-stage?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T06:20:39Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia CEO row: Bernstein sees ‘heavy distraction’ at best, ‘ammunition’ at worst",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-ceo-row-bernstein-sees-062039338.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T06:13:32Z",
+   "source": "Yahoo Finance",
+   "title": "Chinese robotics stock surge on Apple robotics research",
+   "link": "https://finance.yahoo.com/technology/ai/articles/chinese-robotics-stock-surge-apple-061332775.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T06:07:38Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia (NVDA) Stock May Be A Bargain Following Data Center Regulation Fears",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-stock-may-bargain-060738189.html?.tsrc=rss"
+  },
+  {
    "published": "2026-11-09T05:44:53Z",
    "source": "Cointelegraph",
    "title": "Here’s what happened in crypto today",
    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-09T05:40:02Z",
+   "source": "Yahoo Finance",
+   "title": "Oracle Stock Is on Pace for Its Worst Year Since 2001. Here's What Followed Its Only 2 Worse Years.",
+   "link": "https://www.fool.com/investing/2026/11/09/oracle-stock-is-on-pace-for-its-worst-year-since-2001-here-s-what-followed-its-only-2-worse-years/?.tsrc=rss"
   },
   {
    "published": "2026-11-09T05:36:08Z",
@@ -577,6 +648,18 @@
    "source": "CoinDesk",
    "title": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
    "link": "https://www.coindesk.com/tech/2026/11/09/two-rival-ethereum-proposals-aim-to-stop-glamsterdam-breaking-old-contracts"
+  },
+  {
+   "published": "2026-11-09T05:16:38Z",
+   "source": "Yahoo Finance",
+   "title": "Futurum's Newman Believes AI Trade Isn't Over",
+   "link": "https://finance.yahoo.com/video/futurums-newman-believes-ai-trade-051638116.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T05:16:08Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia CEO’s Affair Admission Counters Past Statements on Ties",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-affair-admission-counters-051608985.html?.tsrc=rss"
   },
   {
    "published": "2026-11-09T05:12:36Z",
@@ -621,24 +704,6 @@
    "link": "https://finance.yahoo.com/markets/stocks/articles/trump-calls-nvidia-huang-honorable-044451272.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T04:40:24Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia CEO Jensen Huang admits affair as company launches investigation into foreign spy claims",
-   "link": "https://www.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T04:30:39Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang’s Chinese Spy Scandal Puts Nvidia CEO’s Future Under Scrutiny — But, Bettors Aren’t Worried Yet",
-   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63021778/jensen-huang-nvidia-ceo-odds-polymarket-prediction-market?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T04:25:52Z",
-   "source": "Yahoo Finance",
-   "title": "Asia stocks roar back as Taiwan jumps 6%, Nvidia probe rattles AI trade",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-roar-back-taiwan-042552045.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-09T04:14:47Z",
    "source": "Yahoo Finance",
    "title": "Dow Jones Futures Rise As Nvidia Probes CEO Jensen Huang Spying Case",
@@ -651,46 +716,10 @@
    "link": "https://cointelegraph.com/news/tbtc-bridge-resumes-aave-120m-reserve-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-09T03:55:48Z",
-   "source": "Yahoo Finance",
-   "title": "Expert: Nvidia Probe Could Weaken China Leverage",
-   "link": "https://finance.yahoo.com/video/expert-nvidia-probe-could-weaken-035548726.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T03:52:09Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Board Launches Probe In CEO Jensen Huang Spying Case. The Stock Is Falling.",
-   "link": "https://finance.yahoo.com/m/7d4c4e40-eb01-324f-b03d-99c6800c4248/nvidia-board-launches-probe.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T03:48:14Z",
-   "source": "Yahoo Finance",
-   "title": "Dow, S&P 500, Nasdaq Futures Rebound After Sharp AI Selloff Last Week: NVDA, AMD, VIR, SNDK In Focus",
-   "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-rebound-after-sharp-ai-selloff-last-week-nvda-amd-vir-sndk-in-focus/cNGADuWR9eT?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T03:34:24Z",
-   "source": "Yahoo Finance",
-   "title": "AMD, AVGO, INTC, MU: Chip Stocks Inch Higher As Investors Look Past Midterms-Led Selloff, Nvidia Controversy",
-   "link": "https://stocktwits.com/news-articles/markets/equity/amd-avgo-intc-mu-chip-stocks-inch-higher-as-investors-look-past-midterms-led-selloff-nvidia-controversy/cNGAD0CR9eR?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T03:26:22Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia CEO's Affair Engulfs AI Giant in Spying Probe",
-   "link": "https://finance.yahoo.com/video/nvidia-ceos-affair-engulfs-ai-032622287.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-09T03:21:49Z",
    "source": "CoinDesk",
    "title": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
    "link": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility"
-  },
-  {
-   "published": "2026-11-09T03:14:14Z",
-   "source": "Yahoo Finance",
-   "title": "Top 3 Undervalued Stocks To Watch In November 2026",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/top-3-undervalued-stocks-watch-031414693.html?.tsrc=rss"
   },
   {
    "published": "2026-11-09T02:50:22Z",
@@ -703,30 +732,6 @@
    "source": "Yahoo Finance",
    "title": "Biotech Beats SPY And QQQ In Market Rout — Now Hims Earnings And Summit’s FDA Test Take Center Stage ‘",
    "link": "https://stocktwits.com/news-articles/markets/equity/biotech-beats-spy-qqq-hims-earnings-summit-fda-test-center-stage/cNGAtt7R9Iw?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T00:49:43Z",
-   "source": "Yahoo Finance",
-   "title": "5 Stocks I am Retiring On",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-am-retiring-004943035.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-08T22:59:06Z",
-   "source": "Cointelegraph",
-   "title": "Vitalik ‘pivots’ ETH to store of value, crypto suffers after US midterms: Hodler’s Digest",
-   "link": "https://cointelegraph.com/magazine/vitaliks-pivots-to-eth-as-a-store-of-value-us-election-weighs-on-crypto-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-08T22:53:57Z",
-   "source": "CNBC",
-   "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
-   "link": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
-  },
-  {
-   "published": "2026-11-08T21:55:41Z",
-   "source": "Yahoo Finance",
-   "title": "Apple Won’t “Play in Traffic” on AI. It’s Up 28% in a Year: Too Late to Buy?",
-   "link": "https://www.tikr.com/blog/apple-wont-play-in-traffic-on-ai-its-up-28-in-a-year-too-late-to-buy?ref=yahoofinance&tlnk=yf-261108-522mf3wh&.tsrc=rss"
   }
  ]
 }
