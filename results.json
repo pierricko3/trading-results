@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T08:00:34Z",
+ "generated_at": "2026-11-09T12:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0486,
+  "bench_pct": -0.0454,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,12 +16,12 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 73939.71,
+   "price": 74391.58,
    "trend": "baissière",
-   "score": -0.366,
-   "news_score": -0.25,
-   "news_conf": 0.12,
-   "tech_score": -0.777,
+   "score": -0.45,
+   "news_score": -0.75,
+   "news_conf": 0.36,
+   "tech_score": -0.67,
    "in_position": false,
    "patterns": [
     "Avalement baissier",
@@ -31,41 +31,40 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2095.05,
+   "price": 2114.63,
    "trend": "baissière",
-   "score": -0.373,
-   "news_score": 0.0,
-   "news_conf": 0.0,
-   "tech_score": -0.83,
+   "score": -0.342,
+   "news_score": -0.25,
+   "news_conf": 0.12,
+   "tech_score": -0.722,
    "in_position": false,
    "patterns": [
-    "Avalement haussier",
     "Avalement baissier",
     "Avalement baissier"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 85.67,
+   "price": 86.13,
    "trend": "baissière",
-   "score": -0.375,
-   "news_score": -0.25,
-   "news_conf": 0.12,
-   "tech_score": -0.796,
+   "score": -0.277,
+   "news_score": -0.5,
+   "news_conf": 0.24,
+   "tech_score": -0.468,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)",
     "Avalement baissier",
-    "Avalement baissier"
+    "Avalement baissier",
+    "Marteau inversé (rebond possible)"
    ]
   },
   {
    "symbol": "NVDA",
    "price": 186.67999267578125,
    "trend": "baissière",
-   "score": -0.342,
+   "score": -0.375,
    "news_score": -0.25,
-   "news_conf": 0.36,
+   "news_conf": 0.6,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -74,9 +73,9 @@
    "symbol": "AAPL",
    "price": 342.364990234375,
    "trend": "neutre",
-   "score": 0.209,
-   "news_score": 0.6,
-   "news_conf": 0.6,
+   "score": -0.005,
+   "news_score": -0.25,
+   "news_conf": 0.12,
    "tech_score": 0.026,
    "in_position": false,
    "patterns": []
@@ -85,9 +84,9 @@
    "symbol": "SPY",
    "price": 735.3400268554688,
    "trend": "baissière",
-   "score": -0.165,
-   "news_score": 0.5,
-   "news_conf": 0.24,
+   "score": -0.248,
+   "news_score": -0.25,
+   "news_conf": 0.12,
    "tech_score": -0.513,
    "in_position": false,
    "patterns": [
@@ -417,6 +416,11 @@
    1794211230,
    100.0,
    95.14
+  ],
+  [
+   1794225630,
+   100.0,
+   95.46
   ]
  ],
  "last_directive": {
@@ -430,7 +434,7 @@
    "value": 29,
    "label": "Fear"
   },
-  "vix": 25.64
+  "vix": 23.34
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -554,184 +558,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-09T07:23:16Z",
+   "published": "2026-11-09T11:50:36Z",
+   "source": "Decrypt",
+   "title": "Coinbase Joins Circle, Ripple With Final OCC Approval for Federal Trust Bank Charter",
+   "link": "https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter"
+  },
+  {
+   "published": "2026-11-09T11:47:57Z",
    "source": "Yahoo Finance",
-   "title": "Tech firms claw back some losses after midterms rout, eyes on Nvidia",
+   "title": "Tech stocks claw back some losses despite Nvidia concerns",
    "link": "https://finance.yahoo.com/technology/articles/tech-firms-claw-back-losses-025428116.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T07:20:00Z",
+   "published": "2026-11-09T11:45:00Z",
    "source": "Yahoo Finance",
-   "title": "If You'd Invested $5,000 in QQQ the Day It Launched, Here's What You'd Have Today",
-   "link": "https://www.fool.com/investing/2026/11/09/if-invest-5000-qqq-day-it-launched-how-much-today/?.tsrc=rss"
+   "title": "3 Top Dividend Stocks to Buy in November for a Lifetime of Passive Income",
+   "link": "https://www.fool.com/investing/2026/11/09/3-top-dividend-stocks-buy-november-lifetime-income/?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T07:05:00Z",
-   "source": "Yahoo Finance",
-   "title": "Why Last Week's Market Sell-Off Was a Good Thing",
-   "link": "https://www.fool.com/investing/2026/11/09/why-last-weeks-market-sell-off-was-a-good-thing/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T06:54:41Z",
+   "published": "2026-11-09T11:42:04Z",
    "source": "CoinDesk",
-   "title": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
-   "link": "https://www.coindesk.com/markets/2026/11/09/spacex-proposes-a-usd24-billion-texas-supercomputer-worth-17-times-its-bitcoin-pile"
+   "title": "Nvidia-led tech selloff weighs on crypto majors",
+   "link": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors"
   },
   {
-   "published": "2026-11-09T06:45:12Z",
+   "published": "2026-11-09T11:40:52Z",
    "source": "Yahoo Finance",
-   "title": "Nvidia CEO Jensen Huang admits affair as company launches investigation into foreign spy claims",
-   "link": "https://www.cnn.com/business/video/nvidia-affair-hnk-digvid?cid=external-feeds_iluminar_yahoo&.tsrc=rss"
+   "title": "US Stock Futures Rise, Dow Futures Lead Gains As Wall Street Eyes Inflation Data, AI Earnings — NVDA, TSLA, CRWV In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-rise-dow-futures-lead-gains-as-wall-street-eyes-inflation-data-ai-earnings-nvda-tsla-crwv-in-focus/cNGr7iLR9eF?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T06:36:45Z",
-   "source": "CoinDesk",
-   "title": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
-   "link": "https://www.coindesk.com/tech/2026/11/09/solana-moves-to-scrap-the-transaction-feature-used-in-the-usd270-million-drift-hack"
-  },
-  {
-   "published": "2026-11-09T06:34:28Z",
+   "published": "2026-11-09T11:40:45Z",
    "source": "Yahoo Finance",
-   "title": "Tech stocks recover after midterms rout as Nvidia takes centre stage",
-   "link": "https://www.euronews.com/2026/11/09/tech-stocks-recover-after-midterms-rout-as-nvidia-takes-centre-stage?.tsrc=rss"
+   "title": "“Don’t Come Begging To Taxpayers,” Bernie Sanders Warns Big Tech “You Won’t Be Bailed Out” If AI Bet Fueled By $3 Trillion In Debt Blows Up",
+   "link": "https://247wallst.com/investing/2026/11/09/dont-come-begging-to-taxpayers-bernie-sanders-warns-big-tech-you-wont-be-bailed-out-if-ai-bet-fueled-by-3-trillion-in-debt-blows-up/?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T06:20:39Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia CEO row: Bernstein sees ‘heavy distraction’ at best, ‘ammunition’ at worst",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-ceo-row-bernstein-sees-062039338.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T06:13:32Z",
-   "source": "Yahoo Finance",
-   "title": "Chinese robotics stock surge on Apple robotics research",
-   "link": "https://finance.yahoo.com/technology/ai/articles/chinese-robotics-stock-surge-apple-061332775.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T06:07:38Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia (NVDA) Stock May Be A Bargain Following Data Center Regulation Fears",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-stock-may-bargain-060738189.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T05:44:53Z",
+   "published": "2026-11-09T11:38:52Z",
    "source": "Cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   "title": "Coinbase’s US national trust bank charter takes effect",
+   "link": "https://cointelegraph.com/news/coinbase-occ-approval-national-trust-bank-charter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-09T05:40:02Z",
+   "published": "2026-11-09T11:38:43Z",
    "source": "Yahoo Finance",
-   "title": "Oracle Stock Is on Pace for Its Worst Year Since 2001. Here's What Followed Its Only 2 Worse Years.",
-   "link": "https://www.fool.com/investing/2026/11/09/oracle-stock-is-on-pace-for-its-worst-year-since-2001-here-s-what-followed-its-only-2-worse-years/?.tsrc=rss"
+   "title": "Does Nvidia CFO Colette Kress Take Over If Jensen Huang Leaves?",
+   "link": "https://247wallst.com/investing/2026/11/09/does-nvidia-cfo-colette-kress-take-over-if-jensen-huang-leaves/?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T05:36:08Z",
-   "source": "Cointelegraph",
-   "title": "Zcash devs propose another block time cut days after NU7 upgrade",
-   "link": "https://cointelegraph.com/news/zcash-developers-propose-20-second-blocks-nu7-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-09T05:21:25Z",
+   "published": "2026-11-09T11:37:30Z",
    "source": "Yahoo Finance",
-   "title": "Nvidia Slips 3% Overnight as Board Probes Jensen Huang: “No Reason to Believe” Secrets Were Compromised",
-   "link": "https://www.tikr.com/blog/nvidia-slips-3-overnight-as-board-probes-jensen-huang-no-reason-to-believe-secrets-were-compromised?ref=yahoofinance&tlnk=yf-261109-9rm87vv2&.tsrc=rss"
+   "title": "AI Chips Today - AI Tech Leaders Gather to Define Future Innovation",
+   "link": "https://finance.yahoo.com/technology/ai/articles/ai-chips-today-ai-tech-113730173.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T05:20:00Z",
+   "published": "2026-11-09T11:36:09Z",
    "source": "Yahoo Finance",
-   "title": "AMD vs. Intel: Which Is the Better AI Chip Stock to Own for the Next 3 Years Following the Semiconductor Crash?",
-   "link": "https://www.fool.com/investing/2026/11/09/amd-vs-intel-which-is-the-better-ai-chip-stock-to/?.tsrc=rss"
+   "title": "Premarket movers: Nvidia slides on Huang probe, NVR extends rally",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-nvidia-slides-huang-113609873.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T05:16:54Z",
-   "source": "CoinDesk",
-   "title": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
-   "link": "https://www.coindesk.com/tech/2026/11/09/two-rival-ethereum-proposals-aim-to-stop-glamsterdam-breaking-old-contracts"
-  },
-  {
-   "published": "2026-11-09T05:16:38Z",
+   "published": "2026-11-09T11:30:00Z",
    "source": "Yahoo Finance",
-   "title": "Futurum's Newman Believes AI Trade Isn't Over",
-   "link": "https://finance.yahoo.com/video/futurums-newman-believes-ai-trade-051638116.html?.tsrc=rss"
+   "title": "Eli Lilly Is Now Worth Nearly 9 Novo Nordisks. Here's How the Gap Got So Wide.",
+   "link": "https://www.fool.com/investing/2026/11/09/eli-lilly-is-now-worth-nearly-9-novo-nordisks-here/?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T05:16:08Z",
+   "published": "2026-11-09T11:27:34Z",
    "source": "Yahoo Finance",
-   "title": "Nvidia CEO’s Affair Admission Counters Past Statements on Ties",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-affair-admission-counters-051608985.html?.tsrc=rss"
+   "title": "Nvidia Board Launches Probe In CEO Jensen Huang Spying Case. The Stock Is Falling.",
+   "link": "https://finance.yahoo.com/m/7d4c4e40-eb01-324f-b03d-99c6800c4248/nvidia-board-launches-probe.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T05:12:36Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Probe Puts China Exposed US Chip Stocks In Focus",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-probe-puts-china-exposed-051236166.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T05:00:31Z",
-   "source": "Yahoo Finance",
-   "title": "Taiwan shares rally 6% as short-sale curbs and NT$500 bln fund lift sentiment",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-shares-rally-6-short-050031171.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T05:00:01Z",
+   "published": "2026-11-09T11:26:45Z",
    "source": "CNBC",
-   "title": "From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses",
-   "link": "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html"
+   "title": "Nvidia stock falls 5% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy",
+   "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
   },
   {
-   "published": "2026-11-09T05:00:00Z",
+   "published": "2026-11-09T11:26:27Z",
+   "source": "Decrypt",
+   "title": "Trump Says He Knows 'Nothing' About World Liberty Financial as He Defends UAE Ties",
+   "link": "https://decrypt.co/382813/trump-says-he-knows-nothing-about-world-liberty-financial-as-he-defends-uae-ties"
+  },
+  {
+   "published": "2026-11-09T11:21:41Z",
    "source": "Yahoo Finance",
-   "title": "NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-rebellions-sk-telecom-announce-050000656.html?.tsrc=rss"
+   "title": "Jensen Huang Spy Storm: Will Nvidia Stock and CEO Survive the Nov. 11 Deadline?",
+   "link": "https://beincrypto.com/nvidia-stock-huang-nov-11-deadline/?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T04:54:39Z",
-   "source": "CoinDesk",
-   "title": "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
-   "link": "https://www.coindesk.com/tech/2026/11/09/binance-s-bitcoin-mining-pool-finds-just-one-block-in-a-week-as-shutdown-nears"
-  },
-  {
-   "published": "2026-11-09T04:53:57Z",
+   "published": "2026-11-09T11:21:16Z",
    "source": "Yahoo Finance",
-   "title": "Apple Bringing Agent Capabilities To Siri? Report Says Apple’s AI Is Up For A Major Upgrade As CEO Ternus Pushes For Faster Roadmap",
-   "link": "https://stocktwits.com/news-articles/markets/equity/apple-bringing-agent-capabilities-to-siri-report-says-apple-s-ai-is-up-for-a-major-upgrade-as-ceo-ternus-pushes-for-faster-roadmap/cNGAymiR9e5?.tsrc=rss"
+   "title": "Nvidia stock falls as Jensen Huang faces unexpected probe",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-falls-jensen-huang-112116598.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T04:44:51Z",
+   "published": "2026-11-09T11:17:31Z",
    "source": "Yahoo Finance",
-   "title": "Trump calls Nvidia’s Huang ‘honorable,’ says yet to discuss China allegations",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/trump-calls-nvidia-huang-honorable-044451272.html?.tsrc=rss"
+   "title": "Nvidia Stock Fans Just Got Bad News From China",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-fans-just-got-111731814.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-09T04:14:47Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Rise As Nvidia Probes CEO Jensen Huang Spying Case",
-   "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-rise-as.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-09T04:03:08Z",
+   "published": "2026-11-09T11:14:08Z",
    "source": "Cointelegraph",
-   "title": "tBTC bridge partially resumes as $120M Aave reserve remains frozen",
-   "link": "https://cointelegraph.com/news/tbtc-bridge-resumes-aave-120m-reserve-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   "title": "Robinhood opens access to US IPOs for UK retail investors",
+   "link": "https://cointelegraph.com/news/robinhood-us-ipo-access-uk-retail-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-09T03:21:49Z",
-   "source": "CoinDesk",
-   "title": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
-   "link": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility"
-  },
-  {
-   "published": "2026-11-09T02:50:22Z",
-   "source": "CNBC",
-   "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
-   "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html"
-  },
-  {
-   "published": "2026-11-09T01:16:16Z",
+   "published": "2026-11-09T11:10:38Z",
    "source": "Yahoo Finance",
-   "title": "Biotech Beats SPY And QQQ In Market Rout — Now Hims Earnings And Summit’s FDA Test Take Center Stage ‘",
-   "link": "https://stocktwits.com/news-articles/markets/equity/biotech-beats-spy-qqq-hims-earnings-summit-fda-test-center-stage/cNGAtt7R9Iw?.tsrc=rss"
+   "title": "Nvidia Scandal Hurdled on Pre-Bell Wall Street; Asia, Europe Up",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-scandal-hurdled-pre-bell-111038422.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T11:09:14Z",
+   "source": "CNBC",
+   "title": "Rubio sees little hope of diplomatic breakthrough to Mideast deadlock amid 'outrageous' Iranian demands",
+   "link": "https://www.cnbc.com/2026/11/09/us-iran-war-trump-hormuz.html"
+  },
+  {
+   "published": "2026-11-09T11:06:48Z",
+   "source": "Yahoo Finance",
+   "title": "iShares Expanded Tech Sector ETF (IGM) Sells Apple and Microsoft on Nov. 5",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-sector-etf-110648130.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T11:06:23Z",
+   "source": "Yahoo Finance",
+   "title": "What iShares Core S&P 500 ETF (IVV) Bought: Apple Leads on Nov. 5",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-core-p-500-etf-110623906.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T11:06:04Z",
+   "source": "Yahoo Finance",
+   "title": "What Direxion Daily S&P 500 Bull 3X (SPXL) Sold: Apple Leads on Nov. 5",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/direxion-daily-p-500-bull-110604580.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T11:05:43Z",
+   "source": "Yahoo Finance",
+   "title": "State Street SPDR Portfolio S&P 500 (SPYM) Buys $23.9 Million More Apple on Nov. 5",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-portfolio-p-110543000.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T11:05:38Z",
+   "source": "Yahoo Finance",
+   "title": "iShares Russell 1000 Growth (IWF) Buys $42.9 Million More NVIDIA on Thursday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-1000-growth-iwf-110538850.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T11:05:26Z",
+   "source": "Yahoo Finance",
+   "title": "Invesco NASDAQ 100 ETF (QQQM) Buys $38.3 Million More Apple on Nov. 5",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-nasdaq-100-etf-qqqm-110526325.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T11:05:15Z",
+   "source": "Yahoo Finance",
+   "title": "SPDR Portfolio S&P 500 Growth (SPYG) Sells $74.8 Million of NVIDIA on Nov. 5",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-portfolio-p-500-growth-110515324.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T11:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "Proshares Trust (TQQQ) Buys $83.0 Million More Apple on Thursday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/proshares-trust-tqqq-buys-83-110500104.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T11:04:38Z",
+   "source": "Yahoo Finance",
+   "title": "Invesco QQQ (QQQ) Sells Apple and Nvidia on Nov. 5",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-qqq-sells-apple-110438229.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-09T11:04:31Z",
+   "source": "Yahoo Finance",
+   "title": "SPDR S&P 500 ETF (SPY) Sells $182.9 Million of Apple on Nov. 5",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110431430.html?.tsrc=rss"
   }
  ]
 }
