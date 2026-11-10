@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T08:00:34Z",
+ "generated_at": "2026-11-10T12:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0434,
+  "bench_pct": -0.0482,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,25 +16,26 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 74790.01,
+   "price": 74401.2,
    "trend": "baissière",
-   "score": -0.495,
-   "news_score": -0.6,
-   "news_conf": 0.6,
-   "tech_score": -0.66,
+   "score": -0.441,
+   "news_score": -0.5,
+   "news_conf": 0.24,
+   "tech_score": -0.832,
    "in_position": false,
    "patterns": [
+    "Avalement baissier",
     "Avalement baissier"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2113.83,
+   "price": 2093.46,
    "trend": "baissière",
-   "score": -0.41,
+   "score": -0.419,
    "news_score": -0.75,
    "news_conf": 0.36,
-   "tech_score": -0.582,
+   "tech_score": -0.601,
    "in_position": false,
    "patterns": [
     "Doji (indécision)"
@@ -42,12 +43,12 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 86.03,
+   "price": 84.67,
    "trend": "baissière",
-   "score": -0.404,
-   "news_score": -0.75,
-   "news_conf": 0.36,
-   "tech_score": -0.567,
+   "score": -0.331,
+   "news_score": -0.5,
+   "news_conf": 0.24,
+   "tech_score": -0.589,
    "in_position": false,
    "patterns": []
   },
@@ -55,9 +56,9 @@
    "symbol": "NVDA",
    "price": 178.60000610351562,
    "trend": "baissière",
-   "score": -0.342,
-   "news_score": -0.25,
-   "news_conf": 0.36,
+   "score": -0.293,
+   "news_score": 0.0,
+   "news_conf": 0.48,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -66,8 +67,8 @@
    "symbol": "AAPL",
    "price": 350.489990234375,
    "trend": "haussière",
-   "score": 0.195,
-   "news_score": -0.25,
+   "score": 0.294,
+   "news_score": 0.25,
    "news_conf": 0.36,
    "tech_score": 0.543,
    "in_position": false,
@@ -77,9 +78,9 @@
    "symbol": "SPY",
    "price": 752.6099853515625,
    "trend": "baissière",
-   "score": -0.192,
+   "score": -0.159,
    "news_score": -0.25,
-   "news_conf": 0.36,
+   "news_conf": 0.12,
    "tech_score": -0.316,
    "in_position": false,
    "patterns": [
@@ -455,6 +456,11 @@
    1794297630,
    100.0,
    95.66
+  ],
+  [
+   1794312030,
+   100.0,
+   95.18
   ]
  ],
  "last_directive": {
@@ -468,7 +474,7 @@
    "value": 32,
    "label": "Fear"
   },
-  "vix": 19.92
+  "vix": 20.09
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -592,184 +598,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-10T07:52:40Z",
+   "published": "2026-11-10T11:52:54Z",
    "source": "CNBC",
-   "title": "FDA warns of vision loss risk linked to popular GLP-1 drugs like Wegovy, Zepbound",
-   "link": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html"
-  },
-  {
-   "published": "2026-11-10T07:49:14Z",
-   "source": "Cointelegraph",
-   "title": "Securitize agrees to buy River One to expand into asset-backed lending",
-   "link": "https://cointelegraph.com/news/securitize-river-one-asset-backed-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-10T07:32:45Z",
-   "source": "CNBC",
-   "title": "SoftBank swings to $7 billion net loss in second quarter as tech selloff weighs on results",
-   "link": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html"
-  },
-  {
-   "published": "2026-11-10T07:08:38Z",
-   "source": "Yahoo Finance",
-   "title": "Tech leads Asian stock rally as traders track Wall St rebound",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-leads-asian-stock-rally-023930562.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T07:07:02Z",
-   "source": "Yahoo Finance",
-   "title": "These 5 Internet Platform Stocks Run on Advertising Dollars",
-   "link": "https://www.fool.com/investing/2026/11/10/these-5-internet-platform-stocks-run-on-advertising-dollars/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T07:02:08Z",
-   "source": "Yahoo Finance",
-   "title": "Why Is TSM Stock Rising Overnight?",
-   "link": "https://stocktwits.com/news-articles/markets/equity/why-is-tsm-stock-rising-overnight/cNGuJ4aR97V?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T07:01:06Z",
-   "source": "CoinDesk",
-   "title": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
-   "link": "https://www.coindesk.com/tech/2026/11/10/an-11-year-old-ethereum-wallet-moved-usd4-6-million-and-dodged-a-scam-set-up-in-minutes"
-  },
-  {
-   "published": "2026-11-10T07:00:02Z",
-   "source": "CNBC",
-   "title": "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
-   "link": "https://www.cnbc.com/2026/11/10/trump-iran-war-hormuz-.html"
-  },
-  {
-   "published": "2026-11-10T06:52:30Z",
-   "source": "CNBC",
-   "title": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
-   "link": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html"
-  },
-  {
-   "published": "2026-11-10T06:19:09Z",
-   "source": "CNBC",
-   "title": "Trump’s C-SPAN call marks latest surprise post-midterm appearance",
-   "link": "https://www.cnbc.com/2026/11/10/trump-cspan-call-elections.html"
-  },
-  {
-   "published": "2026-11-10T06:00:00Z",
-   "source": "Cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-10T05:59:07Z",
-   "source": "Yahoo Finance",
-   "title": "AMD Stock Clocks Best Day In 6 Months — But Michael Burry Won’t Touch The Nvidia Headline Trade",
-   "link": "https://stocktwits.com/news-articles/markets/equity/amd-stock-michael-burry-wont-touch-nvidia-headline-trade/cNGu40nR97l?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T05:43:13Z",
-   "source": "Yahoo Finance",
-   "title": "Moonshot AI rents Nvidia’s top chips in China, Bloomberg reports",
-   "link": "https://finance.yahoo.com/technology/ai/articles/moonshot-ai-rents-nvidia-top-054313159.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T05:42:42Z",
-   "source": "CNBC",
-   "title": "TSMC's October sales jump as global chip boom rolls on",
-   "link": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html"
-  },
-  {
-   "published": "2026-11-10T05:31:02Z",
-   "source": "Yahoo Finance",
-   "title": "Warren Buffett's Instructions for His Wife's Inheritance Are 90% Stocks and 10% Bonds. Here's How That Mix Has Done Since 2000.",
-   "link": "https://www.fool.com/investing/2026/11/10/warren-buffett-s-instructions-for-his-wife-s-inheritance-are-90-stocks-and-10-bonds-here-s-how-that-mix-has-done-since-2000/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T05:18:31Z",
-   "source": "CoinDesk",
-   "title": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
-   "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-miner-mara-sold-13-597-btc-for-usd1-1-billion-in-six-weeks-plans-to-sell-more"
-  },
-  {
-   "published": "2026-11-10T05:05:58Z",
-   "source": "Cointelegraph",
-   "title": "Crypto exchanges need hard dollar caps on hot wallets, CertiK says",
-   "link": "https://cointelegraph.com/news/crypto-exchanges-need-dollar-caps-on-hot-wallets-certik?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-10T05:03:55Z",
-   "source": "CNBC",
-   "title": "China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026",
-   "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html"
-  },
-  {
-   "published": "2026-11-10T05:00:00Z",
-   "source": "Yahoo Finance",
-   "title": "AP Top Extended Financial Headlines at 2:18 a.m. EST",
-   "link": "https://finance.yahoo.com/technology/articles/ap-top-extended-financial-headlines-050000992.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T05:00:00Z",
-   "source": "Yahoo Finance",
-   "title": "AP Top Financial News at 2:18 a.m. EST",
-   "link": "https://finance.yahoo.com/technology/articles/ap-top-financial-news-1-050000382.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T04:51:20Z",
-   "source": "CoinDesk",
-   "title": "XRP Ledger maps out quantum-proof accounts, with no extra fees for users",
-   "link": "https://www.coindesk.com/tech/2026/11/10/xrp-ledger-maps-out-quantum-proof-accounts-with-no-extra-fees-for-users"
-  },
-  {
-   "published": "2026-11-10T04:46:37Z",
-   "source": "CNBC",
-   "title": "Trump sees 'strong inclination' to end Russia-Ukraine war ahead of U.S.-brokered peace talks",
+   "title": "Trump sees opening for Ukraine peace deal, but key questions remain ahead of Abu Dhabi talks",
    "link": "https://www.cnbc.com/2026/11/10/trump-russia-ukraine-abu-dhabi-war-talks.html"
   },
   {
-   "published": "2026-11-10T04:32:25Z",
+   "published": "2026-11-10T11:49:38Z",
    "source": "Yahoo Finance",
-   "title": "3 US AI Chip Stocks Beyond Nvidia Stock Key Person Risk",
-   "link": "https://finance.yahoo.com/technology/ai/articles/3-us-ai-chip-stocks-043225535.html?.tsrc=rss"
+   "title": "Nvidia Stock Rises as President Trump Backs Huang in China Spy Storm",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-rises-president-trump-114938423.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-10T04:24:38Z",
+   "published": "2026-11-10T11:48:29Z",
    "source": "Yahoo Finance",
-   "title": "Why Firefly Stock Soared Today",
-   "link": "https://www.fool.com/investing/2026/11/09/why-firefly-stock-soared-today/?.tsrc=rss"
+   "title": "Nvidia and Jensen Huang Just Got Sued by Shareholders Over His Ties to a Suspected Spy",
+   "link": "https://247wallst.com/investing/2026/11/10/nvidia-and-jensen-huang-just-got-sued-by-shareholders-over-his-ties-to-a-suspected-spy/?.tsrc=rss"
   },
   {
-   "published": "2026-11-10T04:22:32Z",
-   "source": "Yahoo Finance",
-   "title": "Asia stocks rally as Korean chips surge and oil retreat lifts sentiment",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-rally-korean-chips-042232811.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T04:20:00Z",
-   "source": "Yahoo Finance",
-   "title": "Warren Buffett's Successor, Greg Abel, Just Added Another Tech Stock to Berkshire's Portfolio. Here's What He Sees.",
-   "link": "https://www.fool.com/investing/2026/11/09/warren-buffetts-successor-greg-abel-just-added-ano/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T03:58:46Z",
+   "published": "2026-11-10T11:47:54Z",
    "source": "CNBC",
-   "title": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
-   "link": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html"
+   "title": "Anthropic sets price range of $70 to $78 in upcoming IPO as AI lab marches towards Nasdaq",
+   "link": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
   },
   {
-   "published": "2026-11-10T03:50:47Z",
+   "published": "2026-11-10T11:44:55Z",
+   "source": "Cointelegraph",
+   "title": "Coinbase, Kalshi join lawsuit backing CFTC over US stock perp futures",
+   "link": "https://cointelegraph.com/news/coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-10T11:42:42Z",
    "source": "Yahoo Finance",
-   "title": "Trump says FBI investigating Nvidia CEO Huang over Chinese scandal",
-   "link": "https://finance.yahoo.com/technology/ai/articles/trump-says-fbi-investigating-nvidia-035047356.html?.tsrc=rss"
+   "title": "Nvidia is worth nearly 30% less if Jensen Huang is no longer CEO: tech analyst",
+   "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-is-worth-nearly-30-less-if-jensen-huang-is-no-longer-ceo-tech-analyst-114242269.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-10T03:50:00Z",
+   "published": "2026-11-10T11:36:59Z",
    "source": "Yahoo Finance",
-   "title": "The Nasdaq Fell Into Correction Territory Recently. Should You Buy the Dip?",
-   "link": "https://www.fool.com/investing/2026/11/09/the-nasdaq-fell-into-correction-territory-recently/?.tsrc=rss"
+   "title": "Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell Tuesday; Rocket Lab, AMD to Open Lower",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mixed-113659846.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-10T03:22:26Z",
+   "published": "2026-11-10T11:35:00Z",
+   "source": "Yahoo Finance",
+   "title": "What's Wrong With Kimberly-Clark Stock?",
+   "link": "https://www.fool.com/investing/2026/11/10/whats-wrong-with-kimberly-clark-stock/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:28:37Z",
+   "source": "CNBC",
+   "title": "Nvidia stock edges higher as investors weigh potential fallout of CEO's affair with alleged spy",
+   "link": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html"
+  },
+  {
+   "published": "2026-11-10T11:27:26Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia CEO Jensen Huang's affair appears to have short-circuited Wall Street analysts",
+   "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-ceo-jensen-huangs-affair-appears-to-have-short-circuited-wall-street-analysts-112726933.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:26:56Z",
+   "source": "Decrypt",
+   "title": "Nvidia, Jensen Huang Sued by Shareholders Over Alleged Ties to Suspected Chinese Spy",
+   "link": "https://decrypt.co/382913/nvidia-jensen-huang-sued-by-shareholders-over-alleged-ties-to-suspected-chinese-spy"
+  },
+  {
+   "published": "2026-11-10T11:26:56Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia, Jensen Huang Sued by Shareholders Over Alleged Ties to Suspected Chinese Spy",
+   "link": "https://decrypt.co/382913/nvidia-jensen-huang-sued-by-shareholders-over-alleged-ties-to-suspected-chinese-spy?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:26:22Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia loses $190 billion as Trump reveals new FBI probe",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-loses-190-billion-trump-112622669.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:25:57Z",
+   "source": "Cointelegraph",
+   "title": "Binance warns iOS flaw could expose crypto wallet keys",
+   "link": "https://cointelegraph.com/news/binance-warns-ios-flaw-could-expose-crypto-wallet-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-10T11:25:21Z",
+   "source": "Yahoo Finance",
+   "title": "Michael Burry refuses to chase AMD's 13% stock surge",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-refuses-chase-amds-112521766.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:25:02Z",
+   "source": "Yahoo Finance",
+   "title": "Does Marijuana Rescheduling Really Help Tilray's Stock?",
+   "link": "https://www.fool.com/investing/2026/11/10/does-marijuana-rescheduling-really-help-tilray-s-stock/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:24:10Z",
    "source": "CoinDesk",
-   "title": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
-   "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough"
+   "title": "Bitcoin lags stock rebound in advance of U.S. inflation report",
+   "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report"
+  },
+  {
+   "published": "2026-11-10T11:23:19Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic Cuts IPO 7% After Pricing Mix-Up, Jim Cramer’s ‘Most Consequential Deal’ Wobbles",
+   "link": "https://beincrypto.com/anthropic-cuts-ipo-cramer-deal-wobbles/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "Pfizer Hits a New 52-Week High. Here's Why It's Not Too Late to Buy the Stock",
+   "link": "https://www.fool.com/investing/2026/11/10/pfizer-hits-a-new-52-week-high-here-s-why-it-s-not-too-late-to-buy-the-stock/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:10:06Z",
+   "source": "Yahoo Finance",
+   "title": "TSMC Sales Jump Again -- Nvidia and Apple Orders Keep the AI Chip Boom Going",
+   "link": "https://finance.yahoo.com/technology/ai/articles/tsmc-sales-jump-again-nvidia-111006983.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:06:28Z",
+   "source": "Yahoo Finance",
+   "title": "Direxion Daily S&P 500 Bull 3X (SPXL) Adds Apple and Nvidia on Friday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/direxion-daily-p-500-bull-110628696.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:06:23Z",
+   "source": "Yahoo Finance",
+   "title": "iShares Global Tech ETF (IXN) Sells $26.8 Million of Apple on Nov. 6",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-global-tech-etf-ixn-110623167.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:06:10Z",
+   "source": "Yahoo Finance",
+   "title": "Proshares Trust (TQQQ) Sells Apple and Nvidia on Friday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/proshares-trust-tqqq-sells-apple-110610717.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:06:01Z",
+   "source": "Yahoo Finance",
+   "title": "What iShares Russell 3000 ETF (IWV) Bought: Apple Leads on Nov. 6",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-3000-etf-iwv-110601335.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:05:52Z",
+   "source": "Yahoo Finance",
+   "title": "What Goldman Sachs Nasdaq-100 Premium Income (GPIQ) Bought: Honeywell Leads on Nov. 6",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-nasdaq-100-premium-110552738.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:05:45Z",
+   "source": "Yahoo Finance",
+   "title": "State Street SPDR Portfolio S&P 500 ETF (SPYM) Adds Apple and Nvidia on Nov. 6",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-portfolio-p-110545295.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:05:40Z",
+   "source": "Yahoo Finance",
+   "title": "iShares Russell 1000 Growth (IWF) Adds Fox and NVIDIA on Friday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-1000-growth-iwf-110540866.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:05:15Z",
+   "source": "Yahoo Finance",
+   "title": "What Direxion Daily Technology Bull 3X ETF (TECL) Bought: AAPL Leads on Nov. 6",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/direxion-daily-technology-bull-3x-110515219.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:04:55Z",
+   "source": "Yahoo Finance",
+   "title": "Capital Group Growth (CGGR) Adds Rocket and Deere on Nov. 6",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/capital-group-growth-cggr-adds-110455926.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T11:04:45Z",
+   "source": "Yahoo Finance",
+   "title": "State Street Tech Select SPDR (XLK) Adds Apple and Nvidia on Nov. 6",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-tech-select-spdr-110445538.html?.tsrc=rss"
   }
  ]
 }
