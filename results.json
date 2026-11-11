@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T21:30:55Z",
+ "generated_at": "2026-11-11T00:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.063,
+  "bench_pct": -0.0644,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,26 +16,25 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 73966.99,
+   "price": 73765.92,
    "trend": "baissière",
-   "score": -0.345,
-   "news_score": -0.2,
+   "score": -0.242,
+   "news_score": 0.0,
    "news_conf": 0.6,
-   "tech_score": -0.62,
+   "tech_score": -0.539,
    "in_position": false,
    "patterns": [
-    "Avalement baissier",
     "Avalement baissier"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2061.11,
+   "price": 2051.64,
    "trend": "baissière",
-   "score": -0.335,
+   "score": -0.33,
    "news_score": -0.25,
    "news_conf": 0.36,
-   "tech_score": -0.634,
+   "tech_score": -0.623,
    "in_position": false,
    "patterns": [
     "Doji (indécision)"
@@ -43,12 +42,12 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 83.48,
+   "price": 83.35,
    "trend": "baissière",
-   "score": -0.261,
+   "score": -0.255,
    "news_score": 0.25,
    "news_conf": 0.12,
-   "tech_score": -0.617,
+   "tech_score": -0.604,
    "in_position": false,
    "patterns": []
   },
@@ -56,8 +55,8 @@
    "symbol": "NVDA",
    "price": 168.7899932861328,
    "trend": "baissière",
-   "score": -0.34,
-   "news_score": -0.143,
+   "score": -0.256,
+   "news_score": 0.111,
    "news_conf": 0.6,
    "tech_score": -0.65,
    "in_position": false,
@@ -67,10 +66,10 @@
    "symbol": "AAPL",
    "price": 348.6300048828125,
    "trend": "haussière",
-   "score": 0.261,
-   "news_score": 0.25,
-   "news_conf": 0.12,
-   "tech_score": 0.543,
+   "score": 0.305,
+   "news_score": 0.5,
+   "news_conf": 0.24,
+   "tech_score": 0.532,
    "in_position": false,
    "patterns": []
   },
@@ -78,10 +77,10 @@
    "symbol": "SPY",
    "price": 749.9400024414062,
    "trend": "baissière",
-   "score": -0.142,
+   "score": -0.186,
    "news_score": 0.0,
    "news_conf": 0.48,
-   "tech_score": -0.316,
+   "tech_score": -0.414,
    "in_position": false,
    "patterns": [
     "Marteau inversé (rebond possible)",
@@ -486,6 +485,11 @@
    1794346249,
    100.0,
    93.7
+  ],
+  [
+   1794355230,
+   100.0,
+   93.56
   ]
  ],
  "last_directive": {
@@ -496,7 +500,7 @@
  },
  "indicators": {
   "fear_greed": {
-   "value": 32,
+   "value": 29,
    "label": "Fear"
   },
   "vix": 19.46
@@ -623,184 +627,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-10T21:30:22Z",
+   "published": "2026-11-10T23:54:32Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures: Stock Market Falls On Surging Treasury Yields, Nvidia Sell-Off; CoreWeave Rises Late",
+   "link": "https://finance.yahoo.com/m/656fca57-9896-3dfb-96e8-e0af2bc227df/dow-jones-futures%3A-stock.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T23:49:51Z",
+   "source": "Cointelegraph",
+   "title": "CFTC warns Kalshi of imminent charges over notification of contracts: Politico",
+   "link": "https://cointelegraph.com/news/cftc-warns-kalshi-imminent-charges-over-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-10T23:46:41Z",
+   "source": "CNBC",
+   "title": "Hegseth impeachment effort torpedoed in House",
+   "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html"
+  },
+  {
+   "published": "2026-11-10T23:46:05Z",
+   "source": "Yahoo Finance",
+   "title": "Why AAON Stock Popped Today",
+   "link": "https://www.fool.com/investing/2026/11/10/why-aaon-stock-popped-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T23:34:29Z",
+   "source": "Yahoo Finance",
+   "title": "What Could Lift Netflix Stock From Here?",
+   "link": "https://www.trefis.com/stock/nflx/articles/623989/what-could-lift-netflix-stock-from-here/2026-11-10?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T23:33:02Z",
+   "source": "Yahoo Finance",
+   "title": "2 Reasons AMD Can Still Outperform by 2030",
+   "link": "https://www.fool.com/investing/2026/11/10/2-reasons-amd-can-still-outperform-by-2030/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T23:33:00Z",
+   "source": "Yahoo Finance",
+   "title": "Bullish’s New President Backs Issuer-First Model for Tokenized Stocks",
+   "link": "https://www.cryptoprowl.com/releases/bullishs-new-president-backs-issuer-first-model-for-tokenized-stocks-7830?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T23:30:09Z",
+   "source": "Yahoo Finance",
+   "title": "Dell Sinks 12% in a Week on Texas Data Center Fears: “A Moratorium, a Ban”",
+   "link": "https://www.tikr.com/blog/dell-sinks-12-in-a-week-on-texas-data-center-fears-a-moratorium-a-ban?ref=yahoofinance&tlnk=yf-261110-pm2vw2xc&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T23:29:24Z",
+   "source": "Yahoo Finance",
+   "title": "CoreWeave Earnings, Revenue Top Views. Cash Burn Less Than Expected.",
+   "link": "https://finance.yahoo.com/m/ad611b90-19b3-3483-8e63-8cdb59726707/coreweave-earnings%2C-revenue.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T23:25:00Z",
+   "source": "Yahoo Finance",
+   "title": "Hyperscalers Are Projected to Spend $1.3 Trillion on Capex in 2027. Here's the 1 Industrial Stock That Gets Paid Before a Single AI Token Is Sold.",
+   "link": "https://www.fool.com/investing/2026/11/10/hyperscalers-are-projected-to-spend-13-trillion-on/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T23:16:15Z",
    "source": "CNBC",
    "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
    "link": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
   },
   {
-   "published": "2026-11-10T21:24:36Z",
-   "source": "Cointelegraph",
-   "title": "Across Protocol warns users to avoid app amid reports of drained wallets",
-   "link": "https://cointelegraph.com/news/across-protocol-warns-avoid-app-drained-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   "published": "2026-11-10T23:11:34Z",
+   "source": "CNBC",
+   "title": "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
+   "link": "https://www.cnbc.com/2026/11/10/nvidia-jensen-huang-affair-office.html"
   },
   {
-   "published": "2026-11-10T21:22:44Z",
+   "published": "2026-11-10T23:08:28Z",
+   "source": "Cointelegraph",
+   "title": "Global banks commit $270M to stablecoin venture targeting 2027 launch",
+   "link": "https://cointelegraph.com/news/banks-270m-project-faro-stablecoin-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-10T23:03:11Z",
+   "source": "CNBC",
+   "title": "FDA warns of vision loss risk linked to popular GLP-1 drugs like Wegovy, Zepbound",
+   "link": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html"
+  },
+  {
+   "published": "2026-11-10T22:51:06Z",
+   "source": "Yahoo Finance",
+   "title": "Why Lincoln Educational Services Stock Soared Again Today",
+   "link": "https://www.fool.com/investing/2026/11/10/why-lincoln-educational-services-stock-soared-again-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T22:46:02Z",
+   "source": "Decrypt",
+   "title": "Bitcoin Miner HIVE Eyes $45 Million in Annual Revenue From AI Deal",
+   "link": "https://decrypt.co/382982/bitcoin-miner-hive-eyes-45-million-ai-data-center"
+  },
+  {
+   "published": "2026-11-10T22:44:57Z",
+   "source": "Yahoo Finance",
+   "title": "IREN Stock Falls Even as JPMorgan Goes Bullish",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/iren-stock-falls-even-jpmorgan-224457686.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T22:42:00Z",
+   "source": "Yahoo Finance",
+   "title": "Here's How Much a $5,000 Investment in SpaceX Stock Could Be Worth by November 2027",
+   "link": "https://www.fool.com/investing/2026/11/10/heres-how-much-a-5000-investment-in-spacex-stock-c/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T22:39:30Z",
    "source": "CNBC",
    "title": "Fossil CEO says turnaround is ahead of plan as sales return to growth",
    "link": "https://www.cnbc.com/2026/11/10/fossil-fosl-q3-2026-earnings.html"
   },
   {
-   "published": "2026-11-10T21:16:16Z",
+   "published": "2026-11-10T22:35:02Z",
    "source": "Yahoo Finance",
-   "title": "What Does Nvidia’s Selloff Mean for a 68-Year-Old With $940,000 of a $2.3 Million IRA in the Stock?",
-   "link": "https://247wallst.com/investing/2026/11/10/what-does-nvidias-selloff-mean-for-a-68-year-old-with-940000-of-a-2-3-million-ira-in-the-stock/?.tsrc=rss"
+   "title": "Stock Market Today, Nov. 10: Nvidia Stock Plunges 5.5% as CEO Scandal Overshadows Its Upcoming Earnings Report",
+   "link": "https://www.fool.com/coverage/stock-market-today/2026/11/10/stock-market-today-nov-10-nvidia-stock-plunges-5-5-as-ceo-scandal-overshadows-its-upcoming-earnings-report/?.tsrc=rss"
   },
   {
-   "published": "2026-11-10T21:14:02Z",
+   "published": "2026-11-10T22:28:02Z",
    "source": "Yahoo Finance",
-   "title": "Prediction: This Underrated Semiconductor Stock Will Jump 187% in 3 Years",
-   "link": "https://www.fool.com/investing/2026/11/10/prediction-this-underrated-semiconductor-stock-will-jump-187-in-3-years/?.tsrc=rss"
+   "title": "Nvidia Stock Just Lost 10% in 1 Day. Should You Buy It Before It Reports Earnings on Nov. 17?",
+   "link": "https://www.fool.com/investing/2026/11/10/nvidia-stock-just-lost-10-in-1-day-should-you-buy-it-before-it-reports-earnings-on-nov-17/?.tsrc=rss"
   },
   {
-   "published": "2026-11-10T21:13:56Z",
+   "published": "2026-11-10T22:27:01Z",
    "source": "Yahoo Finance",
-   "title": "US Equity Markets End Lower as Inflation Tops Expectations",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-211356171.html?.tsrc=rss"
+   "title": "Only 2 Novembers Since 1950 Have Started Worse for the S&P 500 Than This One. Here's What Followed the Other Weak Starts.",
+   "link": "https://www.fool.com/investing/2026/11/10/only-2-novembers-since-1950-have-started-worse-for-the-s-and-p-500-than-this-one-here-s-what-followed-the-other-weak-starts/?.tsrc=rss"
   },
   {
-   "published": "2026-11-10T21:11:36Z",
+   "published": "2026-11-10T22:08:25Z",
    "source": "CNBC",
-   "title": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security",
-   "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html"
+   "title": "Nvidia sells off for second day in fallout from Jensen Huang’s affair with alleged spy",
+   "link": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html"
   },
   {
-   "published": "2026-11-10T21:11:01Z",
-   "source": "Yahoo Finance",
-   "title": "Will Jensen Huang Still Run Nvidia at the End of 2027? Two Analysts Disagree",
-   "link": "https://www.fool.com/investing/2026/11/10/will-jensen-huang-still-run-nvidia-at-the-end-of-2027-two-analysts-disagree/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T21:11:00Z",
-   "source": "Yahoo Finance",
-   "title": "Bedrock Data Extends Data Control to Agents as OpenShell Moves to the CNCF",
-   "link": "https://finance.yahoo.com/technology/ai/articles/bedrock-data-extends-data-control-211100653.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T21:11:00Z",
-   "source": "Yahoo Finance",
-   "title": "3 AI Stocks to Buy Now That Midterms Are Over",
-   "link": "https://www.fool.com/investing/2026/11/10/3-ai-stocks-to-buy-now-that-midterms-are-over/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T21:10:30Z",
-   "source": "Yahoo Finance",
-   "title": "October CPI sparks December Fed hike fears as yields surge and tech stocks slide",
-   "link": "https://finance.yahoo.com/economy/policy/articles/october-cpi-sparks-december-fed-211030930.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T21:07:44Z",
+   "published": "2026-11-10T22:04:47Z",
    "source": "Cointelegraph",
-   "title": "Ava Labs exec says NYSE deal marks end of blockchain’s ‘general purpose era’",
-   "link": "https://cointelegraph.com/interview/ava-labs-nyse-general-purpose-chains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-10T21:03:57Z",
+   "published": "2026-11-10T22:03:03Z",
    "source": "Yahoo Finance",
-   "title": "Inflation Came in Hotter Than Expected and a New Rate Hike is All But Given. Stocks Fell.",
-   "link": "https://www.ibtimes.com/stocks-fall-inflation-anthropic-ipo-valuation-3809628?.tsrc=rss"
+   "title": "Nvidia's trillion-dollar bind: Can it afford to lose Jensen Huang?",
+   "link": "https://www.cbsnews.com/news/jensen-huang-affair-nvidia-ceo-dilemma/?.tsrc=rss"
   },
   {
-   "published": "2026-11-10T21:01:07Z",
-   "source": "Yahoo Finance",
-   "title": "Cathie Wood Buys Over 90,000 Shares Of Nvidia After CEO Probe Sends Stock Down",
-   "link": "https://finance.yahoo.com/m/5d104062-e978-3f1f-ab90-66b1a33fa3d0/cathie-wood-buys-over-90%2C000.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T20:59:24Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia hires Wachtell Lipton to lead independent review into Jensen Huang affair",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-hires-wachtell-lipton-lead-205924301.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T20:59:17Z",
-   "source": "Yahoo Finance",
-   "title": "Anthropic’s $1.4T IPO is Finally Here",
-   "link": "https://app.moby.co/home/news/news-anthropics-14t-ipo-is-finally-here?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T20:57:02Z",
-   "source": "Yahoo Finance",
-   "title": "Worried About a Market Crash? These 3 High-Yielding Stocks Can Be Safe Long-Term Options",
-   "link": "https://www.fool.com/investing/2026/11/10/worried-about-a-market-crash-these-3-high-yielding-stocks-can-be-safe-long-term-options/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T20:57:00Z",
-   "source": "Yahoo Finance",
-   "title": "Alphabet Is Set to Become an Even Bigger Anthropic Shareholder After the IPO",
-   "link": "https://www.fool.com/investing/2026/11/10/alphabet-is-set-to-become-an-even-bigger-anthropic/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T20:51:22Z",
-   "source": "Yahoo Finance",
-   "title": "Sector Update: Tech Stocks Fall Late Afternoon",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-205122215.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T20:47:02Z",
-   "source": "Yahoo Finance",
-   "title": "3 Vanguard ETFs to Buy and Hold Forever",
-   "link": "https://www.fool.com/investing/2026/11/10/3-vanguard-etfs-to-buy-and-hold-forever/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T20:45:50Z",
-   "source": "Decrypt",
-   "title": "Nvidia Erases 2026 Gains as Republicans Threaten Jensen Huang With Subpoena",
-   "link": "https://decrypt.co/382974/nvidia-erases-2026-gains-republicans-threaten-ceo-subpoena"
-  },
-  {
-   "published": "2026-11-10T20:45:50Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Erases 2026 Gains as Republicans Threaten Jensen Huang With Subpoena",
-   "link": "https://decrypt.co/382974/nvidia-erases-2026-gains-republicans-threaten-ceo-subpoena?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T20:36:33Z",
-   "source": "CoinDesk",
-   "title": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?",
-   "link": "https://www.coindesk.com/policy/2026/11/10/warren-what-is-white-house-doing-to-prevent-a-repeat-of-teleprompter-s-trump-bets"
-  },
-  {
-   "published": "2026-11-10T20:35:18Z",
-   "source": "Yahoo Finance",
-   "title": "Trump’s Commerce Dept. Halted a Chip Probe “After Nvidia Intervention.” That’s Nvidia’s Bigger Problem",
-   "link": "https://www.tikr.com/blog/trumps-commerce-dept-halted-a-chip-probe-after-nvidia-intervention-thats-nvidias-bigger-problem?ref=yahoofinance&tlnk=yf-261110-gwxcq224&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T20:33:58Z",
+   "published": "2026-11-10T22:01:52Z",
    "source": "CNBC",
-   "title": "GE Vernova sellers have it all wrong — plus, why Fed rate hike odds are soaring",
-   "link": "https://www.cnbc.com/investingclub/2026/11/10/ge-vernova-sellers-have-it-all-wrong-plus-why-fed-rate-hike-odds-are-soaring.html"
+   "title": "Mississippi Senate: Scott Colom extends tight lead over Hyde-Smith as ballot deadlines hit",
+   "link": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html"
   },
   {
-   "published": "2026-11-10T20:31:51Z",
-   "source": "Yahoo Finance",
-   "title": "Apple users get urgent security warning over iPhone flaw",
-   "link": "https://www.thestreet.com/crypto/technology/apple-users-get-urgent-security-warning-over-iphone-flaw?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-10T20:31:20Z",
+   "published": "2026-11-10T22:00:40Z",
    "source": "CNBC",
-   "title": "Ex-Google recruiter: You're answering 'Tell me about yourself?' all wrong, and other job interview mistakes—do this instead",
-   "link": "https://www.cnbc.com/make-it/2026/11/10/ex-google-recruiter-how-to-avoid-3-common-job-interview-mistakes.html"
+   "title": "Rep. Jim Jordan, Sen. John Thune elected GOP leaders in Congress",
+   "link": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html"
   },
   {
-   "published": "2026-11-10T20:28:02Z",
+   "published": "2026-11-10T21:55:28Z",
+   "source": "Yahoo Finance",
+   "title": "Meta's Ember is a bet on cheaper models with competitors",
+   "link": "https://finance.yahoo.com/video/metas-ember-is-a-bet-on-cheaper-models-with-competitors-215556435.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-10T21:45:46Z",
    "source": "CNBC",
    "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
    "link": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html"
   },
   {
-   "published": "2026-11-10T20:26:02Z",
-   "source": "Cointelegraph",
-   "title": "Kimber Digital Securities gains broker-dealer status for tokenized assets",
-   "link": "https://cointelegraph.com/news/kimber-digital-securities-broker-dealer-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-10T20:24:45Z",
+   "published": "2026-11-10T21:37:43Z",
    "source": "CNBC",
-   "title": "Jim Jordan elected House GOP leader",
-   "link": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html"
+   "title": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
+   "link": "https://www.cnbc.com/2026/11/10/heloc-balances-new-york-fed.html"
   }
  ]
 }
