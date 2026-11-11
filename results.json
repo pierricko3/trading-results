@@ -1,26 +1,34 @@
 {
- "generated_at": "2026-11-11T20:50:45Z",
+ "generated_at": "2026-11-11T21:30:55Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 100.0,
-  "cash": 100.0,
-  "perf_pct": 0.0,
-  "bench_pct": -0.0469,
-  "drawdown": 0.0,
+  "equity": 99.99,
+  "cash": 80.0,
+  "perf_pct": -0.0001,
+  "bench_pct": -0.0473,
+  "drawdown": 0.0001,
   "halted": false,
-  "trade_count": 0
+  "trade_count": 1
  },
- "positions": [],
+ "positions": [
+  {
+   "symbol": "AAPL",
+   "value": 19.99,
+   "pnl_pct": -0.0005,
+   "entry_price": 355.9679,
+   "stop": 331.7407
+  }
+ ],
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 74724.52,
+   "price": 74735.73,
    "trend": "baissière",
-   "score": -0.215,
-   "news_score": -0.25,
-   "news_conf": 0.36,
+   "score": -0.166,
+   "news_score": 0.0,
+   "news_conf": 0.48,
    "tech_score": -0.368,
    "in_position": false,
    "patterns": [
@@ -31,11 +39,11 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2081.93,
+   "price": 2081.38,
    "trend": "baissière",
-   "score": -0.391,
-   "news_score": -0.75,
-   "news_conf": 0.36,
+   "score": -0.374,
+   "news_score": -0.5,
+   "news_conf": 0.48,
    "tech_score": -0.538,
    "in_position": false,
    "patterns": [
@@ -46,11 +54,11 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 85.03,
+   "price": 85.0,
    "trend": "baissière",
-   "score": -0.261,
-   "news_score": 0.0,
-   "news_conf": 0.0,
+   "score": -0.245,
+   "news_score": 0.25,
+   "news_conf": 0.12,
    "tech_score": -0.581,
    "in_position": false,
    "patterns": [
@@ -61,33 +69,33 @@
   },
   {
    "symbol": "NVDA",
-   "price": 174.4739990234375,
+   "price": 173.85000610351562,
    "trend": "baissière",
-   "score": -0.276,
-   "news_score": 0.25,
-   "news_conf": 0.12,
+   "score": -0.183,
+   "news_score": 0.333,
+   "news_conf": 0.6,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "AAPL",
-   "price": 355.4800109863281,
+   "price": 355.7900085449219,
    "trend": "haussière",
-   "score": 0.289,
-   "news_score": 0.25,
-   "news_conf": 0.36,
+   "score": 0.437,
+   "news_score": 0.6,
+   "news_conf": 0.6,
    "tech_score": 0.532,
-   "in_position": false,
+   "in_position": true,
    "patterns": []
   },
   {
    "symbol": "SPY",
-   "price": 759.8900146484375,
+   "price": 759.7899780273438,
    "trend": "baissière",
-   "score": -0.186,
-   "news_score": 0.0,
-   "news_conf": 0.48,
+   "score": -0.12,
+   "news_score": 0.2,
+   "news_conf": 0.6,
    "tech_score": -0.414,
    "in_position": false,
    "patterns": [
@@ -97,7 +105,16 @@
    ]
   }
  ],
- "recent_trades": [],
+ "recent_trades": [
+  {
+   "time": "2026-11-11T21:30:50Z",
+   "symbol": "AAPL",
+   "side": "buy",
+   "price": 355.9679,
+   "pnl_pct": 0.0,
+   "reason": "Score +0.44 (actus +0.36, technique +0.53), tendance haussière, chandeliers : aucun motif. IA : Mode sans IA : 4 mots positifs, 1 négatifs sur 12 titres."
+  }
+ ],
  "equity_curve": [
   [
    1793750480,
@@ -538,6 +555,11 @@
    1794430240,
    100.0,
    95.31
+  ],
+  [
+   1794432650,
+   99.99,
+   95.27
   ]
  ],
  "last_directive": {
@@ -551,7 +573,7 @@
    "value": 29,
    "label": "Fear"
   },
-  "vix": 17.43
+  "vix": 17.49
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -583,21 +605,21 @@
  "costs": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 100.0,
+  "equity": 99.99000499750125,
   "profiles": {
    "crypto": "Kraken, ordres au marché",
    "stock": "Alpaca, actions et ETF américains"
   },
-  "fees": 0,
-  "slippage": 0,
+  "fees": 0.0,
+  "slippage": 0.009995002498749628,
   "fees_pct_capital": 0.0,
-  "gross_pl": 0.0,
-  "before_fees": 0.0,
-  "net_pl": 0.0,
+  "gross_pl": -5.329070518200751e-15,
+  "before_fees": -0.009995002498754957,
+  "net_pl": -0.009995002498754957,
   "tax_rate": 0.314,
   "tax_est": 0.0,
-  "net_after_tax": 0.0,
-  "trade_count": 0,
+  "net_after_tax": -0.009995002498754957,
+  "trade_count": 1,
   "platforms": {
    "crypto": [
     {
@@ -605,7 +627,7 @@
      "label": "Kraken, ordres au marché",
      "note": "0,40 % taker sous 50 000 $/mois ; accessible depuis la France (agrément irlandais, passeport UE)",
      "fees": 0,
-     "net": 0.0,
+     "net": -0.009995002498754957,
      "active": true
     },
     {
@@ -613,7 +635,7 @@
      "label": "Kraken, ordres à cours limité",
      "note": "0,25 % maker, mais un ordre limite peut ne pas être exécuté",
      "fees": 0,
-     "net": 0.0,
+     "net": -0.009995002498754957,
      "active": false
     },
     {
@@ -621,7 +643,7 @@
      "label": "Coinbase Advanced",
      "note": "0,50 % taker au palier de base",
      "fees": 0,
-     "net": 0.0,
+     "net": -0.009995002498754957,
      "active": false
     },
     {
@@ -629,7 +651,7 @@
      "label": "Binance",
      "note": "0,10 % : mais n'accepte plus de nouveaux clients en France d'après plusieurs sources",
      "fees": 0,
-     "net": 0.0,
+     "net": -0.009995002498754957,
      "active": false
     },
     {
@@ -637,7 +659,7 @@
      "label": "eToro, crypto réelle",
      "note": "1 % par position, soit 2 % l'aller-retour, spread en plus",
      "fees": 0,
-     "net": 0.0,
+     "net": -0.009995002498754957,
      "active": false
     }
    ],
@@ -646,24 +668,24 @@
      "key": "alpaca",
      "label": "Alpaca, actions et ETF américains",
      "note": "0 commission ; compte à déclarer (3916-bis), pas de marge",
-     "fees": 0,
-     "net": 0.0,
+     "fees": 0.0,
+     "net": -0.009995002498754957,
      "active": true
     },
     {
      "key": "ibkr_fixed",
      "label": "Interactive Brokers, tarif fixe",
      "note": "0,005 $/action, minimum 1 $, plafonné à 1 % du montant",
-     "fees": 0,
-     "net": 0.0,
+     "fees": 0.2,
+     "net": -0.20999500249875497,
      "active": false
     },
     {
      "key": "etoro_stock",
      "label": "eToro, actions réelles",
      "note": "1 $ (parfois 2 $) par ordre, achat et vente",
-     "fees": 0,
-     "net": 0.0,
+     "fees": 1.0,
+     "net": -1.009995002498755,
      "active": false
     }
    ]
@@ -674,6 +696,120 @@
   }
  },
  "headlines": [
+  {
+   "published": "2026-11-11T21:25:24Z",
+   "source": "Yahoo Finance",
+   "title": "Teradyne Stock Surges On Fresh Buy Rating, Called AI Play",
+   "link": "https://finance.yahoo.com/m/6b377220-7cdf-3f3b-9aca-7e1dc8268833/teradyne-stock-surges-on.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T21:22:31Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market Today: Major Indexes Pare Earlier Gains But Finish Trading Day Solidly Higher",
+   "link": "https://finance.yahoo.com/m/2199baae-3d36-344b-b4d8-76ff24b7f5e9/stock-market-today%3A-major.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T21:22:23Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Downgraded Ahead Of Report, But Stock Joins AI Rebound",
+   "link": "https://finance.yahoo.com/m/b2b54afe-1ff6-3009-9a91-fbde5c2d45c5/nvidia-downgraded-ahead-of.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T21:22:08Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures: CoreWeave, Sandisk, Nvidia, AMD, Nebius Lead Bullish Market Move",
+   "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures%3A-coreweave%2C.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T21:19:55Z",
+   "source": "Yahoo Finance",
+   "title": "Tech round-up: A closer look at Anthropic, Nvidia, CoreWeave, and next week",
+   "link": "https://finance.yahoo.com/video/tech-round-up-a-closer-look-at-anthropic-nvidia-coreweave-and-next-week-211955539.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T21:18:38Z",
+   "source": "Yahoo Finance",
+   "title": "Fed’s Bowman Says AI Now Drives About a Quarter of America’s Excess Inflation",
+   "link": "https://247wallst.com/investing/2026/11/11/feds-bowman-says-ai-now-drives-about-a-quarter-of-americas-excess-inflation/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T21:17:54Z",
+   "source": "Yahoo Finance",
+   "title": "Why Nvidia Stock Was Downgraded to Hold by a Top Analyst and Price Target Halved to $200",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/why-nvidia-stock-downgraded-hold-211754136.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T21:16:03Z",
+   "source": "Decrypt",
+   "title": "Bitcoin Short-Term Holders Send $3.6 Billion in BTC to Exchanges at a Loss",
+   "link": "https://decrypt.co/383077/bitcoin-short-term-holders-send-3-illion-btc-exchanges-loss"
+  },
+  {
+   "published": "2026-11-11T21:15:00Z",
+   "source": "Yahoo Finance",
+   "title": "Apple Shares (AAPL) Look Expensive Heading into 2027",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/apple-shares-aapl-look-expensive-211500629.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T21:11:35Z",
+   "source": "Yahoo Finance",
+   "title": "Canadian AI-buildout stocks: hardware, power, engineering and software",
+   "link": "https://finance.yahoo.com/technology/ai/articles/canadian-ai-buildout-stocks-hardware-211135535.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T21:11:26Z",
+   "source": "CNBC",
+   "title": "CoreWeave soars more than 24% for best day since April 2025 after strong Q3 report",
+   "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html"
+  },
+  {
+   "published": "2026-11-11T21:10:00Z",
+   "source": "Yahoo Finance",
+   "title": "Unity Software: Measure Twice!",
+   "link": "https://www.fool.com/investing/2026/11/11/unity-software-measure-twice/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T21:07:16Z",
+   "source": "Yahoo Finance",
+   "title": "Costco Just Declared a $30 Special Dividend. Is It Reason Enough to Buy the Stock Before Nov. 24?",
+   "link": "https://www.fool.com/investing/2026/11/11/costco-just-declared-a-usd30-special-dividend-is-it-reason-enough-to-buy-the-stock-before-nov-24/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T21:04:36Z",
+   "source": "CNBC",
+   "title": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
+   "link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html"
+  },
+  {
+   "published": "2026-11-11T21:01:01Z",
+   "source": "Yahoo Finance",
+   "title": "History Says 1 Month Has Been the S&P 500's Most Reliable Since 1950. It's Only Weeks Away.",
+   "link": "https://www.fool.com/investing/2026/11/11/history-says-1-month-has-been-the-s-and-p-500-s-most-reliable-since-1950-it-s-only-weeks-away/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T20:59:32Z",
+   "source": "CNBC",
+   "title": "Costco is giving shareholders a big, early holiday gift. How to make sure you get it",
+   "link": "https://www.cnbc.com/investingclub/2026/11/11/costco-is-giving-shareholders-a-big-early-holiday-gift-how-to-make-sure-you-get-it.html"
+  },
+  {
+   "published": "2026-11-11T20:59:14Z",
+   "source": "CNBC",
+   "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
+   "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+  },
+  {
+   "published": "2026-11-11T20:49:00Z",
+   "source": "Yahoo Finance",
+   "title": "Is Dell Stock Priced Right Against Its Peers?",
+   "link": "https://www.trefis.com/stock/dell/articles/624271/is-dell-stock-priced-right-against-its-peers/2026-11-11?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T20:45:12Z",
+   "source": "Yahoo Finance",
+   "title": "Don’t buy Nvidia yet: 4 stocks to buy instead",
+   "link": "https://www.thestreet.com/video/dont-buy-nvidia-yet-4-stock-to-buy-instead?.tsrc=rss"
+  },
   {
    "published": "2026-11-11T20:43:19Z",
    "source": "Cointelegraph",
@@ -711,52 +847,16 @@
    "link": "https://www.fool.com/investing/2026/11/11/lucid-recalled-4400-gravity-suvs-delayed-the-cosmo/?.tsrc=rss"
   },
   {
-   "published": "2026-11-11T20:17:00Z",
-   "source": "Yahoo Finance",
-   "title": "Johnson & Johnson Sees a Path to Double-Digit Growth by 2030. Is the Dividend King a Buy?",
-   "link": "https://www.fool.com/investing/2026/11/11/johnson-johnson-sees-a-path-to-double-digit-growth/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-11T20:16:02Z",
    "source": "Decrypt",
    "title": "This New AI Music Model Is Already Better Than Suno—We Put ACE to the Test",
    "link": "https://decrypt.co/383070/new-ai-music-model-already-better-than-suno-ace-review"
   },
   {
-   "published": "2026-11-11T20:15:54Z",
-   "source": "Yahoo Finance",
-   "title": "Stock Market Today: Techs Lead AI-Sparked Rally As These Companies Top Entries (Live Coverage)",
-   "link": "https://finance.yahoo.com/m/2199baae-3d36-344b-b4d8-76ff24b7f5e9/stock-market-today%3A-techs.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-11T20:13:40Z",
    "source": "Yahoo Finance",
    "title": "Google rolls out Gemini AI voice assistant to Apple CarPlay dashboards",
    "link": "https://finance.yahoo.com/technology/ai/articles/google-rolls-gemini-ai-voice-201340171.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T20:04:42Z",
-   "source": "CNBC",
-   "title": "We're adding a chipmaker to our Bullpen watchlist and downgrading another name",
-   "link": "https://www.cnbc.com/investingclub/2026/11/11/were-adding-a-chipmaker-to-our-bullpen-watchlist-and-downgrading-another-name.html"
-  },
-  {
-   "published": "2026-11-11T19:59:36Z",
-   "source": "Yahoo Finance",
-   "title": "TSMC Secures Its Future by Investing in Anthropic and OpenAI",
-   "link": "https://app.moby.co/home/news/news-tsmc-secures-its-future-by-investing-in-anthropic-and-openai?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:59:00Z",
-   "source": "Yahoo Finance",
-   "title": "I'd Buy Dutch Bros Shares Without Any Hesitation Right Now. Here's the 1 Reason Why.",
-   "link": "https://www.fool.com/investing/2026/11/11/id-buy-dutch-bros-stock-without-any-hesitation/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:58:37Z",
-   "source": "Yahoo Finance",
-   "title": "A Republican Senator Just Told Jensen Huang to Step Down",
-   "link": "https://247wallst.com/investing/2026/11/11/a-republican-senator-just-told-jensen-huang-to-step-down/?.tsrc=rss"
   },
   {
    "published": "2026-11-11T19:55:39Z",
@@ -771,88 +871,10 @@
    "link": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html"
   },
   {
-   "published": "2026-11-11T19:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "Nov 13 Could Be A Huge Day For SpaceX Stock",
-   "link": "https://www.fool.com/investing/2026/11/11/nov-13-could-be-a-huge-day-for-spacex-stock/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:49:43Z",
-   "source": "Yahoo Finance",
-   "title": "Chip Stocks Rally After Slide. These Names Are Leading The Charge Higher.",
-   "link": "https://finance.yahoo.com/m/84883771-24d1-36d3-b83b-c42cc62afe67/chip-stocks-rally-after.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:45:01Z",
-   "source": "Yahoo Finance",
-   "title": "Why Oracle Stock Is Up Today",
-   "link": "https://www.fool.com/investing/2026/11/11/why-oracle-stock-is-up-today/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-11T19:42:35Z",
    "source": "Yahoo Finance",
    "title": "Home Equity Borrowing Jumps the Most Since 2005 as Household Debt Passes $19 Trillion",
    "link": "https://247wallst.com/investing/2026/11/11/home-equity-borrowing-jumps-the-most-since-2005-as-household-debt-passes-19-trillion/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:37:50Z",
-   "source": "Yahoo Finance",
-   "title": "CoreWeave Sees “10x as Much Qualified Demand” as Capacity as Old Nvidia Chips Reprice Higher",
-   "link": "https://www.tikr.com/blog/coreweave-sees-10x-as-much-qualified-demand-as-capacity-as-old-nvidia-chips-reprice-higher?ref=yahoofinance&tlnk=yf-261111-jpg29g6w&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:36:02Z",
-   "source": "Decrypt",
-   "title": "Tether's Tiny AI Agent Beats Models 2.5 Times Its Size at Controlling Your Phone",
-   "link": "https://decrypt.co/383066/tether-tiny-ai-agent-beats-models-phone"
-  },
-  {
-   "published": "2026-11-11T19:36:00Z",
-   "source": "Yahoo Finance",
-   "title": "Is SpaceX a Millionaire-Maker Stock?",
-   "link": "https://www.fool.com/investing/2026/11/11/is-spacex-a-millionaire-maker-stock/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:35:02Z",
-   "source": "Yahoo Finance",
-   "title": "Stocks Had Their Best Day in 3 Months and Worst in 19 Months Last Week. Here’s What the Data Says About Selling Right Now.",
-   "link": "https://www.fool.com/investing/2026/11/11/stocks-best-day-in-3-months-followed-by-worst-in-19-months/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:27:37Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Just Had Its Worst 5 Days Since 2022, Worse Than the DeepSeek Crash",
-   "link": "https://247wallst.com/investing/2026/11/11/nvidia-just-had-its-worst-5-days-since-2022-worse-than-the-deepseek-crash/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:24:48Z",
-   "source": "Yahoo Finance",
-   "title": "Micron Stock Fell 30% in a Week. Bernstein Says It Could Nearly Double",
-   "link": "https://www.tikr.com/blog/micron-stock-fell-30-in-a-week-bernstein-says-it-could-nearly-double?ref=yahoofinance&tlnk=yf-261111-vf93wfjf&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:24:09Z",
-   "source": "Yahoo Finance",
-   "title": "3 Possible Paths Forward for AI Stocks (Bull Case, Bear Case, Base Case) -- and How to Invest for Each",
-   "link": "https://www.fool.com/investing/2026/11/11/3-possible-paths-forward-for-ai-stocks-bull-case-b/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:17:44Z",
-   "source": "Yahoo Finance",
-   "title": "Tractor Supply Turned $1,000 Into Over $3,200 in 10 Years. Then Came 2026",
-   "link": "https://247wallst.com/investing/2026/11/11/tractor-supply-turned-1000-into-over-3200-in-10-years-then-came-2026/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:17:19Z",
-   "source": "CNBC",
-   "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
-   "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
-  },
-  {
-   "published": "2026-11-11T19:16:23Z",
-   "source": "CNBC",
-   "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
-   "link": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html"
   }
  ]
 }
