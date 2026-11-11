@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T16:00:35Z",
+ "generated_at": "2026-11-11T20:00:36Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0492,
+  "bench_pct": -0.0475,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,12 +16,12 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 74028.78,
+   "price": 74405.0,
    "trend": "baissière",
-   "score": -0.357,
+   "score": -0.248,
    "news_score": -0.352,
    "news_conf": 0.425,
-   "tech_score": -0.609,
+   "tech_score": -0.368,
    "in_position": false,
    "patterns": [
     "Doji (indécision)",
@@ -31,61 +31,63 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2076.07,
+   "price": 2078.85,
    "trend": "baissière",
-   "score": -0.365,
-   "news_score": -0.5,
+   "score": -0.506,
+   "news_score": -1.0,
    "news_conf": 0.48,
-   "tech_score": -0.518,
+   "tech_score": -0.538,
    "in_position": false,
    "patterns": [
     "Avalement baissier",
-    "Avalement haussier"
+    "Avalement haussier",
+    "Doji (indécision)"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 84.82,
+   "price": 84.88,
    "trend": "baissière",
-   "score": -0.259,
-   "news_score": 0.0,
-   "news_conf": 0.24,
-   "tech_score": -0.576,
+   "score": -0.278,
+   "news_score": -0.25,
+   "news_conf": 0.12,
+   "tech_score": -0.581,
    "in_position": false,
    "patterns": [
+    "Doji (indécision)",
     "Doji (indécision)",
     "Doji (indécision)"
    ]
   },
   {
    "symbol": "NVDA",
-   "price": 175.9600067138672,
+   "price": 175.58999633789062,
    "trend": "baissière",
-   "score": -0.342,
-   "news_score": -0.25,
-   "news_conf": 0.36,
+   "score": -0.425,
+   "news_score": -0.5,
+   "news_conf": 0.48,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "AAPL",
-   "price": 353.73199462890625,
+   "price": 354.55999755859375,
    "trend": "haussière",
-   "score": 0.286,
-   "news_score": 0.143,
-   "news_conf": 0.6,
+   "score": 0.239,
+   "news_score": 0.0,
+   "news_conf": 0.48,
    "tech_score": 0.532,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "SPY",
-   "price": 758.5900268554688,
+   "price": 760.4199829101562,
    "trend": "baissière",
-   "score": -0.236,
-   "news_score": -0.25,
-   "news_conf": 0.36,
+   "score": -0.252,
+   "news_score": -0.2,
+   "news_conf": 0.6,
    "tech_score": -0.414,
    "in_position": false,
    "patterns": [
@@ -526,6 +528,11 @@
    1794412830,
    100.0,
    95.08
+  ],
+  [
+   1794427230,
+   100.0,
+   95.25
   ]
  ],
  "last_directive": {
@@ -539,7 +546,7 @@
    "value": 29,
    "label": "Fear"
   },
-  "vix": 17.72
+  "vix": 17.51
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -663,184 +670,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-11T16:00:08Z",
+   "published": "2026-11-11T19:55:39Z",
    "source": "CNBC",
-   "title": "CoreWeave soars 24% as CEO reaffirms AI compute demand after strong Q3 report",
-   "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html"
-  },
-  {
-   "published": "2026-11-11T15:57:44Z",
-   "source": "CNBC",
-   "title": "JetBlue's CEO has pushed back on creditor fears and is betting on premium to return to profitability",
-   "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html"
-  },
-  {
-   "published": "2026-11-11T15:53:45Z",
-   "source": "Yahoo Finance",
-   "title": "Wall Street is cooling on Jensen Huang's Nvidia — but history says don't give up on the stock just yet",
-   "link": "https://finance.yahoo.com/technology/article/wall-street-is-cooling-on-jensen-huangs-nvidia--but-history-says-dont-give-up-on-the-stock-just-yet-155345795.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:53:43Z",
-   "source": "CNBC",
-   "title": "Democrats could snarl Trump administration stakes in companies; Watch U.S. Steel CEO speak",
-   "link": "https://www.cnbc.com/2026/11/11/trump-company-equity-takes.html"
-  },
-  {
-   "published": "2026-11-11T15:53:36Z",
-   "source": "CNBC",
-   "title": "CoreWeave CEO Intrator tells CNBC he has canceled his planned share sale program",
-   "link": "https://www.cnbc.com/2026/11/11/coreweave-ceo-election-data-center-buildout.html"
-  },
-  {
-   "published": "2026-11-11T15:51:53Z",
-   "source": "Yahoo Finance",
-   "title": "Why Sandisk Stock Popped Today",
-   "link": "https://www.fool.com/investing/2026/11/11/why-sandisk-stock-popped-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: After Losing Over $1.7 Trillion in Market Cap This Year, Nvidia Stock Will Rebound in Epic Fashion. Here's Why.",
-   "link": "https://www.fool.com/investing/2026/11/11/prediction-after-losing-over-usd1-7-trillion-in-market-cap-this-year-nvidia-stock-will-rebound-in-epic-fashion-here-s-why/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:50:00Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: A Bear Market Is Coming: 3 Ways to Stay Ahead",
-   "link": "https://www.fool.com/investing/2026/11/11/prediction-a-bear-market-is-coming-3-ways-to-stay/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:46:05Z",
-   "source": "CNBC",
-   "title": "Mississippi Senate: Scott Colom leads Hyde-Smith by more than 3,000 votes",
+   "title": "Mississippi Senate: Scott Colom lead over Hyde-Smith pops to more than 4,400 votes",
    "link": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html"
   },
   {
-   "published": "2026-11-11T15:45:31Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia is Now Down More Than 25% In 30 Days: This Wall Street Desk Predicts 205% Returns",
-   "link": "https://247wallst.com/investing/2026/11/11/nvidia-is-now-down-more-than-25-in-30-days-this-wall-street-desk-predicts-205-returns/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:40:45Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia employees overwhelmingly want Huang to remain CEO despite spy affair",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-employees-overwhelmingly-want-huang-154045045.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:39:36Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia could face fines, lawsuits, and lost markets: Baird strategist",
-   "link": "https://finance.yahoo.com/video/nvidia-could-face-fines-lawsuits-and-lost-markets-baird-strategist-153936762.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:39:36Z",
-   "source": "Yahoo Finance",
-   "title": "CoreWeave stock skyrockets post-earnings: Top takeaways",
-   "link": "https://finance.yahoo.com/video/coreweave-stock-skyrockets-post-earnings-top-takeaways-153936774.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:35:00Z",
-   "source": "Yahoo Finance",
-   "title": "3 Consumer Stocks to Buy in November and Hold for the Next 20 Years",
-   "link": "https://www.fool.com/investing/2026/11/11/3-consumer-stocks-to-buy-in-november-and-hold-for/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:34:00Z",
-   "source": "Yahoo Finance",
-   "title": "OKXICE to Launch Tokenized Stock Trading with Coinbase, Circle, Strategy",
-   "link": "https://www.cryptoprowl.com/releases/okxice-to-launch-tokenized-stock-trading-with-coinbase-circle-strategy-7846?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:33:36Z",
-   "source": "Yahoo Finance",
-   "title": "Tech rises as CoreWeave results reignite AI trade: AlphaCheck",
-   "link": "https://finance.yahoo.com/markets/article/tech-rises-coreweave-results-reignite-ai-trade-alphacheck-153336772.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:31:02Z",
-   "source": "Yahoo Finance",
-   "title": "Ethereum’s Vitalik Buterin Just Told Investors Why to Hold It. One Popular Reason Isn’t on the List.",
-   "link": "https://www.fool.com/investing/2026/11/11/ethereums-vitalik-buterin-just-told-investors-why-to-hold-it-one-popular-reason-isnt-on-the-list/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:30:19Z",
-   "source": "Yahoo Finance",
-   "title": "BC-Most Active Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019828.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:29:27Z",
-   "source": "Yahoo Finance",
-   "title": "Is Wall Street too optimistic about Big Tech?",
-   "link": "https://finance.yahoo.com/video/is-wall-street-too-optimistic-about-big-tech-152927056.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:24:51Z",
-   "source": "Yahoo Finance",
-   "title": "Wall Street is pricing in two big risks for Nvidia",
-   "link": "https://finance.yahoo.com/video/wall-street-is-pricing-in-two-big-risks-for-nvidia-152451629.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:21:34Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Downgraded Ahead Of Report, But Stock Joins AI Rebound",
-   "link": "https://finance.yahoo.com/m/b2b54afe-1ff6-3009-9a91-fbde5c2d45c5/nvidia-downgraded-ahead-of.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:21:25Z",
-   "source": "Yahoo Finance",
-   "title": "Stock Market Today: Nasdaq Jumps As CoreWeave Surges On Earnings; Nvidia, AMD Shares Bounce (Live Coverage)",
-   "link": "https://finance.yahoo.com/m/2199baae-3d36-344b-b4d8-76ff24b7f5e9/stock-market-today%3A-nasdaq.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:21:02Z",
-   "source": "Yahoo Finance",
-   "title": "3 Artificial Intelligence (AI) Stocks to Buy on the Post-Election Dip and Hold for 5 Years",
-   "link": "https://www.fool.com/investing/2026/11/11/3-artificial-intelligence-ai-stocks-to-buy-on-the-post-election-dip-and-hold-for-5-years/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T15:20:59Z",
+   "published": "2026-11-11T19:54:27Z",
    "source": "CNBC",
-   "title": "WNBA Finals MVP Gabby Williams: 'Our existence is political'",
-   "link": "https://www.cnbc.com/2026/11/11/gabby-williams-embraces-role-in-wnbas-political-and-cultural-debates-.html"
+   "title": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
+   "link": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html"
   },
   {
-   "published": "2026-11-11T15:14:53Z",
-   "source": "CNBC",
-   "title": "Measles is surging in the U.S. — and outbreaks can cost millions",
-   "link": "https://www.cnbc.com/2026/11/11/measles-outbreak-us-economic-cost.html"
-  },
-  {
-   "published": "2026-11-11T15:07:41Z",
+   "published": "2026-11-11T19:50:02Z",
    "source": "Yahoo Finance",
-   "title": "State of the tech trade and reasons for optimism in the market",
-   "link": "https://finance.yahoo.com/video/state-of-the-tech-trade-and-reasons-for-optimism-in-the-market-150741331.html?.tsrc=rss"
+   "title": "Nov 13 Could Be A Huge Day For SpaceX Stock",
+   "link": "https://www.fool.com/investing/2026/11/11/nov-13-could-be-a-huge-day-for-spacex-stock/?.tsrc=rss"
   },
   {
-   "published": "2026-11-11T14:50:26Z",
+   "published": "2026-11-11T19:49:43Z",
    "source": "Yahoo Finance",
-   "title": "Apple Slides 4% as Ternus Calls Memory Pricing “Unprecedented” Despite a Record $114.5 Billion Quarter",
-   "link": "https://www.tikr.com/blog/apple-slides-4-as-ternus-calls-memory-pricing-unprecedented-despite-a-record-114-5-billion-quarter?ref=yahoofinance&tlnk=yf-261111-c29prp49&.tsrc=rss"
+   "title": "Chip Stocks Rally After Slide. These Names Are Leading The Charge Higher.",
+   "link": "https://finance.yahoo.com/m/84883771-24d1-36d3-b83b-c42cc62afe67/chip-stocks-rally-after.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-11T14:49:16Z",
-   "source": "CNBC",
-   "title": "CFTC investigates if Kalshi improperly self-certified event contracts",
-   "link": "https://www.cnbc.com/2026/11/11/cftc-investigates-if-kalshi-improperly-self-certified-event-contracts.html"
+   "published": "2026-11-11T19:45:01Z",
+   "source": "Yahoo Finance",
+   "title": "Why Oracle Stock Is Up Today",
+   "link": "https://www.fool.com/investing/2026/11/11/why-oracle-stock-is-up-today/?.tsrc=rss"
   },
   {
-   "published": "2026-11-11T14:35:23Z",
-   "source": "CNBC",
-   "title": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
-   "link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html"
+   "published": "2026-11-11T19:42:35Z",
+   "source": "Yahoo Finance",
+   "title": "Home Equity Borrowing Jumps the Most Since 2005 as Household Debt Passes $19 Trillion",
+   "link": "https://247wallst.com/investing/2026/11/11/home-equity-borrowing-jumps-the-most-since-2005-as-household-debt-passes-19-trillion/?.tsrc=rss"
   },
   {
-   "published": "2026-11-11T14:24:28Z",
+   "published": "2026-11-11T19:37:50Z",
+   "source": "Yahoo Finance",
+   "title": "CoreWeave Sees “10x as Much Qualified Demand” as Capacity as Old Nvidia Chips Reprice Higher",
+   "link": "https://www.tikr.com/blog/coreweave-sees-10x-as-much-qualified-demand-as-capacity-as-old-nvidia-chips-reprice-higher?ref=yahoofinance&tlnk=yf-261111-jpg29g6w&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:36:02Z",
+   "source": "Decrypt",
+   "title": "Tether's Tiny AI Agent Beats Models 2.5 Times Its Size at Controlling Your Phone",
+   "link": "https://decrypt.co/383066/tether-tiny-ai-agent-beats-models-phone"
+  },
+  {
+   "published": "2026-11-11T19:36:00Z",
+   "source": "Yahoo Finance",
+   "title": "Is SpaceX a Millionaire-Maker Stock?",
+   "link": "https://www.fool.com/investing/2026/11/11/is-spacex-a-millionaire-maker-stock/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:35:02Z",
+   "source": "Yahoo Finance",
+   "title": "Stocks Had Their Best Day in 3 Months and Worst in 19 Months Last Week. Here’s What the Data Says About Selling Right Now.",
+   "link": "https://www.fool.com/investing/2026/11/11/stocks-best-day-in-3-months-followed-by-worst-in-19-months/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:27:37Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Just Had Its Worst 5 Days Since 2022, Worse Than the DeepSeek Crash",
+   "link": "https://247wallst.com/investing/2026/11/11/nvidia-just-had-its-worst-5-days-since-2022-worse-than-the-deepseek-crash/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:24:48Z",
+   "source": "Yahoo Finance",
+   "title": "Micron Stock Fell 30% in a Week. Bernstein Says It Could Nearly Double",
+   "link": "https://www.tikr.com/blog/micron-stock-fell-30-in-a-week-bernstein-says-it-could-nearly-double?ref=yahoofinance&tlnk=yf-261111-vf93wfjf&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:24:09Z",
+   "source": "Yahoo Finance",
+   "title": "3 Possible Paths Forward for AI Stocks (Bull Case, Bear Case, Base Case) -- and How to Invest for Each",
+   "link": "https://www.fool.com/investing/2026/11/11/3-possible-paths-forward-for-ai-stocks-bull-case-b/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Here Are My Top 3 ETFs to Buy Before 2027",
+   "link": "https://www.fool.com/investing/2026/11/11/here-are-my-top-3-etfs-to-buy-before-2027/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:17:44Z",
+   "source": "Yahoo Finance",
+   "title": "Tractor Supply Turned $1,000 Into Over $3,200 in 10 Years. Then Came 2026",
+   "link": "https://247wallst.com/investing/2026/11/11/tractor-supply-turned-1000-into-over-3200-in-10-years-then-came-2026/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:17:19Z",
    "source": "CNBC",
-   "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
-   "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html"
+   "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
+   "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+  },
+  {
+   "published": "2026-11-11T19:16:23Z",
+   "source": "CNBC",
+   "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
+   "link": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html"
+  },
+  {
+   "published": "2026-11-11T19:15:48Z",
+   "source": "Yahoo Finance",
+   "title": "Goldman, Citi, and 19 Top Financial Firms Are Launching a Stablecoin",
+   "link": "https://app.moby.co/home/news/news-goldman-citi-and-19-top-financial-firms-are-launching-a-stablecoin?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:15:00Z",
+   "source": "Yahoo Finance",
+   "title": "Prediction: Nvidia Stock Will Be Worth This Much by Year-End 2027",
+   "link": "https://www.fool.com/investing/2026/11/11/prediction-nvidia-stock-will-be-worth-this-much-by/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:13:34Z",
+   "source": "Yahoo Finance",
+   "title": "MP Materials (MP) Q3 Beat Raises The Question Of Whether Its Story Is Already Priced In",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/mp-materials-mp-q3-beat-191334168.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:12:52Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia short-seller warned of Jensen Huang's ties to suspected spy",
+   "link": "https://www.cbsnews.com/news/nvidia-short-seller-culper-jensen-huang/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:07:43Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia stock is pricing in 2 major risks as CEO Jensen Huang's affair fallout plays out",
+   "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-is-pricing-in-2-major-risks-as-ceo-jensen-huangs-affair-fallout-plays-out-190743109.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:06:02Z",
+   "source": "Decrypt",
+   "title": "Deutsche Bank Goes Live With Crypto Custody After a Five-Year Buildup",
+   "link": "https://decrypt.co/383067/deutsche-bank-goes-live-with-crypto-custody-after-a-five-year-buildup"
+  },
+  {
+   "published": "2026-11-11T19:05:00Z",
+   "source": "Yahoo Finance",
+   "title": "Amazon and Microsoft Lead the Cloud Market. One of Them Has Far Greater Upside.",
+   "link": "https://www.fool.com/investing/2026/11/11/amazon-and-microsoft-lead-the-cloud-market-one-of/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T19:02:41Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia-Backed Nebius Faces Crucial Wall Street Test",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-nebius-faces-crucial-190241774.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T18:57:38Z",
+   "source": "CNBC",
+   "title": "Meta head of infrastructure will leave and be succeeded by former AWS cloud exec",
+   "link": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html"
+  },
+  {
+   "published": "2026-11-11T18:55:39Z",
+   "source": "CNBC",
+   "title": "How Democrats could snarl Trump administration stakes in private sector companies",
+   "link": "https://www.cnbc.com/2026/11/11/trump-company-equity-takes.html"
+  },
+  {
+   "published": "2026-11-11T18:53:03Z",
+   "source": "CNBC",
+   "title": "Apple's record run ignites options flurry — Watch Options Action live",
+   "link": "https://www.cnbc.com/2026/11/11/apples-record-run-ignites-options-flurry-watch-options-action-live.html"
+  },
+  {
+   "published": "2026-11-11T18:52:30Z",
+   "source": "Yahoo Finance",
+   "title": "What's Going On With Nvidia Stock Wednesday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/whats-going-nvidia-stock-wednesday-185230493.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T18:46:57Z",
+   "source": "Yahoo Finance",
+   "title": "Cramer Says Apple Investors Who Sold After Steve Jobs Missed Years Of Gains. The Stock Is Up Nearly 3,000% Since. Now He’s Asking If Nvidia Needs Jensen Huang",
+   "link": "https://247wallst.com/investing/2026/11/11/cramer-says-apple-investors-who-sold-after-steve-jobs-missed-years-of-gains-the-stock-is-up-nearly-3000-since-now-hes-asking-if-nvidia-needs-jensen-huang/?.tsrc=rss"
   }
  ]
 }
