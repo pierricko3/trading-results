@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T05:50:48Z",
+ "generated_at": "2026-11-11T08:00:38Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.0,
   "cash": 100.0,
   "perf_pct": 0.0,
-  "bench_pct": -0.0628,
+  "bench_pct": -0.0627,
   "drawdown": 0.0,
   "halted": false,
   "trade_count": 0
@@ -16,39 +16,40 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 73902.01,
+   "price": 74045.23,
    "trend": "baissière",
-   "score": -0.309,
-   "news_score": -0.2,
-   "news_conf": 0.6,
-   "tech_score": -0.54,
+   "score": -0.268,
+   "news_score": -0.5,
+   "news_conf": 0.48,
+   "tech_score": -0.302,
    "in_position": false,
    "patterns": [
-    "Avalement baissier",
-    "Doji (indécision)"
+    "Doji (indécision)",
+    "Avalement haussier"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2069.91,
+   "price": 2068.29,
    "trend": "baissière",
-   "score": -0.294,
-   "news_score": -0.25,
-   "news_conf": 0.12,
-   "tech_score": -0.616,
+   "score": -0.276,
+   "news_score": 0.0,
+   "news_conf": 0.0,
+   "tech_score": -0.614,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "SOL/USDT",
-   "price": 83.35,
+   "price": 83.26,
    "trend": "baissière",
-   "score": -0.272,
+   "score": -0.273,
    "news_score": 0.0,
    "news_conf": 0.0,
-   "tech_score": -0.605,
+   "tech_score": -0.608,
    "in_position": false,
    "patterns": [
+    "Doji (indécision)",
     "Doji (indécision)"
    ]
   },
@@ -501,6 +502,11 @@
    1794376243,
    100.0,
    93.72
+  ],
+  [
+   1794384030,
+   100.0,
+   93.73
   ]
  ],
  "last_directive": {
@@ -638,16 +644,76 @@
  },
  "headlines": [
   {
+   "published": "2026-11-11T07:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "Here's the 1 Thing I'd Wait to See Before Buying NuScale Stock",
+   "link": "https://www.fool.com/investing/2026/11/11/heres-the-1-thing-id-wait-to-see-before-buying-nus/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T07:47:54Z",
+   "source": "CNBC",
+   "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+   "link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html"
+  },
+  {
+   "published": "2026-11-11T07:25:00Z",
+   "source": "Yahoo Finance",
+   "title": "Rivian's Vans Got a Serious Upgrade. Could Another Major Fleet Deal Finally Follow?",
+   "link": "https://www.fool.com/investing/2026/11/11/rivians-vans-got-a-serious-upgrade-could-another-m/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T07:02:45Z",
+   "source": "CNBC",
+   "title": "Singapore wants a bigger slice of the global gold market. Is it too late to the party?",
+   "link": "https://www.cnbc.com/2026/11/11/singapore-gold-market-vault-storage.html"
+  },
+  {
+   "published": "2026-11-11T06:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "Is XRP the Best Cryptocurrency You Can Buy Right Now?",
+   "link": "https://www.fool.com/investing/2026/11/11/is-xrp-the-best-cryptocurrency-you-can-buy-right-n/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T06:28:00Z",
+   "source": "Yahoo Finance",
+   "title": "The Zacks Analyst Blog Highlights Arista Networks, Fabrinet, Analog Devices, Advanced Micro Devices and NVIDIA",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-arista-062800269.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T06:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "CoreWeave Earnings: 3 Things Investors Need To Know",
+   "link": "https://www.fool.com/investing/2026/11/11/coreweave-earnings-3-things-investors-need-to-know/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T06:19:23Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63130550/stock-market-will-sp-500-open-up-or-down-today-75?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T06:09:55Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures Rise, Techs Jump On CoreWeave Earnings; Look For This Bullish Signal",
+   "link": "https://finance.yahoo.com/m/656fca57-9896-3dfb-96e8-e0af2bc227df/dow-jones-futures-rise%2C-techs.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T06:00:01Z",
+   "source": "CNBC",
+   "title": "Investors pivot to defensive stocks as markets enter a ‘state of alert’",
+   "link": "https://www.cnbc.com/2026/11/11/tech-selloff-defensive-pivot.html"
+  },
+  {
+   "published": "2026-11-11T05:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "Robinhood's Latest Earnings Report Tells You All You Need to Know About the Future of Crypto. These 2 Numbers Really Stood Out.",
+   "link": "https://www.fool.com/investing/2026/11/11/robinhoods-latest-earnings-report-tells-you-all-yo/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-11T05:35:07Z",
    "source": "Yahoo Finance",
    "title": "Inside Anthropic’s blockbuster IPO: What we know about the AI giant’s plans",
    "link": "https://www.euronews.com/2026/11/11/anthropic-targets-valuation-of-up-to-14-trillion-for-blockbuster-ipo?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T05:26:54Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Rise As CoreWave Jumps, Lifts AI Stocks; Look For This Bullish Signal",
-   "link": "https://finance.yahoo.com/m/656fca57-9896-3dfb-96e8-e0af2bc227df/dow-jones-futures-rise-as.html?.tsrc=rss"
   },
   {
    "published": "2026-11-11T05:20:00Z",
@@ -666,12 +732,6 @@
    "source": "Yahoo Finance",
    "title": "3 AI Chip Stocks Facing Yield Pressure And Demand Strength",
    "link": "https://finance.yahoo.com/technology/ai/articles/3-ai-chip-stocks-facing-051434115.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T04:42:30Z",
-   "source": "Cointelegraph",
-   "title": "Across Protocol restores website after hackers hijack domain",
-   "link": "https://cointelegraph.com/news/across-protocol-restores-website-after-hackers-hijack-domain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
    "published": "2026-11-11T04:32:50Z",
@@ -716,60 +776,6 @@
    "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-higher-after-red-hot-inflation-data-and-nvidia-losses-crwv-ttwo-nlst-nbis-in-focus/cNGDaIOR9J8?.tsrc=rss"
   },
   {
-   "published": "2026-11-11T03:41:13Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Shares Just Crashed Nearly 30% in Five Weeks. Dan Ives Says Losing Jensen Huang Would Cost Up to 30% More. Here’s the Math",
-   "link": "https://247wallst.com/investing/2026/11/10/nvidia-shares-just-crashed-nearly-30-in-five-weeks-dan-ives-says-losing-jensen-huang-would-cost-up-to-30-more-heres-the-math/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T03:09:47Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Has No Obvious Jensen Huang Successor. That’s Becoming a Bigger Problem",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-no-obvious-jensen-huang-030947978.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T03:08:17Z",
-   "source": "CNBC",
-   "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
-   "link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html"
-  },
-  {
-   "published": "2026-11-11T03:07:45Z",
-   "source": "Cointelegraph",
-   "title": "Crypto ally Tom Emmer elected House GOP minority whip",
-   "link": "https://cointelegraph.com/news/crypto-ally-tom-emmer-elected-house-gop-minority-whip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-11T03:05:00Z",
-   "source": "Yahoo Finance",
-   "title": "S&P 500 Sell-Off: 1 Investing Step to Take Right Now, and 1 Risky Move to Avoid",
-   "link": "https://www.fool.com/investing/2026/11/10/sp-500-sell-off-1-investing-step-to-take-right-now/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T02:46:56Z",
-   "source": "CNBC",
-   "title": "Singapore wants a bigger slice of the global gold market. Is it too late to the party?",
-   "link": "https://www.cnbc.com/2026/11/11/singapore-gold-market-vault-storage.html"
-  },
-  {
-   "published": "2026-11-11T02:34:02Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: This Will Be AMD’s Stock Price After 1 Year",
-   "link": "https://www.fool.com/investing/2026/11/10/prediction-this-will-be-amd-s-stock-price-after-1-year/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T02:29:37Z",
-   "source": "Yahoo Finance",
-   "title": "Cathie Wood buys $15.3 million of tumbling semiconductor stock",
-   "link": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-15-3-million-of-tumbling-semiconductor-stock-nvda-nvidia?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T02:24:42Z",
-   "source": "Yahoo Finance",
-   "title": "Quantum Computing’s Next Winners May Not Be Quantum Stocks",
-   "link": "https://247wallst.com/investing/2026/11/10/quantum-computings-next-winners-may-not-be-quantum-stocks/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-11T02:03:59Z",
    "source": "Yahoo Finance",
    "title": "ESGU Trailed IVV by $26,370 on $300,000 Over Five Years. Its ESG Tilts Are Part of the Reason",
@@ -794,12 +800,6 @@
    "link": "https://247wallst.com/investing/etf/2026/11/10/spy-is-still-a-unit-investment-trust-heres-why-that-quirk-matters-and-when-it-doesnt/?.tsrc=rss"
   },
   {
-   "published": "2026-11-11T01:16:58Z",
-   "source": "Cointelegraph",
-   "title": "LNbits rushes emergency patch after reported Bitcoin wallet thefts",
-   "link": "https://cointelegraph.com/news/lnbits-rushes-emergency-patch-after-reported-bitcoin-wallet-thefts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
    "published": "2026-11-11T01:02:52Z",
    "source": "Yahoo Finance",
    "title": "Nvidia's trillion-dollar bind: Can it afford to lose Jensen Huang?",
@@ -812,10 +812,16 @@
    "link": "https://www.trefis.com/stock/snap/articles/623978/what-should-snap-stock-holders-take-from-its-third-quarter-report/2026-11-10?.tsrc=rss"
   },
   {
-   "published": "2026-11-10T23:49:51Z",
-   "source": "Cointelegraph",
-   "title": "CFTC warns Kalshi of imminent charges over notification of contracts: Politico",
-   "link": "https://cointelegraph.com/news/cftc-warns-kalshi-imminent-charges-over-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   "published": "2026-11-10T23:46:41Z",
+   "source": "CNBC",
+   "title": "Hegseth impeachment effort torpedoed in House",
+   "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html"
+  },
+  {
+   "published": "2026-11-10T23:46:35Z",
+   "source": "CNBC",
+   "title": "Jim Cramer says Anthropic's explosive growth could justify a record-breaking IPO",
+   "link": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html"
   }
  ]
 }
