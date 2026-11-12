@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T21:30:55Z",
+ "generated_at": "2026-11-12T00:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.99,
   "cash": 80.0,
   "perf_pct": -0.0001,
-  "bench_pct": -0.0473,
+  "bench_pct": -0.0537,
   "drawdown": 0.0001,
   "halted": false,
   "trade_count": 1
@@ -24,27 +24,27 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 74735.73,
+   "price": 74040.56,
    "trend": "baissière",
-   "score": -0.166,
-   "news_score": 0.0,
+   "score": -0.312,
+   "news_score": -0.5,
    "news_conf": 0.48,
-   "tech_score": -0.368,
+   "tech_score": -0.401,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)",
     "Avalement haussier",
-    "Pendu (retournement possible)"
+    "Pendu (retournement possible)",
+    "Doji (indécision)"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2081.38,
+   "price": 2056.93,
    "trend": "baissière",
-   "score": -0.374,
-   "news_score": -0.5,
+   "score": -0.702,
+   "news_score": -1.0,
    "news_conf": 0.48,
-   "tech_score": -0.538,
+   "tech_score": -0.974,
    "in_position": false,
    "patterns": [
     "Avalement baissier",
@@ -54,26 +54,26 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 85.0,
+   "price": 83.3,
    "trend": "baissière",
-   "score": -0.245,
-   "news_score": 0.25,
+   "score": -0.447,
+   "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": -0.581,
+   "tech_score": -0.958,
    "in_position": false,
    "patterns": [
     "Doji (indécision)",
     "Doji (indécision)",
-    "Doji (indécision)"
+    "Avalement baissier"
    ]
   },
   {
    "symbol": "NVDA",
    "price": 173.85000610351562,
    "trend": "baissière",
-   "score": -0.183,
-   "news_score": 0.333,
-   "news_conf": 0.6,
+   "score": -0.556,
+   "news_score": -1.0,
+   "news_conf": 0.48,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -82,10 +82,10 @@
    "symbol": "AAPL",
    "price": 355.7900085449219,
    "trend": "haussière",
-   "score": 0.437,
-   "news_score": 0.6,
+   "score": 0.391,
+   "news_score": 0.429,
    "news_conf": 0.6,
-   "tech_score": 0.532,
+   "tech_score": 0.555,
    "in_position": true,
    "patterns": []
   },
@@ -93,13 +93,12 @@
    "symbol": "SPY",
    "price": 759.7899780273438,
    "trend": "baissière",
-   "score": -0.12,
-   "news_score": 0.2,
+   "score": -0.268,
+   "news_score": -0.2,
    "news_conf": 0.6,
-   "tech_score": -0.414,
+   "tech_score": -0.449,
    "in_position": false,
    "patterns": [
-    "Marteau inversé (rebond possible)",
     "Doji (indécision)",
     "Étoile du matin (retournement haussier)"
    ]
@@ -560,6 +559,11 @@
    1794432650,
    99.99,
    95.27
+  ],
+  [
+   1794441630,
+   99.99,
+   94.63
   ]
  ],
  "last_directive": {
@@ -570,7 +574,7 @@
  },
  "indicators": {
   "fear_greed": {
-   "value": 29,
+   "value": 28,
    "label": "Fear"
   },
   "vix": 17.49
@@ -697,46 +701,166 @@
  },
  "headlines": [
   {
-   "published": "2026-11-11T21:25:24Z",
+   "published": "2026-11-11T23:51:18Z",
    "source": "Yahoo Finance",
-   "title": "Teradyne Stock Surges On Fresh Buy Rating, Called AI Play",
-   "link": "https://finance.yahoo.com/m/6b377220-7cdf-3f3b-9aca-7e1dc8268833/teradyne-stock-surges-on.html?.tsrc=rss"
+   "title": "Nvidia's stock dives as board weighs move to oust Jensen Huang",
+   "link": "https://www.cbsnews.com/news/nvidia-stock-dives-report-board-prepares-oust-jensen-huang/?.tsrc=rss"
   },
   {
-   "published": "2026-11-11T21:22:31Z",
+   "published": "2026-11-11T23:48:55Z",
    "source": "Yahoo Finance",
-   "title": "Stock Market Today: Major Indexes Pare Earlier Gains But Finish Trading Day Solidly Higher",
-   "link": "https://finance.yahoo.com/m/2199baae-3d36-344b-b4d8-76ff24b7f5e9/stock-market-today%3A-major.html?.tsrc=rss"
+   "title": "Dow Jones Futures: Techs Tumble Late As Nvidia May Oust CEO Huang; AI Stocks Slide, But Not AMD",
+   "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures%3A-techs.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-11T21:22:23Z",
+   "published": "2026-11-11T23:34:19Z",
    "source": "Yahoo Finance",
-   "title": "Nvidia Downgraded Ahead Of Report, But Stock Joins AI Rebound",
-   "link": "https://finance.yahoo.com/m/b2b54afe-1ff6-3009-9a91-fbde5c2d45c5/nvidia-downgraded-ahead-of.html?.tsrc=rss"
+   "title": "Nvidia’s Board Is Reportedly Preparing to Oust Jensen Huang. When Intel and McDonald’s Pushed Out CEOs Over Workplace Relationships, Shareholders Got Opposite Results",
+   "link": "https://247wallst.com/investing/2026/11/11/nvidias-board-is-reportedly-preparing-to-oust-jensen-huang-when-intel-and-mcdonalds-pushed-out-ceos-over-workplace-relationships-shareholders-got-opposite-results/?.tsrc=rss"
   },
   {
-   "published": "2026-11-11T21:22:08Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures: CoreWeave, Sandisk, Nvidia, AMD, Nebius Lead Bullish Market Move",
-   "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures%3A-coreweave%2C.html?.tsrc=rss"
+   "published": "2026-11-11T23:31:37Z",
+   "source": "CNBC",
+   "title": "Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith",
+   "link": "https://www.cnbc.com/2026/11/11/democrat-scott-colom-projected-to-win-mississippi-senate-election-over-incumbent-hyde-smith.html"
   },
   {
-   "published": "2026-11-11T21:19:55Z",
+   "published": "2026-11-11T23:28:45Z",
    "source": "Yahoo Finance",
-   "title": "Tech round-up: A closer look at Anthropic, Nvidia, CoreWeave, and next week",
-   "link": "https://finance.yahoo.com/video/tech-round-up-a-closer-look-at-anthropic-nvidia-coreweave-and-next-week-211955539.html?.tsrc=rss"
+   "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-drops-board-reportedly-232845220.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-11T21:18:38Z",
-   "source": "Yahoo Finance",
-   "title": "Fed’s Bowman Says AI Now Drives About a Quarter of America’s Excess Inflation",
-   "link": "https://247wallst.com/investing/2026/11/11/feds-bowman-says-ai-now-drives-about-a-quarter-of-americas-excess-inflation/?.tsrc=rss"
+   "published": "2026-11-11T23:28:11Z",
+   "source": "CNBC",
+   "title": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
+   "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html"
   },
   {
-   "published": "2026-11-11T21:17:54Z",
+   "published": "2026-11-11T23:26:02Z",
    "source": "Yahoo Finance",
-   "title": "Why Nvidia Stock Was Downgraded to Hold by a Top Analyst and Price Target Halved to $200",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-nvidia-stock-downgraded-hold-211754136.html?.tsrc=rss"
+   "title": "Nasdaq Sell-Off: 2 Stocks to Buy on the Dip and Hold for 5 Years",
+   "link": "https://www.fool.com/investing/2026/11/11/nasdaq-sell-off-2-stocks-to-buy-on-the-dip-and-hold-for-5-years/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T23:21:23Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia’s Board Is Reportedly Planning To Oust Jensen Huang Over Chinese Spy, Employee Misconduct Investigation",
+   "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-s-board-is-reportedly-planning-to-oust-jensen-huang-over-chinese-spy-employee-misconduct-investigation/cNGx5ivR994?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T23:18:44Z",
+   "source": "Cointelegraph",
+   "title": "Suiet wallet to shut down in latest exit from Sui ecosystem",
+   "link": "https://cointelegraph.com/news/suiet-wallet-shut-down-latest-exit-sui-ecosystem?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-11T23:16:52Z",
+   "source": "Yahoo Finance",
+   "title": "Who is Nvidia executive Kimberly Powell?",
+   "link": "https://finance.yahoo.com/markets/stocks/article/who-is-nvidia-executive-kimberly-powell-231652963.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T23:10:04Z",
+   "source": "Yahoo Finance",
+   "title": "NVIDIA expected to oust Jensen Huang - report",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-expected-oust-jensen-huang-231004453.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T23:07:32Z",
+   "source": "Yahoo Finance",
+   "title": "Wall Street’s Newest Teradyne Bull Just Sent a $2 Billion Signal That the Stock’s 56% Crash Went Too Far",
+   "link": "https://247wallst.com/investing/2026/11/11/wall-streets-newest-teradyne-bull-just-sent-a-2-billion-signal-that-the-stocks-56-crash-went-too-far/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T23:07:01Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia and Alphabet Just Agreed to Buy $10 Billion Each of Anthropic Stock at Its IPO Price",
+   "link": "https://www.fool.com/investing/2026/11/11/nvidia-and-alphabet-just-agreed-to-buy-usd10-billion-each-of-anthropic-stock-at-its-ipo-price/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T23:04:34Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market Today, Nov. 11: Intel Climbs on Broader Chip Rally as AI Infrastructure Demand Lifts Semiconductor Stocks",
+   "link": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-intel-climbs-on-broader-chip-rally-as-ai-infrastructure-demand-lifts-semiconductor-stocks/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T23:01:17Z",
+   "source": "Yahoo Finance",
+   "title": "Update: Market Chatter: Nvidia CEO Jensen Huang Said to Have Had Extramarital Affair With Nvidia Executive",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-nvidia-ceo-jensen-230117596.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T22:58:11Z",
+   "source": "CNBC",
+   "title": "Feds arrest top official of healthcare company, alleging illegal drug importation",
+   "link": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html"
+  },
+  {
+   "published": "2026-11-11T22:46:29Z",
+   "source": "CNBC",
+   "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+   "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html"
+  },
+  {
+   "published": "2026-11-11T22:45:02Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market Today, Nov. 11: Stock Market Today, Nov. 11: Nasdaq Surges as CoreWeave's 25% Rally Reignites the AI Trade",
+   "link": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-stock-market-today-nov-11-nasdaq-surges-as-coreweave-s-25-rally-reignites-the-ai-trade/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-11T22:44:47Z",
+   "source": "Cointelegraph",
+   "title": "Nvidia preparing to oust CEO Jensen Huang after affairs: WSJ",
+   "link": "https://cointelegraph.com/news/nvidia-preparing-to-oust-ceo-jensen-huang-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-11T22:36:03Z",
+   "source": "Decrypt",
+   "title": "Nvidia-Backed CoreWeave Is Surging: Here’s What It Means for the AI Boom",
+   "link": "https://decrypt.co/383099/nvidia-backed-coreweave-surging-what-means-for-ai-boom"
+  },
+  {
+   "published": "2026-11-11T22:30:57Z",
+   "source": "CNBC",
+   "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+   "link": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html"
+  },
+  {
+   "published": "2026-11-11T22:20:58Z",
+   "source": "CNBC",
+   "title": "American Airlines brings fresh food back to NY-Chicago first class for first time since 2019",
+   "link": "https://www.cnbc.com/2026/11/11/american-airlines-first-class-chicago-new-york.html"
+  },
+  {
+   "published": "2026-11-11T22:15:26Z",
+   "source": "Cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-11T22:10:50Z",
+   "source": "CNBC",
+   "title": "JetBlue unveils new first-class seats to bring back profits",
+   "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html"
+  },
+  {
+   "published": "2026-11-11T22:05:17Z",
+   "source": "Cointelegraph",
+   "title": "Uncalled US House races could send more crypto allies to Congress",
+   "link": "https://cointelegraph.com/news/uncalled-midterm-races-add-more-crypto-supporters-congress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-11T21:46:03Z",
+   "source": "Decrypt",
+   "title": "Stablecoin Drain, ETF Outflows Leave Bitcoin 'Running on Empty'",
+   "link": "https://decrypt.co/383094/stablecoin-drain-etf-outflows-bitcoin-running-empty"
+  },
+  {
+   "published": "2026-11-11T21:36:01Z",
+   "source": "Cointelegraph",
+   "title": "Nomura explores sale of crypto unit Laser Digital: Bloomberg",
+   "link": "https://cointelegraph.com/news/nomura-sale-crypto-unit-laser-digital?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
    "published": "2026-11-11T21:16:03Z",
@@ -751,130 +875,10 @@
    "link": "https://finance.yahoo.com/markets/stocks/articles/apple-shares-aapl-look-expensive-211500629.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-11T21:11:35Z",
-   "source": "Yahoo Finance",
-   "title": "Canadian AI-buildout stocks: hardware, power, engineering and software",
-   "link": "https://finance.yahoo.com/technology/ai/articles/canadian-ai-buildout-stocks-hardware-211135535.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-11T21:11:26Z",
    "source": "CNBC",
    "title": "CoreWeave soars more than 24% for best day since April 2025 after strong Q3 report",
    "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html"
-  },
-  {
-   "published": "2026-11-11T21:10:00Z",
-   "source": "Yahoo Finance",
-   "title": "Unity Software: Measure Twice!",
-   "link": "https://www.fool.com/investing/2026/11/11/unity-software-measure-twice/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T21:07:16Z",
-   "source": "Yahoo Finance",
-   "title": "Costco Just Declared a $30 Special Dividend. Is It Reason Enough to Buy the Stock Before Nov. 24?",
-   "link": "https://www.fool.com/investing/2026/11/11/costco-just-declared-a-usd30-special-dividend-is-it-reason-enough-to-buy-the-stock-before-nov-24/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T21:04:36Z",
-   "source": "CNBC",
-   "title": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
-   "link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html"
-  },
-  {
-   "published": "2026-11-11T21:01:01Z",
-   "source": "Yahoo Finance",
-   "title": "History Says 1 Month Has Been the S&P 500's Most Reliable Since 1950. It's Only Weeks Away.",
-   "link": "https://www.fool.com/investing/2026/11/11/history-says-1-month-has-been-the-s-and-p-500-s-most-reliable-since-1950-it-s-only-weeks-away/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T20:59:32Z",
-   "source": "CNBC",
-   "title": "Costco is giving shareholders a big, early holiday gift. How to make sure you get it",
-   "link": "https://www.cnbc.com/investingclub/2026/11/11/costco-is-giving-shareholders-a-big-early-holiday-gift-how-to-make-sure-you-get-it.html"
-  },
-  {
-   "published": "2026-11-11T20:59:14Z",
-   "source": "CNBC",
-   "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
-   "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
-  },
-  {
-   "published": "2026-11-11T20:49:00Z",
-   "source": "Yahoo Finance",
-   "title": "Is Dell Stock Priced Right Against Its Peers?",
-   "link": "https://www.trefis.com/stock/dell/articles/624271/is-dell-stock-priced-right-against-its-peers/2026-11-11?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T20:45:12Z",
-   "source": "Yahoo Finance",
-   "title": "Don’t buy Nvidia yet: 4 stocks to buy instead",
-   "link": "https://www.thestreet.com/video/dont-buy-nvidia-yet-4-stock-to-buy-instead?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T20:43:19Z",
-   "source": "Cointelegraph",
-   "title": "US data center restrictions could give Bitcoin miners an edge in AI, though challenges remain",
-   "link": "https://cointelegraph.com/news/us-data-center-restrictions-bitcoin-miners-edge-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-11T20:36:02Z",
-   "source": "Yahoo Finance",
-   "title": "This Triple Tax-Advantaged Retirement Account Should Not Be Overlooked",
-   "link": "https://www.fool.com/retirement/2026/11/11/this-triple-tax-advantaged-retirement-account-should-not-be-overlooked/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T20:35:45Z",
-   "source": "CNBC",
-   "title": "JetBlue unveils new first-class seats to bring back profits",
-   "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html"
-  },
-  {
-   "published": "2026-11-11T20:33:14Z",
-   "source": "Yahoo Finance",
-   "title": "Cathie Wood, Brad Gerstner and 8 Other Big Funds Bought Cerebras. Is It a Buy Before Earnings?",
-   "link": "https://www.tikr.com/blog/cathie-wood-brad-gerstner-and-8-other-big-funds-bought-cerebras-is-it-a-buy-before-earnings?ref=yahoofinance&tlnk=yf-261111-qj8p8m8j&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T20:30:23Z",
-   "source": "CNBC",
-   "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
-   "link": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html"
-  },
-  {
-   "published": "2026-11-11T20:25:00Z",
-   "source": "Yahoo Finance",
-   "title": "Lucid Recalled 4,400 Gravity SUVs, Delayed the Cosmos, and Is \"Buying Time.\" Here's How Many Shares It Needs to Sell to Survive 2027.",
-   "link": "https://www.fool.com/investing/2026/11/11/lucid-recalled-4400-gravity-suvs-delayed-the-cosmo/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T20:16:02Z",
-   "source": "Decrypt",
-   "title": "This New AI Music Model Is Already Better Than Suno—We Put ACE to the Test",
-   "link": "https://decrypt.co/383070/new-ai-music-model-already-better-than-suno-ace-review"
-  },
-  {
-   "published": "2026-11-11T20:13:40Z",
-   "source": "Yahoo Finance",
-   "title": "Google rolls out Gemini AI voice assistant to Apple CarPlay dashboards",
-   "link": "https://finance.yahoo.com/technology/ai/articles/google-rolls-gemini-ai-voice-201340171.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-11T19:55:39Z",
-   "source": "CNBC",
-   "title": "Mississippi Senate: Scott Colom lead over Hyde-Smith pops to more than 4,400 votes",
-   "link": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html"
-  },
-  {
-   "published": "2026-11-11T19:54:27Z",
-   "source": "CNBC",
-   "title": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
-   "link": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html"
-  },
-  {
-   "published": "2026-11-11T19:42:35Z",
-   "source": "Yahoo Finance",
-   "title": "Home Equity Borrowing Jumps the Most Since 2005 as Household Debt Passes $19 Trillion",
-   "link": "https://247wallst.com/investing/2026/11/11/home-equity-borrowing-jumps-the-most-since-2005-as-household-debt-passes-19-trillion/?.tsrc=rss"
   }
  ]
 }
