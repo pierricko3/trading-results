@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-12T20:50:45Z",
+ "generated_at": "2026-11-12T21:30:54Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 99.93,
+  "equity": 99.94,
   "cash": 80.0,
-  "perf_pct": -0.0007,
-  "bench_pct": -0.0735,
+  "perf_pct": -0.0006,
+  "bench_pct": -0.0719,
   "drawdown": 0.0019,
   "halted": false,
   "trade_count": 1
@@ -15,8 +15,8 @@
  "positions": [
   {
    "symbol": "AAPL",
-   "value": 19.93,
-   "pnl_pct": -0.0034,
+   "value": 19.94,
+   "pnl_pct": -0.003,
    "entry_price": 355.9679,
    "stop": 333.8115
   }
@@ -24,10 +24,10 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 71554.21,
+   "price": 71610.06,
    "trend": "baissière",
-   "score": -0.315,
-   "news_score": -0.2,
+   "score": -0.167,
+   "news_score": 0.25,
    "news_conf": 0.6,
    "tech_score": -0.554,
    "in_position": false,
@@ -37,10 +37,10 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 2020.48,
+   "price": 2021.27,
    "trend": "baissière",
-   "score": -0.586,
-   "news_score": -1.0,
+   "score": -0.366,
+   "news_score": -0.333,
    "news_conf": 0.6,
    "tech_score": -0.568,
    "in_position": false,
@@ -51,11 +51,11 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 81.49,
+   "price": 81.6,
    "trend": "baissière",
-   "score": -0.277,
-   "news_score": -0.25,
-   "news_conf": 0.12,
+   "score": -0.194,
+   "news_score": 0.2,
+   "news_conf": 0.6,
    "tech_score": -0.578,
    "in_position": false,
    "patterns": [
@@ -66,21 +66,21 @@
   },
   {
    "symbol": "NVDA",
-   "price": 164.72000122070312,
+   "price": 166.0399932861328,
    "trend": "baissière",
-   "score": -0.268,
-   "news_score": 0.144,
-   "news_conf": 0.305,
+   "score": -0.227,
+   "news_score": 0.234,
+   "news_conf": 0.508,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "AAPL",
-   "price": 354.7401123046875,
+   "price": 354.8900146484375,
    "trend": "haussière",
-   "score": 0.184,
-   "news_score": -0.2,
+   "score": 0.332,
+   "news_score": 0.25,
    "news_conf": 0.6,
    "tech_score": 0.555,
    "in_position": true,
@@ -88,11 +88,11 @@
   },
   {
    "symbol": "SPY",
-   "price": 756.5999755859375,
+   "price": 757.2000122070312,
    "trend": "baissière",
-   "score": -0.202,
-   "news_score": 0.0,
-   "news_conf": 0.0,
+   "score": -0.07,
+   "news_score": 0.5,
+   "news_conf": 0.48,
    "tech_score": -0.449,
    "in_position": false,
    "patterns": [
@@ -112,11 +112,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1793785680,
-   100.0,
-   100.64
-  ],
   [
    1793785801,
    100.0,
@@ -561,6 +556,11 @@
    1794516640,
    99.93,
    92.65
+  ],
+  [
+   1794519049,
+   99.94,
+   92.81
   ]
  ],
  "last_directive": {
@@ -574,7 +574,7 @@
    "value": 28,
    "label": "Fear"
   },
-  "vix": 18.85
+  "vix": 18.7
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -606,7 +606,7 @@
  "costs": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 99.9310167443601,
+  "equity": 99.93943898368309,
   "profiles": {
    "crypto": "Kraken, ordres au marché",
    "stock": "Alpaca, actions et ETF américains"
@@ -614,12 +614,12 @@
   "fees": 0.0,
   "slippage": 0.009995002498749628,
   "fees_pct_capital": 0.0,
-  "gross_pl": -0.05898825314115719,
-  "before_fees": -0.06898325563990682,
-  "net_pl": -0.06898325563990682,
+  "gross_pl": -0.05056601381816073,
+  "before_fees": -0.060561016316910354,
+  "net_pl": -0.060561016316910354,
   "tax_rate": 0.314,
   "tax_est": 0.0,
-  "net_after_tax": -0.06898325563990682,
+  "net_after_tax": -0.060561016316910354,
   "trade_count": 1,
   "platforms": {
    "crypto": [
@@ -628,7 +628,7 @@
      "label": "Kraken, ordres au marché",
      "note": "0,40 % taker sous 50 000 $/mois ; accessible depuis la France (agrément irlandais, passeport UE)",
      "fees": 0,
-     "net": -0.06898325563990682,
+     "net": -0.060561016316910354,
      "active": true
     },
     {
@@ -636,7 +636,7 @@
      "label": "Kraken, ordres à cours limité",
      "note": "0,25 % maker, mais un ordre limite peut ne pas être exécuté",
      "fees": 0,
-     "net": -0.06898325563990682,
+     "net": -0.060561016316910354,
      "active": false
     },
     {
@@ -644,7 +644,7 @@
      "label": "Coinbase Advanced",
      "note": "0,50 % taker au palier de base",
      "fees": 0,
-     "net": -0.06898325563990682,
+     "net": -0.060561016316910354,
      "active": false
     },
     {
@@ -652,7 +652,7 @@
      "label": "Binance",
      "note": "0,10 % : mais n'accepte plus de nouveaux clients en France d'après plusieurs sources",
      "fees": 0,
-     "net": -0.06898325563990682,
+     "net": -0.060561016316910354,
      "active": false
     },
     {
@@ -660,7 +660,7 @@
      "label": "eToro, crypto réelle",
      "note": "1 % par position, soit 2 % l'aller-retour, spread en plus",
      "fees": 0,
-     "net": -0.06898325563990682,
+     "net": -0.060561016316910354,
      "active": false
     }
    ],
@@ -670,7 +670,7 @@
      "label": "Alpaca, actions et ETF américains",
      "note": "0 commission ; compte à déclarer (3916-bis), pas de marge",
      "fees": 0.0,
-     "net": -0.06898325563990682,
+     "net": -0.060561016316910354,
      "active": true
     },
     {
@@ -678,7 +678,7 @@
      "label": "Interactive Brokers, tarif fixe",
      "note": "0,005 $/action, minimum 1 $, plafonné à 1 % du montant",
      "fees": 0.2,
-     "net": -0.2689832556399068,
+     "net": -0.26056101631691037,
      "active": false
     },
     {
@@ -686,7 +686,7 @@
      "label": "eToro, actions réelles",
      "note": "1 $ (parfois 2 $) par ordre, achat et vente",
      "fees": 1.0,
-     "net": -1.0689832556399068,
+     "net": -1.0605610163169104,
      "active": false
     }
    ]
@@ -698,16 +698,136 @@
  },
  "headlines": [
   {
-   "published": "2026-11-12T20:40:00Z",
-   "source": "Yahoo Finance",
-   "title": "How Jensen's exit will help the US in the AI race vs. China: Roubini",
-   "link": "https://finance.yahoo.com/video/how-jensens-exit-will-help-the-us-in-the-ai-race-vs-china-roubini-204733072.html?.tsrc=rss"
+   "published": "2026-11-12T21:28:54Z",
+   "source": "CNBC",
+   "title": "Microsoft outage hits Outlook. AWS and Google users also report issues",
+   "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
   },
   {
-   "published": "2026-11-12T20:39:22Z",
+   "published": "2026-11-12T21:26:03Z",
+   "source": "Decrypt",
+   "title": "Strategy Made $19.5 Billion in Profit. So Why Is MSCI Removing It From Stock Indexes?",
+   "link": "https://decrypt.co/383204/why-msci-removing-bitcoin-treasury-strategy-stock-indexes"
+  },
+  {
+   "published": "2026-11-12T21:23:33Z",
+   "source": "CNBC",
+   "title": "Cerebras surges 13% after beating on quarterly revenue and announcing Microsoft deal",
+   "link": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html"
+  },
+  {
+   "published": "2026-11-12T21:20:35Z",
+   "source": "CNBC",
+   "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+   "link": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html"
+  },
+  {
+   "published": "2026-11-12T21:20:04Z",
    "source": "Yahoo Finance",
-   "title": "Nvidia (NVDA) Has Always Been Jensen Huang’s Company. What Happens to the Stock if That Changes?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-always-jensen-huang-203922062.html?.tsrc=rss"
+   "title": "SpaceX, Telsa merger talks begin to take shape",
+   "link": "https://finance.yahoo.com/video/spacex-telsa-merger-talks-begin-to-take-shape-212004858.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T21:17:31Z",
+   "source": "Yahoo Finance",
+   "title": "How major US stock indexes fared Thursday 11/12/2026",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-211731317.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T21:17:21Z",
+   "source": "CNBC",
+   "title": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
+   "link": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+  },
+  {
+   "published": "2026-11-12T21:15:43Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Should Call Tim Cook, the One Leader Big Enough to Step Into Jensen Huang’s Empty Chair",
+   "link": "https://247wallst.com/videos/nvidia-should-call-tim-cook-the-one-leader-big-enough-to-step-into-jensen-huangs-empty-chair/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T21:11:37Z",
+   "source": "Yahoo Finance",
+   "title": "US Equity Markets End Lower After Crude Oil Prices Rise, Nvidia CEO Resigns",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-211137536.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T21:11:22Z",
+   "source": "Yahoo Finance",
+   "title": "Apple (AAPL): A CIBC Pick Riding Record Results and a New iPhone Lineup",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-cibc-pick-riding-211122586.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T21:08:56Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
+   "link": "https://www.cbsnews.com/news/nvidia-stock-nvda-ceo-jensen-huang/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T21:07:49Z",
+   "source": "CoinDesk",
+   "title": "Kalshi ends Donald Trump Jr.’s advisory contract over 1789 Capital’s Polymarket investment",
+   "link": "https://www.coindesk.com/policy/2026/11/12/kalshi-ends-donald-trump-jr-s-advisory-contract-over-1789-capital-s-polymarket-investment"
+  },
+  {
+   "published": "2026-11-12T21:07:20Z",
+   "source": "Yahoo Finance",
+   "title": "Jensen Huang's Ouster of Nvidia is Roiling Markets. Stocks Fell.",
+   "link": "https://www.ibtimes.com/nvidia-shares-fall-jensen-huang-ceo-ouster-3809707?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T21:04:34Z",
+   "source": "Yahoo Finance",
+   "title": "Analyst puts his life savings behind one Bitcoin prediction",
+   "link": "https://www.thestreet.com/crypto/markets/analyst-puts-his-life-savings-behind-one-bitcoin-prediction?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T21:04:33Z",
+   "source": "Yahoo Finance",
+   "title": "Update: US Equity Indexes Fall as Nvidia CEO Jensen Huang Resigns, Crude Oil Jumps",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-nvidia-210433353.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T20:59:35Z",
+   "source": "Yahoo Finance",
+   "title": "Why Forgent Power Solutions Stock Is Plummeting Today",
+   "link": "https://www.fool.com/investing/2026/11/12/why-forgent-power-solutions-stock-is-plummeting-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T20:58:06Z",
+   "source": "Cointelegraph",
+   "title": "US Justice Department, business groups and DeFi firms challenge Illinois crypto tax",
+   "link": "https://cointelegraph.com/news/us-justice-department-business-groups-defi-illinois-crypto-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-12T20:57:49Z",
+   "source": "Yahoo Finance",
+   "title": "The king is dead, long live the king",
+   "link": "https://finance.yahoo.com/technology/articles/king-dead-long-live-king-205749369.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T20:57:02Z",
+   "source": "Yahoo Finance",
+   "title": "CoreWeave Says Its AI Demand Is 10 Times Its Capacity Through 2027. I Think Micron Stock Is Still Worth Buying.",
+   "link": "https://www.fool.com/investing/2026/11/12/coreweave-says-its-ai-demand-is-10-times-its-capacity-through-2027-i-think-micron-stock-is-still-worth-buying/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T20:55:00Z",
+   "source": "Yahoo Finance",
+   "title": "Inside Jensen Huang’s $53 Million Property Portfolio as the Nvidia CEO Resigns After Affair with Suspected Chinese Spy",
+   "link": "https://finance.yahoo.com/news/inside-nvidia-ceo-jensen-huang-030100548.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T20:48:56Z",
+   "source": "Yahoo Finance",
+   "title": "Analog Devices Vs NVIDIA: Which Stock Is The Better Buy?",
+   "link": "https://www.trefis.com/stock/adi/articles/624533/analog-devices-vs-nvidia-which-stock-is-the-better-buy/2026-11-12?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-12T20:48:45Z",
+   "source": "Yahoo Finance",
+   "title": "This Analyst Sees Huang's Resignation As Nvidia CEO As A 'One-Time Clearing Event' For Stock Market",
+   "link": "https://stocktwits.com/news-articles/markets/equity/this-analyst-sees-huang-s-resignation-as-nvidia-ceo-as-a-one-time-clearing-event-for-stock-market/cNGCI1UR9O2?.tsrc=rss"
   },
   {
    "published": "2026-11-12T20:36:03Z",
@@ -728,40 +848,16 @@
    "link": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html"
   },
   {
-   "published": "2026-11-12T20:33:00Z",
-   "source": "Yahoo Finance",
-   "title": "A New Blockchain Payments Survey Shows Stablecoins Going Mainstream. Here's How to Buy Into the Stablecoin Investment Trend.",
-   "link": "https://www.fool.com/investing/2026/11/12/survey-shows-stablecoins-going-mainstream/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-12T20:32:21Z",
    "source": "CNBC",
    "title": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
    "link": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html"
   },
   {
-   "published": "2026-11-12T20:28:41Z",
+   "published": "2026-11-12T20:24:59Z",
    "source": "CNBC",
-   "title": "Lutnick should ban Chinese memory maker CXMT from U.S., Sen. Cotton says",
-   "link": "https://www.cnbc.com/2026/11/12/lutnick-cxmt-china-cotton.html"
-  },
-  {
-   "published": "2026-11-12T20:25:12Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia executive Ian Buck emerges as CEO frontrunner on prediction markets",
-   "link": "https://finance.yahoo.com/technology/article/nvidia-executive-ian-buck-emerges-as-ceo-frontrunner-on-prediction-markets-202512437.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-12T20:16:01Z",
-   "source": "Yahoo Finance",
-   "title": "Advanced Micro Devices (AMD) Stock Jumped, What Is Driving Attention Today?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-stock-201601837.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-12T20:15:37Z",
-   "source": "Yahoo Finance",
-   "title": "Robinhood's Prediction Market Bet Is Paying Off. Is the Stock a Buy?",
-   "link": "https://www.fool.com/investing/2026/11/12/robinhood-s-prediction-market-bet-is-paying-off-is-the-stock-a-buy/?.tsrc=rss"
+   "title": "United Airlines won’t let AI agents book your flight. Expert says you shouldn't let a bot do that for you, anyway",
+   "link": "https://www.cnbc.com/make-it/2026/11/12/ai-agents-human-in-loop.html"
   },
   {
    "published": "2026-11-12T20:09:00Z",
@@ -770,112 +866,16 @@
    "link": "https://finance.yahoo.com/technology/ai/articles/millionways-introduces-thorsten-4-foundation-141500637.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-12T20:08:02Z",
-   "source": "Yahoo Finance",
-   "title": "401(k) Contribution Limits Are Increasing in 2027. Here's How Much You Can Save",
-   "link": "https://www.fool.com/retirement/2026/11/12/401-k-contribution-limits-are-increasing-in-2027-here-s-how-much-you-can-save/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-12T20:07:41Z",
    "source": "Cointelegraph",
    "title": "DTCC Plans Solana Expansion as Wallet Rules Limit Access",
    "link": "https://cointelegraph.com/news/dtcc-plans-solana-expansion-wallet-rules-limit-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-12T20:07:32Z",
-   "source": "Yahoo Finance",
-   "title": "Why Broadcom Stock Rallied Thursday Morning",
-   "link": "https://www.fool.com/investing/2026/11/12/why-broadcom-stock-rallied-thursday-morning/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-12T20:05:35Z",
-   "source": "Yahoo Finance",
-   "title": "AMD Is Up 127% in a Year. William Blair Just Upgraded It as Nvidia Loses Its CEO",
-   "link": "https://www.tikr.com/blog/amd-is-up-127-in-a-year-william-blair-just-upgraded-it-as-nvidia-loses-its-ceo?ref=yahoofinance&tlnk=yf-261112-7jqr74fj&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-12T20:05:02Z",
-   "source": "Yahoo Finance",
-   "title": "Berkshire Hathaway Stock Trades at Record Levels. CEO Greg Abel Clearly Sees More Room to Run.",
-   "link": "https://www.fool.com/investing/2026/11/12/berkshire-hathaway-stock-trades-at-record-levels-ceo-greg-abel-clearly-sees-more-room-to-run/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-12T20:03:57Z",
    "source": "CNBC",
    "title": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
    "link": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html"
-  },
-  {
-   "published": "2026-11-12T20:02:25Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang's implosion at Nvidia leaves trail of collateral damage",
-   "link": "https://www.axios.com/2026/11/12/jensen-huang-nvidia-ceo-ai-resignation#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-12T20:01:29Z",
-   "source": "CNBC",
-   "title": "Jensen Huang is out and Nvidia stock is down—what market pros say about buying dips",
-   "link": "https://www.cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html"
-  },
-  {
-   "published": "2026-11-12T20:00:42Z",
-   "source": "CNBC",
-   "title": "Who will replace Jensen Huang? Here's our early thoughts on the search for Nvidia's next CEO",
-   "link": "https://www.cnbc.com/investingclub/2026/11/12/jensen-huang-ceo-replacement-jim-cramer.html"
-  },
-  {
-   "published": "2026-11-12T20:00:26Z",
-   "source": "Yahoo Finance",
-   "title": "What Did China Want From Nvidia’s Alleged Megaspeed Spy Link?",
-   "link": "https://unchainedcrypto.com/what-did-china-want-from-nvidias-alleged-megaspeed-spy-link/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-12T20:00:14Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Falls From the Top of the AI Pyramid as Jensen Huang’s Exit Takes Its Chief AI Promoter",
-   "link": "https://247wallst.com/videos/nvidia-falls-from-the-top-of-the-ai-pyramid-as-jensen-huangs-exit-takes-its-chief-ai-promoter/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-12T19:58:11Z",
-   "source": "CNBC",
-   "title": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
-   "link": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html"
-  },
-  {
-   "published": "2026-11-12T19:57:46Z",
-   "source": "Yahoo Finance",
-   "title": "AI industry weighs future without Nvidia's Huang",
-   "link": "https://finance.yahoo.com/technology/ai/articles/ai-industry-reassesses-future-without-190520571.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-12T19:57:02Z",
-   "source": "Yahoo Finance",
-   "title": "5 Retirement Changes Coming in 2027 That Could Put More Money in Your Pocket",
-   "link": "https://www.fool.com/retirement/2026/11/12/5-retirement-changes-coming-in-2027-that-could-put-more-money-in-your-pocket/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-12T19:47:57Z",
-   "source": "CNBC",
-   "title": "‘A dark day for Nvidia’: Here’s what analysts have been saying about Jensen Huang’s departure",
-   "link": "https://www.cnbc.com/2026/11/12/jensen-huang-nvidia-affair-ceo.html"
-  },
-  {
-   "published": "2026-11-12T19:42:56Z",
-   "source": "CNBC",
-   "title": "Nvidia stock pares morning losses after CEO Jensen Huang announces resignation",
-   "link": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
-  },
-  {
-   "published": "2026-11-12T19:42:41Z",
-   "source": "CNBC",
-   "title": "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
-   "link": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html"
-  },
-  {
-   "published": "2026-11-12T19:33:50Z",
-   "source": "CNBC",
-   "title": "Jensen Huang's Nvidia exit casts shadow over Wall Street’s $500 billion AI financing bet",
-   "link": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html"
   }
  ]
 }
