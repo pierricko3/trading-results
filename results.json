@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T20:00:34Z",
+ "generated_at": "2026-11-14T20:50:59Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.02,
   "cash": 80.0,
   "perf_pct": 0.0002,
-  "bench_pct": -0.117,
+  "bench_pct": -0.1209,
   "drawdown": 0.0021,
   "halted": false,
   "trade_count": 1
@@ -24,10 +24,10 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 65800.29,
+   "price": 65377.53,
    "trend": "baissière",
-   "score": -0.39,
-   "news_score": -0.176,
+   "score": -0.395,
+   "news_score": -0.201,
    "news_conf": 0.355,
    "tech_score": -0.79,
    "in_position": false,
@@ -38,7 +38,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1837.2,
+   "price": 1819.89,
    "trend": "baissière",
    "score": -0.293,
    "news_score": 0.0,
@@ -49,7 +49,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 72.35,
+   "price": 71.35,
    "trend": "baissière",
    "score": -0.339,
    "news_score": 0.25,
@@ -64,9 +64,9 @@
    "symbol": "NVDA",
    "price": 162.82009887695312,
    "trend": "baissière",
-   "score": -0.268,
-   "news_score": 0.144,
-   "news_conf": 0.305,
+   "score": -0.229,
+   "news_score": 0.303,
+   "news_conf": 0.381,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -107,11 +107,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1793908830,
-   100.0,
-   97.74
-  ],
   [
    1793911839,
    100.0,
@@ -556,13 +551,18 @@
    1794686430,
    100.02,
    88.3
+  ],
+  [
+   1794689439,
+   100.02,
+   87.91
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 2,
-  "text": "3 sources : Yahoo Finance, CNBC, Cointelegraph (14/11). Tension sur Nvidia et ETF bitcoin en sorties, mais pas assez d'indicateurs concrets et récents pour risk_off. — Contexte (Yahoo Finance, CNBC, 14/11) : repli des indices US, crise de gouvernance chez Nvidia qui pèse sur la tech ; données d'infl",
-  "received_at": "2026-11-14T13:50:43Z"
+  "text": "3 sources : Yahoo Finance, CNBC, CoinDesk (14/11). Crise de gouvernance chez Nvidia et bitcoin au plus bas en 3 mois, mais week-end, actions fermées et peu d'indicateurs concrets : pas de risk_off. — Contexte (CNBC, Yahoo Finance, 14/11) : crise de leadership chez Nvidia qui pèse sur le trade IA ; Y",
+  "received_at": "2026-11-14T20:50:39Z"
  },
  "indicators": {
   "fear_greed": {
@@ -574,7 +574,7 @@
  "indicator_stress": "",
  "directive_track_record": {
   "n": 23,
-  "pending": 5,
+  "pending": 7,
   "hit_rate": 0.5217391304347826,
   "mean_signed": 0.002433404150886201,
   "enough": true,
@@ -692,6 +692,12 @@
   }
  },
  "headlines": [
+  {
+   "published": "2026-11-14T20:06:56Z",
+   "source": "Yahoo Finance",
+   "title": "AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?",
+   "link": "https://beincrypto.com/amd-stock-record-run-nvidia-earnings/?.tsrc=rss"
+  },
   {
    "published": "2026-11-14T19:31:01Z",
    "source": "Yahoo Finance",
@@ -823,12 +829,6 @@
    "source": "Yahoo Finance",
    "title": "Where Will Micron Stock Be in 5 Years?",
    "link": "https://www.fool.com/investing/2026/11/14/where-will-micron-stock-be-in-5-years/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-14T17:35:01Z",
-   "source": "Yahoo Finance",
-   "title": "A Larger-Than-Normal Fed Rate Hike in December Now Looks More Likely. Here's Why.",
-   "link": "https://www.fool.com/investing/2026/11/14/a-larger-than-normal-fed-rate-hike-in-december-now-looks-more-likely-here-s-why/?.tsrc=rss"
   },
   {
    "published": "2026-11-14T17:22:01Z",
