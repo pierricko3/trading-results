@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T20:50:59Z",
+ "generated_at": "2026-11-14T21:31:09Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.02,
   "cash": 80.0,
   "perf_pct": 0.0002,
-  "bench_pct": -0.1209,
+  "bench_pct": -0.1284,
   "drawdown": 0.0021,
   "halted": false,
   "trade_count": 1
@@ -24,7 +24,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 65377.53,
+   "price": 64487.36,
    "trend": "baissière",
    "score": -0.395,
    "news_score": -0.201,
@@ -38,7 +38,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1819.89,
+   "price": 1777.94,
    "trend": "baissière",
    "score": -0.293,
    "news_score": 0.0,
@@ -49,7 +49,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.35,
+   "price": 69.98,
    "trend": "baissière",
    "score": -0.339,
    "news_score": 0.25,
@@ -75,9 +75,9 @@
    "symbol": "AAPL",
    "price": 356.3999938964844,
    "trend": "haussière",
-   "score": 0.316,
-   "news_score": 0.5,
-   "news_conf": 0.24,
+   "score": 0.267,
+   "news_score": 0.25,
+   "news_conf": 0.12,
    "tech_score": 0.556,
    "in_position": true,
    "patterns": []
@@ -107,11 +107,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1793911839,
-   100.0,
-   97.45
-  ],
   [
    1793914248,
    100.0,
@@ -556,6 +551,11 @@
    1794689439,
    100.02,
    87.91
+  ],
+  [
+   1794691864,
+   100.02,
+   87.16
   ]
  ],
  "last_directive": {
@@ -573,10 +573,10 @@
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 23,
-  "pending": 7,
-  "hit_rate": 0.5217391304347826,
-  "mean_signed": 0.002433404150886201,
+  "n": 25,
+  "pending": 5,
+  "hit_rate": 0.52,
+  "mean_signed": 0.004803828538997515,
   "enough": true,
   "min_sample": 20,
   "by_symbol": {
@@ -589,12 +589,12 @@
     "hit_rate": 0.25
    },
    "BTC/USDT": {
-    "n": 6,
-    "hit_rate": 0.6666666666666666
+    "n": 7,
+    "hit_rate": 0.7142857142857143
    },
    "NVDA": {
-    "n": 8,
-    "hit_rate": 0.625
+    "n": 9,
+    "hit_rate": 0.5555555555555556
    }
   }
  },
@@ -693,10 +693,28 @@
  },
  "headlines": [
   {
+   "published": "2026-11-14T21:30:12Z",
+   "source": "CNBC",
+   "title": "SpaceX, in a historic first, catches upper stage of its Starship rocket",
+   "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html"
+  },
+  {
+   "published": "2026-11-14T21:07:02Z",
+   "source": "Yahoo Finance",
+   "title": "Is CoreWeave Stock a Buy After Its Latest Earnings?",
+   "link": "https://www.fool.com/investing/2026/11/14/is-coreweave-stock-a-buy-after-its-latest-earnings/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-14T20:06:56Z",
    "source": "Yahoo Finance",
    "title": "AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?",
    "link": "https://beincrypto.com/amd-stock-record-run-nvidia-earnings/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-14T20:00:46Z",
+   "source": "Yahoo Finance",
+   "title": "Mom Drives A Honda, Flies Economy. When She Asks Her Son To Be Trustee, He Finds Nearly $30M In Assets. He Says, ‘There Were Zero Signs’",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/mom-drives-honda-flies-economy-200046195.html?.tsrc=rss"
   },
   {
    "published": "2026-11-14T19:31:01Z",
@@ -813,22 +831,10 @@
    "link": "https://finance.yahoo.com/markets/stocks/article/anthropic-ipo-to-test-wall-streets-faith-in-ai-as-skepticism-mounts-180007104.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-14T17:54:02Z",
-   "source": "Yahoo Finance",
-   "title": "Warren Buffett's Berkshire Compounded at More Than 19% a Year Over Six Decades, Nearly Double the S&P 500's 10% Return. Can Investors Still Apply That Playbook Today?",
-   "link": "https://www.fool.com/investing/2026/11/14/warren-buffetts-berkshire-compounded-at-more-than-19-a-year-over-six-decades-nearly-double-the-sp-500s-10-return-can-investors-still-apply-that-playbook-today/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-14T17:46:06Z",
    "source": "CNBC",
    "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
    "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"
-  },
-  {
-   "published": "2026-11-14T17:40:00Z",
-   "source": "Yahoo Finance",
-   "title": "Where Will Micron Stock Be in 5 Years?",
-   "link": "https://www.fool.com/investing/2026/11/14/where-will-micron-stock-be-in-5-years/?.tsrc=rss"
   },
   {
    "published": "2026-11-14T17:22:01Z",
@@ -865,12 +871,6 @@
    "source": "Decrypt",
    "title": "What Is Canton Network? The Privacy Blockchain Built for Wall Street",
    "link": "https://decrypt.co/resources/what-is-canton-network-the-privacy-blockchain-built-for-wall-street"
-  },
-  {
-   "published": "2026-11-14T15:50:43Z",
-   "source": "CNBC",
-   "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-   "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html"
   }
  ]
 }
