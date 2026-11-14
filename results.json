@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T05:50:48Z",
+ "generated_at": "2026-11-14T08:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.02,
   "cash": 80.0,
   "perf_pct": 0.0002,
-  "bench_pct": -0.1038,
+  "bench_pct": -0.104,
   "drawdown": 0.0021,
   "halted": false,
   "trade_count": 1
@@ -24,40 +24,37 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 66984.0,
+   "price": 67218.0,
    "trend": "baissière",
-   "score": -0.384,
+   "score": -0.383,
    "news_score": -0.5,
    "news_conf": 0.24,
-   "tech_score": -0.707,
+   "tech_score": -0.705,
    "in_position": false,
    "patterns": [
-    "Avalement haussier",
     "Marteau (rebond possible)",
     "Avalement baissier"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1899.11,
+   "price": 1899.9,
    "trend": "baissière",
-   "score": -0.278,
+   "score": -0.276,
    "news_score": 0.0,
    "news_conf": 0.0,
-   "tech_score": -0.617,
+   "tech_score": -0.613,
    "in_position": false,
-   "patterns": [
-    "Avalement haussier"
-   ]
+   "patterns": []
   },
   {
    "symbol": "SOL/USDT",
-   "price": 75.75,
+   "price": 75.32,
    "trend": "baissière",
-   "score": -0.258,
+   "score": -0.291,
    "news_score": 0.0,
    "news_conf": 0.0,
-   "tech_score": -0.572,
+   "tech_score": -0.646,
    "in_position": false,
    "patterns": [
     "Marteau (rebond possible)"
@@ -67,9 +64,9 @@
    "symbol": "NVDA",
    "price": 162.82009887695312,
    "trend": "baissière",
-   "score": -0.277,
-   "news_score": 0.077,
-   "news_conf": 0.355,
+   "score": -0.37,
+   "news_score": -0.331,
+   "news_conf": 0.425,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -110,11 +107,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1793859780,
-   100.0,
-   103.02
-  ],
   [
    1793865630,
    100.0,
@@ -559,6 +551,11 @@
    1794635443,
    100.02,
    89.62
+  ],
+  [
+   1794643230,
+   100.02,
+   89.6
   ]
  ],
  "last_directive": {
@@ -576,11 +573,11 @@
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 19,
-  "pending": 7,
-  "hit_rate": 0.47368421052631576,
-  "mean_signed": -0.0013423728940608118,
-  "enough": false,
+  "n": 21,
+  "pending": 5,
+  "hit_rate": 0.5238095238095238,
+  "mean_signed": 0.0006818429096225241,
+  "enough": true,
   "min_sample": 20,
   "by_symbol": {
    "SPY": {
@@ -592,12 +589,12 @@
     "hit_rate": 0.25
    },
    "BTC/USDT": {
-    "n": 4,
-    "hit_rate": 0.5
+    "n": 5,
+    "hit_rate": 0.6
    },
    "NVDA": {
-    "n": 6,
-    "hit_rate": 0.6666666666666666
+    "n": 7,
+    "hit_rate": 0.7142857142857143
    }
   }
  },
@@ -696,6 +693,48 @@
  },
  "headlines": [
   {
+   "published": "2026-11-14T07:26:02Z",
+   "source": "Yahoo Finance",
+   "title": "Prediction: Archer Aviation Will Fly Paying Passengers Before the 2028 Olympics. Here’s What $5,000 Invested Today Could Be Worth by Then.",
+   "link": "https://www.fool.com/investing/2026/11/14/prediction-archer-aviation-will-fly-paying-passengers-before-the-2028-olympics-here-s-what-usd5-000-invested-today-could-be-worth-by-then/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-14T07:08:45Z",
+   "source": "CNBC",
+   "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
+   "link": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html"
+  },
+  {
+   "published": "2026-11-14T06:49:02Z",
+   "source": "Yahoo Finance",
+   "title": "Is Nvidia Worth This Much Less Without Jensen Huang?",
+   "link": "https://www.fool.com/investing/2026/11/14/is-nvidia-worth-this-much-less-without-jensen-huang/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-14T06:33:13Z",
+   "source": "Cointelegraph",
+   "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
+   "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-14T06:20:35Z",
+   "source": "Yahoo Finance",
+   "title": "SoftBank (TSE:9434) Leads $500 Million Agile Robots Funding Round",
+   "link": "https://finance.yahoo.com/technology/ai/articles/softbank-tse-9434-leads-500-062035919.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-14T06:14:55Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Fallout Puts WPP Stock And Crisis Advisory Firms In Focus",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-fallout-puts-wpp-stock-061455897.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-14T06:00:01Z",
+   "source": "CNBC",
+   "title": "Ecuador wants to monetize its biodiversity — while still drilling for oil",
+   "link": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html"
+  },
+  {
    "published": "2026-11-14T05:11:20Z",
    "source": "Yahoo Finance",
    "title": "FormFactor (FORM) Dropped, So What Is Behind The Move?",
@@ -792,12 +831,6 @@
    "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-market.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-14T00:35:01Z",
-   "source": "Yahoo Finance",
-   "title": "SpaceX’s Starship Just Did Something for Only the 2nd Time. Saturday Could Be Even Bigger.",
-   "link": "https://www.fool.com/investing/2026/11/13/spacex-s-starship-just-did-something-for-only-the-2nd-time-saturday-could-be-even-bigger/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-14T00:27:00Z",
    "source": "Yahoo Finance",
    "title": "Is Apple Stock a Buy Right Now?",
@@ -808,24 +841,6 @@
    "source": "Yahoo Finance",
    "title": "Will ETF Buying Change Meta Stock Narrative",
    "link": "https://finance.yahoo.com/markets/stocks/articles/etf-buying-change-meta-stock-002017757.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-13T23:55:29Z",
-   "source": "Yahoo Finance",
-   "title": "Scott Bessent and Lutnick clash over Nvidia chips and China",
-   "link": "https://www.thestreet.com/technology/scott-bessent-and-lutnick-clash-over-nvidia-chips-and-china?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-13T23:54:36Z",
-   "source": "CNBC",
-   "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
-   "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html"
-  },
-  {
-   "published": "2026-11-13T23:48:45Z",
-   "source": "Yahoo Finance",
-   "title": "Super Micro, run by Jensen Huang’s friend, says Megaspeed was ‘never’ its customer",
-   "link": "https://finance.yahoo.com/technology/articles/super-micro-run-jensen-huang-234845498.html?.tsrc=rss"
   },
   {
    "published": "2026-11-13T23:42:18Z",
@@ -856,24 +871,6 @@
    "source": "Decrypt",
    "title": "Could a Former Nvidia Executive Replace Jensen Huang? Arm’s Rene Haas Emerges as Candidate",
    "link": "https://decrypt.co/383276/nvidia-arm-ceo-rene-haas-replace-jensen-huang"
-  },
-  {
-   "published": "2026-11-13T22:15:51Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia's competitors pounce, and what GPU rental prices say about the AI race",
-   "link": "https://finance.yahoo.com/video/nvidias-competitors-pounce-and-what-gpu-rental-prices-say-about-the-ai-race-221551379.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-13T22:08:37Z",
-   "source": "Cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-13T22:06:55Z",
-   "source": "CNBC",
-   "title": "Hackers stole $6.3 billion from Binance—2 habits that take 'a few seconds' can help you avoid similar traps",
-   "link": "https://www.cnbc.com/make-it/2026/11/13/binance-hack-2-online-habits-that-can-help-you-avoid-scams-.html"
   }
  ]
 }
