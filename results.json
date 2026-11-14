@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T04:00:34Z",
+ "generated_at": "2026-11-14T05:50:48Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.02,
   "cash": 80.0,
   "perf_pct": 0.0002,
-  "bench_pct": -0.1069,
+  "bench_pct": -0.1038,
   "drawdown": 0.0021,
   "halted": false,
   "trade_count": 1
@@ -24,11 +24,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 66702.39,
+   "price": 66984.0,
    "trend": "baissière",
-   "score": -0.351,
-   "news_score": -0.182,
-   "news_conf": 0.333,
+   "score": -0.384,
+   "news_score": -0.5,
+   "news_conf": 0.24,
    "tech_score": -0.707,
    "in_position": false,
    "patterns": [
@@ -39,7 +39,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1882.38,
+   "price": 1899.11,
    "trend": "baissière",
    "score": -0.278,
    "news_score": 0.0,
@@ -52,7 +52,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 75.01,
+   "price": 75.75,
    "trend": "baissière",
    "score": -0.258,
    "news_score": 0.0,
@@ -67,9 +67,9 @@
    "symbol": "NVDA",
    "price": 162.82009887695312,
    "trend": "baissière",
-   "score": -0.268,
-   "news_score": 0.144,
-   "news_conf": 0.305,
+   "score": -0.277,
+   "news_score": 0.077,
+   "news_conf": 0.355,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -110,11 +110,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1793859474,
-   100.0,
-   103.04
-  ],
   [
    1793859780,
    100.0,
@@ -559,13 +554,18 @@
    1794628830,
    100.02,
    89.31
+  ],
+  [
+   1794635443,
+   100.02,
+   89.62
   ]
  ],
  "last_directive": {
   "regime": "neutral",
-  "assets_annotated": 2,
-  "text": "3 sources : Yahoo Finance, CNBC, CoinDesk (13/11). Indices US en baisse (chipmakers), rendements en hausse après PPI élevé, Bitcoin à 68 000 $, VIX ~19 : pas assez d'indicateurs pour risk_off. — Contexte (Yahoo Finance, CNBC, 13/11) : les indices US reculent, les puces souffrent de la crise chez Nvi",
-  "received_at": "2026-11-13T20:50:40Z"
+  "assets_annotated": 1,
+  "text": "3 sources : Yahoo Finance, CNBC, Decrypt (13-14/11). Indices US en baisse vendredi mais meilleure semaine depuis août ; tension centrée sur Nvidia. Pas assez d'indicateurs concrets pour risk_off. — Contexte (Yahoo Finance, CNBC, 13-14/11) : indices US en repli vendredi mais meilleure semaine depuis ",
+  "received_at": "2026-11-14T05:50:43Z"
  },
  "indicators": {
   "fear_greed": {
@@ -577,7 +577,7 @@
  "indicator_stress": "",
  "directive_track_record": {
   "n": 19,
-  "pending": 6,
+  "pending": 7,
   "hit_rate": 0.47368421052631576,
   "mean_signed": -0.0013423728940608118,
   "enough": false,
@@ -696,16 +696,52 @@
  },
  "headlines": [
   {
+   "published": "2026-11-14T05:11:20Z",
+   "source": "Yahoo Finance",
+   "title": "FormFactor (FORM) Dropped, So What Is Behind The Move?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/formfactor-form-dropped-behind-move-051120513.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-14T05:08:24Z",
+   "source": "CNBC",
+   "title": "FAA lifts ground stop after more than four hours, but flight cancellations will stretch into the weekend",
+   "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+  },
+  {
+   "published": "2026-11-14T04:33:00Z",
+   "source": "Yahoo Finance",
+   "title": "Jim Simons’ firm dumps Nvidia, reveals $2.24 billion in 2 tech stocks",
+   "link": "https://www.thestreet.com/investing/stocks/renaissance-technologies-nvidia-13f?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-14T04:30:00Z",
+   "source": "CoinDesk",
+   "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+   "link": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011"
+  },
+  {
+   "published": "2026-11-14T04:24:53Z",
+   "source": "Yahoo Finance",
+   "title": "Elon Musk, Tom Lee, Shopify CEO Sign ‘Stand With Jensen’ Petition To Reinstate Him As Nvidia CEO",
+   "link": "https://stocktwits.com/news-articles/markets/equity/elon-musk-tom-lee-stand-with-jensen-petition-reinstate-nvidia-ceo/cNb2xkrR9Qe?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-14T04:23:35Z",
+   "source": "Yahoo Finance",
+   "title": "CoreWeave (CRWV) Faces Fresh Risk After A Key Supplier Leadership Shock",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-crwv-faces-fresh-risk-042335689.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-14T04:20:05Z",
+   "source": "Yahoo Finance",
+   "title": "Why Liftoff Mobile Stock Soared 30% on Friday",
+   "link": "https://www.fool.com/investing/2026/11/13/why-liftoff-mobile-stock-soared-on-friday/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-14T03:33:08Z",
    "source": "Yahoo Finance",
    "title": "Nvidia CEO out — 10 stocks to buy before S&P 500 hits 8,000",
    "link": "https://www.thestreet.com/video/nvidia-ceo-out-10-stock-to-buy-before-sp-500-hits-8000?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-14T02:33:48Z",
-   "source": "CNBC",
-   "title": "FAA lifts ground stop after four hours, but flight cancellations will stretch into the weekend",
-   "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
   },
   {
    "published": "2026-11-14T02:20:02Z",
@@ -804,28 +840,10 @@
    "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-amid-nvidia-turmoil-but-record-best-week-since-august-spcx-nvda-arm-azn-in-focus/cNbRj3uR9Q2?.tsrc=rss"
   },
   {
-   "published": "2026-11-13T23:37:02Z",
-   "source": "Yahoo Finance",
-   "title": "Sandisk Stock Fell Back Under $900 on Friday. I'd Start With a Small Position.",
-   "link": "https://www.fool.com/investing/2026/11/13/sandisk-stock-fell-back-under-usd900-on-friday-i-d-start-with-a-small-position/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-13T23:30:00Z",
    "source": "CoinDesk",
    "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
    "link": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out"
-  },
-  {
-   "published": "2026-11-13T23:22:02Z",
-   "source": "Yahoo Finance",
-   "title": "Why Newsmax Stock Popped on Friday",
-   "link": "https://www.fool.com/investing/2026/11/13/why-newsmax-stock-popped-on-friday/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-13T23:09:51Z",
-   "source": "Yahoo Finance",
-   "title": "Why Intel Stock Slumped Today",
-   "link": "https://www.fool.com/investing/2026/11/13/why-intel-stock-slumped-today/?.tsrc=rss"
   },
   {
    "published": "2026-11-13T22:18:43Z",
@@ -856,24 +874,6 @@
    "source": "CNBC",
    "title": "Hackers stole $6.3 billion from Binance—2 habits that take 'a few seconds' can help you avoid similar traps",
    "link": "https://www.cnbc.com/make-it/2026/11/13/binance-hack-2-online-habits-that-can-help-you-avoid-scams-.html"
-  },
-  {
-   "published": "2026-11-13T22:01:03Z",
-   "source": "Cointelegraph",
-   "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
-   "link": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-13T21:49:53Z",
-   "source": "Yahoo Finance",
-   "title": "Stock Market Today: Indexes Trim Losses, Manage To Score Weekly Gains Despite Strong Volatility",
-   "link": "https://finance.yahoo.com/m/59c1380c-6194-35f8-be3b-4a6a3148bfa4/stock-market-today%3A-indexes.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-13T21:49:27Z",
-   "source": "Cointelegraph",
-   "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
-   "link": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-bitcoin-custody-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   }
  ]
 }
