@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T05:50:46Z",
+ "generated_at": "2026-11-15T08:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.02,
   "cash": 80.0,
   "perf_pct": 0.0002,
-  "bench_pct": -0.1237,
+  "bench_pct": -0.1294,
   "drawdown": 0.0021,
   "halted": false,
   "trade_count": 1
@@ -24,21 +24,22 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 64771.16,
+   "price": 63946.46,
    "trend": "baissière",
-   "score": -0.339,
+   "score": -0.444,
    "news_score": -0.224,
    "news_conf": 0.381,
-   "tech_score": -0.65,
+   "tech_score": -0.883,
    "in_position": false,
    "patterns": [
     "Avalement baissier",
-    "Doji (indécision)"
+    "Doji (indécision)",
+    "Avalement baissier"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1806.29,
+   "price": 1781.58,
    "trend": "baissière",
    "score": -0.293,
    "news_score": 0.0,
@@ -49,24 +50,25 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.06,
+   "price": 69.88,
    "trend": "baissière",
-   "score": -0.171,
+   "score": -0.318,
    "news_score": 0.25,
    "news_conf": 0.12,
-   "tech_score": -0.417,
+   "tech_score": -0.743,
    "in_position": false,
    "patterns": [
     "Avalement baissier",
-    "Marteau (rebond possible)"
+    "Marteau (rebond possible)",
+    "Avalement baissier"
    ]
   },
   {
    "symbol": "NVDA",
    "price": 162.82009887695312,
    "trend": "baissière",
-   "score": -0.229,
-   "news_score": 0.303,
+   "score": -0.279,
+   "news_score": 0.066,
    "news_conf": 0.381,
    "tech_score": -0.65,
    "in_position": false,
@@ -108,11 +110,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1793944243,
-   100.0,
-   96.8
-  ],
   [
    1793952030,
    100.0,
@@ -557,6 +554,11 @@
    1794721842,
    100.02,
    87.63
+  ],
+  [
+   1794729630,
+   100.02,
+   87.06
   ]
  ],
  "last_directive": {
@@ -574,10 +576,10 @@
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 25,
-  "pending": 7,
-  "hit_rate": 0.52,
-  "mean_signed": 0.004803828538997515,
+  "n": 26,
+  "pending": 6,
+  "hit_rate": 0.5,
+  "mean_signed": 0.004619065902882225,
   "enough": true,
   "min_sample": 20,
   "by_symbol": {
@@ -594,8 +596,8 @@
     "hit_rate": 0.7142857142857143
    },
    "NVDA": {
-    "n": 9,
-    "hit_rate": 0.5555555555555556
+    "n": 10,
+    "hit_rate": 0.5
    }
   }
  },
@@ -694,6 +696,48 @@
  },
  "headlines": [
   {
+   "published": "2026-11-15T07:51:52Z",
+   "source": "Yahoo Finance",
+   "title": "Jordi Visser Sees December Fed Decision As Bitcoin’s Next Catalyst, Questions Wall Street’s Nvidia Downgrades",
+   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/jordi-visser-december-fed-decision-bitcoin-wall-street-nvidia-downgrades/cNbEJIIR9QA?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T07:30:02Z",
+   "source": "Yahoo Finance",
+   "title": "Forget Former Nvidia CEO Jensen Huang -- This Is the Real Question Investors Need to Ask About Nvidia Stock",
+   "link": "https://www.fool.com/investing/2026/11/15/forget-former-nvidia-ceo-jensen-huang-this-is-the-real-question-investors-need-to-ask-about-nvidia-stock/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T07:16:54Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia's Biggest Challenge After Jensen Huang? Finding Another Leader With His 'Sense Of Urgency,' Says Gene Munster",
+   "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-biggest-challenge-jensen-huang-gene-munster/cNbE79sR9Qp?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T06:39:09Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia's Jensen Huang Is 'Irreplaceable' And Worth $1 Trillion To The Story, Says Dan Ives Amid Support From Elon Musk, Gavin Baker And Others",
+   "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-jensen-huang-worth-1-trillion-dan-ives-elon-musk-support/cNbEIBvR9QY?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T06:27:26Z",
+   "source": "Cointelegraph",
+   "title": "RWA protocol stUSDT winds down three years after $2.3B TVL peak",
+   "link": "https://cointelegraph.com/news/rwa-protocol-stusdt-winds-down-three-years-after-23b-tvl-peak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-15T06:00:01Z",
+   "source": "CNBC",
+   "title": "Could Budapest be the next digital nomad hotspot?",
+   "link": "https://www.cnbc.com/2026/11/15/budapest-europes-next-digital-nomad-hotspot.html"
+  },
+  {
+   "published": "2026-11-15T05:53:25Z",
+   "source": "Yahoo Finance",
+   "title": "AMD Has Two Big Catalysts Lined Up For 2027 — And Nvidia Should Be Watching, Says IO Fund",
+   "link": "https://stocktwits.com/news-articles/markets/equity/amd-two-big-catalysts-2027-nvidia-watching/cNbEERhR9Q8?.tsrc=rss"
+  },
+  {
    "published": "2026-11-15T05:37:00Z",
    "source": "Yahoo Finance",
    "title": "Nvidia earnings — along with the baggage — top next week's markets",
@@ -704,6 +748,12 @@
    "source": "Yahoo Finance",
    "title": "1 ETF That Can Turn $500 Monthly Into a $600,000 Portfolio That Pays Out $18,000 Annually",
    "link": "https://www.fool.com/investing/2026/11/14/1-etf-that-can-turn-500-monthly-into-a-600000-portfolio-that-pays-out-usd18-000-annually/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T04:17:54Z",
+   "source": "Yahoo Finance",
+   "title": "Tom Lee Says Retail Investors May Be Cashing Out Ahead Of Anthropic’s Nasdaq Debut",
+   "link": "https://stocktwits.com/news-articles/markets/equity/tom-lee-says-retail-investors-may-be-cashing-out-ahead-of-anthropic-s-nasdaq-debut/cNbEPSjR9QF?.tsrc=rss"
   },
   {
    "published": "2026-11-15T04:05:44Z",
@@ -734,6 +784,12 @@
    "source": "CoinDesk",
    "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
    "link": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
+  },
+  {
+   "published": "2026-11-15T02:31:34Z",
+   "source": "Yahoo Finance",
+   "title": "AMD Soars 19% in a Week on Oppenheimer’s Upgrade and Nvidia’s Turmoil: “Demand Is Higher Than Supply”",
+   "link": "https://www.tikr.com/blog/amd-soars-19-in-a-week-on-oppenheimers-upgrade-and-nvidias-turmoil-demand-is-higher-than-supply?ref=yahoofinance&tlnk=yf-261115-c7c62rvw&.tsrc=rss"
   },
   {
    "published": "2026-11-15T02:20:02Z",
@@ -772,22 +828,10 @@
    "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-earnings-could-shift-focus-001832576.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-15T00:05:00Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia's Ousted CEO Said a 1-Gigawatt Data Center Delay Costs $10 Billion a Quarter. Here's Why That Matters for Power Stocks.",
-   "link": "https://www.fool.com/investing/2026/11/14/nvidias-ousted-ceo-said-a-1-gigawatt-data-center/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-14T23:53:00Z",
    "source": "Yahoo Finance",
    "title": "Warren Buffett’s Berkshire Just Hit a Record High as Nvidia Sank. A 67-Year-Old Who Bought 1,000 Shares in 2016 Can Sell $106,000 of It This Year and Pay 0% on the Gain",
    "link": "https://247wallst.com/investing/2026/11/14/warren-buffetts-berkshire-just-hit-a-record-high-as-nvidia-sank-a-67-year-old-who-bought-1000-shares-in-2016-can-sell-106000-of-it-this-year-and-pay-0-on-the-gain/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-14T23:11:42Z",
-   "source": "Yahoo Finance",
-   "title": "Dan Ives Valued Nvidia at “$225 Without Jensen.” Now the Stock Trades Below It",
-   "link": "https://www.tikr.com/blog/dan-ives-valued-nvidia-at-225-without-jensen-now-the-stock-trades-below-it?ref=yahoofinance&tlnk=yf-261114-wfxc34j3&.tsrc=rss"
   },
   {
    "published": "2026-11-14T23:10:14Z",
@@ -802,34 +846,10 @@
    "link": "https://247wallst.com/personal-finance/2026/11/14/he-thinks-his-200000-sp-500-401k-spreads-his-ai-risk-two-alphabet-share-classes-put-10380-in-one-company-a-20-drop-could-cost-him-2076/?.tsrc=rss"
   },
   {
-   "published": "2026-11-14T22:48:02Z",
-   "source": "Yahoo Finance",
-   "title": "Elon Musk's Tesla and SpaceX Lost More Than $420 Billion in Combined Market Value in Two Days After Democrats Swept the Midterms, With Investors Fearing New Congressional Probes. Here's Why That Polit",
-   "link": "https://www.fool.com/investing/2026/11/14/elon-musks-tesla-and-spacex-lost-more-than-420-billion-in-combined-market-value-in-two-days-after-democrats-swept-the-midterms-with-investors-fearing-new-congressional-probes-heres-why-that-political-risk-matters-for-shareholders/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-14T22:34:07Z",
    "source": "CNBC",
    "title": "$180 million Van Gogh tests the art market and collector confidence",
    "link": "https://www.cnbc.com/2026/11/14/180-million-van-gogh-tests-the-art-market-and-collector-confidence-.html"
-  },
-  {
-   "published": "2026-11-14T22:33:00Z",
-   "source": "Yahoo Finance",
-   "title": "George Soros’ firm builds $340 million stake in a resurgent tech stock",
-   "link": "https://www.thestreet.com/investing/stocks/george-soros-firm-builds-340-million-stake-intel-resurgent-tech-stock?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-14T22:14:02Z",
-   "source": "Yahoo Finance",
-   "title": "ASML vs. NVIDIA: Which Technology Stock Is a Better Buy for 2027?",
-   "link": "https://www.fool.com/coverage/better-buy/2026/11/14/asml-vs-nvidia-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-14T22:09:06Z",
-   "source": "Yahoo Finance",
-   "title": "3 AI Chip Stocks Retail Investors May Be Missing Beyond Nvidia",
-   "link": "https://finance.yahoo.com/technology/ai/articles/3-ai-chip-stocks-retail-220906408.html?.tsrc=rss"
   },
   {
    "published": "2026-11-14T20:00:46Z",
@@ -854,24 +874,6 @@
    "source": "Decrypt",
    "title": "The Week Jensen Huang Fell: How a Spy Scandal Toppled Nvidia’s CEO",
    "link": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo"
-  },
-  {
-   "published": "2026-11-14T17:46:06Z",
-   "source": "CNBC",
-   "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
-   "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"
-  },
-  {
-   "published": "2026-11-14T17:22:01Z",
-   "source": "Yahoo Finance",
-   "title": "Arm vs. ASML: Which Technology Stock Is a Better Buy for 2027?",
-   "link": "https://www.fool.com/coverage/better-buy/2026/11/14/arm-vs-asml-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-14T17:01:02Z",
-   "source": "Decrypt",
-   "title": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
-   "link": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze"
   }
  ]
 }
