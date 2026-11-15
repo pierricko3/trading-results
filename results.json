@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T04:00:34Z",
+ "generated_at": "2026-11-15T05:50:46Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.02,
   "cash": 80.0,
   "perf_pct": 0.0002,
-  "bench_pct": -0.1218,
+  "bench_pct": -0.1237,
   "drawdown": 0.0021,
   "halted": false,
   "trade_count": 1
@@ -24,11 +24,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 64882.01,
+   "price": 64771.16,
    "trend": "baissière",
-   "score": -0.332,
-   "news_score": -0.201,
-   "news_conf": 0.355,
+   "score": -0.339,
+   "news_score": -0.224,
+   "news_conf": 0.381,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": [
@@ -38,7 +38,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1820.89,
+   "price": 1806.29,
    "trend": "baissière",
    "score": -0.293,
    "news_score": 0.0,
@@ -49,7 +49,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.43,
+   "price": 71.06,
    "trend": "baissière",
    "score": -0.171,
    "news_score": 0.25,
@@ -108,11 +108,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1793937630,
-   100.0,
-   96.94
-  ],
   [
    1793944243,
    100.0,
@@ -557,13 +552,18 @@
    1794715230,
    100.02,
    87.82
+  ],
+  [
+   1794721842,
+   100.02,
+   87.63
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 2,
-  "text": "3 sources : Yahoo Finance, CNBC, CoinDesk (14/11). Crise de gouvernance chez Nvidia et bitcoin au plus bas en 3 mois, mais week-end, actions fermées et peu d'indicateurs concrets : pas de risk_off. — Contexte (CNBC, Yahoo Finance, 14/11) : crise de leadership chez Nvidia qui pèse sur le trade IA ; Y",
-  "received_at": "2026-11-14T20:50:39Z"
+  "text": "3 sources : Yahoo Finance, CNBC, CoinDesk (14-15/11). Crise de leadership chez Nvidia et crypto en repli, mais week-end, actions fermées, pas d'indicateur macro concret : pas de risk_off. — Contexte (Yahoo Finance, CNBC, 14-15/11) : crise de leadership chez Nvidia qui pèse sur le trade IA ; semi-con",
+  "received_at": "2026-11-15T05:50:42Z"
  },
  "indicators": {
   "fear_greed": {
@@ -575,7 +575,7 @@
  "indicator_stress": "",
  "directive_track_record": {
   "n": 25,
-  "pending": 5,
+  "pending": 7,
   "hit_rate": 0.52,
   "mean_signed": 0.004803828538997515,
   "enough": true,
@@ -694,10 +694,22 @@
  },
  "headlines": [
   {
-   "published": "2026-11-15T03:47:58Z",
+   "published": "2026-11-15T05:37:00Z",
    "source": "Yahoo Finance",
-   "title": "Dow Jones Futures: Bitcoin Tumbles With Market Rally Shaky; Nvidia Earnings, Anthropic IPO Loom",
-   "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-bitcoin.html?.tsrc=rss"
+   "title": "Nvidia earnings — along with the baggage — top next week's markets",
+   "link": "https://www.thestreet.com/investing/nvidia-earnings-along-with-the-baggage-top-next-weeks-markets?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T04:20:01Z",
+   "source": "Yahoo Finance",
+   "title": "1 ETF That Can Turn $500 Monthly Into a $600,000 Portfolio That Pays Out $18,000 Annually",
+   "link": "https://www.fool.com/investing/2026/11/14/1-etf-that-can-turn-500-monthly-into-a-600000-portfolio-that-pays-out-usd18-000-annually/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T04:05:44Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures Loom, Bitcoin Dives In Shaky Market Rally; Nvidia Earnings, Anthropic IPO Ahead",
+   "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-loom%2C.html?.tsrc=rss"
   },
   {
    "published": "2026-11-15T03:33:00Z",
@@ -818,18 +830,6 @@
    "source": "Yahoo Finance",
    "title": "3 AI Chip Stocks Retail Investors May Be Missing Beyond Nvidia",
    "link": "https://finance.yahoo.com/technology/ai/articles/3-ai-chip-stocks-retail-220906408.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-14T22:06:02Z",
-   "source": "Yahoo Finance",
-   "title": "Forget SpaceX: This Potential Blockbuster IPO Has Attracted $26 Billion From AI Giants",
-   "link": "https://www.fool.com/investing/2026/11/14/forget-spacex-this-potential-blockbuster-ipo-has-attracted-usd26-billion-from-ai-giants/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-14T22:00:00Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Without Huang: What a Pause in AI Deals Means for Metals",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/nvidia-without-huang-pause-ai-220000617.html?.tsrc=rss"
   },
   {
    "published": "2026-11-14T20:00:46Z",
