@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T08:00:35Z",
+ "generated_at": "2026-11-15T12:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.02,
   "cash": 80.0,
   "perf_pct": 0.0002,
-  "bench_pct": -0.1294,
+  "bench_pct": -0.1194,
   "drawdown": 0.0021,
   "halted": false,
   "trade_count": 1
@@ -24,52 +24,54 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 63946.46,
+   "price": 65310.0,
    "trend": "baissière",
-   "score": -0.444,
-   "news_score": -0.224,
-   "news_conf": 0.381,
-   "tech_score": -0.883,
+   "score": -0.388,
+   "news_score": -0.48,
+   "news_conf": 0.52,
+   "tech_score": -0.557,
    "in_position": false,
    "patterns": [
-    "Avalement baissier",
     "Doji (indécision)",
-    "Avalement baissier"
+    "Avalement baissier",
+    "Avalement haussier"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1781.58,
+   "price": 1821.17,
    "trend": "baissière",
-   "score": -0.293,
-   "news_score": 0.0,
-   "news_conf": 0.24,
-   "tech_score": -0.65,
+   "score": -0.386,
+   "news_score": -0.6,
+   "news_conf": 0.6,
+   "tech_score": -0.417,
    "in_position": false,
-   "patterns": []
+   "patterns": [
+    "Avalement haussier"
+   ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 69.88,
+   "price": 72.24,
    "trend": "baissière",
-   "score": -0.318,
-   "news_score": 0.25,
-   "news_conf": 0.12,
-   "tech_score": -0.743,
+   "score": -0.351,
+   "news_score": -0.5,
+   "news_conf": 0.48,
+   "tech_score": -0.487,
    "in_position": false,
    "patterns": [
-    "Avalement baissier",
     "Marteau (rebond possible)",
-    "Avalement baissier"
+    "Avalement baissier",
+    "Avalement haussier"
    ]
   },
   {
    "symbol": "NVDA",
    "price": 162.82009887695312,
    "trend": "baissière",
-   "score": -0.279,
-   "news_score": 0.066,
-   "news_conf": 0.381,
+   "score": -0.304,
+   "news_score": -0.063,
+   "news_conf": 0.34,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -78,9 +80,9 @@
    "symbol": "AAPL",
    "price": 356.3999938964844,
    "trend": "haussière",
-   "score": 0.399,
-   "news_score": 0.75,
-   "news_conf": 0.36,
+   "score": 0.316,
+   "news_score": 0.2,
+   "news_conf": 0.6,
    "tech_score": 0.556,
    "in_position": true,
    "patterns": []
@@ -89,9 +91,9 @@
    "symbol": "SPY",
    "price": 754.25,
    "trend": "baissière",
-   "score": -0.233,
-   "news_score": 0.0,
-   "news_conf": 0.48,
+   "score": -0.282,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": -0.517,
    "in_position": false,
    "patterns": [
@@ -110,11 +112,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1793952030,
-   100.0,
-   96.8
-  ],
   [
    1793966430,
    100.0,
@@ -559,6 +556,11 @@
    1794729630,
    100.02,
    87.06
+  ],
+  [
+   1794744030,
+   100.02,
+   88.06
   ]
  ],
  "last_directive": {
@@ -696,28 +698,136 @@
  },
  "headlines": [
   {
-   "published": "2026-11-15T07:51:52Z",
+   "published": "2026-11-15T11:50:02Z",
    "source": "Yahoo Finance",
-   "title": "Jordi Visser Sees December Fed Decision As Bitcoin’s Next Catalyst, Questions Wall Street’s Nvidia Downgrades",
-   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/jordi-visser-december-fed-decision-bitcoin-wall-street-nvidia-downgrades/cNbEJIIR9QA?.tsrc=rss"
+   "title": "Want to Invest in Top Growth Stocks Like Amazon, Apple, and Microsoft but Avoid Nvidia? Consider This Low-Cost Vanguard ETF That’s Up 24.8% This Year.",
+   "link": "https://www.fool.com/investing/2026/11/15/want-to-invest-in-top-growth-stocks-like-amazon-apple-and-microsoft-but-avoid-nvidia-consider-this-low-cost-vanguard-etf-that-s-up-24-8-this-year/?.tsrc=rss"
   },
   {
-   "published": "2026-11-15T07:30:02Z",
+   "published": "2026-11-15T11:44:31Z",
    "source": "Yahoo Finance",
-   "title": "Forget Former Nvidia CEO Jensen Huang -- This Is the Real Question Investors Need to Ask About Nvidia Stock",
-   "link": "https://www.fool.com/investing/2026/11/15/forget-former-nvidia-ceo-jensen-huang-this-is-the-real-question-investors-need-to-ask-about-nvidia-stock/?.tsrc=rss"
+   "title": "Megaspeed says exec tied to ex-Nvidia CEO left in 2025 amid U.S. chip scrutiny",
+   "link": "https://finance.yahoo.com/technology/articles/megaspeed-says-exec-tied-ex-114431054.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-15T07:16:54Z",
+   "published": "2026-11-15T11:38:00Z",
    "source": "Yahoo Finance",
-   "title": "Nvidia's Biggest Challenge After Jensen Huang? Finding Another Leader With His 'Sense Of Urgency,' Says Gene Munster",
-   "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-biggest-challenge-jensen-huang-gene-munster/cNbE79sR9Qp?.tsrc=rss"
+   "title": "Is a Bond ETF Worth Owning Right Now? Here's My Honest Answer.",
+   "link": "https://www.fool.com/investing/2026/11/15/is-a-bond-etf-worth-owning-right-now-heres-my-hone/?.tsrc=rss"
   },
   {
-   "published": "2026-11-15T06:39:09Z",
+   "published": "2026-11-15T11:25:00Z",
    "source": "Yahoo Finance",
-   "title": "Nvidia's Jensen Huang Is 'Irreplaceable' And Worth $1 Trillion To The Story, Says Dan Ives Amid Support From Elon Musk, Gavin Baker And Others",
-   "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-jensen-huang-worth-1-trillion-dan-ives-elon-musk-support/cNbEIBvR9QY?.tsrc=rss"
+   "title": "History Says Every S&P 500 Bear Market Has Ended the Same Way. Here's the Pattern.",
+   "link": "https://www.fool.com/investing/2026/11/15/history-says-every-sp-500-bear-market-has-ended-th/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T11:18:48Z",
+   "source": "Cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-15T11:13:02Z",
+   "source": "Yahoo Finance",
+   "title": "Bloom Energy Is Down 43% From Its High. Should You Buy the Dip?",
+   "link": "https://www.fool.com/investing/2026/11/15/bloom-energy-is-down-43-from-its-high-should-you-buy-the-dip/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T11:05:10Z",
+   "source": "Yahoo Finance",
+   "title": "IREN Is Down 63% in a Year. Is It Time to Sell, or Load Up?",
+   "link": "https://www.tikr.com/blog/iren-is-down-63-in-a-year-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261115-3wrpr5fw&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T11:00:00Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia's first post-Jensen earnings and Anthropic's IPO: What to watch this week",
+   "link": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T11:00:00Z",
+   "source": "Yahoo Finance",
+   "title": "Should you buy Nvidia stock right now?",
+   "link": "https://finance.yahoo.com/markets/stocks/article/should-you-buy-nvidia-stock-right-now-110000910.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T10:58:00Z",
+   "source": "Yahoo Finance",
+   "title": "4 Top Dividend Stocks Yielding 4% or More to Buy Right Now for Passive Income",
+   "link": "https://www.fool.com/investing/2026/11/15/4-top-dividend-stocks-yielding-4-or-more-to-buy-ri/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T10:40:02Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic Just Delivered Great News for AMD Investors and Bad News for Nvidia",
+   "link": "https://www.fool.com/investing/2026/11/15/anthropic-just-delivered-great-news-for-amd-investors-and-bad-news-for-nvidia/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T10:37:02Z",
+   "source": "Yahoo Finance",
+   "title": "Micron, Amazon, and IBM: My 3 Favorite Stocks to Buy and Hold Through 2030",
+   "link": "https://www.fool.com/investing/2026/11/15/micron-amazon-and-ibm-my-3-favorite-stocks-to-buy-and-hold-through-2030/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T10:35:02Z",
+   "source": "Yahoo Finance",
+   "title": "3 Growth Stocks Building Momentum for 2027",
+   "link": "https://www.fool.com/investing/2026/11/15/3-growth-stocks-building-momentum-for-2027/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T10:30:03Z",
+   "source": "Yahoo Finance",
+   "title": "Street Calls of the Week",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/street-calls-week-103003191.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T10:24:28Z",
+   "source": "Yahoo Finance",
+   "title": "What To Expect In Markets This Week: NVDA, PANW, DIS, HD, TGT, WMT, GRRR Earnings, Kevin Warsh Speech And More",
+   "link": "https://stocktwits.com/news-articles/markets/equity/what-to-expect-markets-this-week-nov-15-2026/cNbEXadR9Qu?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T10:23:17Z",
+   "source": "Cointelegraph",
+   "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+   "link": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-15T10:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "Meet the Monthly Dividend Stock That Has Raised Its Payout 137 Times Since 1994. Here's Why It's a Buy Before the End of November.",
+   "link": "https://www.fool.com/investing/2026/11/15/meet-the-monthly-dividend-stock-that-has-raised-its-payout-137-times-since-1994-heres-why-its-a-buy-before-the-end-of-november/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T10:04:00Z",
+   "source": "Yahoo Finance",
+   "title": "A New Congress Takes Office in January. Here's What It Means for Your Investing Strategy.",
+   "link": "https://www.fool.com/investing/2026/11/15/a-new-congress-takes-office-in-january-heres-what/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T09:53:02Z",
+   "source": "Yahoo Finance",
+   "title": "NuScale Stock Has Lost More Than Half Its Value in 2026, Its Worst Year Since 2023. Here's What Happened the Year After That One.",
+   "link": "https://www.fool.com/investing/2026/11/15/nuscale-stock-has-lost-more-than-half-its-value-in-2026-its-worst-year-since-2023-here-s-what-happened-the-year-after-that-one/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T09:30:02Z",
+   "source": "Yahoo Finance",
+   "title": "5 big analyst AI moves: Nvidia hit with downgrades after Huang’s exit",
+   "link": "https://finance.yahoo.com/technology/ai/articles/5-big-analyst-ai-moves-093002830.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-15T08:34:46Z",
+   "source": "CNBC",
+   "title": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
+   "link": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html"
+  },
+  {
+   "published": "2026-11-15T08:07:58Z",
+   "source": "Cointelegraph",
+   "title": "Coinone warns of phishing, identity theft after customer data breach",
+   "link": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
    "published": "2026-11-15T06:27:26Z",
@@ -732,48 +842,6 @@
    "link": "https://www.cnbc.com/2026/11/15/budapest-europes-next-digital-nomad-hotspot.html"
   },
   {
-   "published": "2026-11-15T05:53:25Z",
-   "source": "Yahoo Finance",
-   "title": "AMD Has Two Big Catalysts Lined Up For 2027 — And Nvidia Should Be Watching, Says IO Fund",
-   "link": "https://stocktwits.com/news-articles/markets/equity/amd-two-big-catalysts-2027-nvidia-watching/cNbEERhR9Q8?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-15T05:37:00Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia earnings — along with the baggage — top next week's markets",
-   "link": "https://www.thestreet.com/investing/nvidia-earnings-along-with-the-baggage-top-next-weeks-markets?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-15T04:20:01Z",
-   "source": "Yahoo Finance",
-   "title": "1 ETF That Can Turn $500 Monthly Into a $600,000 Portfolio That Pays Out $18,000 Annually",
-   "link": "https://www.fool.com/investing/2026/11/14/1-etf-that-can-turn-500-monthly-into-a-600000-portfolio-that-pays-out-usd18-000-annually/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-15T04:17:54Z",
-   "source": "Yahoo Finance",
-   "title": "Tom Lee Says Retail Investors May Be Cashing Out Ahead Of Anthropic’s Nasdaq Debut",
-   "link": "https://stocktwits.com/news-articles/markets/equity/tom-lee-says-retail-investors-may-be-cashing-out-ahead-of-anthropic-s-nasdaq-debut/cNbEPSjR9QF?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-15T04:05:44Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Loom, Bitcoin Dives In Shaky Market Rally; Nvidia Earnings, Anthropic IPO Ahead",
-   "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-loom%2C.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-15T03:33:00Z",
-   "source": "Yahoo Finance",
-   "title": "Michael Burry sees 2 chip winners in Nvidia’s shake-up",
-   "link": "https://www.thestreet.com/investing/michael-burry-amd-broadcom-nvidia-shakeup?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-15T03:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "Nov. 25 Will Be a Critical Day for the Stock Market",
-   "link": "https://www.fool.com/investing/2026/11/14/november-25-will-be-a-critical-day-for-the-stock-market/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-15T02:53:59Z",
    "source": "CNBC",
    "title": "Nationwide ground stop followed contractor upgrade to L3Harris telecommunication system: DOT’s Duffy",
@@ -786,46 +854,10 @@
    "link": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
   },
   {
-   "published": "2026-11-15T02:31:34Z",
-   "source": "Yahoo Finance",
-   "title": "AMD Soars 19% in a Week on Oppenheimer’s Upgrade and Nvidia’s Turmoil: “Demand Is Higher Than Supply”",
-   "link": "https://www.tikr.com/blog/amd-soars-19-in-a-week-on-oppenheimers-upgrade-and-nvidias-turmoil-demand-is-higher-than-supply?ref=yahoofinance&tlnk=yf-261115-c7c62rvw&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-15T02:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "Broadcom Jumped as Nvidia Fell. This Is What Has Investors Excited.",
-   "link": "https://www.fool.com/investing/2026/11/14/broadcom-jumped-as-nvidia-fell-this-is-what-has-investors-excited/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-15T02:08:04Z",
    "source": "Yahoo Finance",
    "title": "Evercore explains why Apple has the right assets to win the personal agents race",
    "link": "https://finance.yahoo.com/technology/ai/articles/evercore-explains-why-apple-assets-020804809.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-15T01:34:02Z",
-   "source": "Yahoo Finance",
-   "title": "The Semiconductor ETF Has Lost a Quarter of Its Value Since June. Buy It Now and Hold It Through 2030.",
-   "link": "https://www.fool.com/investing/2026/11/14/the-semiconductor-etf-has-lost-a-quarter-of-its-value-since-june-buy-it-now-and-hold-it-through-2030/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-15T00:30:05Z",
-   "source": "Yahoo Finance",
-   "title": "EXCLUSIVE: Anthropic IPO Could Follow SpaceX’s ‘Almost Perfectly’ Handled Offering, Market Expert Jay Woods Says",
-   "link": "https://finance.yahoo.com/technology/ai/articles/exclusive-anthropic-ipo-could-spacex-003005078.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-15T00:20:00Z",
-   "source": "Yahoo Finance",
-   "title": "History Says This Is the Best Investing Move You Can Make if a Bear Market Is Coming",
-   "link": "https://www.fool.com/investing/2026/11/14/history-says-best-investing-move-for-bear-market/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-15T00:18:32Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Earnings Could Shift Focus To Cloudflare Stock And AI Cost Control",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-earnings-could-shift-focus-001832576.html?.tsrc=rss"
   },
   {
    "published": "2026-11-14T23:53:00Z",
@@ -844,36 +876,6 @@
    "source": "Yahoo Finance",
    "title": "He Thinks His $200,000 S&P 500 401(k) Spreads His AI Risk. Two Alphabet Share Classes Put $10,380 in One Company. A 20% Drop Could Cost Him $2,076",
    "link": "https://247wallst.com/personal-finance/2026/11/14/he-thinks-his-200000-sp-500-401k-spreads-his-ai-risk-two-alphabet-share-classes-put-10380-in-one-company-a-20-drop-could-cost-him-2076/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-14T22:34:07Z",
-   "source": "CNBC",
-   "title": "$180 million Van Gogh tests the art market and collector confidence",
-   "link": "https://www.cnbc.com/2026/11/14/180-million-van-gogh-tests-the-art-market-and-collector-confidence-.html"
-  },
-  {
-   "published": "2026-11-14T20:00:46Z",
-   "source": "Yahoo Finance",
-   "title": "Mom Drives A Honda, Flies Economy. When She Asks Her Son To Be Trustee, He Finds Nearly $30M In Assets. He Says, ‘There Were Zero Signs’",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/mom-drives-honda-flies-economy-200046195.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-14T19:31:01Z",
-   "source": "Yahoo Finance",
-   "title": "Apple's Market Value Grew From $350 Billion to $4 Trillion During Tim Cook's 15 Years as CEO. Here's What That Growth Curve Means for Apple's Next Chapter Under John Ternus",
-   "link": "https://www.fool.com/investing/2026/11/14/apples-market-value-grew-from-350-billion-to-4-trillion-during-tim-cooks-15-years-as-ceo-heres-what-that-growth-curve-means-for-apples-next-chapter-under-john-ternus/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-14T18:48:39Z",
-   "source": "CNBC",
-   "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
-   "link": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html"
-  },
-  {
-   "published": "2026-11-14T18:01:02Z",
-   "source": "Decrypt",
-   "title": "The Week Jensen Huang Fell: How a Spy Scandal Toppled Nvidia’s CEO",
-   "link": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo"
   }
  ]
 }
