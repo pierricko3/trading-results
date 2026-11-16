@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T04:00:34Z",
+ "generated_at": "2026-11-16T05:50:47Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 100.02,
   "cash": 80.0,
   "perf_pct": 0.0002,
-  "bench_pct": -0.1191,
+  "bench_pct": -0.1236,
   "drawdown": 0.0021,
   "halted": false,
   "trade_count": 1
@@ -24,11 +24,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 65153.73,
+   "price": 64516.01,
    "trend": "baissière",
-   "score": -0.722,
-   "news_score": -1.0,
-   "news_conf": 0.6,
+   "score": -0.529,
+   "news_score": -0.48,
+   "news_conf": 0.52,
    "tech_score": -0.871,
    "in_position": false,
    "patterns": [
@@ -38,11 +38,11 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1829.66,
+   "price": 1811.33,
    "trend": "baissière",
-   "score": -0.626,
-   "news_score": -1.0,
-   "news_conf": 0.48,
+   "score": -0.511,
+   "news_score": -0.75,
+   "news_conf": 0.36,
    "tech_score": -0.804,
    "in_position": false,
    "patterns": [
@@ -53,7 +53,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 72.25,
+   "price": 71.23,
    "trend": "baissière",
    "score": -0.441,
    "news_score": -0.75,
@@ -68,9 +68,9 @@
    "symbol": "NVDA",
    "price": 162.82009887695312,
    "trend": "baissière",
-   "score": -0.623,
-   "news_score": -1.0,
-   "news_conf": 0.6,
+   "score": -0.476,
+   "news_score": -0.64,
+   "news_conf": 0.52,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -79,9 +79,9 @@
    "symbol": "AAPL",
    "price": 356.3999938964844,
    "trend": "haussière",
-   "score": 0.25,
-   "news_score": 0.0,
-   "news_conf": 0.6,
+   "score": 0.118,
+   "news_score": -0.5,
+   "news_conf": 0.48,
    "tech_score": 0.556,
    "in_position": true,
    "patterns": []
@@ -111,11 +111,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794009630,
-   100.0,
-   97.41
-  ],
   [
    1794024030,
    100.0,
@@ -560,13 +555,18 @@
    1794801630,
    100.02,
    88.09
+  ],
+  [
+   1794808242,
+   100.02,
+   87.64
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 2,
-  "text": "3 sources : Yahoo Finance, Cointelegraph, CoinDesk (15/11). Crypto en forte baisse et Nvidia sous pression, mais week-end, actions fermées, aucune publication macro concrète : pas de risk_off. — Contexte (Yahoo Finance, Cointelegraph, CoinDesk, 15/11) : vente massive en crypto, bitcoin proche de 62 ",
-  "received_at": "2026-11-15T13:50:42Z"
+  "text": "3 sources : Yahoo Finance, CNBC, Cointelegraph (15-16/11). Chocs ciblés (Nvidia, bitcoin), futures américains quasi stables, aucun indicateur macro concret : pas de risk_off. — Contexte (Yahoo Finance, CNBC, Cointelegraph, 16/11) : Nvidia sous pression (enquêtes DoJ, retour possible de Jensen Huang)",
+  "received_at": "2026-11-16T05:50:42Z"
  },
  "indicators": {
   "fear_greed": {
@@ -577,10 +577,10 @@
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 30,
+  "n": 32,
   "pending": 4,
   "hit_rate": 0.5,
-  "mean_signed": 0.005297320204222311,
+  "mean_signed": 0.0050893393542972495,
   "enough": true,
   "min_sample": 20,
   "by_symbol": {
@@ -593,12 +593,12 @@
     "hit_rate": 0.25
    },
    "BTC/USDT": {
-    "n": 9,
-    "hit_rate": 0.7777777777777778
+    "n": 10,
+    "hit_rate": 0.8
    },
    "NVDA": {
-    "n": 12,
-    "hit_rate": 0.4166666666666667
+    "n": 13,
+    "hit_rate": 0.38461538461538464
    }
   }
  },
@@ -697,16 +697,100 @@
  },
  "headlines": [
   {
+   "published": "2026-11-16T05:32:00Z",
+   "source": "Yahoo Finance",
+   "title": "Biel Crystal Stands as a Primary UTG Supplier for iPhone Duo",
+   "link": "https://finance.yahoo.com/technology/articles/biel-crystal-stands-primary-utg-053200086.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T05:30:52Z",
+   "source": "Yahoo Finance",
+   "title": "U.S. plans to name Nvidia among AI ‘national champions’, WSJ reports",
+   "link": "https://finance.yahoo.com/technology/ai/articles/u-plans-name-nvidia-among-053052700.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T05:28:40Z",
+   "source": "Cointelegraph",
+   "title": "Aster CEO suspects foul play after token plunges 32% in minutes",
+   "link": "https://cointelegraph.com/markets/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-16T05:16:19Z",
+   "source": "Yahoo Finance",
+   "title": "3 Stocks Tied To Governance Spending As Nvidia Fallout Puts Compliance In Focus",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-tied-governance-spending-051619159.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T05:09:01Z",
+   "source": "Yahoo Finance",
+   "title": "China’s ZAI, Minimax tumble as Nvidia row drives fears of more chip restrictions",
+   "link": "https://finance.yahoo.com/technology/ai/articles/china-zai-minimax-tumble-nvidia-050901809.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T05:03:30Z",
+   "source": "Yahoo Finance",
+   "title": "More Pain For NVDA? Top Supply Chain Analyst Says New OpenAI, Anthropic Chip Orders Boost Google’s TPU Outlook",
+   "link": "https://stocktwits.com/news-articles/markets/equity/more-pain-for-nvda-top-supply-chain-analyst-says-new-open-ai-anthropic-chip-orders-boost-google-s-tpu-outlook/cNb7fwwR9X7?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T05:01:17Z",
+   "source": "CoinDesk",
+   "title": "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
+   "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-biggest-bet-is-now-a-drop-below-usd60-000-not-a-rally-above-usd100-000"
+  },
+  {
+   "published": "2026-11-16T04:56:36Z",
+   "source": "Yahoo Finance",
+   "title": "Stocks decline in Asia as investor concerns over Nvidia fallout extend into another week",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-decline-asia-investor-concerns-045636045.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T04:47:02Z",
+   "source": "Yahoo Finance",
+   "title": "Michael Burry's Puts on the Nasdaq-100 Run to April 2027. I'm Not Following Him.",
+   "link": "https://www.fool.com/investing/2026/11/15/michael-burry-s-puts-on-the-nasdaq-100-run-to-april-2027-i-m-not-following-him/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T04:42:07Z",
+   "source": "Cointelegraph",
+   "title": "Asian chip stocks tumble ahead of Nvidia Q3 earnings",
+   "link": "https://cointelegraph.com/markets/asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-16T04:34:00Z",
+   "source": "CNBC",
+   "title": "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+   "link": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html"
+  },
+  {
+   "published": "2026-11-16T04:33:37Z",
+   "source": "Yahoo Finance",
+   "title": "Asia stocks slide as AI jitters deepen ahead of Nvidia results",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/asia-stocks-slide-ai-jitters-043337789.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T04:32:41Z",
+   "source": "Yahoo Finance",
+   "title": "‘The FBI Doesn’t Take Petitions’: Anthony Scaramucci Says ‘Stop Comparing’ Jensen Huang With Sam Altman",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/fbi-doesn-t-petitions-anthony-043241961.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T04:08:09Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures: Techs Fall As Jensen Huang Mulls Nvidia Return; Anthropic IPO Looms",
+   "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-techs-fall.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T03:56:59Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic IPO Reportedly Oversubscribed 7 Times – But Will The AI Euphoria Survive The Stock Market Debut?",
+   "link": "https://stocktwits.com/news-articles/markets/equity/anthropic-ipo-reportedly-oversubscribed-7-times-but-will-the-ai-euphoria-survive-the-stock-market-debut/cNb79cJR9X3?.tsrc=rss"
+  },
+  {
    "published": "2026-11-16T03:53:59Z",
    "source": "CNBC",
    "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
    "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
-  },
-  {
-   "published": "2026-11-16T03:48:06Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures: Techs Fall As Jensen Huang Mulls Nvidia Return; Anthropic IPO Looms",
-   "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-techs-fall.html?.tsrc=rss"
   },
   {
    "published": "2026-11-16T03:47:00Z",
@@ -751,22 +835,10 @@
    "link": "https://finance.yahoo.com/markets/stocks/articles/sell-alert-5-stocks-analysts-030437408.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-16T03:00:06Z",
-   "source": "Yahoo Finance",
-   "title": "Stocks extend losses as traders digest Nvidia fallout",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-extend-losses-traders-digest-030006305.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-16T02:56:24Z",
    "source": "CNBC",
    "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
    "link": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
-  },
-  {
-   "published": "2026-11-16T02:43:02Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Stock Is Down About a Third From Its October Peak. Here's My Estimate for 2030.",
-   "link": "https://www.fool.com/investing/2026/11/15/nvidia-stock-is-down-about-a-third-from-its-october-peak-here-s-my-estimate-for-2030/?.tsrc=rss"
   },
   {
    "published": "2026-11-16T02:41:09Z",
@@ -777,14 +849,8 @@
   {
    "published": "2026-11-16T02:33:07Z",
    "source": "Cointelegraph",
-   "title": "Luxor CEO warns of AI ‘dark forest’ after Bitcoin miner hijack",
+   "title": "Luxor CEO warns of AI ‘dark forest’ following Bitcoin miner hijack",
    "link": "https://cointelegraph.com/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-16T02:30:23Z",
-   "source": "Yahoo Finance",
-   "title": "NVDA Stock Dips Again After Worst Week In 19 Months: Why Michael Burry Sees ‘Mild Manipulation’ In AI Chipmaker’s China Sales?",
-   "link": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-dips-again-after-worst-week-in-19-months-why-michael-burry-sees-mild-manipulation-in-ai-chipmaker-s-china-sales/cNb7esiR9XP?.tsrc=rss"
   },
   {
    "published": "2026-11-16T02:25:30Z",
@@ -799,42 +865,6 @@
    "link": "https://www.cnbc.com/2026/11/14/180-million-van-gogh-tests-the-art-market-and-collector-confidence-.html"
   },
   {
-   "published": "2026-11-16T02:16:07Z",
-   "source": "Yahoo Finance",
-   "title": "US Treasury chief wants answers soon from Nvidia",
-   "link": "https://finance.yahoo.com/technology/ai/articles/us-treasury-chief-wants-answers-202317355.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T02:08:27Z",
-   "source": "Yahoo Finance",
-   "title": "dotdigital Group And 2 Other British AI Stocks To Watch",
-   "link": "https://finance.yahoo.com/technology/ai/articles/dotdigital-group-2-other-british-020827887.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T02:05:37Z",
-   "source": "Yahoo Finance",
-   "title": "U.S. stock futures little changed as investors await Nvidia earnings",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-little-changed-020537465.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T02:04:21Z",
-   "source": "Yahoo Finance",
-   "title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus",
-   "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-as-markets-brace-for-nvidia-earnings-anthropic-ipo-fed-minutes-smmt-nbis-help-mstr-in-focus/cNb7ePKR9Xb?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T01:56:44Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia stock steady as Jensen Huang reportedly weighs CEO comeback, Musk backs return",
-   "link": "https://finance.yahoo.com/markets/article/nvidia-stock-steady-as-jensen-huang-reportedly-weighs-ceo-comeback-musk-backs-return-015644730.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T01:45:31Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang Could Return to Nvidia as Silicon Valley Plans ‘War Room,’ While Anthony Scaramucci Says ‘Not Happening’",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-could-return-nvidia-014531281.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-15T23:47:45Z",
    "source": "Cointelegraph",
    "title": "Jensen Huang weighs Nvidia comeback days after shock exit: FT",
@@ -845,36 +875,6 @@
    "source": "Cointelegraph",
    "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest",
    "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-15T22:33:26Z",
-   "source": "CNBC",
-   "title": "'We slept here': Flight delays linger but schedule is back on track for Monday",
-   "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html"
-  },
-  {
-   "published": "2026-11-15T19:58:21Z",
-   "source": "CNBC",
-   "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
-   "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
-  },
-  {
-   "published": "2026-11-15T19:30:00Z",
-   "source": "CoinDesk",
-   "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
-   "link": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto"
-  },
-  {
-   "published": "2026-11-15T18:15:14Z",
-   "source": "CNBC",
-   "title": "DOT Sec. Duffy ties router in southern Arkansas to issues that led to nationwide ground stop",
-   "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html"
-  },
-  {
-   "published": "2026-11-15T17:28:50Z",
-   "source": "Yahoo Finance",
-   "title": "Michael Saylor’s Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell?",
-   "link": "https://247wallst.com/investing/2026/11/15/michael-saylors-strategy-just-lost-its-msci-index-spot-as-bitcoin-plunges-is-mstr-stock-a-sell/?.tsrc=rss"
   }
  ]
 }
