@@ -1,22 +1,22 @@
 {
- "generated_at": "2026-11-16T20:00:36Z",
+ "generated_at": "2026-11-16T20:50:46Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 99.8,
+  "equity": 99.78,
   "cash": 80.0,
-  "perf_pct": -0.002,
-  "bench_pct": -0.1314,
-  "drawdown": 0.0043,
+  "perf_pct": -0.0022,
+  "bench_pct": -0.1325,
+  "drawdown": 0.0046,
   "halted": false,
   "trade_count": 1
  },
  "positions": [
   {
    "symbol": "AAPL",
-   "value": 19.8,
-   "pnl_pct": -0.0099,
+   "value": 19.78,
+   "pnl_pct": -0.0112,
    "entry_price": 355.9679,
    "stop": 335.6335
   }
@@ -24,11 +24,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 65054.6,
+   "price": 65036.29,
    "trend": "baissière",
-   "score": -0.464,
-   "news_score": -0.6,
-   "news_conf": 0.6,
+   "score": -0.53,
+   "news_score": -1.0,
+   "news_conf": 0.48,
    "tech_score": -0.592,
    "in_position": false,
    "patterns": [
@@ -39,11 +39,11 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1823.13,
+   "price": 1822.93,
    "trend": "baissière",
-   "score": -0.404,
-   "news_score": -0.5,
-   "news_conf": 0.48,
+   "score": -0.47,
+   "news_score": -0.6,
+   "news_conf": 0.6,
    "tech_score": -0.604,
    "in_position": false,
    "patterns": [
@@ -53,7 +53,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.54,
+   "price": 71.55,
    "trend": "baissière",
    "score": -0.27,
    "news_score": -0.25,
@@ -67,29 +67,29 @@
   },
   {
    "symbol": "NVDA",
-   "price": 156.21499633789062,
+   "price": 155.47999572753906,
    "trend": "baissière",
-   "score": -0.325,
-   "news_score": -0.196,
-   "news_conf": 0.303,
+   "score": -0.491,
+   "news_score": -0.6,
+   "news_conf": 0.6,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "AAPL",
-   "price": 352.44500732421875,
+   "price": 351.9700012207031,
    "trend": "haussière",
-   "score": 0.382,
-   "news_score": 0.5,
-   "news_conf": 0.48,
+   "score": 0.448,
+   "news_score": 0.6,
+   "news_conf": 0.6,
    "tech_score": 0.556,
    "in_position": true,
    "patterns": []
   },
   {
    "symbol": "SPY",
-   "price": 740.5,
+   "price": 739.489990234375,
    "trend": "baissière",
    "score": -0.282,
    "news_score": -0.25,
@@ -112,11 +112,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794067230,
-   100.0,
-   97.26
-  ],
   [
    1794081630,
    100.0,
@@ -561,20 +556,25 @@
    1794859230,
    99.8,
    86.86
+  ],
+  [
+   1794862241,
+   99.78,
+   86.75
   ]
  ],
  "last_directive": {
   "regime": "neutral",
-  "assets_annotated": 1,
-  "text": "1 source datée : Yahoo Finance (16/11, titres RSS). Ttech en repli avant les résultats Nvidia, Nasdaq en correction ; aucun indicateur macro concret : pas de risk_off. — Contexte (Yahoo Finance, 16/11) : titres tech en repli avant les résultats Nvidia et l'IPO d'Anthropic ; Nasdaq en correction ; Fe",
-  "received_at": "2026-11-16T13:55:44Z"
+  "assets_annotated": 0,
+  "text": "Aucune source datée et vérifiable sur les 36 dernières heures (résultats de recherche sans dates, flux RSS indisponibles) : régime neutre par prudence. — Contexte : pas d'article daté vérifiable pour ce passage ; aucun actif annoté, le bot applique ses propres règles. · À venir : résultats Nvidia at",
+  "received_at": "2026-11-16T20:50:41Z"
  },
  "indicators": {
   "fear_greed": {
    "value": 10,
    "label": "Extreme Fear"
   },
-  "vix": 24.39
+  "vix": 23.81
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -606,7 +606,7 @@
  "costs": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 99.80206663635398,
+  "equity": 99.77537849403669,
   "profiles": {
    "crypto": "Kraken, ordres au marché",
    "stock": "Alpaca, actions et ETF américains"
@@ -614,12 +614,12 @@
   "fees": 0.0,
   "slippage": 0.009995002498749628,
   "fees_pct_capital": 0.0,
-  "gross_pl": -0.1879383611472658,
-  "before_fees": -0.19793336364601544,
-  "net_pl": -0.19793336364601544,
+  "gross_pl": -0.21462650346456336,
+  "before_fees": -0.22462150596331298,
+  "net_pl": -0.22462150596331298,
   "tax_rate": 0.314,
   "tax_est": 0.0,
-  "net_after_tax": -0.19793336364601544,
+  "net_after_tax": -0.22462150596331298,
   "trade_count": 1,
   "platforms": {
    "crypto": [
@@ -628,7 +628,7 @@
      "label": "Kraken, ordres au marché",
      "note": "0,40 % taker sous 50 000 $/mois ; accessible depuis la France (agrément irlandais, passeport UE)",
      "fees": 0,
-     "net": -0.19793336364601544,
+     "net": -0.22462150596331298,
      "active": true
     },
     {
@@ -636,7 +636,7 @@
      "label": "Kraken, ordres à cours limité",
      "note": "0,25 % maker, mais un ordre limite peut ne pas être exécuté",
      "fees": 0,
-     "net": -0.19793336364601544,
+     "net": -0.22462150596331298,
      "active": false
     },
     {
@@ -644,7 +644,7 @@
      "label": "Coinbase Advanced",
      "note": "0,50 % taker au palier de base",
      "fees": 0,
-     "net": -0.19793336364601544,
+     "net": -0.22462150596331298,
      "active": false
     },
     {
@@ -652,7 +652,7 @@
      "label": "Binance",
      "note": "0,10 % : mais n'accepte plus de nouveaux clients en France d'après plusieurs sources",
      "fees": 0,
-     "net": -0.19793336364601544,
+     "net": -0.22462150596331298,
      "active": false
     },
     {
@@ -660,7 +660,7 @@
      "label": "eToro, crypto réelle",
      "note": "1 % par position, soit 2 % l'aller-retour, spread en plus",
      "fees": 0,
-     "net": -0.19793336364601544,
+     "net": -0.22462150596331298,
      "active": false
     }
    ],
@@ -670,7 +670,7 @@
      "label": "Alpaca, actions et ETF américains",
      "note": "0 commission ; compte à déclarer (3916-bis), pas de marge",
      "fees": 0.0,
-     "net": -0.19793336364601544,
+     "net": -0.22462150596331298,
      "active": true
     },
     {
@@ -678,7 +678,7 @@
      "label": "Interactive Brokers, tarif fixe",
      "note": "0,005 $/action, minimum 1 $, plafonné à 1 % du montant",
      "fees": 0.2,
-     "net": -0.39793336364601545,
+     "net": -0.424621505963313,
      "active": false
     },
     {
@@ -686,7 +686,7 @@
      "label": "eToro, actions réelles",
      "note": "1 $ (parfois 2 $) par ordre, achat et vente",
      "fees": 1.0,
-     "net": -1.1979333636460154,
+     "net": -1.224621505963313,
      "active": false
     }
    ]
@@ -698,10 +698,124 @@
  },
  "headlines": [
   {
-   "published": "2026-11-16T19:57:26Z",
+   "published": "2026-11-16T20:45:47Z",
+   "source": "Cointelegraph",
+   "title": "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump",
+   "link": "https://cointelegraph.com/markets/bitmine-nears-5-eth-supply-treasuries-report-buys-amid-market-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-16T20:44:24Z",
+   "source": "CNBC",
+   "title": "Anthropic’s Wall Street whisperer: Meet CFO Krishna Rao",
+   "link": "https://www.cnbc.com/2026/11/16/anthropic-cfo-krishna-rao-ipo.html"
+  },
+  {
+   "published": "2026-11-16T20:36:03Z",
+   "source": "Decrypt",
+   "title": "Tom Lee Blames Nvidia and Anthropic IPO for Ethereum Plunge as Bitmine Buys the Dip",
+   "link": "https://decrypt.co/383364/tom-lee-blames-nvidia-anthropic-ipo-ethereum-plunge-bitmine-buys"
+  },
+  {
+   "published": "2026-11-16T20:36:03Z",
+   "source": "Yahoo Finance",
+   "title": "Tom Lee Blames Nvidia and Anthropic IPO for Ethereum Plunge as Bitmine Buys the Dip",
+   "link": "https://decrypt.co/383364/tom-lee-blames-nvidia-anthropic-ipo-ethereum-plunge-bitmine-buys?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T20:35:21Z",
+   "source": "CoinDesk",
+   "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+   "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off"
+  },
+  {
+   "published": "2026-11-16T20:32:27Z",
+   "source": "Yahoo Finance",
+   "title": "Why Ballard Power Systems Stock Is Powering Down Today",
+   "link": "https://www.fool.com/investing/2026/11/16/why-ballard-power-systems-stock-is-powering-down-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T20:30:09Z",
+   "source": "Yahoo Finance",
+   "title": "TSMC Slumps Nearly 6% as Jensen Huang’s Exit and AI Debt Fears Rattle Investors Ahead of Nvidia Earnings",
+   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63319299/tsmc-nvidia-financing?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T20:28:03Z",
+   "source": "Yahoo Finance",
+   "title": "Crypto’s Worst Week Since June",
+   "link": "https://www.bankless.com/read/cryptos-worst-week-since-june?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T20:26:59Z",
+   "source": "Yahoo Finance",
+   "title": "Rolling Outages Rock U.S. Bank Stocks",
+   "link": "https://app.moby.co/home/news/news-rolling-outages-rock-us-bank-stocks?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T20:25:00Z",
+   "source": "Yahoo Finance",
+   "title": "Nike's Turnaround Is Taking Longer Than Expected. These 3 Stocks May Be Better Buys.",
+   "link": "https://www.fool.com/investing/2026/11/16/nikes-turnaround-is-taking-longer-than-expected-th/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T20:24:57Z",
    "source": "CNBC",
    "title": "California sues OpenAI over Hugging Face, other AI model loss of control",
    "link": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html"
+  },
+  {
+   "published": "2026-11-16T20:23:36Z",
+   "source": "Yahoo Finance",
+   "title": "Evercore Calls Arista “the Clearest Beneficiary” of NVIDIA’s CEO Ouster. Here’s the Gap to Close",
+   "link": "https://www.tikr.com/blog/evercore-calls-arista-the-clearest-beneficiary-of-nvidias-ceo-ouster-heres-the-gap-to-close?ref=yahoofinance&tlnk=yf-261116-r6q4j5wh&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T20:18:02Z",
+   "source": "Cointelegraph",
+   "title": "Boris Johnson says UK must lead blockchain development despite crypto doubts",
+   "link": "https://cointelegraph.com/news/boris-johnson-uk-must-lead-blockchain-development-despite-crypto-doubts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-16T20:11:07Z",
+   "source": "Yahoo Finance",
+   "title": "Bloom Energy Is Down 26% in a Month. What Will It Take to Get BE Stock Back to $250?",
+   "link": "https://247wallst.com/investing/2026/11/16/bloom-energy-is-down-26-in-a-month-what-will-it-take-to-get-be-stock-back-to-250/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T20:10:02Z",
+   "source": "Yahoo Finance",
+   "title": "Down 60% From Its 52-Week High, Is Rocket Lab Stock a Bargain Buy?",
+   "link": "https://www.fool.com/investing/2026/11/16/down-60-from-its-52-week-high-is-rocket-lab-stock-a-bargain-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T20:07:46Z",
+   "source": "CNBC",
+   "title": "Eli Lilly makes a deal outside obesity. Plus, another word of caution on Nvidia",
+   "link": "https://www.cnbc.com/investingclub/2026/11/16/eli-lilly-makes-a-deal-outside-obesity-plus-another-word-of-caution-on-nvidia.html"
+  },
+  {
+   "published": "2026-11-16T20:06:29Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market Today: Dow Dives As Nvidia Makes Huang Decision; These AI Plays Plunge (Live Coverage)",
+   "link": "https://finance.yahoo.com/m/befe3344-5a22-304e-a07d-6ff7ad87bf49/stock-market-today%3A-dow-dives.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T20:03:12Z",
+   "source": "Yahoo Finance",
+   "title": "INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%",
+   "link": "https://247wallst.com/investing/2026/11/16/intw-2x-intel-etf-tumbles-13-as-intel-drops-amid-shareholder-lawsuit-and-ai-chip-selloff-taiwan-semiconductor-falls-5/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T20:00:00Z",
+   "source": "Yahoo Finance",
+   "title": "Should Nvidia bring Jensen Huang back, as Silicon Valley's elite are demanding?",
+   "link": "https://finance.yahoo.com/technology/article/should-nvidia-bring-jensen-huang-back-as-silicon-valleys-elite-are-demanding-200000408.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-16T19:58:01Z",
+   "source": "Yahoo Finance",
+   "title": "Sandisk’s Stock Split Is Coming on Nov. 19. Should You Buy Before It Happens?",
+   "link": "https://www.fool.com/investing/2026/11/16/sandisk-stock-split-coming-nov-19-should-you-buy-before-it-happens/?.tsrc=rss"
   },
   {
    "published": "2026-11-16T19:56:18Z",
@@ -710,52 +824,10 @@
    "link": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-16T19:49:55Z",
-   "source": "Yahoo Finance",
-   "title": "Microsoft Stocks Move Lower as $1 Billion Anthropic Bet Precedes Ignite",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stocks-move-lower-1-194955766.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T19:49:28Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Stock Falls Ahead of Earnings -- Jensen Huang Could Return as CEO",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-falls-ahead-earnings-194928550.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-16T19:46:26Z",
    "source": "CNBC",
    "title": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
    "link": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html"
-  },
-  {
-   "published": "2026-11-16T19:44:25Z",
-   "source": "CNBC",
-   "title": "Jim Cramer says J&J is a 'metaphor for what's working' in the stock market",
-   "link": "https://www.cnbc.com/investingclub/2026/11/16/jim-cramer-says-jj-is-a-metaphor-for-whats-working-in-the-stock-market.html"
-  },
-  {
-   "published": "2026-11-16T19:43:00Z",
-   "source": "Yahoo Finance",
-   "title": "Where Will SCHD Be in 2036? Here's What History Suggests.",
-   "link": "https://www.fool.com/investing/2026/11/16/where-will-schd-be-2036-what-history-suggests/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T19:40:02Z",
-   "source": "Yahoo Finance",
-   "title": "Is Merck's Stock Still a Good Buy at $150?",
-   "link": "https://www.fool.com/investing/2026/11/16/is-merck-s-stock-still-a-good-buy-at-150/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T19:39:34Z",
-   "source": "Yahoo Finance",
-   "title": "Intel “Trades at 34x PE for Just 11%” Growth, Says Dan Niles. Now Shareholders Are Suing",
-   "link": "https://www.tikr.com/blog/intel-trades-at-34x-pe-for-just-11-growth-says-dan-niles-now-shareholders-are-suing?ref=yahoofinance&tlnk=yf-261116-8m293332&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T19:36:16Z",
-   "source": "Yahoo Finance",
-   "title": "Why Does Palantir Stock Keep Going Down?",
-   "link": "https://www.fool.com/investing/2026/11/16/why-does-palantir-stock-keep-going-down/?.tsrc=rss"
   },
   {
    "published": "2026-11-16T19:36:03Z",
@@ -764,58 +836,10 @@
    "link": "https://decrypt.co/383356/clarity-act-defeat-failure-of-american-leadership-trumps-former-crypto-chief"
   },
   {
-   "published": "2026-11-16T19:35:06Z",
+   "published": "2026-11-16T19:30:08Z",
    "source": "Yahoo Finance",
-   "title": "Williams-Sonoma Stock Back In Buy Range In A Sketchy Market",
-   "link": "https://finance.yahoo.com/m/77f13830-9613-3cf5-acc5-574cee88a81a/williams-sonoma-stock-back-in.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T19:32:04Z",
-   "source": "Yahoo Finance",
-   "title": "ServiceNow vs. Palantir Technologies: Comparing Steady Sales Scale Against Rapid Revenue Acceleration",
-   "link": "https://www.fool.com/coverage/charts/2026/11/16/servicenow-vs-palantir-technologies-comparing-steady-sales-scale-against-rapid-revenue-acceleration/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T19:29:54Z",
-   "source": "Yahoo Finance",
-   "title": "What Mattered Most In Cerebras's Latest Quarter?",
-   "link": "https://www.trefis.com/stock/cbrs/articles/625166/what-mattered-most-in-cerebrass-latest-quarter/2026-11-16?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T19:29:13Z",
-   "source": "Yahoo Finance",
-   "title": "Trump to Name Nvidia, Amazon and Microsoft AI “National Champions” as Bessent Demands a Shakeup",
-   "link": "https://www.tikr.com/blog/trump-to-name-nvidia-amazon-and-microsoft-ai-national-champions-as-bessent-demands-a-shakeup?ref=yahoofinance&tlnk=yf-261116-r77v6cf3&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T19:27:34Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Stocks Decline 2.31% as Huang Comeback Talk Shadows $108 Billion Quarter",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-decline-2-31-192734785.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T19:27:03Z",
-   "source": "Yahoo Finance",
-   "title": "Why Intel's turnaround will take years",
-   "link": "https://finance.yahoo.com/video/why-intels-turnaround-will-take-years-192703292.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T19:26:52Z",
-   "source": "Yahoo Finance",
-   "title": "CoreWeave, Oracle and Nebius Plunge as Nvidia Fallout Rattles AI Stocks",
-   "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-oracle-nebius-plunge-nvidia-192652785.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T19:26:00Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang Passed Billions in Nvidia Stock to His Heirs Months Before His Downfall",
-   "link": "https://finance.yahoo.com/m/f93688e0-5c36-372b-855e-b722a7cce11d/jensen-huang-passed-billions.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T19:24:10Z",
-   "source": "Yahoo Finance",
-   "title": "Putin-Xi Meeting Unlikely to Bring Substantive Results for Trump, Says Jane Harman",
-   "link": "https://finance.yahoo.com/video/putin-xi-meeting-unlikely-bring-192410415.html?.tsrc=rss"
+   "title": "Elon Musk Warns Against Pushing Founders Out — Steve Jobs and Travis Kalanick Lessons Resurface as Jensen Huang Exits Nvidia",
+   "link": "https://finance.yahoo.com/small-business/articles/elon-musk-warns-against-pushing-193008615.html?.tsrc=rss"
   },
   {
    "published": "2026-11-16T19:23:00Z",
@@ -836,46 +860,22 @@
    "link": "https://www.cnbc.com/2026/11/16/property-tax-relief-homeowners-bills.html"
   },
   {
+   "published": "2026-11-16T19:14:40Z",
+   "source": "Yahoo Finance",
+   "title": "Apple adds facial recognition unlock to iPhone Duo",
+   "link": "https://finance.yahoo.com/news/apple-adds-facial-recognition-unlock-191440685.html?.tsrc=rss"
+  },
+  {
    "published": "2026-11-16T19:13:25Z",
    "source": "CNBC",
    "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
    "link": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
   },
   {
-   "published": "2026-11-16T19:11:41Z",
-   "source": "CNBC",
-   "title": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
-   "link": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html"
-  },
-  {
    "published": "2026-11-16T19:06:41Z",
    "source": "CNBC",
    "title": "Prediction market odds for Tesla-SpaceX merger by April 2027 top 60%",
    "link": "https://www.cnbc.com/2026/11/16/prediction-market-odds-for-tesla-spacex-merger-by-april-2027-top-60percent.html"
-  },
-  {
-   "published": "2026-11-16T19:06:11Z",
-   "source": "CNBC",
-   "title": "This Anthropic proxy play is getting traders' attention – here's where they see it going",
-   "link": "https://www.cnbc.com/2026/11/16/anthropic-proxy-destiny-tech100-fund.html"
-  },
-  {
-   "published": "2026-11-16T19:05:02Z",
-   "source": "Decrypt",
-   "title": "Trump Backs Jensen Huang’s Return to Nvidia as Sam Altman Says 'Heroes Have Flaws'",
-   "link": "https://decrypt.co/383351/trump-elon-musk-sam-altman-jensen-huang-nvidia"
-  },
-  {
-   "published": "2026-11-16T18:56:49Z",
-   "source": "CNBC",
-   "title": "Market's Nvidia obsession obscuring an opportunity in this name",
-   "link": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html"
-  },
-  {
-   "published": "2026-11-16T18:54:19Z",
-   "source": "CoinDesk",
-   "title": "U.S. Senate Democrats tell CFTC to back off its demand prediction markets defy bans",
-   "link": "https://www.coindesk.com/policy/2026/11/16/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans"
   }
  ]
 }
