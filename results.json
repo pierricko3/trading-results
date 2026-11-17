@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T05:50:48Z",
+ "generated_at": "2026-11-17T08:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.82,
   "cash": 80.0,
   "perf_pct": -0.0018,
-  "bench_pct": -0.1288,
+  "bench_pct": -0.1289,
   "drawdown": 0.0041,
   "halted": false,
   "trade_count": 1
@@ -24,12 +24,12 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 64838.67,
+   "price": 64730.74,
    "trend": "baissière",
-   "score": -0.239,
+   "score": -0.403,
    "news_score": -0.5,
    "news_conf": 0.48,
-   "tech_score": -0.237,
+   "tech_score": -0.602,
    "in_position": false,
    "patterns": [
     "Doji (indécision)",
@@ -39,27 +39,29 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1834.77,
-   "trend": "baissière",
-   "score": -0.267,
+   "price": 1832.26,
+   "trend": "neutre",
+   "score": -0.034,
    "news_score": 0.0,
    "news_conf": 0.24,
-   "tech_score": -0.593,
+   "tech_score": -0.076,
    "in_position": false,
-   "patterns": []
+   "patterns": [
+    "Doji (indécision)"
+   ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 72.76,
+   "price": 72.93,
    "trend": "neutre",
-   "score": 0.035,
+   "score": 0.021,
    "news_score": 0.2,
    "news_conf": 0.6,
-   "tech_score": -0.07,
+   "tech_score": -0.1,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)",
     "Avalement haussier",
+    "Doji (indécision)",
     "Doji (indécision)"
    ]
   },
@@ -67,9 +69,9 @@
    "symbol": "NVDA",
    "price": 156.16000366210938,
    "trend": "baissière",
-   "score": -0.373,
-   "news_score": -0.482,
-   "news_conf": 0.303,
+   "score": -0.284,
+   "news_score": 0.094,
+   "news_conf": 0.17,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -108,11 +110,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794110430,
-   100.0,
-   97.27
-  ],
   [
    1794117042,
    100.0,
@@ -557,6 +554,11 @@
    1794894643,
    99.82,
    87.12
+  ],
+  [
+   1794902430,
+   99.82,
+   87.11
   ]
  ],
  "last_directive": {
@@ -694,46 +696,142 @@
  },
  "headlines": [
   {
+   "published": "2026-11-17T07:50:02Z",
+   "source": "Yahoo Finance",
+   "title": "Elon Musk Just Killed the Cybertruck to Build Cybercabs. Here’s What It Means for Tesla Stock -- and Rivian’s.",
+   "link": "https://www.fool.com/investing/2026/11/17/elon-musk-just-killed-the-cybertruck-to-build-cybercabs-heres-what-it-means-for-tesla-stock-and-rivians/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T07:47:46Z",
+   "source": "Yahoo Finance",
+   "title": "Apple faces French trial over alleged planned obsolescence of iPhones: source",
+   "link": "https://finance.yahoo.com/technology/articles/apple-faces-french-trial-over-074746257.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T07:38:07Z",
+   "source": "CoinDesk",
+   "title": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
+   "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says"
+  },
+  {
+   "published": "2026-11-17T07:28:19Z",
+   "source": "Yahoo Finance",
+   "title": "Evercore just slashed its NVDA price target 60% — from $465 to $186 — after Huang quit. Are analysts still bullish?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/evercore-just-slashed-nvda-price-072819592.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T07:25:02Z",
+   "source": "Yahoo Finance",
+   "title": "SpaceX Has 33 Analysts Covering It and Just 1 “Strong Sell.” Here’s What That Analyst Sees That the Other 32 Don’t.",
+   "link": "https://www.fool.com/investing/2026/11/17/spacex-has-33-analysts-covering-it-and-just-1-strong-sell-here-s-what-that-analyst-sees-that-the-other-32-don-t/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T07:14:16Z",
+   "source": "Yahoo Finance",
+   "title": "Asian stocks sink as scandal-hit Nvidia's earnings loom",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-sink-scandal-hit-023848163.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T07:07:35Z",
+   "source": "CNBC",
+   "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+   "link": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html"
+  },
+  {
+   "published": "2026-11-17T07:01:00Z",
+   "source": "Yahoo Finance",
+   "title": "MP Materials' Earnings Report Had Multiple Bright Spots, and There's 1 Thing I'm Watching",
+   "link": "https://www.fool.com/investing/2026/11/17/mp-materials-earnings-had-multiple-bright-spots-an/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T06:59:42Z",
+   "source": "CNBC",
+   "title": "U.S. agencies say they initiated investigation into Nvidia partner Megaspeed in 2024",
+   "link": "https://www.cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html"
+  },
+  {
+   "published": "2026-11-17T06:54:49Z",
+   "source": "CoinDesk",
+   "title": "Cardano Foundation seeks $5 million from treasury using ADA price 33% above market",
+   "link": "https://www.coindesk.com/tech/2026/11/17/cardano-foundation-seeks-usd5-million-from-treasury-using-ada-price-33-above-market"
+  },
+  {
+   "published": "2026-11-17T06:49:38Z",
+   "source": "Yahoo Finance",
+   "title": "“What Would It Take” for Investors to Finally Admit that Micron Is Poised to Win for the Long Term?",
+   "link": "https://www.tikr.com/blog/what-would-it-take-for-investors-to-finally-admit-that-micron-is-poised-to-win-for-the-long-term?ref=yahoofinance&tlnk=yf-261117-rprf3fh3&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T06:40:58Z",
+   "source": "Yahoo Finance",
+   "title": "Breaking Down the US Move to Curb Remote Access to Chips",
+   "link": "https://finance.yahoo.com/video/breaking-down-us-move-curb-064058022.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T06:38:46Z",
+   "source": "Yahoo Finance",
+   "title": "Lies, spies and sex are just one part of the Nvidia story. The real stakes are much bigger",
+   "link": "https://www.cnn.com/2026/11/16/tech/nvidia-sex-spies-serious-problems?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T06:35:19Z",
+   "source": "Cointelegraph",
+   "title": "Ex-Robinhood engineer pleads guilty to $125K Hyperliquid trading scheme",
+   "link": "https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-17T06:21:00Z",
+   "source": "Yahoo Finance",
+   "title": "ASUS Ramps Up NVIDIA Vera Rubin NVL72 Shipments in Q4 Amid Strong Demand, Showcasing AI Factory Reference Architecture at SC26",
+   "link": "https://finance.yahoo.com/technology/ai/articles/asus-ramps-nvidia-vera-rubin-062100096.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T06:16:58Z",
+   "source": "Yahoo Finance",
+   "title": "Walmart Reports Earnings on Nov. 19 2026. Here's What Investors Should Be Watching.",
+   "link": "https://www.fool.com/investing/2026/11/17/walmart-reports-earnings-on-nov-19-2026-heres-what-investors-should-be-watching/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T06:14:40Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63330216/stock-market-will-sp-500-open-up-or-down-today-79?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T06:04:46Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Director Reportedly Warns of ‘Irreplaceable Talent’ Loss: Board Urged to Bring Back Jensen Huang as NVDA Stock Slips",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-reportedly-warns-irreplaceable-060446835.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T06:00:32Z",
+   "source": "Yahoo Finance",
+   "title": "Watch these Chinese chip stocks as U.S. tightens access to Nvidia hardware",
+   "link": "https://finance.yahoo.com/technology/ai/articles/watch-chinese-chip-stocks-u-060032967.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T06:00:00Z",
+   "source": "Cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-17T05:51:13Z",
+   "source": "CNBC",
+   "title": "Iran escalates threats as third U.S. carrier arrives in Middle East, tanker struck in Hormuz",
+   "link": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html"
+  },
+  {
+   "published": "2026-11-17T05:50:02Z",
+   "source": "Yahoo Finance",
+   "title": "Why GXO Thinks a Recession Could Actually Help It",
+   "link": "https://www.fool.com/investing/2026/11/17/why-gxo-thinks-a-recession-could-actually-help-it/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-17T05:37:23Z",
    "source": "CoinDesk",
    "title": "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
    "link": "https://www.coindesk.com/markets/2026/11/17/wells-fargo-s-reported-blackrock-bitcoin-etf-holdings-double-to-usd2-35-billion"
-  },
-  {
-   "published": "2026-11-17T05:29:11Z",
-   "source": "CNBC",
-   "title": "Third U.S. carrier arrives in the Gulf, stoking concerns about renewed conflicts with Iran",
-   "link": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html"
-  },
-  {
-   "published": "2026-11-17T05:25:21Z",
-   "source": "Yahoo Finance",
-   "title": "China megacap tech stocks fall as U.S. tightens curbs on AI chip access",
-   "link": "https://finance.yahoo.com/technology/ai/articles/china-megacap-tech-stocks-fall-052521839.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T05:18:34Z",
-   "source": "Yahoo Finance",
-   "title": "U.S. Commerce Dept, DOJ say they investigated Nvidia partner Megaspeed in 2024",
-   "link": "https://finance.yahoo.com/technology/ai/articles/u-commerce-dept-doj-investigated-051834040.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T05:16:50Z",
-   "source": "Yahoo Finance",
-   "title": "Tech elite lament Jensen Huang's fall, celebrate his AI leadership",
-   "link": "https://finance.yahoo.com/technology/ai/articles/tech-elite-lament-jensen-huangs-051650955.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T05:03:00Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia faces alarming revenue questions before earnings",
-   "link": "https://www.thestreet.com/investing/nvidia-faces-alarming-revenue-questions-before-earnings?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T05:02:34Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia set for first earnings call since Jensen Huang's resignation",
-   "link": "https://www.usatoday.com/story/money/2026/11/17/nvidia-earnings-call-how-to-watch/92819260007/?.tsrc=rss"
   },
   {
    "published": "2026-11-17T05:02:05Z",
@@ -742,82 +840,10 @@
    "link": "https://www.coindesk.com/markets/2026/11/17/ripple-backed-evernorth-has-written-down-its-pre-listing-xrp-holdings-by-60"
   },
   {
-   "published": "2026-11-17T04:56:26Z",
-   "source": "Yahoo Finance",
-   "title": "US to close AI chip loophole after Nvidia scandal",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-earnings-test-ai-boom-014359078.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T04:53:02Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang Stepped Away From Nvidia, and That Might Not Be the Company's Biggest Problem",
-   "link": "https://www.fool.com/investing/2026/11/16/jensen-huang-stepped-away-from-nvidia-and-that-might-not-even-be-the-company-s-biggest-problem/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T04:41:51Z",
-   "source": "Yahoo Finance",
-   "title": "New images emerge of suspected spy linked to Nvidia’s ex-boss",
-   "link": "https://www.cnn.com/2026/11/16/business/video/ebof-will-ripley-alice-huang-affair-nvidia-jensen-huang-hnk-digvid?cid=external-feeds_iluminar_yahoo&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T04:40:54Z",
-   "source": "Yahoo Finance",
-   "title": "“Not Insane at All” if Nvidia Has No Lawsuit Insurance, According to Bill Gurley",
-   "link": "https://www.tikr.com/blog/not-insane-at-all-if-nvidia-has-no-lawsuit-insurance-according-to-bill-gurley?ref=yahoofinance&tlnk=yf-261116-q34363x3&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T04:31:56Z",
-   "source": "Yahoo Finance",
-   "title": "Sam Altman Knows What It’s Like to Be Ousted as CEO, but Won’t Say if Jensen Huang Should Return as Nvidia Chief: ‘Heroes Have Flaws’",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/sam-altman-knows-ousted-ceo-043156002.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T04:25:58Z",
-   "source": "Yahoo Finance",
-   "title": "Asia stocks slide as U.S. tightens AI chip curbs ahead of Nvidia results",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-slide-u-tightens-042558888.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T04:12:54Z",
-   "source": "Yahoo Finance",
-   "title": "Anthropic IPO: What Australian Investors Need to Know",
-   "link": "https://finance.yahoo.com/video/anthropic-ipo-australian-investors-know-041254002.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T04:06:22Z",
-   "source": "Yahoo Finance",
-   "title": "Dow, S&P 500, Nasdaq Futures Mixed Ahead Of Much-Anticipated Nvidia Earnings, Anthropic IPO: SLS, BABA, JPM, OMER In Focus",
-   "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-mixed-ahead-of-much-anticipated-nvidia-earnings-anthropic-ipo-sls-baba-jpm-omer-in-focus/cNba1SfR9gr?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T04:04:20Z",
-   "source": "Yahoo Finance",
-   "title": "AMD, MU, SKHY, AVGO: Chip Stocks Ease Overnight After Selloff On New US Chip Restrictions Targeting China",
-   "link": "https://stocktwits.com/news-articles/markets/equity/amd-mu-skhy-avgo-chip-stocks-ease-overnight-after-selloff-on-new-us-chip-restrictions-targeting-china/cNba10cR9gA?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T04:03:46Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia “Could Have Theoretically Lost 30% of Demand” and Still Hit Its Forecast, Says Dan Niles",
-   "link": "https://www.tikr.com/blog/nvidia-could-have-theoretically-lost-30-of-demand-and-still-hit-its-forecast-says-dan-niles?ref=yahoofinance&tlnk=yf-261116-cwmh8rp2&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T04:01:48Z",
-   "source": "Yahoo Finance",
-   "title": "Asian shares decline following stocks tumbled on Wall Street",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-decline-following-stocks-040148315.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-17T03:46:22Z",
    "source": "Cointelegraph",
    "title": "Trezor customer data exposed in 3rd partner breach this year",
    "link": "https://cointelegraph.com/news/trezor-customer-data-exposed-in-3rd-partner-breach-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-17T03:45:50Z",
-   "source": "Yahoo Finance",
-   "title": "SPCX Stock Dethrones Intel As Nvidia’s Biggest Holding — Druckenmiller Buys In And Tepper Ups His Stake Over 1,600%",
-   "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-dethrones-intel-nvidia-biggest-holding-druckenmiller-buys-in-tepper-ups-stake/cNba0UWR9gq?.tsrc=rss"
   },
   {
    "published": "2026-11-17T03:23:55Z",
@@ -848,30 +874,6 @@
    "source": "Cointelegraph",
    "title": "Nvidia shares fall 4% as board reportedly rules out Huang return",
    "link": "https://cointelegraph.com/news/nvidia-shares-fall-4-as-board-reportedly-rules-out-huang-return?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-16T23:23:47Z",
-   "source": "CNBC",
-   "title": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
-   "link": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html"
-  },
-  {
-   "published": "2026-11-16T23:09:00Z",
-   "source": "Yahoo Finance",
-   "title": "David Tepper’s Appaloosa Goes Big on SpaceX, While Slashing Alphabet Stake",
-   "link": "https://finance.yahoo.com/m/f487537a-09c4-3b0f-beb6-14e5629c10ed/david-tepper%E2%80%99s-appaloosa-goes.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T23:05:12Z",
-   "source": "CNBC",
-   "title": "Aschenbrenner’s Situational Awareness made AI bets again before October rout",
-   "link": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html"
-  },
-  {
-   "published": "2026-11-16T23:02:47Z",
-   "source": "Yahoo Finance",
-   "title": "Berkshire Boosts Lennar, Starts Bending Spoons, Trims Bank Of America In Q3",
-   "link": "https://stocktwits.com/news-articles/markets/equity/berkshire-boosts-lennar-starts-bending-spoons-trims-bank-of-america-in-q3/cNbJ2orR9g1?.tsrc=rss"
   }
  ]
 }
