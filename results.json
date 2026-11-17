@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T00:00:35Z",
+ "generated_at": "2026-11-17T04:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.82,
   "cash": 80.0,
   "perf_pct": -0.0018,
-  "bench_pct": -0.1316,
+  "bench_pct": -0.1284,
   "drawdown": 0.0041,
   "halted": false,
   "trade_count": 1
@@ -24,40 +24,38 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 64921.33,
+   "price": 65041.0,
    "trend": "baissière",
-   "score": -0.269,
-   "news_score": -0.333,
-   "news_conf": 0.6,
-   "tech_score": -0.354,
+   "score": -0.239,
+   "news_score": -0.5,
+   "news_conf": 0.48,
+   "tech_score": -0.237,
    "in_position": false,
    "patterns": [
-    "Marteau (rebond possible)",
     "Doji (indécision)",
-    "Marteau inversé (rebond possible)"
+    "Marteau inversé (rebond possible)",
+    "Marteau (rebond possible)"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1822.17,
+   "price": 1832.96,
    "trend": "baissière",
-   "score": -0.265,
+   "score": -0.267,
    "news_score": 0.0,
-   "news_conf": 0.48,
-   "tech_score": -0.589,
+   "news_conf": 0.24,
+   "tech_score": -0.593,
    "in_position": false,
-   "patterns": [
-    "Pendu (retournement possible)"
-   ]
+   "patterns": []
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.62,
-   "trend": "baissière",
-   "score": -0.182,
-   "news_score": 0.143,
+   "price": 72.83,
+   "trend": "neutre",
+   "score": 0.035,
+   "news_score": 0.2,
    "news_conf": 0.6,
-   "tech_score": -0.51,
+   "tech_score": -0.07,
    "in_position": false,
    "patterns": [
     "Doji (indécision)",
@@ -69,9 +67,9 @@
    "symbol": "NVDA",
    "price": 156.16000366210938,
    "trend": "baissière",
-   "score": -0.342,
-   "news_score": -0.25,
-   "news_conf": 0.36,
+   "score": -0.293,
+   "news_score": 0.0,
+   "news_conf": 0.0,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -80,9 +78,9 @@
    "symbol": "AAPL",
    "price": 352.80999755859375,
    "trend": "haussière",
-   "score": 0.178,
-   "news_score": -0.2,
-   "news_conf": 0.6,
+   "score": 0.195,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": 0.543,
    "in_position": true,
    "patterns": []
@@ -93,7 +91,7 @@
    "trend": "baissière",
    "score": -0.248,
    "news_score": 0.0,
-   "news_conf": 0.48,
+   "news_conf": 0.24,
    "tech_score": -0.552,
    "in_position": false,
    "patterns": []
@@ -110,11 +108,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794087053,
-   100.0,
-   97.04
-  ],
   [
    1794096030,
    100.0,
@@ -559,6 +552,11 @@
    1794873630,
    99.82,
    86.84
+  ],
+  [
+   1794888030,
+   99.82,
+   87.16
   ]
  ],
  "last_directive": {
@@ -696,10 +694,106 @@
  },
  "headlines": [
   {
-   "published": "2026-11-16T23:51:49Z",
+   "published": "2026-11-17T03:46:22Z",
+   "source": "Cointelegraph",
+   "title": "Trezor customer data exposed in 3rd partner breach this year",
+   "link": "https://cointelegraph.com/news/trezor-customer-data-exposed-in-3rd-partner-breach-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-17T03:45:50Z",
    "source": "Yahoo Finance",
-   "title": "Hive Digital CEO says its five-year-old Nvidia GPUs still produce cash flow",
-   "link": "https://www.thestreet.com/crypto/innovation/hive-digital-ceo-says-its-five-year-old-nvidia-gpus-still-produce-cash-flow?.tsrc=rss"
+   "title": "SPCX Stock Dethrones Intel As Nvidia’s Biggest Holding — Druckenmiller Buys In And Tepper Ups His Stake Over 1,600%",
+   "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-dethrones-intel-nvidia-biggest-holding-druckenmiller-buys-in-tepper-ups-stake/cNba0UWR9gq?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T03:44:01Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia's Biggest Jensen Huang Problem Was Hiding in Plain Sight",
+   "link": "https://www.fool.com/investing/2026/11/16/nvidia-s-biggest-jensen-huang-problem-was-hiding-in-plain-sight/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T03:43:42Z",
+   "source": "Yahoo Finance",
+   "title": "Bessent Says Nvidia Needs A “Dramatic Shakeup,” As A Singapore Firm Reportedly Moved At Least $7.5 Billion Of Nvidia Chips To China.",
+   "link": "https://247wallst.com/investing/2026/11/16/bessent-says-nvidia-needs-a-dramatic-shakeup-as-a-singapore-firm-reportedly-moved-at-least-7-5-billion-of-nvidia-chips-to-china/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T03:27:02Z",
+   "source": "Yahoo Finance",
+   "title": "Rocket Lab Hit 100 Launches Faster Than Any Other Commercially Developed Rocket. I'd Buy a Small Stake.",
+   "link": "https://www.fool.com/investing/2026/11/16/rocket-lab-hit-100-launches-faster-than-any-other-commercially-developed-rocket-i-d-buy-a-small-stake/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T03:25:00Z",
+   "source": "Yahoo Finance",
+   "title": "BlueQubit Names Quantum Flywheel Awardees, Backed by IBM, AWS, and NVIDIA Accelerated Computing",
+   "link": "https://finance.yahoo.com/technology/ai/articles/bluequbit-names-quantum-flywheel-awardees-032500624.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T03:25:00Z",
+   "source": "Yahoo Finance",
+   "title": "Physical AI Leader Agile Robots Raises $500 Million Series F at $8.5 Billion Valuation to Accelerate Global Growth",
+   "link": "https://finance.yahoo.com/technology/ai/articles/physical-ai-leader-agile-robots-032500785.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T03:22:00Z",
+   "source": "Yahoo Finance",
+   "title": "MiTAC Computing Scales Agentic AI with Full-Stack Infrastructure at SC26",
+   "link": "https://finance.yahoo.com/technology/ai/articles/mitac-computing-scales-agentic-ai-032200367.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T03:20:17Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures: AMD, Nvidia, Micron Lead AI Trade Lower With Nvidia Earnings On Deck",
+   "link": "https://finance.yahoo.com/m/d0a3411e-5f2b-302d-801a-a42b1d7ca5ea/dow-jones-futures%3A-amd%2C.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T03:14:46Z",
+   "source": "Yahoo Finance",
+   "title": "Is NVIDIA’s Turmoil Advanced Micro Devices’ (AMD) Biggest Opening Yet?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-turmoil-advanced-micro-devices-031446562.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T03:06:19Z",
+   "source": "Yahoo Finance",
+   "title": "Bitcoin Bears Target $60K As Nvidia Earnings, Anthropic IPO, Bond Yields And Fed Hike Odds Weigh On Crypto Recovery",
+   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-bear-nvidia-earnings-anthropic-fed-rate-hike-weighs-on-crypto-recovery/cNbaiD6R9gp?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T02:38:48Z",
+   "source": "Yahoo Finance",
+   "title": "Asian stocks sink as scandal-hit Nvidia prepares for earnings",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-sink-scandal-hit-023848163.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T02:22:02Z",
+   "source": "Yahoo Finance",
+   "title": "1 Number Reveals Which Is the Better Buy Between Nvidia and AMD",
+   "link": "https://www.fool.com/investing/2026/11/16/1-number-reveals-which-is-the-better-buy-between-nvidia-and-amd/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T02:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "AMD’s Nvidia Rally Fades: Michael Burry Calls AMD ‘Too Expensive As Eternal Alternative’",
+   "link": "https://stocktwits.com/news-articles/markets/equity/amd-s-nvidia-rally-fades-michael-burry-calls-amd-too-expensive-as-eternal-alternative/cNbah8GR9gn?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T01:02:05Z",
+   "source": "Cointelegraph",
+   "title": "Hackers inject credit card, crypto-stealing malware into 178 major websites",
+   "link": "https://cointelegraph.com/news/hackers-inject-malware-into-178-major-websites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-17T00:42:33Z",
+   "source": "CNBC",
+   "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+   "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
+  },
+  {
+   "published": "2026-11-17T00:00:49Z",
+   "source": "CNBC",
+   "title": "United Airlines resolves system outage that affected departing flights",
+   "link": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html"
   },
   {
    "published": "2026-11-16T23:50:41Z",
@@ -708,82 +802,22 @@
    "link": "https://cointelegraph.com/news/nvidia-shares-fall-4-as-board-reportedly-rules-out-huang-return?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-16T23:48:38Z",
-   "source": "Yahoo Finance",
-   "title": "Why Navitas Semiconductor Stock Sank by 12% on Monday",
-   "link": "https://www.fool.com/investing/2026/11/16/why-navitas-semiconductor-stock-sank-by-12-on-monday/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T23:47:12Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures: AMD, Nvidia, Micron Lead AI Trade Lower With Nvidia Earnings On Deck",
-   "link": "https://finance.yahoo.com/m/d0a3411e-5f2b-302d-801a-a42b1d7ca5ea/dow-jones-futures%3A-amd%2C.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T23:35:02Z",
-   "source": "Yahoo Finance",
-   "title": "Tech Leaders Want Jensen Huang to Return to Nvidia. Here’s What That Would Mean for the Stock Price.",
-   "link": "https://www.fool.com/investing/2026/11/16/tech-leaders-want-jensen-huang-to-return-to-nvidia-here-s-what-that-would-mean-for-the-stock-price/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T23:25:00Z",
-   "source": "Yahoo Finance",
-   "title": "If I Could Buy and Hold Only 1 AI Hyperscaler Through 2030, It Would Be This One",
-   "link": "https://www.fool.com/investing/2026/11/16/if-i-could-buy-and-hold-only-1-ai-hyperscaler-thro/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T23:22:21Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang and Wife Transferred More Than $10.5 Billion to Family Trust in March 2026",
-   "link": "https://firstformoney.com/jensen-huang-and-wife-transferred-more-than-10-5-billion-to-family-trust-in-march-2026/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T23:19:53Z",
-   "source": "Yahoo Finance",
-   "title": "3 Founder Led Stocks With Revenue Growth Over 32%",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-founder-led-stocks-revenue-231953046.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T23:19:29Z",
-   "source": "Yahoo Finance",
-   "title": "Learn Why The Bull Case For IBM Stock Could Change Following Quantum Computing Expansion",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-ibm-231929118.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T23:15:00Z",
-   "source": "Yahoo Finance",
-   "title": "Stocks, Gold, and Asia Bleed $2.2 Trillion: Top 5 Factors That Triggered the Crash",
-   "link": "https://beincrypto.com/market-bloodbath-2-trillion-5-factors/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T23:12:59Z",
-   "source": "Yahoo Finance",
-   "title": "Broadcom Is “the Best Play” on Nvidia’s CEO Exit, One Investor Argues. The Reason Is China",
-   "link": "https://www.tikr.com/blog/broadcom-is-the-best-play-on-nvidias-ceo-exit-one-investor-argues-the-reason-is-china?ref=yahoofinance&tlnk=yf-261116-w5j2pv86&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T23:10:55Z",
-   "source": "Yahoo Finance",
-   "title": "Stock Market Today, Nov. 16: IREN Slides as Neocloud Weakness and Tech Sector Selling Put Pressure on Shares",
-   "link": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-iren-slides-as-neocloud-weakness-and-tech-sector-selling-put-pressure-on-shares/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-16T23:08:01Z",
+   "published": "2026-11-16T23:23:47Z",
    "source": "CNBC",
-   "title": "United Airlines resolves system outage that affected departing flights",
-   "link": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html"
+   "title": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
+   "link": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html"
+  },
+  {
+   "published": "2026-11-16T23:09:00Z",
+   "source": "Yahoo Finance",
+   "title": "David Tepper’s Appaloosa Goes Big on SpaceX, While Slashing Alphabet Stake",
+   "link": "https://finance.yahoo.com/m/f487537a-09c4-3b0f-beb6-14e5629c10ed/david-tepper%E2%80%99s-appaloosa-goes.html?.tsrc=rss"
   },
   {
    "published": "2026-11-16T23:05:12Z",
    "source": "CNBC",
    "title": "Aschenbrenner’s Situational Awareness made AI bets again before October rout",
    "link": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html"
-  },
-  {
-   "published": "2026-11-16T23:03:00Z",
-   "source": "Yahoo Finance",
-   "title": "Daniel Loeb’s Third Point Returned to Nvidia Stock Just Before Its Fall",
-   "link": "https://finance.yahoo.com/m/04da2c81-3de5-3ff0-bb2d-6210189e6e20/daniel-loeb%E2%80%99s-third-point.html?.tsrc=rss"
   },
   {
    "published": "2026-11-16T23:02:47Z",
@@ -798,12 +832,6 @@
    "link": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html"
   },
   {
-   "published": "2026-11-16T23:01:02Z",
-   "source": "Yahoo Finance",
-   "title": "4 Chip Stocks Down as Much as 36% From Their Highs to Buy and Hold for the Next Decade",
-   "link": "https://www.fool.com/investing/2026/11/16/4-chip-stocks-down-as-much-as-36-from-their-highs-to-buy-and-hold-for-the-next-decade/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-16T23:00:01Z",
    "source": "CNBC",
    "title": "CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off",
@@ -816,10 +844,10 @@
    "link": "https://finance.yahoo.com/technology/articles/huang-trillion-dollar-dinners-taiwan-230000506.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-16T23:00:00Z",
+   "published": "2026-11-16T22:59:39Z",
    "source": "Yahoo Finance",
-   "title": "PEGATRON Advances Agentic AI and HPC Infrastructure with High-Density Computing Solutions at SC26",
-   "link": "https://finance.yahoo.com/technology/ai/articles/pegatron-advances-agentic-ai-hpc-230000015.html?.tsrc=rss"
+   "title": "Here's What Berkshire Hathaway Bought and Sold in Q3",
+   "link": "https://www.kiplinger.com/investing/stocks/stocks-berkshire-hathaway-bought-sold-q3-2026?.tsrc=rss"
   },
   {
    "published": "2026-11-16T22:54:57Z",
@@ -844,36 +872,6 @@
    "source": "CNBC",
    "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
    "link": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html"
-  },
-  {
-   "published": "2026-11-16T22:19:41Z",
-   "source": "Cointelegraph",
-   "title": "Binance hack may push institutions to outside custody, FalconX exec says",
-   "link": "https://cointelegraph.com/news/binance-hack-institutional-crypto-custody-falconx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-16T22:19:02Z",
-   "source": "CNBC",
-   "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
-   "link": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
-  },
-  {
-   "published": "2026-11-16T22:18:03Z",
-   "source": "Decrypt",
-   "title": "Bitcoin Wallet Maker Trezor Says Customer Data Was Exposed Again",
-   "link": "https://decrypt.co/383397/bitcoin-wallet-trezor-third-party-breach-customer-data"
-  },
-  {
-   "published": "2026-11-16T22:14:47Z",
-   "source": "CNBC",
-   "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
-   "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html"
-  },
-  {
-   "published": "2026-11-16T22:14:05Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia is not considering rehiring Jensen Huang, and Amazon's data center gets bought",
-   "link": "https://finance.yahoo.com/video/nvidia-is-not-considering-rehiring-jensen-huang-and-amazons-data-center-gets-bought-221405344.html?.tsrc=rss"
   }
  ]
 }
