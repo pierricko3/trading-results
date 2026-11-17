@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T20:50:45Z",
+ "generated_at": "2026-11-17T21:30:55Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.77,
   "cash": 99.77,
   "perf_pct": -0.0023,
-  "bench_pct": -0.1387,
+  "bench_pct": -0.1311,
   "drawdown": 0.0046,
   "halted": false,
   "trade_count": 2
@@ -16,11 +16,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 63945.84,
+   "price": 64618.01,
    "trend": "baissière",
-   "score": -0.421,
-   "news_score": -0.2,
-   "news_conf": 0.6,
+   "score": -0.487,
+   "news_score": -0.5,
+   "news_conf": 0.48,
    "tech_score": -0.788,
    "in_position": false,
    "patterns": [
@@ -31,10 +31,10 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1796.57,
+   "price": 1816.36,
    "trend": "baissière",
-   "score": -0.252,
-   "news_score": 0.143,
+   "score": -0.299,
+   "news_score": 0.0,
    "news_conf": 0.6,
    "tech_score": -0.664,
    "in_position": false,
@@ -45,11 +45,11 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 72.96,
+   "price": 73.98,
    "trend": "neutre",
-   "score": -0.119,
-   "news_score": 0.2,
-   "news_conf": 0.6,
+   "score": -0.185,
+   "news_score": 0.0,
+   "news_conf": 0.48,
    "tech_score": -0.412,
    "in_position": false,
    "patterns": [
@@ -60,33 +60,33 @@
   },
   {
    "symbol": "NVDA",
-   "price": 153.24000549316406,
+   "price": 155.4550018310547,
    "trend": "baissière",
-   "score": -0.268,
-   "news_score": 0.136,
-   "news_conf": 0.333,
+   "score": -0.302,
+   "news_score": -0.071,
+   "news_conf": 0.249,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "AAPL",
-   "price": 350.9800109863281,
+   "price": 351.8999938964844,
    "trend": "haussière",
-   "score": 0.244,
-   "news_score": 0.0,
-   "news_conf": 0.48,
+   "score": 0.195,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": 0.543,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "SPY",
-   "price": 729.9299926757812,
+   "price": 732.4000244140625,
    "trend": "baissière",
-   "score": -0.248,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": -0.265,
+   "news_score": -0.25,
+   "news_conf": 0.12,
    "tech_score": -0.552,
    "in_position": false,
    "patterns": []
@@ -111,11 +111,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794168030,
-   100.0,
-   97.26
-  ],
   [
    1794171039,
    100.0,
@@ -560,6 +555,11 @@
    1794948640,
    99.77,
    86.13
+  ],
+  [
+   1794951049,
+   99.77,
+   86.89
   ]
  ],
  "last_directive": {
@@ -573,7 +573,7 @@
    "value": 12,
    "label": "Extreme Fear"
   },
-  "vix": 25.79
+  "vix": 25.46
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -697,22 +697,154 @@
  },
  "headlines": [
   {
+   "published": "2026-11-17T21:25:50Z",
+   "source": "CoinDesk",
+   "title": "Nvidia tops estimates, issues strong guidance; shares rise",
+   "link": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization"
+  },
+  {
+   "published": "2026-11-17T21:24:20Z",
+   "source": "CNBC",
+   "title": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
+   "link": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html"
+  },
+  {
+   "published": "2026-11-17T21:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "US Equity Markets End Lower Ahead of Nvidia's Quarterly Results",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-212000685.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T21:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-announces-financial-results-third-212000678.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T21:19:48Z",
+   "source": "CNBC",
+   "title": "7 smart reasons to sell a stock—and my ‘golden rule’ for offloading shares, says hedge fund CEO",
+   "link": "https://www.cnbc.com/2026/11/17/when-to-sell-a-stock.html"
+  },
+  {
+   "published": "2026-11-17T21:13:50Z",
+   "source": "Yahoo Finance",
+   "title": "Update: S&P 500 Pullback Extends to Fourth Day Ahead of Nvidia's Earnings",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-pullback-extends-fourth-211350265.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T21:12:03Z",
+   "source": "Yahoo Finance",
+   "title": "Stocks down ahead of Nvidia's post-scandal earnings report",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-sink-scandal-hit-023848163.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T21:11:46Z",
+   "source": "Yahoo Finance",
+   "title": "Berkshire Hathaway Slashes This Top 5 Stock; Nvidia Boosts SpaceX",
+   "link": "https://finance.yahoo.com/m/481d5163-b671-396e-a2dc-5c0e57fb9c0b/berkshire-hathaway-slashes.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T21:10:44Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Slips Ahead Of Earnings. Report Out Soon. (Live Coverage)",
+   "link": "https://finance.yahoo.com/m/ef40b1a2-2bff-390f-b0d5-c281b4d503ef/nvidia-slips-ahead-of.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T21:10:17Z",
+   "source": "Yahoo Finance",
+   "title": "Prediction: Nvidia Will Be “Forced to Implement Biometric” Kill Switches, Says Jason Calacanis",
+   "link": "https://www.tikr.com/blog/prediction-nvidia-will-be-forced-to-implement-biometric-kill-switches-says-jason-calacanis?ref=yahoofinance&tlnk=yf-261117-cp425qjh&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T21:08:15Z",
+   "source": "Yahoo Finance",
+   "title": "Chime Financial, Stock Of The Day, Eyes A Buy Point As Growth Ramps, Big Debut Looms",
+   "link": "https://finance.yahoo.com/m/17dca0b9-abeb-3c4b-820e-e165d5a02385/chime-financial%2C-stock-of-the.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T21:07:00Z",
+   "source": "Yahoo Finance",
+   "title": "Michael Burry's latest move puts the Nasdaq 100 under scrutiny",
+   "link": "https://www.thestreet.com/investing/stocks/michael-burry-scrutinizes-nasdaq-100-nvidia?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T21:05:24Z",
+   "source": "CNBC",
+   "title": "Nvidia closes lower ahead of earnings as company reels from Huang resignation",
+   "link": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html"
+  },
+  {
+   "published": "2026-11-17T21:04:57Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia earnings scenarios: numbers, guidance, and leadership in focus",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-scenarios-numbers-guidance-210457990.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T21:01:18Z",
+   "source": "Yahoo Finance",
+   "title": "Jensen Huang Would Be “Honored” to Return. JPMorgan Says Only a Proxy Fight Gets Him There",
+   "link": "https://www.tikr.com/blog/jensen-huang-would-be-honored-to-return-jpmorgan-says-only-a-proxy-fight-gets-him-there?ref=yahoofinance&tlnk=yf-261117-w585fqcj&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T20:59:30Z",
+   "source": "Yahoo Finance",
+   "title": "Apple down live: iPhones stop working properly as iCloud taken down by ‘internal update’",
+   "link": "https://www.independent.co.uk/tech/apple-down-not-working-pay-icloud-music-app-store-iphone-status-b3086668.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T20:56:03Z",
+   "source": "Decrypt",
+   "title": "World Bank Taps Circle and Citi to Test Stablecoins for Development Payments",
+   "link": "https://decrypt.co/383485/world-bank-circle-citi-test-stablecoins-development-payments"
+  },
+  {
+   "published": "2026-11-17T20:54:01Z",
+   "source": "Yahoo Finance",
+   "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-205401412.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T20:53:24Z",
+   "source": "CNBC",
+   "title": "FAA pauses installation of new routers after ground stop",
+   "link": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html"
+  },
+  {
+   "published": "2026-11-17T20:51:01Z",
+   "source": "Yahoo Finance",
+   "title": "Update: US Equity Indexes Slump as Investors Lighten Up Ahead of Nvidia's Fiscal Q3 Results",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-slump-investors-205101076.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T20:50:02Z",
+   "source": "Yahoo Finance",
+   "title": "Worried About Nvidia? 3 Artificial Intelligence (AI) Stocks That May Be Safer Buys Right Now",
+   "link": "https://www.fool.com/investing/2026/11/17/worried-about-nvidia-3-artificial-intelligence-ai-stocks-that-may-be-safer-buys-right-now/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T20:47:04Z",
+   "source": "Yahoo Finance",
+   "title": "California AG Rob Bonta Highlights ‘Red Flags’ In His Investigation Into Nvidia And Jensen Huang",
+   "link": "https://stocktwits.com/news-articles/markets/equity/california-ag-rob-bonta-highlights-red-flags-in-his-investigation-into-nvidia-and-jensen-huang/cNbO44MR9hO?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-17T20:46:34Z",
+   "source": "Yahoo Finance",
+   "title": "Why United Natural Foods Rallied Today",
+   "link": "https://www.fool.com/investing/2026/11/17/why-united-natural-foods-rallied-today/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-17T20:43:12Z",
    "source": "Yahoo Finance",
    "title": "Muddy Waters shorts Nvidia, raises questions about possible executive connection",
    "link": "https://finance.yahoo.com/markets/stocks/articles/muddy-waters-shorts-nvidia-raises-204312743.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-17T20:38:19Z",
-   "source": "CNBC",
-   "title": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
-   "link": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html"
-  },
-  {
-   "published": "2026-11-17T20:37:02Z",
+   "published": "2026-11-17T20:43:00Z",
    "source": "Yahoo Finance",
-   "title": "CoreWeave Stock Is Down 70% From Its High. Could a Huge Rebound Come in 2027?",
-   "link": "https://www.fool.com/investing/2026/11/17/coreweave-stock-is-down-70-from-its-high-could-a-huge-rebound-come-in-2027/?.tsrc=rss"
+   "title": "ASUS Showcases Full-Stack AI Infrastructure at SC26, Featuring Intel and AMD Platforms",
+   "link": "https://finance.yahoo.com/technology/ai/articles/asus-showcases-full-stack-ai-204300656.html?.tsrc=rss"
   },
   {
    "published": "2026-11-17T20:36:03Z",
@@ -721,22 +853,10 @@
    "link": "https://decrypt.co/383466/bitcoin-investors-capitulating-historical-bottom-signal"
   },
   {
-   "published": "2026-11-17T20:35:43Z",
-   "source": "Yahoo Finance",
-   "title": "SpaceX “Off Balance Sheet” Debt for AI Chips Hits the Market This Week. Here’s Where Things Get Interesting",
-   "link": "https://www.tikr.com/blog/spacex-off-balance-sheet-debt-for-ai-chips-hits-the-market-this-week-heres-where-things-get-interesting?ref=yahoofinance&tlnk=yf-261117-gxghfqfw&.tsrc=rss"
-  },
-  {
    "published": "2026-11-17T20:31:27Z",
    "source": "CNBC",
    "title": "A generational flight from tech to defensive stocks is underway. How we’re capitalizing",
    "link": "https://www.cnbc.com/investingclub/2026/11/17/a-generational-flight-from-tech-to-defensive-stocks-is-underway-how-were-capitalizing.html"
-  },
-  {
-   "published": "2026-11-17T20:29:02Z",
-   "source": "Yahoo Finance",
-   "title": "Dario Amodei Predicted at Davos in January 2025 That AI Could Surpass Humans “at Almost Everything” Within Two to Three Years. With Anthropic Now Filing for a $1.4 Trillion IPO, Is That Timeline Still",
-   "link": "https://www.fool.com/investing/2026/11/17/dario-amodei-predicted-at-davos-in-january-2025-that-ai-could-surpass-humans-at-almost-everything-within-two-to-three-years-with-anthropic-now-filing-for-a-2-trillion-ipo-is-that-timeline-still-on-track/?.tsrc=rss"
   },
   {
    "published": "2026-11-17T20:28:07Z",
@@ -745,136 +865,16 @@
    "link": "https://www.cnbc.com/2026/11/17/wall-streets-fear-gauge-is-surging-again-and-this-time-its-not-just-about-ai-jitters.html"
   },
   {
-   "published": "2026-11-17T20:25:02Z",
-   "source": "Yahoo Finance",
-   "title": "The Justice Department Is Investigating the Company at the Center of Nvidia’s Jensen Huang Scandal",
-   "link": "https://www.fool.com/investing/2026/11/17/the-justice-department-is-investigating-the-company-at-the-center-of-nvidia-s-jensen-huang-scandal/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T20:25:01Z",
-   "source": "Yahoo Finance",
-   "title": "The Street Wants “$130 Billion in Revenue” From Nvidia’s Guidance Tonight. Options Price a Nearly 7% Move",
-   "link": "https://www.tikr.com/blog/the-street-wants-130-billion-in-revenue-from-nvidias-guidance-tonight-options-price-a-nearly-7-move?ref=yahoofinance&tlnk=yf-261117-cxgpph8g&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T20:22:13Z",
-   "source": "Yahoo Finance",
-   "title": "Why Santacruz Silver Mining Stock Is Rocketing Higher Today",
-   "link": "https://www.fool.com/investing/2026/11/17/why-santacruz-silver-mining-stock-is-rocketing-higher-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T20:21:00Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang Offered to Come Back and Nvidia Gained $90 Billion in 10 Minutes. Here’s What the Stock Did the Last Four Times a Board Took the Boss Back",
-   "link": "https://247wallst.com/investing/2026/11/17/jensen-huang-offered-to-come-back-and-nvidia-gained-90-billion-in-10-minutes-heres-what-the-stock-did-the-last-four-times-a-board-took-the-boss-back/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-17T20:20:07Z",
    "source": "Yahoo Finance",
    "title": "Ken Fisher Portfolio Review: 5 Highest-Conviction Technology Stocks for Long-Term Growth",
    "link": "https://finance.yahoo.com/technology/articles/ken-fisher-portfolio-review-5-202007199.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-17T20:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "4 Dates That Could Move the Stock Market in Epic Fashion This Week. Here's What Investors Need to Know.",
-   "link": "https://www.fool.com/investing/2026/11/17/4-dates-that-could-move-the-stock-market-in-epic-fashion-this-week-here-s-what-investors-need-to-know/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T20:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: SpaceX Stock Could Go Parabolic After Anthropic's IPO. Here's Why.",
-   "link": "https://www.fool.com/investing/2026/11/17/prediction-spacex-stock-could-go-parabolic-after-anthropic-s-ipo-here-s-why/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T20:15:09Z",
-   "source": "Yahoo Finance",
-   "title": "Nike Stock Just Plunged Despite the Company's New Turnaround Plan. Here's What Spooked Investors",
-   "link": "https://www.fool.com/investing/2026/11/17/nike-stock-just-plunged-despite-the-company-s-new-turnaround-plan-then-plunged-here-s-what-spooked-investors/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T20:12:18Z",
-   "source": "Yahoo Finance",
-   "title": "What Is Dell Technologies (DELL) Really Building With Its Latest AI Factory Push?",
-   "link": "https://finance.yahoo.com/technology/ai/articles/dell-technologies-dell-really-building-201218571.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T20:12:14Z",
-   "source": "Yahoo Finance",
-   "title": "Super Micro Computer (SMCI) Is An Initial Partner For A New Rack Scale CPU Platform",
-   "link": "https://finance.yahoo.com/technology/ai/articles/super-micro-computer-smci-initial-201214005.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T20:09:45Z",
-   "source": "Yahoo Finance",
-   "title": "Trump Prepares for Power Flex at Putin-Xi Summit",
-   "link": "https://finance.yahoo.com/video/trump-prepares-power-flex-putin-200945125.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T20:07:20Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Reports in About an Hour. Options Price an 8.5% Move, Twice What the Stock Has Averaged After Its Last 8 Reports",
-   "link": "https://247wallst.com/investing/2026/11/17/nvidia-reports-in-about-an-hour-options-price-an-8-5-move-twice-what-the-stock-has-averaged-after-its-last-8-reports/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-17T20:05:04Z",
    "source": "Cointelegraph",
    "title": "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins",
    "link": "https://cointelegraph.com/news/eastern-europe-crypto-activity-decline-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-17T20:01:12Z",
-   "source": "CNBC",
-   "title": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
-   "link": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html"
-  },
-  {
-   "published": "2026-11-17T20:00:00Z",
-   "source": "Yahoo Finance",
-   "title": "Memo to Nvidia interim CEO Colette Kress: Remind the world why you've been Jensen Huang's CFO for 13-plus years",
-   "link": "https://finance.yahoo.com/markets/stocks/article/memo-to-nvidia-interim-ceo-colette-kress-remind-the-world-why-youve-been-jensen-huangs-cfo-for-13-plus-years-200000740.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T19:58:09Z",
-   "source": "Yahoo Finance",
-   "title": "Could Your Dell Shares Be Worth $906 Or $114?",
-   "link": "https://www.trefis.com/stock/dell/articles/625591/could-your-dell-shares-be-worth-906-or-114/2026-11-17?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T19:46:03Z",
-   "source": "Decrypt",
-   "title": "Cathie Wood's ARK Sells $85 Million in Nvidia, Buys $40 Million in Crypto Stocks",
-   "link": "https://decrypt.co/383463/cathie-wood-ark-sells-85-million-nvidia-buys-crypto-stocks"
-  },
-  {
-   "published": "2026-11-17T19:45:57Z",
-   "source": "CoinDesk",
-   "title": "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade",
-   "link": "https://www.coindesk.com/markets/2026/11/17/coinbase-ceo-says-ai-agents-will-account-for-99-9-of-transactions-within-a-decade"
-  },
-  {
-   "published": "2026-11-17T19:44:59Z",
-   "source": "CNBC",
-   "title": "FAA pauses installation of new routers after ground stop",
-   "link": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html"
-  },
-  {
-   "published": "2026-11-17T19:34:24Z",
-   "source": "Yahoo Finance",
-   "title": "Apple outage today: iCloud and App Store down after a week of big outages",
-   "link": "https://finance.yahoo.com/markets/article/why-apple-is-down-in-a-week-of-outages-from-microsoft-to-chase-193424335.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T19:31:42Z",
-   "source": "Yahoo Finance",
-   "title": "Apple's $1,299 iPhone has a problem updates can't fix",
-   "link": "https://www.thestreet.com/technology/apple-iphone-18-pro-max-connectivity-problem-updates-cant-fix?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T19:29:27Z",
-   "source": "CNBC",
-   "title": "Kalshi takes down controversial Trump 'mention' markets at CFTC's request",
-   "link": "https://www.cnbc.com/2026/11/17/kalshi-takes-down-trump-mention-markets.html"
   }
  ]
 }
