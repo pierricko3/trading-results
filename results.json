@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T00:00:34Z",
+ "generated_at": "2026-11-18T04:00:36Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.77,
   "cash": 99.77,
   "perf_pct": -0.0023,
-  "bench_pct": -0.1275,
+  "bench_pct": -0.1313,
   "drawdown": 0.0046,
   "halted": false,
   "trade_count": 2
@@ -16,45 +16,43 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 64957.76,
-   "trend": "neutre",
-   "score": -0.067,
+   "price": 64400.75,
+   "trend": "baissière",
+   "score": -0.307,
    "news_score": -0.5,
    "news_conf": 0.48,
-   "tech_score": 0.145,
+   "tech_score": -0.389,
    "in_position": false,
    "patterns": [
-    "Avalement baissier",
     "Pendu (retournement possible)",
-    "Avalement baissier"
+    "Avalement baissier",
+    "Avalement haussier"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1825.99,
-   "trend": "neutre",
-   "score": 0.099,
+   "price": 1803.34,
+   "trend": "baissière",
+   "score": -0.173,
    "news_score": 0.0,
    "news_conf": 0.6,
-   "tech_score": 0.22,
+   "tech_score": -0.384,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)",
     "Pendu (retournement possible)",
     "Étoile du matin (retournement haussier)"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 75.22,
+   "price": 74.69,
    "trend": "neutre",
-   "score": -0.083,
+   "score": -0.008,
    "news_score": 0.0,
    "news_conf": 0.48,
-   "tech_score": -0.184,
+   "tech_score": -0.017,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)",
     "Avalement baissier",
     "Pendu (retournement possible)"
    ]
@@ -63,9 +61,9 @@
    "symbol": "NVDA",
    "price": 155.4550018310547,
    "trend": "baissière",
-   "score": -0.188,
-   "news_score": 0.0,
-   "news_conf": 0.5,
+   "score": -0.118,
+   "news_score": 0.308,
+   "news_conf": 0.411,
    "tech_score": -0.417,
    "in_position": false,
    "patterns": [
@@ -76,9 +74,9 @@
    "symbol": "AAPL",
    "price": 351.8999938964844,
    "trend": "haussière",
-   "score": 0.184,
-   "news_score": -0.5,
-   "news_conf": 0.24,
+   "score": -0.014,
+   "news_score": -1.0,
+   "news_conf": 0.48,
    "tech_score": 0.555,
    "in_position": false,
    "patterns": []
@@ -114,11 +112,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794173448,
-   100.0,
-   97.07
-  ],
   [
    1794182430,
    100.0,
@@ -563,6 +556,11 @@
    1794960030,
    99.77,
    87.25
+  ],
+  [
+   1794974430,
+   99.77,
+   86.87
   ]
  ],
  "last_directive": {
@@ -700,184 +698,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-17T23:49:45Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Rise, Techs Jump As Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
-   "link": "https://finance.yahoo.com/m/3b22ed8c-00c3-32f8-89f5-91bc21ccb366/dow-jones-futures-rise%2C-techs.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:46:02Z",
-   "source": "Yahoo Finance",
-   "title": "2 of the Best Dividend Stocks to Buy With $5,000 in November",
-   "link": "https://www.fool.com/investing/2026/11/17/2-of-the-best-dividend-stocks-to-buy-with-usd5-000-in-november/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:44:51Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia's Q3 numbers were pretty good. Its earnings call optics were another story.",
-   "link": "https://finance.yahoo.com/video/nvidias-q3-numbers-were-pretty-good-its-earnings-call-optics-were-another-story-234451647.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:35:58Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia’s 103% Revenue Growth Took a Backseat to Its Internal Drama",
-   "link": "https://www.fool.com/investing/2026/11/17/nvidias-103-revenue-growth-took-a-backseat-to-its-internal-drama/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:34:26Z",
-   "source": "Yahoo Finance",
-   "title": "Billionaire Stanley Druckenmiller Says He's 'Staying Away' From Stocks. Here's What He Bought and Sold Last Quarter",
-   "link": "https://www.fool.com/investing/2026/11/17/billionaire-stanley-druckenmiller-says-he-s-staying-away-from-stocks-here-s-what-he-bought-and-sold-last-quarter/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:33:02Z",
-   "source": "Yahoo Finance",
-   "title": "AI Agents vs. Banks: Who Will Win? I'm Betting on Banks.",
-   "link": "https://www.fool.com/investing/2026/11/17/ai-agents-vs-banks-who-will-win-i-m-betting-on-banks/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:33:00Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia just sent a powerful signal to SpaceX stock investors",
-   "link": "https://www.thestreet.com/investing/stocks/nvidia-spacex-stake-q3-13f?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:32:16Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-doubles-quarterly-revenue-first-215151401.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:30:44Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia earnings special coverage: \"The street wants to believe in Nvidia after Jensen\"",
-   "link": "https://finance.yahoo.com/video/nvidia-earnings-special-coverage-the-street-wants-to-believe-in-nvidia-after-jensen-233044562.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:25:28Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia doubles revenue in third quarter, exceeding expectations",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-doubles-revenue-third-quarter-232528958.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:25:00Z",
-   "source": "Yahoo Finance",
-   "title": "Only 11% of the Power Plants Vistra Just Bought Are in Texas. Here's Why That Matters After the Election.",
-   "link": "https://www.fool.com/investing/2026/11/17/only-11-of-the-power-plants-vistra-just-bought-are/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:24:45Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia says no return for ousted CEO, reports revenue boom",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-earnings-test-ai-boom-014359078.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:22:57Z",
-   "source": "Yahoo Finance",
-   "title": "Why M-tron Industries Topped the Market on Tuesday",
-   "link": "https://www.fool.com/investing/2026/11/17/why-m-tron-industries-topped-the-market-on-tuesday/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "Here’s What $10,000 Invested in MP Materials Could Be Worth by 2030 as EV Demand Accelerates",
-   "link": "https://www.fool.com/investing/2026/11/17/heres-what-10000-invested-in-mp-materials-could-be-worth-by-2030-as-ev-demand-accelerates/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:16:03Z",
-   "source": "Decrypt",
-   "title": "Why Microsoft Thinks Smaller, Cheaper AI Can Beat Claude and GPT",
-   "link": "https://decrypt.co/383468/why-microsoft-thinks-smaller-cheaper-ai-beat-claude-gpt"
-  },
-  {
-   "published": "2026-11-17T23:15:32Z",
-   "source": "Yahoo Finance",
-   "title": "\"We will remain thoughtful\": Nvidia says it will continue to backstop AI ecosystem",
-   "link": "https://www.axios.com/2026/11/17/nvidia-ai-startup-investment-discipline-kress#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:11:07Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia sees strong growth in first earnings report without Huang",
-   "link": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T23:08:38Z",
-   "source": "Yahoo Finance",
-   "title": "NVDA Stock Gains After-Hours: Board Chairman Harvey Jones Confirms Huang Will Not Be Reinstated As Nvidia Puts Forth Expectation-Beating Outlook",
-   "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-board-chairman-harvey-jones-confirms-huang-will-not-be-reinstated-nvidia-outlook-beats/cNbO96fR9hW?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T22:47:00Z",
-   "source": "Yahoo Finance",
-   "title": "National Security Outage Is Just One Reason for Today’s Software Stock Selloff",
-   "link": "https://finance.yahoo.com/m/87274442-810a-3ca3-a85b-4660398273da/national-security-outage-is.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-17T22:39:53Z",
-   "source": "Decrypt",
-   "title": "Nvidia Board Shuts Down Jensen Huang Comeback, Launches Search for New CEO",
-   "link": "https://decrypt.co/383513/nvidia-board-shuts-down-jensen-huang-comeback"
-  },
-  {
-   "published": "2026-11-17T22:37:51Z",
-   "source": "Cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-17T22:20:04Z",
-   "source": "Cointelegraph",
-   "title": "CFTC halts some Kalshi Trump mention markets over manipulation concerns",
-   "link": "https://cointelegraph.com/news/cftc-kalshi-trump-mention-markets-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-17T22:18:18Z",
-   "source": "Decrypt",
-   "title": "Nvidia Shares Rise After Earnings Beat in First Report Since Jensen Huang's Exit",
-   "link": "https://decrypt.co/383505/nvidia-shares-rise-earnings-beat-first-report-jensen-huang-exit"
-  },
-  {
-   "published": "2026-11-17T22:17:44Z",
+   "published": "2026-11-18T03:56:12Z",
    "source": "CNBC",
-   "title": "Nike lays out financial goals ahead of first investor day in 9 years",
-   "link": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html"
+   "title": "Democrat Mary Peltola wins Alaska Senate election",
+   "link": "https://www.cnbc.com/2026/11/18/alaska-senate-mary-peltola-wins-election.html"
   },
   {
-   "published": "2026-11-17T22:03:57Z",
-   "source": "CNBC",
-   "title": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
-   "link": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html"
-  },
-  {
-   "published": "2026-11-17T22:03:49Z",
+   "published": "2026-11-18T03:55:36Z",
    "source": "Yahoo Finance",
-   "title": "Fund Manager Lists Three Reasons He Still Won’t Buy Tesla Stock",
-   "link": "https://stocktwits.com/news-articles/markets/equity/fund-manager-lists-three-reasons-he-still-won-t-buy-tesla-stock/cNbOJB3R9hQ?.tsrc=rss"
+   "title": "Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
+   "link": "https://finance.yahoo.com/m/3b22ed8c-00c3-32f8-89f5-91bc21ccb366/dow-jones-futures%3A-techs-rise.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-17T22:02:05Z",
+   "published": "2026-11-18T03:49:04Z",
    "source": "CNBC",
-   "title": "U.S. officially loses measles elimination status amid ongoing outbreaks",
-   "link": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html"
+   "title": "Putin says EU is losing industry, falling behind competition ahead of meeting with Trump, Xi",
+   "link": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html"
   },
   {
-   "published": "2026-11-17T21:56:35Z",
+   "published": "2026-11-18T03:46:27Z",
+   "source": "Yahoo Finance",
+   "title": "Nasdaq Futures Lead Wall Street Rebound After Nvidia’s Blowout Forecast, Anthropic IPO Looms: SLS, NKE, MU In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-futures-lead-wall-street-rebound-after-nvidia-s-blowout-forecast-anthropic-ipo-looms-sls-nke-mu-in-focus/cNbX828R9hF?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T03:43:05Z",
+   "source": "Yahoo Finance",
+   "title": "Jensen Huang agrees to testify before Senate, Politico reports",
+   "link": "https://finance.yahoo.com/technology/ai/articles/jensen-huang-agrees-testify-senate-034305878.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T03:38:56Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia China access restrictions: these stocks are most exposed",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-china-access-restrictions-stocks-033856534.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T03:30:51Z",
+   "source": "CNBC",
+   "title": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+   "link": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+  },
+  {
+   "published": "2026-11-18T03:30:02Z",
+   "source": "Yahoo Finance",
+   "title": "Broadcom vs. Micron Technology: Which Tech Stock Is the Better Buy for 2027?",
+   "link": "https://www.fool.com/coverage/better-buy/2026/11/17/broadcom-vs-micron-technology-which-tech-stock-is-the-better-buy-for-2027/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T03:25:47Z",
+   "source": "Yahoo Finance",
+   "title": "Asia tech shares turn mixed after Nvidia beat as China chip curbs cloud optimism",
+   "link": "https://finance.yahoo.com/technology/articles/asia-tech-shares-turn-mixed-032547363.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T03:25:32Z",
+   "source": "CNBC",
+   "title": "Three things to watch as Trump, Xi and Putin meet in China",
+   "link": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+  },
+  {
+   "published": "2026-11-18T03:17:55Z",
+   "source": "CNBC",
+   "title": "JPMorgan is working on AI agent transactions that don’t involve humans",
+   "link": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html"
+  },
+  {
+   "published": "2026-11-18T03:14:25Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia’s former sales chief had ties to customers in chip scandal- The Information",
+   "link": "https://finance.yahoo.com/technology/articles/nvidia-former-sales-chief-had-031425596.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T03:14:23Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Stock And 3 AI Semiconductor Picks For The Next Chip Demand Wave",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stock-3-ai-semiconductor-031423325.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T03:11:20Z",
+   "source": "Yahoo Finance",
+   "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Tumble As Customer Shock Clouds AI Outlook",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-nyse-tsm-031120579.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T03:06:02Z",
+   "source": "Yahoo Finance",
+   "title": "A Rocket Failure Just Cost Amazon 40 Internet Satellites. It's Good News for SpaceX, but I'd Still Want a Lower Stock Price.",
+   "link": "https://www.fool.com/investing/2026/11/17/a-rocket-failure-just-cost-amazon-40-internet-satellites-it-s-good-news-for-spacex-but-i-d-still-want-a-lower-stock-price/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T03:04:29Z",
+   "source": "Yahoo Finance",
+   "title": "A Retiree With $400,000 in His 401(k) Tries to Move Money Before Stocks Fall Further. Apple’s Widespread Outage Raises the Stakes of a Missed Trade",
+   "link": "https://247wallst.com/personal-finance/2026/11/17/a-retiree-with-400000-in-his-401k-tries-to-move-money-before-stocks-fall-further-apples-widespread-outage-raises-the-stakes-of-a-missed-trade/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T03:04:00Z",
+   "source": "Yahoo Finance",
+   "title": "UnitedHealth Keeps Raising Guidance. Here's What a $10,000 Investment Could Be Worth if the Turnaround Sticks.",
+   "link": "https://www.fool.com/investing/2026/11/17/unitedhealth-keeps-raising-guidance-heres-what-a-1/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T03:03:09Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic set to price IPO in key test for AI boom",
+   "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-set-price-ipo-key-030309911.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T02:50:16Z",
+   "source": "CNBC",
+   "title": "Zelenskyy says Starshield speed curbs still in place over 'occupied territories' of Ukraine",
+   "link": "https://www.cnbc.com/2026/11/18/ukraine-starshield-starlink-musk-spacex.html"
+  },
+  {
+   "published": "2026-11-18T02:47:19Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Signals AI Financing Flywheel Will Continue, But ‘Disciplined’: Analyst Calls Neoclouds Its ‘Biggest Sustained Bet’ As NBIS, IREN, MRVL Rally",
+   "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-signals-ai-financing-flywheel-will-continue-but-disciplined-analyst-calls-neoclouds-its-biggest-sustained-bet-as-nbis-iren-mrvl-rally/cNbXVSvR9hZ?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T02:45:00Z",
+   "source": "Yahoo Finance",
+   "title": "Stocks drop as booming Nvidia results drowned by spy scandal",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-drop-booming-nvidia-results-024500677.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T02:39:52Z",
    "source": "Cointelegraph",
-   "title": "Maple Finance CEO targets up to $15B in assets by the end of 2027",
-   "link": "https://cointelegraph.com/news/maple-finance-15b-assets-target-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   "title": "Ledger hardware implant saga reaches Dubai’s Virgin Megastore",
+   "link": "https://cointelegraph.com/news/ledger-hardware-implant-saga-reaches-dubais-virgin-megastore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-17T21:54:47Z",
+   "published": "2026-11-18T02:36:16Z",
    "source": "Yahoo Finance",
-   "title": "Apple Pay outage blocks instant crypto purchases",
-   "link": "https://www.thestreet.com/crypto/markets/apple-pay-outage-blocks-instant-crypto-purchases?.tsrc=rss"
+   "title": "Coinbase Exec Says AI IPOs Pulling Money From Bitcoin Is ‘A Reasonable Argument’ As Anthropic Debut Nears",
+   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/coinbase-exec-says-ai-ip-os-pulling-money-from-bitcoin-is-a-reasonable-argument-as-anthropic-debut-nears/cNbXV7cR9hl?.tsrc=rss"
   },
   {
-   "published": "2026-11-17T21:46:02Z",
-   "source": "Decrypt",
-   "title": "OpenAI's GPT 6.2 Astra Challenges Anthropic on Price, But Not Every Benchmark",
-   "link": "https://decrypt.co/383488/openai-gpt-6-2-astra-challenges-anthropic-price-but-not-every-benchmark"
+   "published": "2026-11-18T02:14:57Z",
+   "source": "Yahoo Finance",
+   "title": "3 U.S. AI Chip Stocks Facing Export Rules Investors Should Watch",
+   "link": "https://finance.yahoo.com/technology/ai/articles/3-u-ai-chip-stocks-021457283.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T02:11:24Z",
+   "source": "Yahoo Finance",
+   "title": "Will GPU Edge Launch Change Rockwell Automation's (ROK) Narrative",
+   "link": "https://finance.yahoo.com/technology/ai/articles/gpu-edge-launch-change-rockwell-021124213.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T02:03:18Z",
+   "source": "Yahoo Finance",
+   "title": "Jeff Bezos Warns Outsider CEO Replacing Jensen Huang Faces ‘Vanishingly Small Chance of Succeeding’ at Nvidia: ‘Too Complicated’",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/jeff-bezos-warns-outsider-ceo-020318354.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T02:02:02Z",
+   "source": "CNBC",
+   "title": "LeBron James sues startup over viral AI ad allegedly exploiting his likeness",
+   "link": "https://www.cnbc.com/2026/11/18/lebron-james-startup-ai-lawsuit.html"
+  },
+  {
+   "published": "2026-11-18T01:31:37Z",
+   "source": "CNBC",
+   "title": "OpenAI bugging case defendant Alfozan set for trial in January",
+   "link": "https://www.cnbc.com/2026/11/17/openai-spy-alfozan-trial-saudi.html"
+  },
+  {
+   "published": "2026-11-18T01:18:41Z",
+   "source": "CNBC",
+   "title": "Nvidia takes positive step forward with stronger sales outlook. Here’s our thoughts on the stock",
+   "link": "https://www.cnbc.com/investingclub/2026/11/17/nvidia-takes-positive-step-forward-with-stronger-sales-outlook-heres-our-thoughts-on-the-stock.html"
+  },
+  {
+   "published": "2026-11-18T00:46:25Z",
+   "source": "CoinDesk",
+   "title": "CFTC nominee questions public benefit of prediction markets as legal fight grows",
+   "link": "https://www.coindesk.com/policy/2026/11/17/nominee-says-u-s-cftc-must-think-hard-about-public-benefit-of-prediction-markets"
   }
  ]
 }
