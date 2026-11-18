@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T20:50:46Z",
+ "generated_at": "2026-11-18T21:30:55Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.77,
   "cash": 99.77,
   "perf_pct": -0.0023,
-  "bench_pct": -0.1461,
+  "bench_pct": -0.1453,
   "drawdown": 0.0046,
   "halted": false,
   "trade_count": 2
@@ -16,33 +16,33 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 62538.01,
+   "price": 62450.01,
    "trend": "baissière",
-   "score": -0.291,
-   "news_score": -0.201,
-   "news_conf": 0.355,
+   "score": -0.28,
+   "news_score": -0.176,
+   "news_conf": 0.291,
    "tech_score": -0.56,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1750.8,
+   "price": 1762.55,
    "trend": "baissière",
-   "score": -0.223,
-   "news_score": 0.1,
-   "news_conf": 0.5,
+   "score": -0.233,
+   "news_score": 0.091,
+   "news_conf": 0.333,
    "tech_score": -0.556,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "SOL/USDT",
-   "price": 73.0,
+   "price": 73.11,
    "trend": "neutre",
    "score": 0.007,
    "news_score": 0.0,
-   "news_conf": 0.24,
+   "news_conf": 0.0,
    "tech_score": 0.017,
    "in_position": false,
    "patterns": [
@@ -51,11 +51,11 @@
   },
   {
    "symbol": "NVDA",
-   "price": 150.7899932861328,
+   "price": 150.8699951171875,
    "trend": "baissière",
-   "score": -0.235,
-   "news_score": -0.143,
-   "news_conf": 0.6,
+   "score": -0.188,
+   "news_score": 0.0,
+   "news_conf": 0.0,
    "tech_score": -0.417,
    "in_position": false,
    "patterns": [
@@ -64,22 +64,22 @@
   },
   {
    "symbol": "AAPL",
-   "price": 352.44000244140625,
+   "price": 352.2900085449219,
    "trend": "haussière",
    "score": 0.25,
    "news_score": 0.0,
-   "news_conf": 0.24,
+   "news_conf": 0.0,
    "tech_score": 0.555,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "SPY",
-   "price": 730.3099975585938,
+   "price": 730.3300170898438,
    "trend": "baissière",
-   "score": -0.125,
+   "score": -0.191,
    "news_score": 0.5,
-   "news_conf": 0.48,
+   "news_conf": 0.24,
    "tech_score": -0.571,
    "in_position": false,
    "patterns": []
@@ -104,11 +104,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794254430,
-   100.0,
-   95.84
-  ],
   [
    1794257439,
    100.0,
@@ -553,6 +548,11 @@
    1795035041,
    99.77,
    85.39
+  ],
+  [
+   1795037450,
+   99.77,
+   85.47
   ]
  ],
  "last_directive": {
@@ -566,7 +566,7 @@
    "value": 11,
    "label": "Extreme Fear"
   },
-  "vix": 24.73
+  "vix": 24.56
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -690,10 +690,130 @@
  },
  "headlines": [
   {
+   "published": "2026-11-18T21:28:04Z",
+   "source": "CNBC",
+   "title": "One of AI's most notorious 'doomers' stands to make billions in Anthropic's IPO",
+   "link": "https://www.cnbc.com/2026/11/18/jaan-tallinn-anthropic-ipo-series-a-investment.html"
+  },
+  {
+   "published": "2026-11-18T21:23:53Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Delivers Reassuring Results, Outlook. But Wall Street Split.",
+   "link": "https://finance.yahoo.com/m/7d839da5-898d-3b89-b6a4-ed8b84753cb0/nvidia-delivers-reassuring.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T21:23:44Z",
+   "source": "Yahoo Finance",
+   "title": "US Equity Markets Mixed After Nvidia's Results, Fed's October Minutes",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-nvidia-212344686.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T21:22:04Z",
+   "source": "CNBC",
+   "title": "Anthropic prices IPO at $83 per share, above expected range, source tells CNBC",
+   "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+  },
+  {
+   "published": "2026-11-18T21:20:09Z",
+   "source": "Yahoo Finance",
+   "title": "How major US stock indexes fared Wednesday 11/18/2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-212009825.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T21:16:02Z",
+   "source": "Decrypt",
+   "title": "Palmer Luckey Says He’s Building an Offshore Haven for Industry—And 'Illegal' Medicine",
+   "link": "https://decrypt.co/383576/palmer-luckey-offshore-haven-industry-illegal-medicine"
+  },
+  {
+   "published": "2026-11-18T21:13:58Z",
+   "source": "Cointelegraph",
+   "title": "Ledger warns Berlin customers as hardware wallet tampering investigation expands",
+   "link": "https://cointelegraph.com/news/ledger-warns-berlin-customers-hardware-wallet-investigation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-18T21:08:00Z",
+   "source": "Yahoo Finance",
+   "title": "Taiwan Semiconductor Stock (TSM) Looks Too Cheap for Its Growth Outlook",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-stock-tsm-looks-210800765.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T21:07:42Z",
+   "source": "Yahoo Finance",
+   "title": "How Much Upside Is Left In Micron Stock?",
+   "link": "https://www.trefis.com/stock/mu/articles/626211/how-much-upside-is-left-in-micron-stock-2/2026-11-18?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T21:07:15Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious.",
+   "link": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T21:06:49Z",
+   "source": "CNBC",
+   "title": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren",
+   "link": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html"
+  },
+  {
+   "published": "2026-11-18T21:05:58Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic IPO Watch: AI Firm Expected To Price Offering In Final Step",
+   "link": "https://finance.yahoo.com/m/19e6a24e-e872-3da0-a61b-e5e7592a0f86/anthropic-ipo-watch%3A-ai-firm.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T21:04:10Z",
+   "source": "Yahoo Finance",
+   "title": "Apple Stock Polishes Breakout As Nvidia-Led AI Boom Gets Wake-Up Call",
+   "link": "https://finance.yahoo.com/m/681ca0c6-76b1-321b-bdd4-bb83acc818fb/apple-stock-polishes-breakout.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T21:04:02Z",
+   "source": "Yahoo Finance",
+   "title": "Elon Musk Says Earth’s Data Centers Are “Peanuts” Next to SpaceX’s Orbital Plans. Here’s the Math to Run Before Believing Him",
+   "link": "https://www.fool.com/investing/2026/11/18/elon-musk-says-earths-data-centers-are-peanuts-next-to-spacexs-orbital-plans-heres-the-math-to-run-before-believing-him/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T21:00:00Z",
+   "source": "Yahoo Finance",
+   "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+   "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T20:55:25Z",
+   "source": "Yahoo Finance",
+   "title": "What Sent Intel Stock Lower Since May?",
+   "link": "https://www.trefis.com/stock/intc/articles/626180/what-sent-intel-stock-lower-since-may/2026-11-18?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T20:52:07Z",
+   "source": "Yahoo Finance",
+   "title": "Update: US Equity Indexes Mixed as Nvidia Undermines Risk Sentiment, Fed Minutes Favor Policy Tightening",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-nvidia-205207511.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T20:50:02Z",
+   "source": "Yahoo Finance",
+   "title": "Here’s What a $1,000 Investment in Alphabet Stock Could Be Worth by 2035",
+   "link": "https://www.fool.com/investing/2026/11/18/here-s-what-a-usd1-000-investment-in-alphabet-stock-could-be-worth-by-2035/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T20:43:47Z",
+   "source": "Yahoo Finance",
+   "title": "CoreWeave Stock Forecast: Can Nvidia’s AI Boom Drive More Gains?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-stock-forecast-nvidia-ai-204347762.html?.tsrc=rss"
+  },
+  {
    "published": "2026-11-18T20:43:16Z",
    "source": "Yahoo Finance",
    "title": "Sector Update: Tech Stocks Retreat Late Afternoon",
    "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-retreat-afternoon-204316548.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T20:42:33Z",
+   "source": "Yahoo Finance",
+   "title": "Why Beta Technologies Stock Lost Altitude Today",
+   "link": "https://www.fool.com/investing/2026/11/18/why-beta-technologies-stock-lost-altitude-today/?.tsrc=rss"
   },
   {
    "published": "2026-11-18T20:41:11Z",
@@ -702,34 +822,22 @@
    "link": "https://finance.yahoo.com/technology/ai/articles/dan-ives-top-5-ai-204111527.html?.tsrc=rss"
   },
   {
+   "published": "2026-11-18T20:41:02Z",
+   "source": "Yahoo Finance",
+   "title": "Is Micron Undervalued?",
+   "link": "https://www.fool.com/investing/2026/11/18/is-micron-undervalued/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-18T20:39:22Z",
+   "source": "Yahoo Finance",
+   "title": "Arm CEO Haas Approached by Nvidia Board's Recruitment Firm",
+   "link": "https://finance.yahoo.com/video/arm-ceo-haas-approached-nvidia-203922543.html?.tsrc=rss"
+  },
+  {
    "published": "2026-11-18T20:32:06Z",
    "source": "Cointelegraph",
    "title": "Bain Capital Crypto leads $110M Variational round at $1.5B valuation",
    "link": "https://cointelegraph.com/news/variational-series-b-bain-capital-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-18T20:26:19Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia's interim CEO Colette Kress has taken over one of the most consequential companies on the planet; those who know her say she's up to the task",
-   "link": "https://finance.yahoo.com/technology/article/nvidias-interim-ceo-colette-kress-has-taken-over-one-of-the-most-consequential-companies-on-the-planet-those-who-know-her-say-shes-up-to-the-task-202619183.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T20:25:47Z",
-   "source": "Yahoo Finance",
-   "title": "IREN, CoreWeave and Nebius Stock Prices Have Plunged More Than 60%. Here's What It Means for AI Investors",
-   "link": "https://www.fool.com/investing/2026/11/18/iren-coreweave-and-nebius-stock-prices-have-plunged-more-than-60-here-s-what-it-means-for-ai-investors/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T20:25:02Z",
-   "source": "Yahoo Finance",
-   "title": "Alphabet is Buying Around $10 Billion More Anthropic Shares on Day 1. Should You Follow?",
-   "link": "https://www.fool.com/investing/2026/11/18/alphabet-is-buying-around-usd10-billion-more-anthropic-shares-on-day-1-should-you-follow/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T20:21:07Z",
-   "source": "CNBC",
-   "title": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren",
-   "link": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html"
   },
   {
    "published": "2026-11-18T20:20:37Z",
@@ -738,28 +846,10 @@
    "link": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-18T20:20:35Z",
-   "source": "CNBC",
-   "title": "Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say",
-   "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
-  },
-  {
-   "published": "2026-11-18T20:17:02Z",
-   "source": "Yahoo Finance",
-   "title": "SpaceX Is Now Nvidia's Biggest Stock Holding, Ahead of Intel. Here's What That Says About SpaceX.",
-   "link": "https://www.fool.com/investing/2026/11/18/spacex-is-now-nvidia-s-biggest-stock-holding-ahead-of-intel-here-s-what-that-says-about-spacex/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-18T20:16:02Z",
    "source": "Decrypt",
    "title": "Google's Genie 4 Is Here, Letting Ultra Subscribers Build AI Worlds in Real Time",
    "link": "https://decrypt.co/383572/google-genie-4-ultra-subscribers-build-ai-worlds-real-time"
-  },
-  {
-   "published": "2026-11-18T20:15:32Z",
-   "source": "Yahoo Finance",
-   "title": "Stock Market Today: Dow Drops On Heightened Fed Rate-Hike Fears; Palo Alto Jumps (Live Coverage)",
-   "link": "https://finance.yahoo.com/m/3b6d51d3-7bfb-3b08-a92e-3b70e9f0655b/stock-market-today%3A-dow-drops.html?.tsrc=rss"
   },
   {
    "published": "2026-11-18T20:10:07Z",
@@ -774,100 +864,10 @@
    "link": "https://finance.yahoo.com/markets/stocks/articles/funds-semiconductor-exposure-best-capture-200931859.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-18T20:07:01Z",
-   "source": "Yahoo Finance",
-   "title": "Why Isn’t Alphabet Stock Taking Off After Reporting Record Cloud Growth?",
-   "link": "https://www.fool.com/investing/2026/11/18/why-isn-t-alphabet-stock-taking-off-after-reporting-record-cloud-growth/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T20:05:02Z",
-   "source": "Yahoo Finance",
-   "title": "The Best Recession-Proof Consumer Stock to Buy With $1,000 Before 2027",
-   "link": "https://www.fool.com/investing/2026/11/18/the-best-recession-proof-consumer-stock-to-buy-with-1000-before-2027/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T20:03:09Z",
-   "source": "Yahoo Finance",
-   "title": "NVIDIA Is Near Its 52-Week Low. Will NVDA Stock Hit $100 or $200 First?",
-   "link": "https://247wallst.com/investing/2026/11/18/nvidia-is-near-its-52-week-low-will-nvda-stock-hit-100-or-200-first/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T20:00:07Z",
-   "source": "Yahoo Finance",
-   "title": "Bessent Wants an Outside CEO. Brad Gerstner Says Nvidia Should Wait on Jensen Huang",
-   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63409363/nvidia-ceo-search?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T19:59:00Z",
-   "source": "Yahoo Finance",
-   "title": "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves",
-   "link": "https://www.wsj.com/finance/commodities-futures/stock-futures-rally-as-nvidia-earnings-calm-ai-trade-fears-96f51546?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T19:54:34Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia's $332 Billion AI Cloud Bet Has a Second Act",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidias-332-billion-ai-cloud-195434158.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T19:52:03Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Revamps Its Growth Forecast as the CEO Search Goes On",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-revamps-growth-forecast-ceo-195203199.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T19:51:47Z",
-   "source": "Yahoo Finance",
-   "title": "What's Going On With Nvidia Stock Wednesday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/whats-going-nvidia-stock-wednesday-195147658.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-18T19:50:25Z",
    "source": "Yahoo Finance",
    "title": "Could Qualcomm Actually Climb 85%? Or Is Baird Totally Wrong?",
    "link": "https://www.tikr.com/blog/could-qualcomm-actually-climb-85-or-is-baird-totally-wrong?ref=yahoofinance&tlnk=yf-261118-fj25pvqf&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T19:50:00Z",
-   "source": "Yahoo Finance",
-   "title": "Warren Buffett's Most Valuable Bear Market Wisdom Every Investor Should Hear",
-   "link": "https://www.fool.com/investing/2026/11/18/warren-buffett-most-valuable-bear-market-wisdom/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T19:49:45Z",
-   "source": "Yahoo Finance",
-   "title": "'Sending a message': Nvidia signals more cautious stance on China after Huang's departure",
-   "link": "https://finance.yahoo.com/technology/article/sending-a-message-nvidia-signals-more-cautious-stance-on-china-after-huangs-departure-194945165.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T19:47:05Z",
-   "source": "CNBC",
-   "title": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
-   "link": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
-  },
-  {
-   "published": "2026-11-18T19:47:01Z",
-   "source": "Yahoo Finance",
-   "title": "Is Realty Income the Easiest Way to Collect Monthly Income in 2027?",
-   "link": "https://www.fool.com/investing/2026/11/18/is-realty-income-the-easiest-way-to-collect-monthly-income-in-2027/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-18T19:46:12Z",
-   "source": "CNBC",
-   "title": "Why Anthropic's hot IPO is bringing out sellers — plus, a silver lining of the down market",
-   "link": "https://www.cnbc.com/investingclub/2026/11/18/why-anthropics-hot-ipo-is-bringing-out-sellers-plus-a-down-market-silver-lining.html"
-  },
-  {
-   "published": "2026-11-18T19:46:02Z",
-   "source": "Decrypt",
-   "title": "Why CoinShares Just Sold All Its Ethereum and Half Its Solana",
-   "link": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana"
-  },
-  {
-   "published": "2026-11-18T19:41:59Z",
-   "source": "CNBC",
-   "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-   "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
   }
  ]
 }
