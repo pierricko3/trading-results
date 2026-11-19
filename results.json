@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T08:00:35Z",
+ "generated_at": "2026-11-19T12:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.77,
   "cash": 99.77,
   "perf_pct": -0.0023,
-  "bench_pct": -0.1362,
+  "bench_pct": -0.1363,
   "drawdown": 0.0046,
   "halted": false,
   "trade_count": 2
@@ -16,12 +16,12 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 63717.61,
+   "price": 63824.01,
    "trend": "baissière",
-   "score": -0.197,
-   "news_score": -0.25,
-   "news_conf": 0.36,
-   "tech_score": -0.327,
+   "score": -0.14,
+   "news_score": 0.2,
+   "news_conf": 0.6,
+   "tech_score": -0.457,
    "in_position": false,
    "patterns": [
     "Marteau (rebond possible)",
@@ -30,12 +30,12 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1804.24,
-   "trend": "baissière",
-   "score": -0.221,
+   "price": 1804.41,
+   "trend": "neutre",
+   "score": -0.024,
    "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": -0.455,
+   "tech_score": -0.017,
    "in_position": false,
    "patterns": [
     "Avalement haussier"
@@ -43,12 +43,12 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 74.91,
+   "price": 74.72,
    "trend": "neutre",
-   "score": 0.052,
-   "news_score": 0.0,
-   "news_conf": 0.0,
-   "tech_score": 0.115,
+   "score": 0.042,
+   "news_score": 0.25,
+   "news_conf": 0.12,
+   "tech_score": 0.056,
    "in_position": false,
    "patterns": [
     "Avalement haussier"
@@ -58,9 +58,9 @@
    "symbol": "NVDA",
    "price": 150.8699951171875,
    "trend": "baissière",
-   "score": -0.23,
-   "news_score": 0.0,
-   "news_conf": 0.48,
+   "score": 0.101,
+   "news_score": 1.0,
+   "news_conf": 0.6,
    "tech_score": -0.51,
    "in_position": false,
    "patterns": [
@@ -71,9 +71,9 @@
    "symbol": "AAPL",
    "price": 352.2900085449219,
    "trend": "haussière",
-   "score": 0.347,
-   "news_score": 0.0,
-   "news_conf": 0.0,
+   "score": 0.363,
+   "news_score": 0.25,
+   "news_conf": 0.12,
    "tech_score": 0.77,
    "in_position": false,
    "patterns": [
@@ -84,9 +84,9 @@
    "symbol": "SPY",
    "price": 730.3300170898438,
    "trend": "baissière",
-   "score": -0.262,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": -0.279,
+   "news_score": -0.25,
+   "news_conf": 0.12,
    "tech_score": -0.583,
    "in_position": false,
    "patterns": []
@@ -111,11 +111,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794297630,
-   100.0,
-   95.66
-  ],
   [
    1794312030,
    100.0,
@@ -560,6 +555,11 @@
    1795075230,
    99.77,
    86.38
+  ],
+  [
+   1795089630,
+   99.77,
+   86.37
   ]
  ],
  "last_directive": {
@@ -573,7 +573,7 @@
    "value": 10,
    "label": "Extreme Fear"
   },
-  "vix": 24.56
+  "vix": 21.98
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -697,184 +697,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-19T07:50:02Z",
+   "published": "2026-11-19T11:43:04Z",
    "source": "Yahoo Finance",
-   "title": "If a Stock Market Crash Is Coming, History Says This 1 Investing Move Has Never Once Failed",
-   "link": "https://www.fool.com/investing/2026/11/19/if-a-stock-market-crash-is-coming-history-says-this-1-investing-move-has-never-once-failed/?.tsrc=rss"
+   "title": "Dow Jones Futures Rise, Techs Jump 2%: Anthropic To Debut After Strong IPO; Palo Alto, Everpure Rally On Earnings",
+   "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%2C-techs.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T07:38:29Z",
+   "published": "2026-11-19T11:35:02Z",
+   "source": "Yahoo Finance",
+   "title": "Jim Cramer Isn't Buying SpaceX Stock Yet. Cathie Wood Keeps Buying. Here’s Who’s Right.",
+   "link": "https://www.fool.com/investing/2026/11/19/jim-cramer-not-buying-spacex-stock-cathie-wood-buying-who-is-right/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T11:34:52Z",
+   "source": "Yahoo Finance",
+   "title": "AGG Lost Money Over 5 Years. Is 60/40 Broken?",
+   "link": "https://www.trefis.com/stock/agg/articles/624819/agg-lost-money-over-5-years-is-60-40-broken/2026-11-19?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T11:34:24Z",
    "source": "CNBC",
-   "title": "Takaichi gets chilly reception in China on first Japan leader visit since 2019",
-   "link": "https://www.cnbc.com/2026/11/19/japan-china-trump-takaichi-taiwan-.html"
+   "title": "Data center electricity use could double by 2030, IEA says",
+   "link": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html"
   },
   {
-   "published": "2026-11-19T07:38:02Z",
+   "published": "2026-11-19T11:32:02Z",
    "source": "Yahoo Finance",
-   "title": "‘Near Zero Chance’: Gary Black Explains Why Nvidia Board Won’t Reconsider Jensen Huang, Crypto Bettors See This Outcome",
-   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63418572/gary-black-nvidia-jensen-huang-ceo-polymarket?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+   "title": "This \"Unstoppable\" Cryptocurrency Is Ready to Deliver Massive Gains in 2027",
+   "link": "https://www.fool.com/investing/2026/11/19/this-unstoppable-cryptocurrency-is-ready-to-deliver-massive-gains-in-2027/?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T07:32:56Z",
-   "source": "CNBC",
-   "title": "APEC final day in photos: Trump, Xi and Putin shake hands; Takaichi kept at a distance",
-   "link": "https://www.cnbc.com/2026/11/19/trump-xi-putin-photos-us-china-russia-trilateral-.html"
+   "published": "2026-11-19T11:30:00Z",
+   "source": "CoinDesk",
+   "title": "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk",
+   "link": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk"
   },
   {
-   "published": "2026-11-19T07:25:02Z",
+   "published": "2026-11-19T11:27:35Z",
    "source": "Yahoo Finance",
-   "title": "3 Energy Stocks to Buy Before 2026 Ends That Could Help You Make a Fortune",
-   "link": "https://www.fool.com/investing/2026/11/19/3-energy-stocks-to-buy-before-2026-ends-that-could-help-you-make-a-fortune/?.tsrc=rss"
+   "title": "Can Apple Grow Cash Flow 17% a Year? That’s What Its Record Price Implies",
+   "link": "https://www.tikr.com/blog/can-apple-grow-cash-flow-17-a-year-thats-what-its-record-price-implies?ref=yahoofinance&tlnk=yf-261119-c3pv52h9&.tsrc=rss"
   },
   {
-   "published": "2026-11-19T07:16:21Z",
+   "published": "2026-11-19T11:23:02Z",
    "source": "Yahoo Finance",
-   "title": "Tech firms rise after record Anthropic IPO but Nvidia casts shadow",
+   "title": "Should You Buy Micron Technology Stock While It's Under $1,000? The Answer Might Surprise You.",
+   "link": "https://www.fool.com/investing/2026/11/19/should-buy-micron-technology-stock-under-usd1-000-answer-surprise/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T11:22:27Z",
+   "source": "Yahoo Finance",
+   "title": "$1 Million In Cash Five Years Ago: What Is It Worth Now?",
+   "link": "https://www.trefis.com/stock/shv/articles/626573/1-million-in-cash-five-years-ago-what-is-it-worth-now/2026-11-19?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T11:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "Not Bitcoin. Not Ethereum. This Could Be the Best Cryptocurrency to Hold During the Next 5 Years.",
+   "link": "https://www.fool.com/investing/2026/11/19/not-bitcoin-not-ethereum-this-could-be-the-best-cryptocurrency-to-hold-over-the-next-5-years/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T11:19:58Z",
+   "source": "Cointelegraph",
+   "title": "Sweden’s H100 could tap Bitcoin trading pool to fund share buybacks",
+   "link": "https://cointelegraph.com/news/swedens-h100-13m-q3-loss-share-buyback-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-19T11:19:32Z",
+   "source": "Yahoo Finance",
+   "title": "Tech stocks rise as Anthropic to start trading after record IPO",
    "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-drop-anthropics-record-025108034.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T07:12:35Z",
+   "published": "2026-11-19T11:17:05Z",
    "source": "Yahoo Finance",
-   "title": "Does AI Workflow Launch Change The Bull Case For Box (BOX)?",
-   "link": "https://finance.yahoo.com/technology/ai/articles/does-ai-workflow-launch-change-071235295.html?.tsrc=rss"
+   "title": "Anthropic Raises Record $107 Billion Despite Tech Sell-Off",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-raises-record-107-billion-111705751.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T07:08:31Z",
+   "published": "2026-11-19T11:15:08Z",
+   "source": "Decrypt",
+   "title": "GameStop CEO Says Digital-Only Games Have ‘Hurt Consumers’ as GTA 6 Skips Discs",
+   "link": "https://decrypt.co/383600/gamestop-ceo-says-digital-only-games-have-hurt-consumers-as-gta-6-skips-discs"
+  },
+  {
+   "published": "2026-11-19T11:15:00Z",
    "source": "Yahoo Finance",
-   "title": "Taiwan stocks plunge 4.6% as AI rout deepens; chip and PCB shares hit limit-down",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-stocks-plunge-4-6-070831391.html?.tsrc=rss"
+   "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+   "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T06:50:01Z",
+   "published": "2026-11-19T11:13:05Z",
    "source": "Yahoo Finance",
-   "title": "Planet Labs Teams Up With Stoke Space -- Just In Case SpaceX Really Retires the Falcon 9",
-   "link": "https://www.fool.com/investing/2026/11/19/planet-labs-teams-up-with-stoke-space-just-in-case-spacex-really-retires-the-falcon-9/?.tsrc=rss"
+   "title": "Your Nvidia Weight Sets How Much A Fall Hurts",
+   "link": "https://www.trefis.com/stock/nvda/articles/626647/your-nvidia-weight-sets-how-much-a-fall-hurts/2026-11-19?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T06:33:56Z",
+   "published": "2026-11-19T11:13:05Z",
    "source": "Yahoo Finance",
-   "title": "Is Summit Insights Wrong to Give Up on NVIDIA? Wall Street Still Sees $251",
-   "link": "https://www.tikr.com/blog/is-summit-insights-wrong-to-give-up-on-nvidia-wall-street-still-sees-251?ref=yahoofinance&tlnk=yf-261119-26g4w6wq&.tsrc=rss"
+   "title": "Why Is Alphabet Stock Down 30%?",
+   "link": "https://www.trefis.com/stock/googl/articles/626522/why-is-alphabet-stock-down-30/2026-11-19?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T06:29:34Z",
-   "source": "CNBC",
-   "title": "Trump holds talks separately with Putin and Xi ahead of their historic trilateral meeting",
-   "link": "https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html"
-  },
-  {
-   "published": "2026-11-19T06:25:59Z",
+   "published": "2026-11-19T11:10:36Z",
    "source": "Yahoo Finance",
-   "title": "Kevin O’Leary Sees No Way Back for Jensen Huang at Nvidia: ‘Forget About the Affairs...There’s Another Problem’",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/kevin-o-leary-sees-no-062559128.html?.tsrc=rss"
+   "title": "Michael Burry Sounds Alarm on Nvidia's $500 Billion Wall Street Financing Plan",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sounds-alarm-nvidias-111036378.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T06:23:19Z",
+   "published": "2026-11-19T11:10:14Z",
+   "source": "Yahoo Finance",
+   "title": "Elon Musk Says Nvidia May Struggle to Replace Jensen Huang as CEO",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-nvidia-may-111014337.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T11:08:59Z",
+   "source": "Yahoo Finance",
+   "title": "Should I Buy Humana Stock Now?",
+   "link": "https://www.trefis.com/stock/hum/articles/626742/should-i-buy-humana-stock-now/2026-11-19?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T11:07:32Z",
+   "source": "Yahoo Finance",
+   "title": "CoreWeave, Nebius and IREN Stocks Rise Ahead of Anthropic Debut",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-nebius-iren-stocks-rise-110732326.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T11:06:34Z",
+   "source": "Yahoo Finance",
+   "title": "iShares Russell 3000 ETF (IWV) Buys $10.5 Million More Apple on Nov. 17",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-3000-etf-iwv-110634387.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T11:06:13Z",
    "source": "CoinDesk",
-   "title": "Fed's rate hike push may be a mistake. Here's why",
-   "link": "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue"
+   "title": "Anthropic’s $107 billion sale set to top SpaceX’s IPO as tokenized stocks gain traction",
+   "link": "https://www.coindesk.com/markets/2026/11/19/anthropic-s-usd107-billion-raise-set-to-surpass-spacex-s-ipo-haul"
   },
   {
-   "published": "2026-11-19T06:20:00Z",
+   "published": "2026-11-19T11:05:57Z",
    "source": "Yahoo Finance",
-   "title": "Moderna's Cancer Vaccine Worked -- and the Stock Plunged Anyway. Here's What Investors Are Missing.",
-   "link": "https://www.fool.com/investing/2026/11/19/modernas-cancer-vaccine-worked-and-the-stock-plung/?.tsrc=rss"
+   "title": "JPMorgan Nasdaq Equity Premium Income (JEPQ) Adds Apple and Microsoft on Nov. 17",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-nasdaq-equity-premium-income-110557529.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T06:10:52Z",
+   "published": "2026-11-19T11:05:19Z",
    "source": "Yahoo Finance",
-   "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63418031/stock-market-will-sp-500-open-up-or-down-today-81?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+   "title": "iShares Russell 1000 Growth (IWF) Buys $26.7 Million More NVIDIA on Nov. 17",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-1000-growth-iwf-110519538.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T06:07:29Z",
-   "source": "CNBC",
-   "title": "Musk accuses Zelenskyy of lying about Starshield restrictions in Ukraine",
-   "link": "https://www.cnbc.com/2026/11/19/elon-musk-zelenskyy-starshield-ukraine.html"
-  },
-  {
-   "published": "2026-11-19T06:02:09Z",
+   "published": "2026-11-19T11:05:12Z",
    "source": "Yahoo Finance",
-   "title": "Michaël Van De Poppe Says BTC Demand Will Come After Liquidity Is Sucked Into Anthropic IPO — Critics Dispute Mega-IPO Squeeze Narrative",
-   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/michael-van-de-poppe-says-btc-demand-will-come-after-liquidity-is-sucked-into-anthropic-ipo-critics-dispute-mega-ipo-squeeze-narrative/cNbLzDOR9ij?.tsrc=rss"
+   "title": "What Proshares Trust (TQQQ) Bought: Apple Leads on Nov. 17",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/proshares-trust-tqqq-bought-apple-110512618.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T06:00:00Z",
-   "source": "Cointelegraph",
-   "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
-   "link": "https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-19T06:00:00Z",
-   "source": "Cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-19T05:53:05Z",
+   "published": "2026-11-19T11:04:45Z",
    "source": "Yahoo Finance",
-   "title": "Anthropic's record IPO lands as Nvidia suffers its worst run since 2008",
-   "link": "https://www.euronews.com/2026/11/19/anthropics-record-ipo-lands-as-nvidia-suffers-its-worst-run-since-2008?.tsrc=rss"
+   "title": "What State Street Technology SPDR (XLK) Sold: Apple Leads on Nov. 17",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-technology-spdr-xlk-110445792.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T05:47:57Z",
+   "published": "2026-11-19T11:04:41Z",
    "source": "Yahoo Finance",
-   "title": "Anthropic’s Cash Pile Tops Amazon And Nvidia Combined After Record IPO – Meet The New ETF Tracking ANT-Linked Companies",
-   "link": "https://stocktwits.com/news-articles/markets/equity/anthropic-s-cash-pile-tops-amazon-and-nvidia-combined-after-record-ipo-meet-the-new-etf-tracking-ant-linked-companies/cNbLyKgR9i1?.tsrc=rss"
+   "title": "Direxion Daily Tech Bull 3X (TECL) Sells $56.5 Million of Apple on Nov. 17",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/direxion-daily-tech-bull-3x-110441100.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T05:39:30Z",
+   "published": "2026-11-19T11:04:21Z",
    "source": "Yahoo Finance",
-   "title": "Why Anthropic Could Be a $5 Trillion Company By 2030",
-   "link": "https://www.fool.com/investing/2026/11/19/why-anthropic-could-be-a-usd5-trillion-by-2030/?.tsrc=rss"
+   "title": "What iShares Core S&P 500 ETF (IVV) Bought: Apple Leads on Nov. 17",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-core-p-500-etf-110421328.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T05:39:06Z",
-   "source": "CoinDesk",
-   "title": "Ethereum block builders received the most in a $3.4 million vault hack, data shows",
-   "link": "https://www.coindesk.com/tech/2026/11/19/ethereum-block-builders-received-the-most-in-a-usd3-4-million-vault-hack-data-shows"
-  },
-  {
-   "published": "2026-11-19T05:35:55Z",
+   "published": "2026-11-19T11:04:14Z",
    "source": "Yahoo Finance",
-   "title": "Anthropic to begin trading after record-breaking market debut tops SpaceX record",
-   "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-set-price-ipo-key-030309911.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T05:27:45Z",
-   "source": "Cointelegraph",
-   "title": "Senators warn GENIUS Act rules could push stablecoin firms toward federal oversight",
-   "link": "https://cointelegraph.com/news/us-senators-genius-act-rules-favor-federal-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-19T05:21:02Z",
-   "source": "Yahoo Finance",
-   "title": "Should You Buy Take-Two Interactive After the GTA VI Release?",
-   "link": "https://www.fool.com/investing/2026/11/19/should-you-buy-take-two-interactive-after-gta-vi-release/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T05:15:05Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia (NVDA) Rules Out Jensen Huang Return As Record Q3 Reshapes Leadership",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-rules-jensen-huang-051505790.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T05:09:45Z",
-   "source": "Cointelegraph",
-   "title": "Binance hackers stole 192 tokens across 11 networks, court docs show",
-   "link": "https://cointelegraph.com/news/binance-hackers-stole-192-tokens-across-11-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-19T05:05:53Z",
-   "source": "Yahoo Finance",
-   "title": "Asia stocks slide as Taiwan drops 4%, AI jitters blunt Anthropic IPO optimism",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-slide-taiwan-drops-050553675.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T05:00:38Z",
-   "source": "Yahoo Finance",
-   "title": "Asian stocks are mixed and US futures climb ahead of Anthropic's blockbuster IPO",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-mixed-us-futures-050038678.html?.tsrc=rss"
+   "title": "SPDR S&P 500 ETF (SPY) Adds Apple and Nvidia on Nov. 17",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110414065.html?.tsrc=rss"
   }
  ]
 }
