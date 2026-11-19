@@ -1,22 +1,22 @@
 {
- "generated_at": "2026-11-19T20:50:46Z",
+ "generated_at": "2026-11-19T21:30:55Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 99.73,
+  "equity": 99.75,
   "cash": 81.15,
-  "perf_pct": -0.0027,
-  "bench_pct": -0.1531,
-  "drawdown": 0.0051,
+  "perf_pct": -0.0025,
+  "bench_pct": -0.1583,
+  "drawdown": 0.0049,
   "halted": false,
   "trade_count": 3
  },
  "positions": [
   {
    "symbol": "AAPL",
-   "value": 18.58,
-   "pnl_pct": -0.0025,
+   "value": 18.6,
+   "pnl_pct": -0.0014,
    "entry_price": 349.5888,
    "stop": 326.1751
   }
@@ -24,7 +24,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 62236.0,
+   "price": 61568.39,
    "trend": "baissière",
    "score": -0.293,
    "news_score": 0.25,
@@ -38,7 +38,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1764.36,
+   "price": 1744.91,
    "trend": "baissière",
    "score": -0.252,
    "news_score": 0.25,
@@ -51,7 +51,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 73.1,
+   "price": 72.48,
    "trend": "neutre",
    "score": 0.087,
    "news_score": 0.5,
@@ -64,10 +64,10 @@
   },
   {
    "symbol": "NVDA",
-   "price": 147.32000732421875,
+   "price": 146.0,
    "trend": "baissière",
-   "score": -0.081,
-   "news_score": 0.75,
+   "score": -0.18,
+   "news_score": 0.25,
    "news_conf": 0.36,
    "tech_score": -0.51,
    "in_position": false,
@@ -77,7 +77,7 @@
   },
   {
    "symbol": "AAPL",
-   "price": 348.70001220703125,
+   "price": 349.1099853515625,
    "trend": "haussière",
    "score": 0.347,
    "news_score": 0.0,
@@ -90,7 +90,7 @@
   },
   {
    "symbol": "SPY",
-   "price": 717.5,
+   "price": 715.780029296875,
    "trend": "baissière",
    "score": -0.213,
    "news_score": 0.25,
@@ -127,11 +127,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794343839,
-   100.0,
-   93.75
-  ],
   [
    1794346249,
    100.0,
@@ -576,6 +571,11 @@
    1795121440,
    99.73,
    84.69
+  ],
+  [
+   1795123850,
+   99.75,
+   84.17
   ]
  ],
  "last_directive": {
@@ -589,14 +589,14 @@
    "value": 10,
    "label": "Extreme Fear"
   },
-  "vix": 28.42
+  "vix": 28.44
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 38,
-  "pending": 2,
-  "hit_rate": 0.5263157894736842,
-  "mean_signed": 0.007648320438259052,
+  "n": 40,
+  "pending": 0,
+  "hit_rate": 0.55,
+  "mean_signed": 0.007737621095480984,
   "enough": true,
   "min_sample": 20,
   "by_symbol": {
@@ -609,19 +609,23 @@
     "hit_rate": 0.25
    },
    "BTC/USDT": {
-    "n": 13,
-    "hit_rate": 0.7692307692307693
+    "n": 14,
+    "hit_rate": 0.7857142857142857
    },
    "NVDA": {
     "n": 16,
     "hit_rate": 0.4375
+   },
+   "ETH/USDT": {
+    "n": 1,
+    "hit_rate": 1.0
    }
   }
  },
  "costs": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 99.72656767047339,
+  "equity": 99.74840720496563,
   "profiles": {
    "crypto": "Kraken, ordres au marché",
    "stock": "Alpaca, actions et ETF américains"
@@ -629,12 +633,12 @@
   "fees": 0.0,
   "slippage": 0.02919366276808947,
   "fees_pct_capital": 0.0,
-  "gross_pl": -0.2442386667585242,
-  "before_fees": -0.27343232952661367,
-  "net_pl": -0.27343232952661367,
+  "gross_pl": -0.22239913226628003,
+  "before_fees": -0.2515927950343695,
+  "net_pl": -0.2515927950343695,
   "tax_rate": 0.314,
   "tax_est": 0.0,
-  "net_after_tax": -0.27343232952661367,
+  "net_after_tax": -0.2515927950343695,
   "trade_count": 3,
   "platforms": {
    "crypto": [
@@ -643,7 +647,7 @@
      "label": "Kraken, ordres au marché",
      "note": "0,40 % taker sous 50 000 $/mois ; accessible depuis la France (agrément irlandais, passeport UE)",
      "fees": 0,
-     "net": -0.27343232952661367,
+     "net": -0.2515927950343695,
      "active": true
     },
     {
@@ -651,7 +655,7 @@
      "label": "Kraken, ordres à cours limité",
      "note": "0,25 % maker, mais un ordre limite peut ne pas être exécuté",
      "fees": 0,
-     "net": -0.27343232952661367,
+     "net": -0.2515927950343695,
      "active": false
     },
     {
@@ -659,7 +663,7 @@
      "label": "Coinbase Advanced",
      "note": "0,50 % taker au palier de base",
      "fees": 0,
-     "net": -0.27343232952661367,
+     "net": -0.2515927950343695,
      "active": false
     },
     {
@@ -667,7 +671,7 @@
      "label": "Binance",
      "note": "0,10 % : mais n'accepte plus de nouveaux clients en France d'après plusieurs sources",
      "fees": 0,
-     "net": -0.27343232952661367,
+     "net": -0.2515927950343695,
      "active": false
     },
     {
@@ -675,7 +679,7 @@
      "label": "eToro, crypto réelle",
      "note": "1 % par position, soit 2 % l'aller-retour, spread en plus",
      "fees": 0,
-     "net": -0.27343232952661367,
+     "net": -0.2515927950343695,
      "active": false
     }
    ],
@@ -685,7 +689,7 @@
      "label": "Alpaca, actions et ETF américains",
      "note": "0 commission ; compte à déclarer (3916-bis), pas de marge",
      "fees": 0.0,
-     "net": -0.27343232952661367,
+     "net": -0.2515927950343695,
      "active": true
     },
     {
@@ -693,7 +697,7 @@
      "label": "Interactive Brokers, tarif fixe",
      "note": "0,005 $/action, minimum 1 $, plafonné à 1 % du montant",
      "fees": 0.5839673539307346,
-     "net": -0.8573996834573483,
+     "net": -0.8355601489651041,
      "active": false
     },
     {
@@ -701,7 +705,7 @@
      "label": "eToro, actions réelles",
      "note": "1 $ (parfois 2 $) par ordre, achat et vente",
      "fees": 3.0,
-     "net": -3.2734323295266137,
+     "net": -3.2515927950343695,
      "active": false
     }
    ]
@@ -712,6 +716,114 @@
   }
  },
  "headlines": [
+  {
+   "published": "2026-11-19T21:27:33Z",
+   "source": "CNBC",
+   "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+   "link": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+  },
+  {
+   "published": "2026-11-19T21:18:59Z",
+   "source": "Yahoo Finance",
+   "title": "Chip Stocks Waver On Anthropic IPO, AI Prospects, AMD Short",
+   "link": "https://finance.yahoo.com/m/cc197e22-85d3-3a44-97b9-12111805ce48/chip-stocks-waver-on.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T21:18:11Z",
+   "source": "CNBC",
+   "title": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion",
+   "link": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html"
+  },
+  {
+   "published": "2026-11-19T21:16:41Z",
+   "source": "CNBC",
+   "title": "Anthropic IPO: Investors who flip the stock may face brokerage penalty",
+   "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html"
+  },
+  {
+   "published": "2026-11-19T21:14:46Z",
+   "source": "CNBC",
+   "title": "AMD dives on short-seller report of alleged China exposure",
+   "link": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html"
+  },
+  {
+   "published": "2026-11-19T21:13:40Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic has a 17-fold revenue growth hurdle to tackle: A closer look",
+   "link": "https://finance.yahoo.com/video/anthropic-has-a-17-fold-revenue-growth-hurdle-to-tackle-a-closer-look-211340437.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T21:12:06Z",
+   "source": "Decrypt",
+   "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
+   "link": "https://decrypt.co/383669/nvidia-amd-micron-ai-stocks-sink-anthropic-ipo-price"
+  },
+  {
+   "published": "2026-11-19T21:12:06Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
+   "link": "https://decrypt.co/383669/nvidia-amd-micron-ai-stocks-sink-anthropic-ipo-price?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T21:05:02Z",
+   "source": "Yahoo Finance",
+   "title": "3 Dividend Kings to Buy in November and Never Sell",
+   "link": "https://www.fool.com/investing/2026/11/19/3-dividend-kings-to-buy-in-november-and-never-sell/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T21:02:36Z",
+   "source": "Yahoo Finance",
+   "title": "Why USA Rare Earth Stock Is Rising Today",
+   "link": "https://www.fool.com/investing/2026/11/19/why-usa-rare-earth-stock-is-rising-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T21:01:42Z",
+   "source": "Cointelegraph",
+   "title": "MoonPay seeks US bank charter for stablecoin, custody services",
+   "link": "https://cointelegraph.com/news/moonpay-seeks-us-bank-charter-for-stablecoin-custody-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-19T21:00:57Z",
+   "source": "CNBC",
+   "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+   "link": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html"
+  },
+  {
+   "published": "2026-11-19T21:00:20Z",
+   "source": "Yahoo Finance",
+   "title": "Apple Stock Polishes Breakout As Nvidia-Led AI Boom Gets Wake-Up Call",
+   "link": "https://finance.yahoo.com/m/681ca0c6-76b1-321b-bdd4-bb83acc818fb/apple-stock-polishes-breakout.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T20:56:55Z",
+   "source": "Yahoo Finance",
+   "title": "Pfizer Is Shopping for China’s Biotech Breakthroughs",
+   "link": "https://app.moby.co/home/news/news-pfizer-is-shopping-for-chinas-biotech-breakthroughs?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T20:56:02Z",
+   "source": "Yahoo Finance",
+   "title": "This Is Incredible News for AMD Stock Investors (Hint: It’s Bad News for Intel)",
+   "link": "https://www.fool.com/investing/2026/11/19/this-is-incredible-news-for-amd-stock-investors-hint-it-s-bad-news-for-intel/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T20:53:02Z",
+   "source": "Yahoo Finance",
+   "title": "Why Liquidity Services Stock Fell 23% Today",
+   "link": "https://www.fool.com/investing/2026/11/19/why-liquidity-services-stock-fell-23-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T20:50:16Z",
+   "source": "Yahoo Finance",
+   "title": "Market Storylines: Chip Giant Earnings Beat, AI IPO's + Equity Selloff",
+   "link": "https://finance.yahoo.com/video/market-storylines-chip-giant-earnings-205016561.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T20:50:02Z",
+   "source": "Yahoo Finance",
+   "title": "Could $1,000 in Oklo Stock Set You Up for Life by 2035?",
+   "link": "https://www.fool.com/investing/2026/11/19/could-in-oklo-stock-set-you-up-for-life-by-2035/?.tsrc=rss"
+  },
   {
    "published": "2026-11-19T20:46:23Z",
    "source": "CNBC",
@@ -725,10 +837,10 @@
    "link": "https://decrypt.co/383666/meet-shrincs-bitcoin-emerging-frontrunner-post-quantum-signature"
   },
   {
-   "published": "2026-11-19T20:45:13Z",
-   "source": "CNBC",
-   "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
-   "link": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+   "published": "2026-11-19T20:46:02Z",
+   "source": "Yahoo Finance",
+   "title": "Prediction: Silver Will Be Worth This Much By the End of 2027",
+   "link": "https://www.fool.com/investing/2026/11/19/prediction-silver-will-be-worth-this-much-by-the-end-of-2027/?.tsrc=rss"
   },
   {
    "published": "2026-11-19T20:44:06Z",
@@ -783,114 +895,6 @@
    "source": "Yahoo Finance",
    "title": "Can $300 a Month in VOO Really Build a $1 Million Portfolio? Yes, But There's 1 Factor to Consider.",
    "link": "https://www.fool.com/investing/2026/11/19/can-300-month-voo-build-1-million-portfolio-yes/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:18:49Z",
-   "source": "Yahoo Finance",
-   "title": "The unfolding Jensen Huang scandal: a timeline",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-jensen-huang-affair-170419585.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:17:36Z",
-   "source": "CNBC",
-   "title": "3-step method to influence people and win them over, from a Stanford expert: ‘Your voice is like a muscle’",
-   "link": "https://www.cnbc.com/make-it/2026/11/19/matt-abrahams-persuasive-speaking-tips.html"
-  },
-  {
-   "published": "2026-11-19T20:15:32Z",
-   "source": "Decrypt",
-   "title": "Hackers Leak Visa, Mastercard and JPMorgan Customer Data",
-   "link": "https://decrypt.co/383663/hackers-leak-visa-mastercard-jpmorgan-data"
-  },
-  {
-   "published": "2026-11-19T20:15:02Z",
-   "source": "Yahoo Finance",
-   "title": "First Nvidia, Now AMD: A Short Seller Just Put Its China Business Under the Microscope",
-   "link": "https://www.fool.com/investing/2026/11/19/first-nvidia-now-amd-a-short-seller-just-put-its-china-business-under-the-microscope/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:13:22Z",
-   "source": "Yahoo Finance",
-   "title": "Why PDD Holdings Stock Jumped Today",
-   "link": "https://www.fool.com/investing/2026/11/19/why-pdd-holdings-stock-jumped-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:12:54Z",
-   "source": "Yahoo Finance",
-   "title": "Looks Like AMD Also Has A China Problem",
-   "link": "https://app.moby.co/home/news/news-looks-like-amd-also-has-a-china-problem?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:10:21Z",
-   "source": "CNBC",
-   "title": "S&P 500 heads for 6th straight decline. Plus, J&J advances two key products",
-   "link": "https://www.cnbc.com/investingclub/2026/11/19/sp-500-heads-for-6th-straight-decline-plus-jj-advances-two-key-products.html"
-  },
-  {
-   "published": "2026-11-19T20:09:54Z",
-   "source": "Yahoo Finance",
-   "title": "Palantir Technologies (PLTR) Gets A Fresh AI Signal From A Key Platform Partner",
-   "link": "https://finance.yahoo.com/technology/ai/articles/palantir-technologies-pltr-gets-fresh-200954508.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:06:34Z",
-   "source": "Cointelegraph",
-   "title": "Trump’s SEC nominee Johnson backs formal rulemaking for tokenized stock trading",
-   "link": "https://cointelegraph.com/news/sec-nominees-johnson-levine-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-19T20:05:15Z",
-   "source": "Yahoo Finance",
-   "title": "Arm Just Dropped 21% in a Month. Will ARM Stock Hit $150 or $200 First?",
-   "link": "https://247wallst.com/investing/2026/11/19/arm-just-dropped-21-in-a-month-will-arm-stock-hit-150-or-200-first/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:05:00Z",
-   "source": "Yahoo Finance",
-   "title": "The Billionaire Winklevoss Twins Predict That Zcash Could Hit $5,000 Within the Next 5 Years. Here's Why They're Wrong.",
-   "link": "https://www.fool.com/investing/2026/11/19/billionaire-winklevoss-twins-predict-that-zcash/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:03:02Z",
-   "source": "Yahoo Finance",
-   "title": "Where Will SpaceX Stock Be in 2030?",
-   "link": "https://www.fool.com/investing/2026/11/19/where-will-spacex-stock-be-in-2030/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:02:00Z",
-   "source": "Yahoo Finance",
-   "title": "AMD Stock Drops After Short Report Says It Isn’t an Nvidia Replacement",
-   "link": "https://finance.yahoo.com/m/e2a6c3e8-8178-3df2-aef3-4d956c9037fe/amd-stock-drops-after-short.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:01:23Z",
-   "source": "Yahoo Finance",
-   "title": "Why Broadcom Stock Took a Wild Ride on Thursday",
-   "link": "https://www.fool.com/investing/2026/11/19/why-broadcom-stock-took-a-wild-ride-on-thursday/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T19:59:02Z",
-   "source": "Yahoo Finance",
-   "title": "Anthropic Was Worth $111.50 on Its First Day of Trading. Is That a Problem for Investors?",
-   "link": "https://www.fool.com/investing/2026/11/19/anthropic-was-worth-111-50-on-its-first-day-of-trading-is-that-a-problem-for-investors/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T19:58:49Z",
-   "source": "Yahoo Finance",
-   "title": "Cathie Wood Says Nvidia’s Interim CEO Is “Not a Tech Expert.” Kevin O’Leary Disagrees. Who’s Right?",
-   "link": "https://www.tikr.com/blog/cathie-wood-says-nvidias-interim-ceo-is-not-a-tech-expert-kevin-oleary-disagrees-whos-right?ref=yahoofinance&tlnk=yf-261119-m83jmp3h&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T19:58:30Z",
-   "source": "CNBC",
-   "title": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
-   "link": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html"
-  },
-  {
-   "published": "2026-11-19T19:57:48Z",
-   "source": "Yahoo Finance",
-   "title": "Nebius Stock’s (NBIS) Q3 Sell-Off Looks Like an Opportunity",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nebius-stock-nbis-q3-sell-195748939.html?.tsrc=rss"
   }
  ]
 }
