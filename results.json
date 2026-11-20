@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T12:00:34Z",
+ "generated_at": "2026-11-20T13:50:48Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.75,
   "cash": 81.15,
   "perf_pct": -0.0025,
-  "bench_pct": -0.1586,
+  "bench_pct": -0.1593,
   "drawdown": 0.0049,
   "halted": false,
   "trade_count": 3
@@ -24,11 +24,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 61830.27,
+   "price": 61836.01,
    "trend": "baissière",
-   "score": -0.413,
-   "news_score": -0.326,
-   "news_conf": 0.508,
+   "score": -0.425,
+   "news_score": -0.352,
+   "news_conf": 0.536,
    "tech_score": -0.715,
    "in_position": false,
    "patterns": [
@@ -38,7 +38,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1750.07,
+   "price": 1753.7,
    "trend": "baissière",
    "score": -0.127,
    "news_score": 0.2,
@@ -51,7 +51,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.81,
+   "price": 71.25,
    "trend": "baissière",
    "score": -0.122,
    "news_score": 0.25,
@@ -68,9 +68,9 @@
    "symbol": "NVDA",
    "price": 146.0,
    "trend": "baissière",
-   "score": -0.244,
-   "news_score": 0.091,
-   "news_conf": 0.333,
+   "score": -0.2,
+   "news_score": 0.269,
+   "news_conf": 0.411,
    "tech_score": -0.58,
    "in_position": false,
    "patterns": [
@@ -81,9 +81,9 @@
    "symbol": "AAPL",
    "price": 349.1099853515625,
    "trend": "haussière",
-   "score": 0.201,
+   "score": 0.234,
    "news_score": 0.25,
-   "news_conf": 0.12,
+   "news_conf": 0.36,
    "tech_score": 0.411,
    "in_position": true,
    "patterns": [
@@ -95,9 +95,9 @@
    "symbol": "SPY",
    "price": 715.780029296875,
    "trend": "baissière",
-   "score": -0.285,
-   "news_score": -0.096,
-   "news_conf": 0.335,
+   "score": -0.275,
+   "news_score": -0.048,
+   "news_conf": 0.291,
    "tech_score": -0.594,
    "in_position": false,
    "patterns": []
@@ -130,11 +130,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794398430,
-   100.0,
-   93.73
-  ],
   [
    1794405044,
    100.0,
@@ -579,25 +574,30 @@
    1795176030,
    99.75,
    84.14
+  ],
+  [
+   1795182643,
+   99.75,
+   84.07
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 3,
-  "text": "3 sources : CNBC, Yahoo Finance, CoinDesk (titres datés < 6 h) : vente tech/IA après l'IPO d'Anthropic, Nikkei -4 %, bitcoin à un plus bas de 4 mois ; prudence mais pas assez d'indicateurs concrets pour risk_off. — Contexte : vente tech/IA mondiale après l'IPO d'Anthropic ; futures US en baisse (Yah",
-  "received_at": "2026-11-20T05:50:43Z"
+  "text": "3 sources : Yahoo Finance, CoinDesk, Decrypt (titres datés < 3 h) : futures US en baisse, tech/IA sous pression, bitcoin en baisse 3 jours de suite ; pas assez d'indicateurs concrets pour risk_off. — Contexte : futures US en baisse, tech/IA sous pression (Yahoo Finance) ; Asie tech en recul (CoinDes",
+  "received_at": "2026-11-20T13:50:43Z"
  },
  "indicators": {
   "fear_greed": {
    "value": 12,
    "label": "Extreme Fear"
   },
-  "vix": 29.85
+  "vix": 31.51
  },
- "indicator_stress": "",
+ "indicator_stress": "VIX à 32 : volatilité élevée",
  "directive_track_record": {
   "n": 40,
-  "pending": 3,
+  "pending": 6,
   "hit_rate": 0.55,
   "mean_signed": 0.007737621095480984,
   "enough": true,
@@ -720,184 +720,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-20T11:50:51Z",
+   "published": "2026-11-20T13:47:07Z",
+   "source": "CNBC",
+   "title": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
+   "link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html"
+  },
+  {
+   "published": "2026-11-20T13:36:58Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia stock extends 6-day losing streak, as AMD, Broadcom lead chip sector lower",
+   "link": "https://finance.yahoo.com/markets/article/nvidia-amd-and-broadcom-lead-chip-stocks-lower-133658985.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T13:35:33Z",
+   "source": "CoinDesk",
+   "title": "Live news: Bitcoin hovers just above $61,000 as Anthropic slides 13% after Nasdaq debut",
+   "link": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut"
+  },
+  {
+   "published": "2026-11-20T13:33:01Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic Went Public at $111.50 a Share. Here's What a $1,000 Stake Is Worth After Day 1.",
+   "link": "https://www.fool.com/investing/2026/11/20/anthropic-went-public-at-usd111-50-a-share-here-s-what-a-usd1-000-stake-is-worth-after-day-1/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T13:30:22Z",
+   "source": "CoinDesk",
+   "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
+   "link": "https://www.coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys"
+  },
+  {
+   "published": "2026-11-20T13:30:12Z",
+   "source": "Yahoo Finance",
+   "title": "Dell, HP Enterprise Highlight Thanksgiving Week Earnings, Plus These 2 Hot Retailers",
+   "link": "https://finance.yahoo.com/m/9fb39b49-474f-3ca7-b9f2-118b6fd57f11/dell%2C-hp-enterprise-highlight.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T13:30:00Z",
+   "source": "Yahoo Finance",
+   "title": "5C announces Data Center Partner designation within the NVIDIA Partner Network in new blog",
+   "link": "https://finance.yahoo.com/technology/ai/articles/5c-announces-data-center-partner-133000251.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T13:29:58Z",
+   "source": "Cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-20T13:29:50Z",
+   "source": "CNBC",
+   "title": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
+   "link": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html"
+  },
+  {
+   "published": "2026-11-20T13:25:56Z",
+   "source": "CNBC",
+   "title": "Anthropic defies the odds, holding record IPO despite ‘massively disruptive’ market",
+   "link": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html"
+  },
+  {
+   "published": "2026-11-20T13:23:01Z",
    "source": "Decrypt",
-   "title": "Bitcoin ETFs Shed $582M in a Day as BTC Drops Below $62K",
-   "link": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k"
+   "title": "Morning Minute: Anthropic IPO Pops, Sinks Markets",
+   "link": "https://decrypt.co/383691/morning-minute-anthropic-ipo-pops-sinks-markets"
   },
   {
-   "published": "2026-11-20T11:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang's Sudden Resignation Has Created a Flash Sale For These 3 AI Stocks",
-   "link": "https://www.fool.com/investing/2026/11/20/jensen-huang-sudden-resignation-created-flash-sale-ai-stocks/?.tsrc=rss"
+   "published": "2026-11-20T13:21:39Z",
+   "source": "Cointelegraph",
+   "title": "Lagarde warns Europe could miss chance to unify tokenized markets",
+   "link": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-20T11:47:44Z",
+   "published": "2026-11-20T13:20:02Z",
    "source": "Yahoo Finance",
-   "title": "Dow Jones Futures: Techs Fall, Anthropic Tumbles After Ugly Market Reversal To New Lows",
+   "title": "Nvidia and Micron Can't Make AI Chips Without This Growth Stock. Here's Why It Could Soar.",
+   "link": "https://www.fool.com/investing/2026/11/20/nvidia-and-micron-cant-make-ai-chips-without-this-growth-stock-heres-why-it-could-soar/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T13:15:01Z",
+   "source": "CNBC",
+   "title": "AI can help find holiday deals — but it's not great at spotting scams, experts say",
+   "link": "https://www.cnbc.com/2026/11/20/ai-holiday-shopping-scams.html"
+  },
+  {
+   "published": "2026-11-20T13:14:42Z",
+   "source": "Yahoo Finance",
+   "title": "Why Did Nvidia Stock Fall 39%?",
+   "link": "https://www.trefis.com/stock/nvda/articles/626526/why-did-nvidia-stock-fall-39/2026-11-20?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T13:11:49Z",
+   "source": "CoinDesk",
+   "title": "ECB’s Largarde warns Europe could lose control of growing tokenized asset market",
+   "link": "https://www.coindesk.com/policy/2026/11/20/ecb-s-largarde-warns-europe-could-lose-control-of-growing-tokenized-asset-market"
+  },
+  {
+   "published": "2026-11-20T13:11:25Z",
+   "source": "CNBC",
+   "title": "Cathie Wood's ARK Invest was a big buyer of Anthropic, tells CNBC she's 'quite optimistic'",
+   "link": "https://www.cnbc.com/2026/11/20/cathie-woods-ark-invest-was-a-big-buyer-of-anthropic-during-debut.html"
+  },
+  {
+   "published": "2026-11-20T13:10:48Z",
+   "source": "Yahoo Finance",
+   "title": "Cathie Wood Buys Nearly 1 Million Anthropic Shares On IPO Day. ARK Also Cuts Nvidia Stake.",
+   "link": "https://www.ibtimes.com/ark-invest-buys-anthropic-shares-record-ipo-3810011?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T13:05:17Z",
+   "source": "Yahoo Finance",
+   "title": "Musk Slams Nvidia’s Board for Kicking “Michael Jordan Off Your Team.” Cramer Sees a Fight Over Chip Prices",
+   "link": "https://www.tikr.com/blog/musk-slams-nvidias-board-for-kicking-michael-jordan-off-your-team-cramer-sees-a-fight-over-chip-prices?ref=yahoofinance&tlnk=yf-261120-fhq75j6g&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T13:05:02Z",
+   "source": "Yahoo Finance",
+   "title": "This Is the Simplest ETF Portfolio for Investors Who Want Growth and Income",
+   "link": "https://www.fool.com/investing/2026/11/20/this-is-the-simplest-etf-portfolio-for-investors-who-want-growth-and-income/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T13:04:57Z",
+   "source": "Yahoo Finance",
+   "title": "This Could Be the Most Undervalued AI Stock Heading Into 2027",
+   "link": "https://247wallst.com/investing/2026/11/20/this-could-be-the-most-undervalued-ai-stock-heading-into-2027/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T13:02:21Z",
+   "source": "Yahoo Finance",
+   "title": "Own Dell Or HPE? Look Past The Record Backlog",
+   "link": "https://www.trefis.com/stock/dell/articles/627165/own-dell-or-hpe-look-past-the-record-backlog/2026-11-20?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T13:00:00Z",
+   "source": "Yahoo Finance",
+   "title": "REX Shares Renames NVII, TSII, and WMTI as Enhanced Growth & Income ETFs, Effective November 20, 2026",
+   "link": "https://finance.yahoo.com/markets/options/articles/rex-shares-renames-nvii-tsii-130000428.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T12:57:32Z",
+   "source": "Yahoo Finance",
+   "title": "The S&P 500 Just Had Its Biggest Reversal Since March 2020",
+   "link": "https://247wallst.com/investing/2026/11/20/the-sp-500-just-had-its-biggest-reversal-since-march-2020/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-20T12:55:55Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures: Techs Tumble, Anthropic Dives After Ugly Market Reversal To New Lows",
    "link": "https://finance.yahoo.com/m/9e02231d-41cd-31ac-b37f-993325b8a4ca/dow-jones-futures%3A-techs.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-20T11:42:02Z",
-   "source": "CoinDesk",
-   "title": "Bitcoin drops for third straight day as Asian tech shares slide",
-   "link": "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide"
-  },
-  {
-   "published": "2026-11-20T11:41:10Z",
+   "published": "2026-11-20T12:53:00Z",
    "source": "Yahoo Finance",
-   "title": "Apple Director Dumps 90,000 Shares Worth Nearly $32 Million",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/apple-director-dumps-90-000-114110537.html?.tsrc=rss"
+   "title": "Jensen Huang Needs to Stay Gone... His Fan Club Proves It",
+   "link": "https://app.moby.co/home/news/news-jensen-huang-needs-to-stay-gone-his-fan-club-proves-it?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
   },
   {
-   "published": "2026-11-20T11:40:02Z",
+   "published": "2026-11-20T12:52:11Z",
    "source": "Yahoo Finance",
-   "title": "If You Had Invested $5,000 in Amazon Stock 20 Years Ago, Here's How Much You'd Have Today",
-   "link": "https://www.fool.com/investing/2026/11/20/if-youd-invested-5000-in-company-name-stock-20-years-ago-heres-how-much-youd-have-today/?.tsrc=rss"
+   "title": "US Equity Futures Drop Pre-Bell as Anthropic Shares Decline One Day After Debut",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-drop-pre-125211794.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-20T11:37:37Z",
+   "published": "2026-11-20T12:51:47Z",
    "source": "Yahoo Finance",
-   "title": "AI Chips Today - AI Revolution Drives VR and AR Market Expansion",
-   "link": "https://finance.yahoo.com/technology/ai/articles/ai-chips-today-ai-revolution-113737070.html?.tsrc=rss"
+   "title": "Amazon, Nvidia Fell As Anthropic Gained $185 Billion",
+   "link": "https://www.trefis.com/stock/amzn/articles/627187/amazon-nvidia-fell-as-anthropic-gained-185-billion/2026-11-20?.tsrc=rss"
   },
   {
-   "published": "2026-11-20T11:36:03Z",
+   "published": "2026-11-20T12:50:02Z",
    "source": "Yahoo Finance",
-   "title": "CoreWeave Gains $350 Million Computing Commitment as Debt Concerns Persist",
-   "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-gains-350-million-computing-113603215.html?.tsrc=rss"
+   "title": "Bitwise CIO Predicts Hyperliquid Could Become \"the Next Amazon.\" Here's Why He's Right.",
+   "link": "https://www.fool.com/investing/2026/11/20/bitwise-cio-predicts-hyperliquid-could-become-the-next-amazon-heres-why-hes-rightwrong/?.tsrc=rss"
   },
   {
-   "published": "2026-11-20T11:36:02Z",
+   "published": "2026-11-20T12:49:00Z",
    "source": "Yahoo Finance",
-   "title": "These 3 ETFs Could Set You Up for Life With Next to No Effort on Your Part",
-   "link": "https://www.fool.com/investing/2026/11/20/these-3-etfs-could-set-you-up-for-life-with-next-to-no-effort-on-your-part/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:35:02Z",
-   "source": "Yahoo Finance",
-   "title": "3 Warren Buffett Rules That Make Nvidia Stock a Buy at Today's Price",
-   "link": "https://www.fool.com/investing/2026/11/20/3-warren-buffett-rules-that-make-nvidia-stock-a-buy-at-today-s-price/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:35:02Z",
-   "source": "Yahoo Finance",
-   "title": "If a Bear Market Is Coming in 2027, History Says This 1 Simple Move Can Protect Your Investments",
-   "link": "https://www.fool.com/investing/2026/11/20/if-a-bear-market-is-coming-in-2027-history-says-this-1-simple-move-can-protect-your-investments/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:32:27Z",
-   "source": "Yahoo Finance",
-   "title": "Social Buzz: Wallstreetbets Stocks Mostly Lower Pre-Bell Friday; Sandisk, AMD to Decline",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mostly-113227780.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:31:41Z",
-   "source": "Cointelegraph",
-   "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
-   "link": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-20T11:28:01Z",
-   "source": "Yahoo Finance",
-   "title": "The post earnings slide in Nvidia stock is getting uglier by the day",
-   "link": "https://finance.yahoo.com/markets/stocks/article/the-post-earnings-slide-in-nvidia-stock-is-getting-uglier-by-the-day-112801786.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:23:00Z",
-   "source": "Decrypt",
-   "title": "Coinbase Targets In-House Prediction Markets by First Half of 2027: Report",
-   "link": "https://decrypt.co/383682/coinbase-targets-in-house-prediction-markets-by-first-half-of-2027-report"
-  },
-  {
-   "published": "2026-11-20T11:21:00Z",
-   "source": "Yahoo Finance",
-   "title": "Anthropic Stock Falls as Reality Hits Home",
-   "link": "https://finance.yahoo.com/m/f3f10f27-e4ae-3ed1-8b6c-5673257de3a2/anthropic-stock-falls-as.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:17:52Z",
-   "source": "Yahoo Finance",
-   "title": "Cathie Wood Buys $90 Million of Anthropic Stock While Trimming Nvidia",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-buys-90-million-111752335.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:11:37Z",
-   "source": "Yahoo Finance",
-   "title": "3 AI Chip Stocks Trading Cheap Despite Rising Earnings Estimates",
-   "link": "https://finance.yahoo.com/technology/ai/articles/3-ai-chip-stocks-trading-111137714.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:07:02Z",
-   "source": "Yahoo Finance",
-   "title": "Is Lowe's a Buy After Its Latest Earnings Report?",
-   "link": "https://www.fool.com/investing/2026/11/20/is-lowes-a-buy-after-its-latest-earnings-report/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:06:01Z",
-   "source": "Yahoo Finance",
-   "title": "Is Coca-Cola (KO) the Best Stock to Own During a Market Sell-Off?",
-   "link": "https://www.fool.com/investing/2026/11/20/is-coca-cola-ko-the-best-stock-to-own-during-a-market-sell-off/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:05:23Z",
-   "source": "Yahoo Finance",
-   "title": "What iShares Global Tech ETF (IXN) Bought: Apple Leads on Wednesday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-global-tech-etf-ixn-110523985.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:05:19Z",
-   "source": "Yahoo Finance",
-   "title": "iShares Russell 1000 Growth (IWF) Buys $15.6 Million More NVIDIA on Wednesday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-1000-growth-iwf-110519980.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:05:05Z",
-   "source": "Yahoo Finance",
-   "title": "Direxion Daily S&P 500 Bull 3X (SPXL) Sells $16.2 Million of Apple on Nov. 18",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/direxion-daily-p-500-bull-110505993.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:04:11Z",
-   "source": "Yahoo Finance",
-   "title": "State Street SPDR Portfolio S&P 500 (SPYM) Adds Apple and Microsoft on Nov. 18",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-portfolio-p-110411294.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:04:07Z",
-   "source": "Yahoo Finance",
-   "title": "State Street Tech Select Sector SPDR (XLK) Adds Apple and Microsoft on Nov. 18",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-tech-select-sector-110407505.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:04:01Z",
-   "source": "Yahoo Finance",
-   "title": "Invesco NASDAQ 100 ETF (QQQM) Adds Apple and Microsoft on Nov. 18",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-nasdaq-100-etf-qqqm-110401447.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:03:42Z",
-   "source": "Yahoo Finance",
-   "title": "INVESCO QQQ (QQQ) Sells Apple and Microsoft on Nov. 18",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-qqq-sells-apple-110342108.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:03:39Z",
-   "source": "Yahoo Finance",
-   "title": "SPDR S&P 500 ETF (SPY) Sells Apple and Microsoft on Nov. 18",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110339564.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:03:03Z",
-   "source": "Yahoo Finance",
-   "title": "ETFs Are Net Sellers of Johnson & Johnson (JNJ) on Wednesday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-johnson-johnson-110303332.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T11:03:00Z",
-   "source": "Yahoo Finance",
-   "title": "ETFs Are Net Sellers of JPMorgan Chase (JPM) on Nov. 18",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-jpmorgan-chase-110300552.html?.tsrc=rss"
+   "title": "The Stock Market Has Problems Even Anthropic Can’t Solve",
+   "link": "https://finance.yahoo.com/m/76b48d2e-2d9d-3c2f-9f97-1bd6f67ffb01/the-stock-market-has-problems.html?.tsrc=rss"
   }
  ]
 }
