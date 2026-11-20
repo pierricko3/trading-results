@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T21:30:55Z",
+ "generated_at": "2026-11-20T00:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.75,
   "cash": 81.15,
   "perf_pct": -0.0025,
-  "bench_pct": -0.1583,
+  "bench_pct": -0.1552,
   "drawdown": 0.0049,
   "halted": false,
   "trade_count": 3
@@ -24,26 +24,25 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 61568.39,
+   "price": 62008.01,
    "trend": "baissière",
-   "score": -0.293,
-   "news_score": 0.25,
-   "news_conf": 0.12,
-   "tech_score": -0.688,
+   "score": -0.332,
+   "news_score": -0.25,
+   "news_conf": 0.36,
+   "tech_score": -0.628,
    "in_position": false,
    "patterns": [
-    "Marteau (rebond possible)",
     "Avalement baissier"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1744.91,
+   "price": 1757.85,
    "trend": "baissière",
-   "score": -0.252,
-   "news_score": 0.25,
-   "news_conf": 0.36,
-   "tech_score": -0.669,
+   "score": -0.346,
+   "news_score": -0.2,
+   "news_conf": 0.6,
+   "tech_score": -0.622,
    "in_position": false,
    "patterns": [
     "Avalement baissier"
@@ -51,25 +50,26 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 72.48,
-   "trend": "neutre",
-   "score": 0.087,
-   "news_score": 0.5,
-   "news_conf": 0.24,
-   "tech_score": 0.046,
+   "price": 73.15,
+   "trend": "baissière",
+   "score": -0.097,
+   "news_score": 0.0,
+   "news_conf": 0.48,
+   "tech_score": -0.217,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)"
+    "Doji (indécision)",
+    "Marteau (rebond possible)"
    ]
   },
   {
    "symbol": "NVDA",
    "price": 146.0,
    "trend": "baissière",
-   "score": -0.18,
-   "news_score": 0.25,
-   "news_conf": 0.36,
-   "tech_score": -0.51,
+   "score": -0.12,
+   "news_score": 0.429,
+   "news_conf": 0.6,
+   "tech_score": -0.58,
    "in_position": false,
    "patterns": [
     "Marteau (rebond possible)"
@@ -79,23 +79,24 @@
    "symbol": "AAPL",
    "price": 349.1099853515625,
    "trend": "haussière",
-   "score": 0.347,
+   "score": 0.185,
    "news_score": 0.0,
-   "news_conf": 0.48,
-   "tech_score": 0.77,
+   "news_conf": 0.6,
+   "tech_score": 0.411,
    "in_position": true,
    "patterns": [
-    "Marteau inversé (rebond possible)"
+    "Marteau inversé (rebond possible)",
+    "Avalement baissier"
    ]
   },
   {
    "symbol": "SPY",
    "price": 715.780029296875,
    "trend": "baissière",
-   "score": -0.213,
-   "news_score": 0.25,
-   "news_conf": 0.36,
-   "tech_score": -0.583,
+   "score": -0.399,
+   "news_score": -0.5,
+   "news_conf": 0.48,
+   "tech_score": -0.594,
    "in_position": false,
    "patterns": []
   }
@@ -127,11 +128,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794346249,
-   100.0,
-   93.7
-  ],
   [
    1794355230,
    100.0,
@@ -576,6 +572,11 @@
    1795123850,
    99.75,
    84.17
+  ],
+  [
+   1795132830,
+   99.75,
+   84.48
   ]
  ],
  "last_directive": {
@@ -586,7 +587,7 @@
  },
  "indicators": {
   "fear_greed": {
-   "value": 10,
+   "value": 12,
    "label": "Extreme Fear"
   },
   "vix": 28.44
@@ -717,184 +718,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-19T21:27:33Z",
+   "published": "2026-11-19T23:59:29Z",
    "source": "CNBC",
-   "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
-   "link": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+   "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+   "link": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
   },
   {
-   "published": "2026-11-19T21:18:59Z",
+   "published": "2026-11-19T23:46:36Z",
    "source": "Yahoo Finance",
-   "title": "Chip Stocks Waver On Anthropic IPO, AI Prospects, AMD Short",
-   "link": "https://finance.yahoo.com/m/cc197e22-85d3-3a44-97b9-12111805ce48/chip-stocks-waver-on.html?.tsrc=rss"
+   "title": "Dow Jones Futures: Ugly Market Reversal To New Lows As Anthropic IPO Debuts, AMD Dives",
+   "link": "https://finance.yahoo.com/m/9e02231d-41cd-31ac-b37f-993325b8a4ca/dow-jones-futures%3A-ugly.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T21:18:11Z",
-   "source": "CNBC",
-   "title": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion",
-   "link": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html"
-  },
-  {
-   "published": "2026-11-19T21:16:41Z",
-   "source": "CNBC",
-   "title": "Anthropic IPO: Investors who flip the stock may face brokerage penalty",
-   "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html"
-  },
-  {
-   "published": "2026-11-19T21:14:46Z",
-   "source": "CNBC",
-   "title": "AMD dives on short-seller report of alleged China exposure",
-   "link": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html"
-  },
-  {
-   "published": "2026-11-19T21:13:40Z",
-   "source": "Yahoo Finance",
-   "title": "Anthropic has a 17-fold revenue growth hurdle to tackle: A closer look",
-   "link": "https://finance.yahoo.com/video/anthropic-has-a-17-fold-revenue-growth-hurdle-to-tackle-a-closer-look-211340437.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T21:12:06Z",
-   "source": "Decrypt",
-   "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
-   "link": "https://decrypt.co/383669/nvidia-amd-micron-ai-stocks-sink-anthropic-ipo-price"
-  },
-  {
-   "published": "2026-11-19T21:12:06Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
-   "link": "https://decrypt.co/383669/nvidia-amd-micron-ai-stocks-sink-anthropic-ipo-price?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T21:05:02Z",
-   "source": "Yahoo Finance",
-   "title": "3 Dividend Kings to Buy in November and Never Sell",
-   "link": "https://www.fool.com/investing/2026/11/19/3-dividend-kings-to-buy-in-november-and-never-sell/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T21:02:36Z",
-   "source": "Yahoo Finance",
-   "title": "Why USA Rare Earth Stock Is Rising Today",
-   "link": "https://www.fool.com/investing/2026/11/19/why-usa-rare-earth-stock-is-rising-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T21:01:42Z",
+   "published": "2026-11-19T23:44:02Z",
    "source": "Cointelegraph",
-   "title": "MoonPay seeks US bank charter for stablecoin, custody services",
-   "link": "https://cointelegraph.com/news/moonpay-seeks-us-bank-charter-for-stablecoin-custody-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   "title": "Ledger CTO Charles Guillemet to leave after nine years at company",
+   "link": "https://cointelegraph.com/news/ledger-cto-charles-guillemet-to-leave-after-nine-years-at-company?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-19T21:00:57Z",
+   "published": "2026-11-19T23:43:02Z",
+   "source": "Yahoo Finance",
+   "title": "The Semiconductor ETF Is on Track to Beat the S&P 500 for a 4th Straight Year. It Has Never Done That Before.",
+   "link": "https://www.fool.com/investing/2026/11/19/the-semiconductor-etf-is-on-track-to-beat-the-s-and-p-500-for-a-4th-straight-year-it-has-never-done-that-before/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T23:32:51Z",
+   "source": "Yahoo Finance",
+   "title": "A 66-Year-Old With $600,000 in VOO Owns Nvidia Without Ever Buying a Share. SCHD Owns None.",
+   "link": "https://247wallst.com/investing/etf/2026/11/19/a-66-year-old-with-600000-in-voo-owns-nvidia-without-ever-buying-a-share-schd-owns-none/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T23:32:02Z",
+   "source": "Yahoo Finance",
+   "title": "Here's What $1,000 Invested at Anthropic's IPO Price Is Worth Now",
+   "link": "https://www.fool.com/investing/2026/11/19/here-s-what-usd1-000-invested-at-anthropic-s-ipo-price-is-worth-now/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T23:23:52Z",
+   "source": "Yahoo Finance",
+   "title": "California AG subpoenas Nvidia over China leak risks and investor disclosures",
+   "link": "https://finance.yahoo.com/news/california-ag-subpoenas-nvidia-over-232352666.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T23:21:23Z",
    "source": "CNBC",
-   "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
-   "link": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html"
+   "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
+   "link": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html"
   },
   {
-   "published": "2026-11-19T21:00:20Z",
+   "published": "2026-11-19T23:17:00Z",
    "source": "Yahoo Finance",
-   "title": "Apple Stock Polishes Breakout As Nvidia-Led AI Boom Gets Wake-Up Call",
-   "link": "https://finance.yahoo.com/m/681ca0c6-76b1-321b-bdd4-bb83acc818fb/apple-stock-polishes-breakout.html?.tsrc=rss"
+   "title": "Cathie Wood sells $85 million of tumbling semiconductor stock",
+   "link": "https://www.thestreet.com/investing/stocks/cathie-wood-sells-85-million-dollars-tumbling-semiconductor-stock-nvda-nvidia?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T20:56:55Z",
-   "source": "Yahoo Finance",
-   "title": "Pfizer Is Shopping for China’s Biotech Breakthroughs",
-   "link": "https://app.moby.co/home/news/news-pfizer-is-shopping-for-chinas-biotech-breakthroughs?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:56:02Z",
-   "source": "Yahoo Finance",
-   "title": "This Is Incredible News for AMD Stock Investors (Hint: It’s Bad News for Intel)",
-   "link": "https://www.fool.com/investing/2026/11/19/this-is-incredible-news-for-amd-stock-investors-hint-it-s-bad-news-for-intel/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:53:02Z",
-   "source": "Yahoo Finance",
-   "title": "Why Liquidity Services Stock Fell 23% Today",
-   "link": "https://www.fool.com/investing/2026/11/19/why-liquidity-services-stock-fell-23-today/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:50:16Z",
-   "source": "Yahoo Finance",
-   "title": "Market Storylines: Chip Giant Earnings Beat, AI IPO's + Equity Selloff",
-   "link": "https://finance.yahoo.com/video/market-storylines-chip-giant-earnings-205016561.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "Could $1,000 in Oklo Stock Set You Up for Life by 2035?",
-   "link": "https://www.fool.com/investing/2026/11/19/could-in-oklo-stock-set-you-up-for-life-by-2035/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:46:23Z",
+   "published": "2026-11-19T23:15:58Z",
    "source": "CNBC",
-   "title": "Amazon app warns New York of higher costs if Mamdani delivery law passes",
-   "link": "https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html"
+   "title": "Anthropic was supposed to save the AI trade. What went wrong?",
+   "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html"
   },
   {
-   "published": "2026-11-19T20:46:02Z",
+   "published": "2026-11-19T23:03:06Z",
+   "source": "Yahoo Finance",
+   "title": "He Retires at 53 on a Decade of AI-Stock Gains and Starts Fixed IRA Withdrawals of $40,000 a Year. Changing the Schedule Before 59½ Triggers a 10% Penalty on Every Past Withdrawal",
+   "link": "https://247wallst.com/personal-finance/2026/11/19/he-retires-at-53-on-a-decade-of-ai-stock-gains-and-starts-fixed-ira-withdrawals-of-40000-a-year-changing-the-schedule-before-59%c2%bd-triggers-a-10-penalty-on-every-past-withdrawal/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T23:01:05Z",
+   "source": "Yahoo Finance",
+   "title": "S&P 500, Nasdaq, Dow End Lower As Anthropic Trading Debut Fails To Provide Adequate Confidence — ANT, META, AAPL, GME In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-lower-as-anthropic-trading-debut-fails-to-provide-adequate-confidence/cNbio2mR90v?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T23:00:00Z",
+   "source": "Yahoo Finance",
+   "title": "Grand Theft Auto VI outplays Nvidia and SpaceX",
+   "link": "https://www.thestreet.com/crypto/markets/grand-theft-auto-vi-outplays-nvidia-and-spacex?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T22:51:05Z",
+   "source": "Yahoo Finance",
+   "title": "$1 Million In Stocks And Bonds: Worth It?",
+   "link": "https://www.trefis.com/stock/voo/articles/626703/1-million-in-stocks-and-bonds-worth-it/2026-11-19?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T22:45:02Z",
+   "source": "Yahoo Finance",
+   "title": "This Beaten-Down Semiconductor Stock Could Soar in 2027",
+   "link": "https://www.fool.com/investing/2026/11/19/this-beaten-down-semiconductor-stock-could-soar-in-2027/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T22:43:11Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic Jumped 17% on its Opening Day. Here's How That Ranks Among Big Tech IPOs",
+   "link": "https://www.fool.com/investing/2026/11/19/anthropic-jumped-17-on-its-opening-day-here-s-how-that-ranks-among-big-tech-ipos/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T22:37:00Z",
+   "source": "Yahoo Finance",
+   "title": "3 ETFs for the 58-Year-Old Who Opened the 401(k) Brokerage Window and Did Not Know What to Buy",
+   "link": "https://247wallst.com/investing/etf/2026/11/19/3-etfs-for-the-58-year-old-who-opened-the-401k-brokerage-window-and-did-not-know-what-to-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T22:36:02Z",
    "source": "Decrypt",
-   "title": "Meet SHRINCS: Bitcoin's Emerging Frontrunner for a Post-Quantum Signature",
-   "link": "https://decrypt.co/383666/meet-shrincs-bitcoin-emerging-frontrunner-post-quantum-signature"
+   "title": "Citi Says Customers Are Responsible When AI Banking Agents Go Rogue—Even After a Hack",
+   "link": "https://decrypt.co/383677/citi-customers-responsible-ai-banking-agents-rogue-hack"
   },
   {
-   "published": "2026-11-19T20:46:02Z",
+   "published": "2026-11-19T22:35:00Z",
    "source": "Yahoo Finance",
-   "title": "Prediction: Silver Will Be Worth This Much By the End of 2027",
-   "link": "https://www.fool.com/investing/2026/11/19/prediction-silver-will-be-worth-this-much-by-the-end-of-2027/?.tsrc=rss"
+   "title": "Anthropic’s IPO Was a Success, but You Don’t Need to Chase the Stock",
+   "link": "https://finance.yahoo.com/m/c414bbac-d307-3e8a-bf90-762fc9fab65f/anthropic%E2%80%99s-ipo-was-a.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T20:44:06Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Up 8.9% After a Strong Anthropic IPO? That’s What Tilt’s New Investing Tool Modeled",
-   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63457684/anthropic-ipo-nvidia?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+   "published": "2026-11-19T22:25:18Z",
+   "source": "Cointelegraph",
+   "title": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
+   "link": "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-19T20:36:48Z",
+   "published": "2026-11-19T22:23:29Z",
    "source": "CNBC",
    "title": "Congress passes bill to protect older investors from financial fraud",
    "link": "https://www.cnbc.com/2026/11/19/financial-exploitation-prevention-act-older-investors-fraud.html"
   },
   {
-   "published": "2026-11-19T20:35:02Z",
+   "published": "2026-11-19T22:23:09Z",
    "source": "Yahoo Finance",
-   "title": "If I Were Building a Portfolio From Scratch With $10,000, These 3 Consumer Stocks Would Come First",
-   "link": "https://www.fool.com/investing/2026/11/19/if-i-were-building-a-portfolio-from-scratch-with-10000-these-3-consumer-stocks-would-come-first/?.tsrc=rss"
+   "title": "Anthropic soars in record Wall Street debut",
+   "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-set-price-ipo-key-030309911.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-19T20:34:35Z",
+   "published": "2026-11-19T22:20:36Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia vs. Intel: One AI Stock Is Worth the Drama, the Other Isn’t Worth the Wait, Says Investor",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-vs-intel-one-ai-222036270.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T22:20:25Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market Today, Nov. 19: Nvidia Slides as Investors Weigh CEO Transition Fallout Despite Strong Q3 Results",
+   "link": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-nvidia-slides-as-investors-weigh-ceo-transition-fallout-despite-strong-q3-results/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T22:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "The Peloton Turnaround Story: Here's the Good News, the Bad News, and Where Its Stock Could Go Next",
+   "link": "https://www.fool.com/investing/2026/11/19/the-peloton-turnaround-story-good-news-bad-news-where-stock-go-next/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T22:12:30Z",
+   "source": "Yahoo Finance",
+   "title": "Maximus, Inc. Q4 2026 Earnings Call Summary",
+   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-maximus-inc-q4-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T22:01:52Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic Closes Up 17% While Nasdaq Falls; Mohamed El-Erian Calls It ‘Making Room’ For AI",
+   "link": "https://stocktwits.com/news-articles/markets/equity/anthropic-closes-up-17-while-nasdaq-falls-mohamed-el-erian-calls-it-making-room-for-ai/cNbinSRR90u?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T21:54:00Z",
+   "source": "Yahoo Finance",
+   "title": "Intuit Stock Tumbles After Earnings Beat. It’s Selling Mailchimp.",
+   "link": "https://finance.yahoo.com/m/e048c82e-5ac0-39ba-8972-165e8a9c92e3/intuit-stock-tumbles-after.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-19T21:43:30Z",
    "source": "CNBC",
-   "title": "What Ron Johnson's 'Ponzi scheme' label gets wrong about Social Security, experts say",
-   "link": "https://www.cnbc.com/2026/11/19/social-security-ponzi-scheme-ron-johnson.html"
+   "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+   "link": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
   },
   {
-   "published": "2026-11-19T20:33:24Z",
+   "published": "2026-11-19T21:42:20Z",
    "source": "Cointelegraph",
-   "title": "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price",
-   "link": "https://cointelegraph.com/markets/hyperliquid-anthropic-futures-nasdaq-opening-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-19T20:33:05Z",
-   "source": "CNBC",
-   "title": "Kraken parent's acquisition of Tribe Capital flags new chapter in evolution of crypto exchanges",
-   "link": "https://www.cnbc.com/2026/11/19/acquisition-of-tribe-capital-flags-new-chapter-in-evolution-of-crypto-exchanges.html"
-  },
-  {
-   "published": "2026-11-19T20:29:31Z",
-   "source": "Yahoo Finance",
-   "title": "Trump Just Disclosed Tesla and SpaceX Stock Purchases. Here's What His Portfolio Moves Reveal",
-   "link": "https://www.fool.com/investing/2026/11/19/trump-just-disclosed-tesla-and-spacex-stock-purchases-here-s-what-his-portfolio-moves-reveal/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:25:57Z",
-   "source": "Yahoo Finance",
-   "title": "Marvell Stock Halved Again. What Does Its Cash Say?",
-   "link": "https://www.trefis.com/stock/mrvl/articles/626972/own-marvell-its-cash-says-2022-not-2006/2026-11-19?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-19T20:20:00Z",
-   "source": "Yahoo Finance",
-   "title": "Can $300 a Month in VOO Really Build a $1 Million Portfolio? Yes, But There's 1 Factor to Consider.",
-   "link": "https://www.fool.com/investing/2026/11/19/can-300-month-voo-build-1-million-portfolio-yes/?.tsrc=rss"
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   }
  ]
 }
