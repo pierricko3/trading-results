@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T20:00:39Z",
+ "generated_at": "2026-11-21T20:50:49Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.41,
   "cash": 81.15,
   "perf_pct": -0.0059,
-  "bench_pct": -0.1938,
+  "bench_pct": -0.1939,
   "drawdown": 0.0083,
   "halted": false,
   "trade_count": 3
@@ -24,7 +24,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 60325.08,
+   "price": 60399.59,
    "trend": "baissière",
    "score": -0.513,
    "news_score": -0.75,
@@ -37,7 +37,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1686.05,
+   "price": 1685.11,
    "trend": "baissière",
    "score": -0.317,
    "news_score": -0.25,
@@ -51,7 +51,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 70.54,
+   "price": 70.47,
    "trend": "baissière",
    "score": -0.26,
    "news_score": 0.0,
@@ -64,9 +64,9 @@
    "symbol": "NVDA",
    "price": 125.79000091552734,
    "trend": "baissière",
-   "score": -0.339,
-   "news_score": -0.224,
-   "news_conf": 0.381,
+   "score": -0.316,
+   "news_score": -0.125,
+   "news_conf": 0.34,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": [
@@ -126,11 +126,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794513630,
-   99.97,
-   92.71
-  ],
   [
    1794516640,
    99.93,
@@ -575,13 +570,18 @@
    1795291230,
    99.41,
    80.62
+  ],
+  [
+   1795294244,
+   99.41,
+   80.61
   ]
  ],
  "last_directive": {
   "regime": "risk_off",
   "assets_annotated": 2,
-  "text": "2 sources datées du 21/11 : CNBC (S&P 500 en correction, cinq facteurs de la baisse), Yahoo Finance (Nvidia -35 % depuis son pic, TSMC -20 % en une semaine, Micron -40 % depuis juin). — Contexte : correction des actions US portée par les valeurs IA/puces (S&P 500 en correction, Nvidia -35 % depuis s",
-  "received_at": "2026-11-21T13:51:15Z"
+  "text": "3 sources datées du 21/11 : CNBC (pire semaine de Wall Street depuis 2020), Yahoo Finance (pire semaine depuis le Covid, puces sous pression), CoinDesk (Bitcoin rebondi depuis un plus bas de 2 ans). — Contexte : pire semaine de Wall Street depuis 2020 (CNBC, Yahoo Finance, 21/11), portée par Nvidia/",
+  "received_at": "2026-11-21T20:50:44Z"
  },
  "indicators": {
   "fear_greed": {
@@ -593,7 +593,7 @@
  "indicator_stress": "VIX à 36 : volatilité extrême",
  "directive_track_record": {
   "n": 46,
-  "pending": 4,
+  "pending": 6,
   "hit_rate": 0.6086956521739131,
   "mean_signed": 0.01676384949659863,
   "enough": true,
@@ -716,6 +716,18 @@
  },
  "headlines": [
   {
+   "published": "2026-11-21T20:05:02Z",
+   "source": "Yahoo Finance",
+   "title": "1 Compelling Reason to Buy Vistra Stock Before November Ends",
+   "link": "https://www.fool.com/investing/2026/11/21/1-compelling-reason-to-buy-vistra-stock-before-november-ends/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T20:02:04Z",
+   "source": "Yahoo Finance",
+   "title": "The S&P 500 Is Having the Longest Losing Streak Since February 2020",
+   "link": "https://247wallst.com/investing/2026/11/21/the-sp-500-is-having-the-longest-losing-streak-since-february-2020/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-21T19:47:02Z",
    "source": "Yahoo Finance",
    "title": "Meet the Warren Buffett Rule That Makes This Consumer Stock a Buy With $1,000 Right Now",
@@ -726,6 +738,12 @@
    "source": "Yahoo Finance",
    "title": "Better Recent IPO: SpaceX or Anthropic?",
    "link": "https://www.fool.com/investing/2026/11/21/better-recent-ipo-spacex-or-anthropic/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T19:30:08Z",
+   "source": "Yahoo Finance",
+   "title": "Cathie Wood Doubles Down On ‘Highest Conviction Names’ Nvidia, Tesla and AMD As Cyclical Tech Stocks Get ‘Slaughtered’ Amid Market Pullback",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-doubles-down-highest-193008245.html?.tsrc=rss"
   },
   {
    "published": "2026-11-21T19:27:02Z",
@@ -830,33 +848,15 @@
    "link": "https://www.fool.com/investing/2026/11/21/airbnb-new-usd12-billion-buyback-is-backed-by-a-35-free-cash-flow-margin-what-it-means-for-shareholders/?.tsrc=rss"
   },
   {
-   "published": "2026-11-21T18:08:06Z",
-   "source": "Yahoo Finance",
-   "title": "3 AI Chip Stocks Retail Investors Are Watching After The Nvidia Selloff",
-   "link": "https://finance.yahoo.com/technology/ai/articles/3-ai-chip-stocks-retail-180806204.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T18:05:02Z",
-   "source": "Yahoo Finance",
-   "title": "Warren Buffett Said Stocks Are Better Than Bonds for Long-Term Investors. History Shows He Was Right.",
-   "link": "https://www.fool.com/investing/2026/11/21/warren-buffett-said-stocks-are-better-than-bonds-for-long-term-investors-history-shows-he-was-right/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-21T18:01:02Z",
    "source": "Decrypt",
    "title": "GTA 6 Leaker Dangles a PC Port Behind a $15 Million Crypto Pump",
    "link": "https://decrypt.co/383756/gta-6-leaker-dangles-pc-port-15-million-crypto-pump"
   },
   {
-   "published": "2026-11-21T17:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "Here's How Many Shares of Coca-Cola You'd Need for $1,000 in Monthly Income",
-   "link": "https://www.fool.com/investing/2026/11/21/heres-how-many-shares-of-coca-cola-youd-need-for-1000-in-monthly-income/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-21T17:50:00Z",
    "source": "CoinDesk",
-   "title": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open",
+   "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
    "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
   },
   {
