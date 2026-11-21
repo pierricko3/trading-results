@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T20:50:49Z",
+ "generated_at": "2026-11-21T21:30:57Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.41,
   "cash": 81.15,
   "perf_pct": -0.0059,
-  "bench_pct": -0.1939,
+  "bench_pct": -0.1936,
   "drawdown": 0.0083,
   "halted": false,
   "trade_count": 3
@@ -24,7 +24,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 60399.59,
+   "price": 60418.01,
    "trend": "baissière",
    "score": -0.513,
    "news_score": -0.75,
@@ -37,7 +37,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1685.11,
+   "price": 1686.41,
    "trend": "baissière",
    "score": -0.317,
    "news_score": -0.25,
@@ -51,7 +51,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 70.47,
+   "price": 70.51,
    "trend": "baissière",
    "score": -0.26,
    "news_score": 0.0,
@@ -64,9 +64,9 @@
    "symbol": "NVDA",
    "price": 125.79000091552734,
    "trend": "baissière",
-   "score": -0.316,
-   "news_score": -0.125,
-   "news_conf": 0.34,
+   "score": -0.339,
+   "news_score": -0.224,
+   "news_conf": 0.381,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": [
@@ -126,11 +126,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794516640,
-   99.93,
-   92.65
-  ],
   [
    1794519049,
    99.94,
@@ -575,6 +570,11 @@
    1795294244,
    99.41,
    80.61
+  ],
+  [
+   1795296652,
+   99.41,
+   80.64
   ]
  ],
  "last_directive": {
@@ -716,6 +716,48 @@
  },
  "headlines": [
   {
+   "published": "2026-11-21T21:12:02Z",
+   "source": "Yahoo Finance",
+   "title": "Micron Stock Just Hit Its Lowest Price Since May. I'd Buy More Now.",
+   "link": "https://www.fool.com/investing/2026/11/21/micron-stock-just-hit-its-lowest-price-since-may-i-d-buy-more-now/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T21:10:24Z",
+   "source": "Yahoo Finance",
+   "title": "AI Selloff Has Opened New Ways To Play Semiconductor Short Exposure",
+   "link": "https://finance.yahoo.com/technology/ai/articles/ai-selloff-opened-ways-play-211024484.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T21:05:02Z",
+   "source": "Yahoo Finance",
+   "title": "Is USA Rare Earth Stock a Buy Now?",
+   "link": "https://www.fool.com/investing/2026/11/21/is-usa-rare-earth-stock-a-buy-now/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T21:03:49Z",
+   "source": "Yahoo Finance",
+   "title": "His Indexed Annuity Tracks the S&P 500. The Fine Print Says “Price Return,” Which Means It Leaves Out Every Dividend the 500 Companies Pay",
+   "link": "https://247wallst.com/personal-finance/2026/11/21/his-indexed-annuity-tracks-the-sp-500-the-fine-print-says-price-return-which-means-it-leaves-out-every-dividend-the-500-companies-pay/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T20:47:02Z",
+   "source": "Yahoo Finance",
+   "title": "Is Shopify Stock Too Expensive to Buy for the Next 10 Years?",
+   "link": "https://www.fool.com/investing/2026/11/21/is-shopify-stock-too-expensive-to-buy-for-the-next-10-years/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T20:43:01Z",
+   "source": "Yahoo Finance",
+   "title": "2 Financial Stocks to Buy Near Their 52-Week Lows",
+   "link": "https://www.fool.com/investing/2026/11/21/2-financial-stocks-to-buy-near-their-52-week-lows/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T20:42:00Z",
+   "source": "Yahoo Finance",
+   "title": "The S&P 500 Is Now Below Every Wall Street Year-End Target for 2026",
+   "link": "https://247wallst.com/investing/2026/11/21/the-sp-500-is-now-below-every-wall-street-year-end-target-for-2026/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-21T20:05:02Z",
    "source": "Yahoo Finance",
    "title": "1 Compelling Reason to Buy Vistra Stock Before November Ends",
@@ -814,6 +856,12 @@
   {
    "published": "2026-11-21T18:32:03Z",
    "source": "Yahoo Finance",
+   "title": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
+   "link": "https://www.trefis.com/stock/meta/articles/627455/meta-stopped-its-buybacks-to-build-ai-how-much-more-can-it-spend/2026-11-21?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T18:32:03Z",
+   "source": "Yahoo Finance",
    "title": "Microsoft Was The Only Big AI Buyer Paying Down Debt. How Much More Can It Spend?",
    "link": "https://www.trefis.com/stock/msft/articles/627454/microsoft-was-the-only-big-ai-buyer-paying-down-debt-how-much-more-can-it-spend/2026-11-21?.tsrc=rss"
   },
@@ -822,30 +870,6 @@
    "source": "Yahoo Finance",
    "title": "Dell Up 447% In 5 Years, HPE 220%: What Did Michael Dell Do Differently?",
    "link": "https://www.trefis.com/stock/dell/articles/624826/dell-up-447-in-5-years-hpe-220-what-did-michael-dell-do-differently/2026-11-21?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T18:32:03Z",
-   "source": "Yahoo Finance",
-   "title": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
-   "link": "https://www.trefis.com/stock/meta/articles/627455/meta-stopped-its-buybacks-to-build-ai-how-much-more-can-it-spend/2026-11-21?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T18:28:01Z",
-   "source": "Yahoo Finance",
-   "title": "If the Fed Hikes Rates This Year, I'm Loading Up on This 1 ETF",
-   "link": "https://www.fool.com/investing/2026/11/21/if-the-fed-hikes-rates-this-year-im-loading-up-on-this-1-etf/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T18:20:37Z",
-   "source": "Yahoo Finance",
-   "title": "Marvell Just Dropped 22% in a Week as Nvidia’s Turmoil Hit AI Chips. Sell, or Load Up Before Dec. 1?",
-   "link": "https://www.tikr.com/blog/marvell-just-dropped-22-in-a-week-as-nvidias-turmoil-hit-ai-chips-sell-or-load-up-before-dec-1?ref=yahoofinance&tlnk=yf-261121-h6wc4q3f&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T18:15:15Z",
-   "source": "Yahoo Finance",
-   "title": "Airbnb’s New $12 Billion Buyback Is Backed by a 35% Free Cash Flow Margin. Here’s What It Means for Shareholders.",
-   "link": "https://www.fool.com/investing/2026/11/21/airbnb-new-usd12-billion-buyback-is-backed-by-a-35-free-cash-flow-margin-what-it-means-for-shareholders/?.tsrc=rss"
   },
   {
    "published": "2026-11-21T18:01:02Z",
@@ -870,30 +894,6 @@
    "source": "CNBC",
    "title": "Trump says there could be a 'positive spin' from the latest FBI database hack",
    "link": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html"
-  },
-  {
-   "published": "2026-11-21T16:48:17Z",
-   "source": "Yahoo Finance",
-   "title": "Google Is Paying Elon Musk’s SpaceX $30 Billion. Jim Cramer Just Revealed Why",
-   "link": "https://247wallst.com/investing/2026/11/21/google-is-paying-elon-musks-spacex-30-billion-jim-cramer-just-revealed-why/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T16:43:58Z",
-   "source": "Yahoo Finance",
-   "title": "Investors Put $45.7 Billion Into U.S. Stock Funds Right Before the Stock Market Tanked",
-   "link": "https://247wallst.com/investing/2026/11/21/investors-put-45-7-billion-into-u-s-stock-funds-right-before-the-stock-market-tanked/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T16:41:00Z",
-   "source": "CoinDesk",
-   "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
-   "link": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
-  },
-  {
-   "published": "2026-11-21T16:40:05Z",
-   "source": "CNBC",
-   "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
-   "link": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html"
   }
  ]
 }
