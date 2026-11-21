@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T04:00:34Z",
+ "generated_at": "2026-11-21T05:50:48Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.41,
   "cash": 81.15,
   "perf_pct": -0.0059,
-  "bench_pct": -0.217,
+  "bench_pct": -0.2207,
   "drawdown": 0.0083,
   "halted": false,
   "trade_count": 3
@@ -24,10 +24,10 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 56836.52,
+   "price": 55914.68,
    "trend": "baissière",
-   "score": -0.654,
-   "news_score": -0.778,
+   "score": -0.645,
+   "news_score": -0.75,
    "news_conf": 0.6,
    "tech_score": -0.883,
    "in_position": false,
@@ -38,7 +38,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1573.4,
+   "price": 1566.11,
    "trend": "baissière",
    "score": -0.398,
    "news_score": 0.0,
@@ -51,7 +51,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 66.41,
+   "price": 65.73,
    "trend": "baissière",
    "score": -0.272,
    "news_score": -0.25,
@@ -67,9 +67,9 @@
    "symbol": "NVDA",
    "price": 125.79000091552734,
    "trend": "baissière",
-   "score": -0.425,
-   "news_score": -0.5,
-   "news_conf": 0.48,
+   "score": -0.4,
+   "news_score": -0.398,
+   "news_conf": 0.49,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": [
@@ -80,9 +80,9 @@
    "symbol": "AAPL",
    "price": 342.67999267578125,
    "trend": "neutre",
-   "score": -0.042,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": -0.091,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": -0.092,
    "in_position": true,
    "patterns": [
@@ -94,9 +94,9 @@
    "symbol": "SPY",
    "price": 690.9099731445312,
    "trend": "baissière",
-   "score": -0.419,
-   "news_score": -0.5,
-   "news_conf": 0.48,
+   "score": -0.376,
+   "news_score": -0.364,
+   "news_conf": 0.444,
    "tech_score": -0.638,
    "in_position": false,
    "patterns": []
@@ -129,11 +129,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794456030,
-   99.99,
-   94.6
-  ],
   [
    1794462643,
    99.99,
@@ -578,13 +573,18 @@
    1795233630,
    99.41,
    78.3
+  ],
+  [
+   1795240243,
+   99.41,
+   77.93
   ]
  ],
  "last_directive": {
-  "regime": "neutral",
-  "assets_annotated": 0,
-  "text": "Aucune source datée et vérifiable exploitable à ce passage (titres RSS indisponibles, recherches sans dates ni contenu) ; pas d'indicateur concret pour risk_off. — Contexte : pas de source récente et vérifiable ce soir ; des titres du 18/11 évoquent un marché volatil autour de Nvidia et des minutes ",
-  "received_at": "2026-11-20T20:50:40Z"
+  "regime": "risk_off",
+  "assets_annotated": 2,
+  "text": "2 sources datées du 20/11 : CNBC (Nvidia -14 %, pire série hebdo depuis 2008), Yahoo Finance (Nasdaq 100 pire semaine depuis 2020, S&P 500 en correction). — Contexte : forte correction des actions US le 20/11 (Nasdaq 100 pire semaine depuis 2020, S&P 500 en correction, Nvidia -14 %), tirée par les v",
+  "received_at": "2026-11-21T05:50:43Z"
  },
  "indicators": {
   "fear_greed": {
@@ -595,28 +595,28 @@
  },
  "indicator_stress": "VIX à 36 : volatilité extrême",
  "directive_track_record": {
-  "n": 40,
-  "pending": 6,
-  "hit_rate": 0.55,
-  "mean_signed": 0.007737621095480984,
+  "n": 43,
+  "pending": 5,
+  "hit_rate": 0.5813953488372093,
+  "mean_signed": 0.01349131303089817,
   "enough": true,
   "min_sample": 20,
   "by_symbol": {
    "SPY": {
-    "n": 5,
-    "hit_rate": 0.4
+    "n": 6,
+    "hit_rate": 0.5
    },
    "AAPL": {
     "n": 4,
     "hit_rate": 0.25
    },
    "BTC/USDT": {
-    "n": 14,
-    "hit_rate": 0.7857142857142857
+    "n": 15,
+    "hit_rate": 0.8
    },
    "NVDA": {
-    "n": 16,
-    "hit_rate": 0.4375
+    "n": 17,
+    "hit_rate": 0.47058823529411764
    },
    "ETH/USDT": {
     "n": 1,
@@ -719,6 +719,48 @@
  },
  "headlines": [
   {
+   "published": "2026-11-21T05:40:35Z",
+   "source": "Cointelegraph",
+   "title": "Hong Kong pushes to bring crypto custodians, advisers under licensing rules",
+   "link": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-21T05:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "Follow the Smart Money: 4 AI Stocks Billionaire Dan Loeb Just Bought",
+   "link": "https://www.fool.com/investing/2026/11/21/follow-the-smart-money-4-ai-stocks-billionaire-dan-loeb-just-bought/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T04:17:02Z",
+   "source": "Yahoo Finance",
+   "title": "If the Nasdaq's Correction Turns Into a Bear Market, This Is the First Stock I'll Buy",
+   "link": "https://www.fool.com/investing/2026/11/20/if-the-nasdaq-s-correction-turns-into-a-bear-market-this-is-the-first-stock-i-ll-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T04:10:07Z",
+   "source": "CoinDesk",
+   "title": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
+   "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone"
+  },
+  {
+   "published": "2026-11-21T04:00:00Z",
+   "source": "Yahoo Finance",
+   "title": "Startup sues Apple in India over tap-to-share contacts feature",
+   "link": "https://finance.yahoo.com/technology/articles/startup-sues-apple-india-over-040000799.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T03:58:35Z",
+   "source": "Yahoo Finance",
+   "title": "The S&P 500 Just Entered Correction Territory. Here's What It Means for Investors Right Now.",
+   "link": "https://www.fool.com/investing/2026/11/20/the-sp-500-just-entered-correction-territory-heres-what-it-means-for-investors-right-now/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T03:30:13Z",
+   "source": "Yahoo Finance",
+   "title": "Dan Ives Says Anthropic IPO Sees 'Very Strong Appetite,' Calls It A 'Big Win' for Tech Sector After 'White-Knuckle' Nvidia Period",
+   "link": "https://finance.yahoo.com/technology/ai/articles/dan-ives-says-anthropic-ipo-033013948.html?.tsrc=rss"
+  },
+  {
    "published": "2026-11-21T03:16:12Z",
    "source": "Yahoo Finance",
    "title": "Is CoreWeave (CRWV) Fairly Valued After Fresh MLPerf Results?",
@@ -729,6 +771,12 @@
    "source": "Yahoo Finance",
    "title": "Photronics (PLAB) Stock Could Be 29% Undervalued Despite Fresh AI Supply Chain Uncertainty",
    "link": "https://finance.yahoo.com/markets/stocks/articles/photronics-plab-stock-could-29-031602463.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T03:14:00Z",
+   "source": "Yahoo Finance",
+   "title": "Jensen Huang Passed Billions in Nvidia Stock to His Heirs Months Before His Downfall",
+   "link": "https://finance.yahoo.com/m/f93688e0-5c36-372b-855e-b722a7cce11d/jensen-huang-passed-billions.html?.tsrc=rss"
   },
   {
    "published": "2026-11-21T02:48:25Z",
@@ -821,30 +869,6 @@
    "link": "https://www.tikr.com/blog/george-soros-and-20-other-big-funds-bought-qualcomm-last-quarter-david-tepper-and-14-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261120-7fxgch3m&.tsrc=rss"
   },
   {
-   "published": "2026-11-21T00:30:04Z",
-   "source": "Yahoo Finance",
-   "title": "Here's How Much Nvidia Stock Is Worth Without Jensen Huang, According to Dan Ives",
-   "link": "https://www.fool.com/investing/2026/11/20/here-s-how-much-nvidia-stock-is-worth-without-jensen-huang-according-to-dan-ives/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T00:16:15Z",
-   "source": "Yahoo Finance",
-   "title": "The Weekly Spread: What Shaped US Treasury Yields And The Dollar This Week",
-   "link": "https://stocktwits.com/news-articles/markets/equity/the-weekly-spread-what-shaped-us-treasury-yields-and-the-dollar-this-week-1/cNbmPyOR91X?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T00:02:51Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: Nvidia Stock Will Do This in the 6 Months After a New CEO Takes Over, According to History",
-   "link": "https://www.fool.com/investing/2026/11/20/prediction-nvidia-stock-will-do-this-in-the-6-months-after-a-new-ceo-takes-over-according-to-history/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T23:50:03Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: Rocket Lab Will Triple Its Revenue by 2028. Here’s What That Would Mean for the Stock.",
-   "link": "https://www.fool.com/investing/2026/11/20/prediction-rocket-lab-will-triple-its-revenue-by-2028-here-s-what-that-would-mean-for-the-stock/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-20T23:02:13Z",
    "source": "Yahoo Finance",
    "title": "She Moves $250,000 of Her 401(k) Into a Nasdaq-100 Fund at 60 to Own Anthropic From Its Debut Thursday. Nasdaq’s Fast-Entry Rule Keeps Her Fund From Buying Until Dec. 21, After Any First-Month Pop",
@@ -873,30 +897,6 @@
    "source": "CNBC",
    "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
    "link": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html"
-  },
-  {
-   "published": "2026-11-20T22:05:31Z",
-   "source": "CoinDesk",
-   "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
-   "link": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment"
-  },
-  {
-   "published": "2026-11-20T22:00:18Z",
-   "source": "Yahoo Finance",
-   "title": "Shots Fired: Meta Will Reportedly Sell a $300 Muse Charm With Free Verizon 5G as Apple Builds Its Agent",
-   "link": "https://www.tikr.com/blog/shots-fired-meta-will-reportedly-sell-a-300-muse-charm-with-free-verizon-5g-as-apple-builds-its-agent?ref=yahoofinance&tlnk=yf-261120-pg825wq7&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T21:40:23Z",
-   "source": "Yahoo Finance",
-   "title": "Apple Stock Has a New AI Catalyst -- It Could Take on OpenAI, Meta and Anthropic",
-   "link": "https://finance.yahoo.com/technology/ai/articles/apple-stock-ai-catalyst-could-214023171.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-20T21:36:02Z",
-   "source": "Decrypt",
-   "title": "Claude Claims Historic Math Breakthrough One Day After Anthropic IPO",
-   "link": "https://decrypt.co/383747/claude-historic-math-breakthrough-anthropic-ipo"
   }
  ]
 }
