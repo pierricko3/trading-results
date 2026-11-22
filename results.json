@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T20:00:34Z",
+ "generated_at": "2026-11-22T21:30:46Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.41,
   "cash": 81.15,
   "perf_pct": -0.0059,
-  "bench_pct": -0.1912,
+  "bench_pct": -0.1897,
   "drawdown": 0.0083,
   "halted": false,
   "trade_count": 3
@@ -24,7 +24,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 60740.78,
+   "price": 60992.94,
    "trend": "neutre",
    "score": -0.1,
    "news_score": -0.5,
@@ -35,7 +35,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1715.39,
+   "price": 1725.71,
    "trend": "neutre",
    "score": -0.034,
    "news_score": 0.0,
@@ -46,7 +46,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 70.32,
+   "price": 70.39,
    "trend": "baissière",
    "score": -0.266,
    "news_score": 0.0,
@@ -63,7 +63,7 @@
    "trend": "baissière",
    "score": -0.293,
    "news_score": 0.0,
-   "news_conf": 0.0,
+   "news_conf": 0.24,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": [
@@ -123,11 +123,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794582048,
-   100.23,
-   91.38
-  ],
   [
    1794585630,
    100.15,
@@ -572,6 +567,11 @@
    1795377630,
    99.41,
    80.88
+  ],
+  [
+   1795383041,
+   99.41,
+   81.03
   ]
  ],
  "last_directive": {
@@ -589,16 +589,16 @@
  },
  "indicator_stress": "VIX à 36 : volatilité extrême",
  "directive_track_record": {
-  "n": 50,
-  "pending": 2,
-  "hit_rate": 0.56,
-  "mean_signed": 0.01542274153687074,
+  "n": 52,
+  "pending": 0,
+  "hit_rate": 0.5384615384615384,
+  "mean_signed": 0.01482955917006802,
   "enough": true,
   "min_sample": 20,
   "by_symbol": {
    "SPY": {
-    "n": 9,
-    "hit_rate": 0.4444444444444444
+    "n": 10,
+    "hit_rate": 0.4
    },
    "AAPL": {
     "n": 4,
@@ -609,8 +609,8 @@
     "hit_rate": 0.8125
    },
    "NVDA": {
-    "n": 20,
-    "hit_rate": 0.45
+    "n": 21,
+    "hit_rate": 0.42857142857142855
    },
    "ETH/USDT": {
     "n": 1,
@@ -713,6 +713,96 @@
  },
  "headlines": [
   {
+   "published": "2026-11-22T21:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "Procter & Gamble Has Raised Its Dividend 70 Straight Years. Here's Why I'd Buy Before 2027.",
+   "link": "https://www.fool.com/investing/2026/11/22/procter-gamble-has-raised-its-dividend-70-straight-years-heres-why-id-buy-before-2027/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T21:12:53Z",
+   "source": "Yahoo Finance",
+   "title": "How exposed is the S&P 500 to an AI trade bust?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/exposed-p-500-ai-trade-211253614.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T21:08:04Z",
+   "source": "Yahoo Finance",
+   "title": "U.S. Treasury Secretary Scott Bessent Just Delivered Great News to Former Nvidia CEO Jensen Huang. Should You Buy Nvidia Stock Before Nov. 25?",
+   "link": "https://www.fool.com/investing/2026/11/22/u-s-treasury-secretary-scott-bessent-just-delivered-great-news-to-former-nvidia-ceo-jensen-huang-should-you-buy-nvidia-stock-before-nov-25/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T21:07:00Z",
+   "source": "Yahoo Finance",
+   "title": "Jeff Bezos sends a strong signal to Nvidia stock investors as CEO search heats up",
+   "link": "https://www.thestreet.com/investing/jeff-bezos-sends-a-strong-signal-to-nvidia-stock-investors-as-ceo-search-heats-up?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T21:05:29Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures Due As Oracle, Korea Try To Ease Market Fears; Look For These Absolute Losers",
+   "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures-due-as.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T20:50:02Z",
+   "source": "Yahoo Finance",
+   "title": "Does Anthropic Have a Competitive Advantage? These are the Four Big Ones",
+   "link": "https://www.fool.com/investing/2026/11/22/does-anthropic-have-a-competitive-advantage-these-are-the-four-big-ones/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T20:47:02Z",
+   "source": "Yahoo Finance",
+   "title": "Warren Buffett’s Successor, Greg Abel, Has Invested Nearly 47% of Berkshire Hathaway’s $360 Billion Stock Portfolio in Just 3 Stocks (and None Are AI Hyperscalers)",
+   "link": "https://www.fool.com/investing/2026/11/22/warren-buffett-s-successor-greg-abel-has-invested-nearly-47-of-berkshire-hathaway-s-usd360-billion-stock-portfolio-in-just-3-stocks-and-none-are-ai-hyperscalers/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T20:36:01Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic Stock Could Soar by 72%, According to This Wall Street Analyst",
+   "link": "https://www.fool.com/investing/2026/11/22/anthropic-stock-could-soar-by-72-according-to-this-wall-street-analyst/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T20:29:02Z",
+   "source": "Yahoo Finance",
+   "title": "When Can Anthropic Insiders Sell? What the Post-IPO Lockup Period Means for Shareholders.",
+   "link": "https://www.fool.com/investing/2026/11/22/when-can-anthropic-insiders-sell-what-the-lockup-means-for-shareholders/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T20:25:02Z",
+   "source": "Yahoo Finance",
+   "title": "United Airlines Has Warned Air Traffic Control Isn’t Ready for Air Taxis. That’s a Bigger Problem for Archer Than Its Cash Burn.",
+   "link": "https://www.fool.com/investing/2026/11/22/united-airlines-has-warned-air-traffic-control-isn-t-ready-for-air-taxis-that-s-a-bigger-problem-for-archer-than-its-cash-burn/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T20:20:18Z",
+   "source": "Yahoo Finance",
+   "title": "A $6.4 Billion Fund Just Bought These 3 Stocks",
+   "link": "https://www.tikr.com/blog/a-6-4-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261122-hf28rr6f&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T20:06:14Z",
+   "source": "Yahoo Finance",
+   "title": "What Is Apple (AAPL) Planning With Its New Autonomous AI Agent?",
+   "link": "https://finance.yahoo.com/technology/ai/articles/apple-aapl-planning-autonomous-ai-200614575.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T20:05:02Z",
+   "source": "Yahoo Finance",
+   "title": "Uber Trades at 16 Times Forward Earnings and a 30% Discount to Its All-Time High Stock Price. Here’s Why Robotaxis Make That a Mistake.",
+   "link": "https://www.fool.com/investing/2026/11/22/uber-trades-16-times-forward-earnings-and-30-discount-all-time-high-stock-price-here-why-robotaxis-make-that-a-mistake/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T19:50:24Z",
+   "source": "Yahoo Finance",
+   "title": "Ken Fisher and 13 Other Big Funds Bought Arista Networks Last Quarter, While 10 Sold. Who’s Right?",
+   "link": "https://www.tikr.com/blog/ken-fisher-and-13-other-big-funds-bought-arista-networks-last-quarter-while-10-sold-whos-right?ref=yahoofinance&tlnk=yf-261122-96cgvpf5&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T19:50:02Z",
+   "source": "Yahoo Finance",
+   "title": "Your 401(k) Has New Contribution Limits for 2027. Here's What You Need to Know",
+   "link": "https://www.fool.com/retirement/2026/11/22/your-401-k-has-new-contribution-limits-for-2027-here-s-what-you-need-to-know/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-22T19:37:02Z",
    "source": "Yahoo Finance",
    "title": "What These 6 Snack and Beverage Stocks Have in Common",
@@ -761,58 +851,10 @@
    "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html"
   },
   {
-   "published": "2026-11-22T18:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "Why Saturday’s Historic Starship Catch Changes the Bull Case for SpaceX Stock",
-   "link": "https://www.fool.com/investing/2026/11/22/why-saturday-s-historic-starship-catch-changes-the-bull-case-for-spacex-stock/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-22T18:43:15Z",
    "source": "Yahoo Finance",
    "title": "Billionaire Ray Dalio’s Bridgewater Keeps 16% of Its $23 Billion Stock Portfolio in S&P 500 Index Funds, Even After Cutting Them",
    "link": "https://247wallst.com/investing/2026/11/22/billionaire-ray-dalios-bridgewater-keeps-16-of-its-23-billion-stock-portfolio-in-sp-500-index-funds-even-after-cutting-them/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T18:40:08Z",
-   "source": "Yahoo Finance",
-   "title": "SpaceX Expects to Pass “One Gigawatt a Month” of AI Compute by the End of 2027. That’s Great News for Nvidia",
-   "link": "https://www.tikr.com/blog/spacex-expects-to-pass-one-gigawatt-a-month-of-ai-compute-by-the-end-of-2027-thats-great-news-for-nvidia?ref=yahoofinance&tlnk=yf-261122-96p3m6c4&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T18:40:02Z",
-   "source": "Yahoo Finance",
-   "title": "Is Coinbase Stock a Buy, Sell, or Hold 64% Below Its 52-Week High?",
-   "link": "https://www.fool.com/investing/2026/11/22/is-coinbase-stock-a-buy-sell-or-hold-61-below-its-52-week-high/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T18:35:01Z",
-   "source": "Yahoo Finance",
-   "title": "Archer’s Anduril Drone Begins Full-Scale Flight Tests in 2027. Here’s Why Defense Could Be Worth More Than Air Taxis.",
-   "link": "https://www.fool.com/investing/2026/11/22/archers-anduril-drone-begins-full-scale-flight-tests-in-2027-heres-why-defense-could-be-worth-more-than-air-taxis/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T18:23:02Z",
-   "source": "Yahoo Finance",
-   "title": "Eli Lilly's Obesity Pipeline Is Getting Crowded. That's Great News for Investors",
-   "link": "https://www.fool.com/investing/2026/11/22/eli-lilly-s-obesity-pipeline-is-getting-crowded-that-s-great-news-for-investors/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T18:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "Value Stocks Are Doing Something They Haven’t Done Since 2000. Here’s How They're Setting Up for 2027.",
-   "link": "https://www.fool.com/investing/2026/11/22/value-stocks-doing-something-havent-done-since-2000-how-theyre-setting-up-2027/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T18:05:15Z",
-   "source": "Yahoo Finance",
-   "title": "Stanley Druckenmiller, Leopold Aschenbrenner and 25 Other Big Funds Sold Taiwan Semiconductor Last Quarter, While 38 Bought. Who’s Right?",
-   "link": "https://www.tikr.com/blog/stanley-druckenmiller-leopold-aschenbrenner-and-25-other-big-funds-sold-taiwan-semiconductor-last-quarter-while-38-bought-whos-right?ref=yahoofinance&tlnk=yf-261122-frx2h3mh&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T18:05:01Z",
-   "source": "Yahoo Finance",
-   "title": "Here Are the 4 Investing Rules I'm Never Breaking, No Matter How Scary the Stock Market Gets",
-   "link": "https://www.fool.com/investing/2026/11/22/here-are-the-4-investing-rules-i-m-never-breaking-no-matter-how-scary-the-stock-market-gets/?.tsrc=rss"
   },
   {
    "published": "2026-11-22T18:00:00Z",
@@ -821,22 +863,10 @@
    "link": "https://www.thestreet.com/investing/ai-debt-fears-mount-why-cash-and-defensive-stocks-are-back-in-favor?.tsrc=rss"
   },
   {
-   "published": "2026-11-22T17:51:44Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Due As Oracle, Korea Try To Ease Market Fears; Look For These Absolute Losers",
-   "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures-due-as.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-22T17:50:34Z",
    "source": "Yahoo Finance",
    "title": "An $8.3 Billion Fund Just Bought These 3 Stocks",
    "link": "https://www.tikr.com/blog/an-8-3-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261122-2jg2vpjj&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T17:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "The S&P 500 and Dow Jones Are Dangerously Close to Joining the Nasdaq in a Correction. Here’s the Level That Would Put the Nasdaq in a Bear Market, and What History Says Investors Should Do During a S",
-   "link": "https://www.fool.com/investing/2026/11/22/the-s-and-p-500-and-dow-jones-are-dangerously-close-to-joining-the-nasdaq-in-a-correction-here-s-the-level-that-would-put-the-nasdaq-in-a-bear-market-and-what-history-says-investors-should-do-during-a/?.tsrc=rss"
   },
   {
    "published": "2026-11-22T17:33:25Z",
@@ -861,36 +891,6 @@
    "source": "Yahoo Finance",
    "title": "Apple’s CEO Calls Memory Pricing “Unprecedented.” Its Purchase Obligations Jumped $33 Billion in a Quarter",
    "link": "https://www.tikr.com/blog/apples-ceo-calls-memory-pricing-unprecedented-its-purchase-obligations-jumped-33-billion-in-a-quarter?ref=yahoofinance&tlnk=yf-261122-5m68j2ch&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T14:30:01Z",
-   "source": "CNBC",
-   "title": "Social Security benefits are rising in 2027, but other changes could affect what you keep",
-   "link": "https://www.cnbc.com/2026/11/22/social-security-changes-cola-taxes-medicare.html"
-  },
-  {
-   "published": "2026-11-22T14:30:00Z",
-   "source": "Cointelegraph",
-   "title": "The future of onchain FX could start with users, not institutional liquidity",
-   "link": "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-22T14:01:02Z",
-   "source": "Decrypt",
-   "title": "Google's Quantum Chip Beats Classical Limits in 'Impossible' Game",
-   "link": "https://decrypt.co/383743/googles-quantum-chip-beats-classical-limits-in-impossible-game-tests-105-qubits"
-  },
-  {
-   "published": "2026-11-22T14:00:01Z",
-   "source": "CNBC",
-   "title": "26-year-old Google worker earns $323,000 a year—but lives on less than minimum wage",
-   "link": "https://www.cnbc.com/make-it/2026/11/22/google-worker-earns-323000-a-yearbut-he-lives-on-minimum-wage.html"
-  },
-  {
-   "published": "2026-11-22T14:00:00Z",
-   "source": "CoinDesk",
-   "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
-   "link": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins"
   }
  ]
 }
