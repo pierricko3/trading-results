@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T08:00:35Z",
+ "generated_at": "2026-11-22T12:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.41,
   "cash": 81.15,
   "perf_pct": -0.0059,
-  "bench_pct": -0.2002,
+  "bench_pct": -0.1903,
   "drawdown": 0.0083,
   "halted": false,
   "trade_count": 3
@@ -24,34 +24,34 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 59155.36,
-   "trend": "baissière",
-   "score": -0.316,
-   "news_score": -0.25,
-   "news_conf": 0.36,
-   "tech_score": -0.593,
+   "price": 61078.57,
+   "trend": "neutre",
+   "score": -0.155,
+   "news_score": -0.5,
+   "news_conf": 0.48,
+   "tech_score": -0.051,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1666.65,
-   "trend": "baissière",
-   "score": -0.267,
+   "price": 1709.03,
+   "trend": "neutre",
+   "score": -0.032,
    "news_score": 0.0,
    "news_conf": 0.24,
-   "tech_score": -0.594,
+   "tech_score": -0.071,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "SOL/USDT",
-   "price": 69.19,
+   "price": 70.64,
    "trend": "baissière",
-   "score": -0.266,
+   "score": -0.258,
    "news_score": 0.0,
    "news_conf": 0.24,
-   "tech_score": -0.591,
+   "tech_score": -0.573,
    "in_position": false,
    "patterns": []
   },
@@ -59,9 +59,9 @@
    "symbol": "NVDA",
    "price": 125.79000091552734,
    "trend": "baissière",
-   "score": -0.248,
-   "news_score": 0.182,
-   "news_conf": 0.444,
+   "score": -0.342,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": [
@@ -72,9 +72,9 @@
    "symbol": "AAPL",
    "price": 342.67999267578125,
    "trend": "neutre",
-   "score": -0.042,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": -0.091,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": -0.092,
    "in_position": true,
    "patterns": [
@@ -86,9 +86,9 @@
    "symbol": "SPY",
    "price": 690.9099731445312,
    "trend": "baissière",
-   "score": -0.243,
-   "news_score": 0.182,
-   "news_conf": 0.444,
+   "score": -0.155,
+   "news_score": 0.5,
+   "news_conf": 0.48,
    "tech_score": -0.638,
    "in_position": false,
    "patterns": []
@@ -121,11 +121,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794549044,
-   99.94,
-   90.94
-  ],
   [
    1794556830,
    99.94,
@@ -570,6 +565,11 @@
    1795334430,
    99.41,
    79.98
+  ],
+  [
+   1795348830,
+   99.41,
+   80.97
   ]
  ],
  "last_directive": {
@@ -711,16 +711,130 @@
  },
  "headlines": [
   {
-   "published": "2026-11-22T07:43:02Z",
+   "published": "2026-11-22T11:51:55Z",
    "source": "Yahoo Finance",
-   "title": "Mortgage Rates Have Jumped More Than 1 Point Since February. Home Depot and Lowe’s Shareholders Are Feeling the Pain.",
-   "link": "https://www.fool.com/investing/2026/11/22/mortgage-rates-have-jumped-more-than-1-point-since-february-home-depot-and-lowes-shareholders-are-feeling-the-pain/?.tsrc=rss"
+   "title": "Jim Cramer Will “Thank the Shortseller for a Discount” on AMD. Is the China Risk Overblown?",
+   "link": "https://www.tikr.com/blog/jim-cramer-will-thank-the-shortseller-for-a-discount-on-amd-is-the-china-risk-overblown?ref=yahoofinance&tlnk=yf-261122-98h9mg2g&.tsrc=rss"
   },
   {
-   "published": "2026-11-22T07:25:02Z",
+   "published": "2026-11-22T11:33:02Z",
    "source": "Yahoo Finance",
-   "title": "Tesla Just Started Selling Cybercabs, Here's What It Means for a SpaceX and Tesla Merger .",
-   "link": "https://www.fool.com/investing/2026/11/22/tesla-just-started-selling-cybercabs-here-s-what-it-means-for-a-spacex-and-tesla-merger/?.tsrc=rss"
+   "title": "3 Reasons to Claim Social Security at 70",
+   "link": "https://www.fool.com/retirement/2026/11/22/3-reasons-to-claim-social-security-at-70/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T11:31:56Z",
+   "source": "Yahoo Finance",
+   "title": "Aswath Damodaran Put a “Limit Buy on Nvidia at 140.” Here’s the Math Behind His Price",
+   "link": "https://www.tikr.com/blog/aswath-damodaran-put-a-limit-buy-on-nvidia-at-140-heres-the-math-behind-his-price?ref=yahoofinance&tlnk=yf-261122-2g2jvjh6&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T11:25:27Z",
+   "source": "Cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-22T11:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "Here's the Average Social Security Benefit at 62 vs. 70",
+   "link": "https://www.fool.com/retirement/social-security/2026/11/22/heres-the-average-social-security-benefit-at-62-vs-70/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T11:15:02Z",
+   "source": "Yahoo Finance",
+   "title": "Billionaire Tech Investor Philippe Laffont Just Loaded Up on These 4 AI Stocks",
+   "link": "https://www.fool.com/investing/2026/11/22/billionaire-tech-investor-philippe-laffont-just-loaded-up-on-these-4-ai-stocks/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T11:11:02Z",
+   "source": "Yahoo Finance",
+   "title": "41.6% of Berkshire Hathaway's $358 Billion Portfolio Is Parked in 3 Artificial Intelligence (AI) Stocks",
+   "link": "https://www.fool.com/investing/2026/11/22/41-6-berkshire-hathaways-358-billion-portfolio-parked-3-artificial-intelligence-ai-stocks/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T11:08:01Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia China Chip Halt Puts AI Infrastructure Stocks In Focus",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-china-chip-halt-puts-110801083.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T11:07:09Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia (NVDA) CEO Jensen Huang Resigned As The SEC Opened An Accounting Probe",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-ceo-jensen-huang-110709516.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T11:00:02Z",
+   "source": "Yahoo Finance",
+   "title": "Nike Is Down 79% From Its Peak. Here's How Much $10,000 Invested Pays in Dividends Now.",
+   "link": "https://www.fool.com/investing/2026/11/22/nike-is-down-79-from-its-peak-here-s-how-much-usd10-000-invested-pays-in-dividends-now/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T11:00:00Z",
+   "source": "Yahoo Finance",
+   "title": "From Anthropic to Nvidia, Wall Street just had a bizarre, wild week",
+   "link": "https://finance.yahoo.com/markets/article/from-anthropic-to-nvidia-wall-street-just-had-a-bizarre-wild-week-110000443.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T10:50:02Z",
+   "source": "Yahoo Finance",
+   "title": "XRP Is Back Under $1. Is It Finally a Buy?",
+   "link": "https://www.fool.com/investing/2026/11/22/xrp-is-back-under-usd1-is-it-finally-a-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T10:30:02Z",
+   "source": "Yahoo Finance",
+   "title": "Street Calls of the Week",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/street-calls-week-103002019.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T10:27:02Z",
+   "source": "Yahoo Finance",
+   "title": "This Pipeline Partnership Raised Its Payout by 12.5% for the Third Straight Year. Here’s How Much Longer It Can Keep That Up.",
+   "link": "https://www.fool.com/investing/2026/11/22/this-pipeline-partnership-raised-its-payout-by-125-for-the-third-straight-year-heres-how-much-longer-it-can-keep-that-up/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T10:22:43Z",
+   "source": "Yahoo Finance",
+   "title": "Stanley Druckenmiller, David Tepper and 33 Other Big Funds Sold Advanced Micro Devices Last Quarter, While 21 Bought. Who’s Right?",
+   "link": "https://www.tikr.com/blog/stanley-druckenmiller-david-tepper-and-33-other-big-funds-sold-advanced-micro-devices-last-quarter-while-21-bought-whos-right?ref=yahoofinance&tlnk=yf-261122-4w2438x8&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T10:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Elon Musk's Tesla and SpaceX Each Formed a Special Committee to Explore a Merger as His AI Spending Accelerates. Here's Why Combining Them Could Reshape How Investors Value Tesla's Robotaxi Business.",
+   "link": "https://www.fool.com/investing/2026/11/22/elon-musks-tesla-and-spacex-committee-merger/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T10:07:16Z",
+   "source": "Yahoo Finance",
+   "title": "“The Selloff Does Not End When Fundamentals Improve,” Warns Gene Munster. Nvidia Looks Like 2012 Apple",
+   "link": "https://www.tikr.com/blog/the-selloff-does-not-end-when-fundamentals-improve-warns-gene-munster-nvidia-looks-like-2012-apple?ref=yahoofinance&tlnk=yf-261122-jwx4m5q4&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T10:04:27Z",
+   "source": "Yahoo Finance",
+   "title": "Plot Twist: As CFO, Nvidia’s Interim CEO Said “Over 99%” of Singapore Billings Were for U.S. Customers",
+   "link": "https://www.tikr.com/blog/plot-twist-as-cfo-nvidias-interim-ceo-said-over-99-of-singapore-billings-were-for-u-s-customers?ref=yahoofinance&tlnk=yf-261122-mmcx4jc4&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T09:46:02Z",
+   "source": "Yahoo Finance",
+   "title": "Where Will Micron Stock Be in 3 Years?",
+   "link": "https://www.fool.com/investing/2026/11/22/where-will-micron-stock-be-in-3-years/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T09:41:02Z",
+   "source": "Yahoo Finance",
+   "title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Donald Trump's Economy",
+   "link": "https://www.fool.com/investing/2026/11/22/stock-market-sounds-alarm-bad-news-president-trump-economy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T09:33:06Z",
+   "source": "Cointelegraph",
+   "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+   "link": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
    "published": "2026-11-22T07:24:05Z",
@@ -729,34 +843,10 @@
    "link": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-22T06:54:02Z",
-   "source": "Yahoo Finance",
-   "title": "1 Reason to Buy e.l.f. Beauty Stock",
-   "link": "https://www.fool.com/investing/2026/11/22/1-reason-to-buy-e-l-f-beauty-stock/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T06:52:25Z",
-   "source": "Yahoo Finance",
-   "title": "Chamath Palihapitiya Praises Jensen Huang As ‘Biblically Good,’ But Warns Bringing Him Back At Nvidia Could Put ‘Everybody’ At Risk",
-   "link": "https://stocktwits.com/news-articles/markets/equity/chamath-palihapitiya-praises-jensen-huang-biblically-good-nvidia-risk/cNbnmnOR91r?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T06:27:02Z",
-   "source": "Yahoo Finance",
-   "title": "What's Behind Grail Stock's Wild Ride in 2026, and What Can Investors Expect in 2027?",
-   "link": "https://www.fool.com/investing/2026/11/22/what-s-behind-grail-stock-s-wild-ride-in-2026-and-what-can-investors-expect-in-2027/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-22T06:00:01Z",
    "source": "CNBC",
    "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
    "link": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html"
-  },
-  {
-   "published": "2026-11-22T05:57:02Z",
-   "source": "Yahoo Finance",
-   "title": "The 2 ETFs I'd Buy Today: 1 for Growth, 1 for Dividends",
-   "link": "https://www.fool.com/investing/2026/11/22/the-2-etfs-i-d-buy-today-1-for-growth-1-for-dividends/?.tsrc=rss"
   },
   {
    "published": "2026-11-22T05:28:43Z",
@@ -765,88 +855,10 @@
    "link": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-22T05:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "Where Will Nvidia Stock Be in 20 Years? The Answer Might Surprise You.",
-   "link": "https://www.fool.com/investing/2026/11/22/where-will-nvidia-stock-be-in-20-years-the-answer-might-surprise-you/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T05:15:40Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Shock Puts MongoDB Stock And Cloud Software Names Back In Focus",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-shock-puts-mongodb-stock-051540855.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T05:01:15Z",
-   "source": "Yahoo Finance",
-   "title": "In China’s tech mecca, Trump and Xi touted AI cooperation. Now comes the harsh reality.",
-   "link": "https://www.cnn.com/2026/11/22/business/trump-xi-apec-tech-rivalry-intl-hnk?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T04:31:01Z",
-   "source": "Yahoo Finance",
-   "title": "Mark Zuckerberg’s Meta Platforms Is Pouring Up to $145 Billion Into AI This Year. Investors Should Watch This 1 Number.",
-   "link": "https://www.fool.com/investing/2026/11/21/mark-zuckerberg-s-meta-platforms-is-pouring-up-to-usd145-billion-into-ai-this-year-investors-should-watch-this-1-number/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T04:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "Netflix Falls Below $60. Bill Ackman Explains Why That’s an Incredible Investment Opportunity.",
-   "link": "https://www.fool.com/investing/2026/11/21/netflix-falls-below-usd60-bill-ackman-explains-why-that-s-an-incredible-investment-opportunity/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-22T04:17:00Z",
    "source": "Yahoo Finance",
    "title": "GTA 6's $3.79 billion debut sends Apple stock investors an unmistakable signal",
    "link": "https://www.thestreet.com/investing/stocks/gta-6-apple-innovation?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T03:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "Midterms 2026: Here's Exactly What I'm Doing With My Investment Portfolio Right Now",
-   "link": "https://www.fool.com/investing/2026/11/21/midterms-2026-here-s-exactly-what-i-m-doing-with-my-investment-portfolio-right-now/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T03:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "Billionaire David Tepper Just Made a Massive AI Chip Rotation — Will It Pay Off?",
-   "link": "https://www.fool.com/investing/2026/11/21/billionaire-david-tepper-just-made-a-massive-ai-chip-rotation-will-it-pay-off/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T03:12:39Z",
-   "source": "Yahoo Finance",
-   "title": "3 Top AI Stocks With At Least 14% ROE",
-   "link": "https://finance.yahoo.com/technology/ai/articles/3-top-ai-stocks-least-031239184.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T02:58:02Z",
-   "source": "Yahoo Finance",
-   "title": "The Rise of “Just-in-Case” ETFs for Uncertain Markets: What You Need to Know",
-   "link": "https://www.fool.com/investing/2026/11/21/the-rise-of-just-in-case-etfs-for-uncertain-markets-what-you-need-to-know/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T02:47:02Z",
-   "source": "Yahoo Finance",
-   "title": "ULA Vulcan Launch Ends in Disaster for Amazon's Satellite Internet Ambitions",
-   "link": "https://www.fool.com/investing/2026/11/21/ula-vulcan-launch-ends-in-disaster-for-amazon-s-satellite-internet-ambitions/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T02:21:02Z",
-   "source": "Yahoo Finance",
-   "title": "The Smartest Dividend Stock to Buy With $1,000 Right Now",
-   "link": "https://www.fool.com/investing/2026/11/21/the-smartest-dividend-stock-to-buy-with-1000-right-now/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T02:07:02Z",
-   "source": "Yahoo Finance",
-   "title": "Intel Says It Just Signed Its First Customer for Its Most Advanced Chipmaking Process. The Stock Is Still More Than 60% Below Its June Record.",
-   "link": "https://www.fool.com/investing/2026/11/21/intel-says-it-just-signed-its-first-customer-for-its-most-advanced-chipmaking-process-the-stock-is-still-more-than-60-below-its-june-record/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T01:53:01Z",
-   "source": "Yahoo Finance",
-   "title": "3 Stocks I'm Ready to Buy if the Market Crashes",
-   "link": "https://www.fool.com/investing/2026/11/21/3-stocks-im-ready-to-buy-if-the-market-crashes/?.tsrc=rss"
   },
   {
    "published": "2026-11-22T00:00:25Z",
@@ -877,18 +889,6 @@
    "source": "Yahoo Finance",
    "title": "The S&P 500 Is Having the Longest Losing Streak Since February 2020",
    "link": "https://247wallst.com/investing/2026/11/21/the-sp-500-is-having-the-longest-losing-streak-since-february-2020/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T19:22:53Z",
-   "source": "Yahoo Finance",
-   "title": "T-Bills Are Beating the Nasdaq, S&P 500 and Dow This Year",
-   "link": "https://247wallst.com/investing/2026/11/21/t-bills-are-beating-the-nasdaq-sp-500-and-dow-this-year/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T19:18:49Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures: After Nvidia, Anthropic Fuel Worst Week Since Covid, Look For These 'Absolute Losers'",
-   "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures%3A-after.html?.tsrc=rss"
   }
  ]
 }
