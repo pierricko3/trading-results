@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T21:30:57Z",
+ "generated_at": "2026-11-22T00:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.41,
   "cash": 81.15,
   "perf_pct": -0.0059,
-  "bench_pct": -0.1936,
+  "bench_pct": -0.1946,
   "drawdown": 0.0083,
   "halted": false,
   "trade_count": 3
@@ -24,39 +24,36 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 60418.01,
+   "price": 60207.69,
    "trend": "baissière",
-   "score": -0.513,
+   "score": -0.504,
    "news_score": -0.75,
    "news_conf": 0.6,
-   "tech_score": -0.59,
+   "tech_score": -0.569,
    "in_position": false,
-   "patterns": [
-    "Avalement baissier"
-   ]
+   "patterns": []
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1686.41,
+   "price": 1684.8,
    "trend": "baissière",
-   "score": -0.317,
-   "news_score": -0.25,
-   "news_conf": 0.36,
-   "tech_score": -0.595,
+   "score": -0.257,
+   "news_score": 0.0,
+   "news_conf": 0.24,
+   "tech_score": -0.57,
    "in_position": false,
    "patterns": [
-    "Avalement baissier",
     "Avalement haussier"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 70.51,
+   "price": 70.27,
    "trend": "baissière",
-   "score": -0.26,
+   "score": -0.254,
    "news_score": 0.0,
    "news_conf": 0.24,
-   "tech_score": -0.577,
+   "tech_score": -0.565,
    "in_position": false,
    "patterns": []
   },
@@ -64,9 +61,9 @@
    "symbol": "NVDA",
    "price": 125.79000091552734,
    "trend": "baissière",
-   "score": -0.339,
-   "news_score": -0.224,
-   "news_conf": 0.381,
+   "score": -0.35,
+   "news_score": -0.2,
+   "news_conf": 0.52,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": [
@@ -91,9 +88,9 @@
    "symbol": "SPY",
    "price": 690.9099731445312,
    "trend": "baissière",
-   "score": -0.276,
-   "news_score": 0.04,
-   "news_conf": 0.52,
+   "score": -0.243,
+   "news_score": 0.182,
+   "news_conf": 0.444,
    "tech_score": -0.638,
    "in_position": false,
    "patterns": []
@@ -126,11 +123,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794519049,
-   99.94,
-   92.81
-  ],
   [
    1794528030,
    99.94,
@@ -575,6 +567,11 @@
    1795296652,
    99.41,
    80.64
+  ],
+  [
+   1795305630,
+   99.41,
+   80.54
   ]
  ],
  "last_directive": {
@@ -585,7 +582,7 @@
  },
  "indicators": {
   "fear_greed": {
-   "value": 12,
+   "value": 11,
    "label": "Extreme Fear"
   },
   "vix": 35.89
@@ -716,6 +713,90 @@
  },
  "headlines": [
   {
+   "published": "2026-11-21T23:53:02Z",
+   "source": "Yahoo Finance",
+   "title": "Realty Income Pays Dividends Every Month. Here's What You Can Expect $10,000 Invested to Pay Monthly in 2027.",
+   "link": "https://www.fool.com/investing/2026/11/21/realty-income-pays-dividends-every-month-heres-what-you-can-expect-10000-invested-to-pay-monthly-in-2027/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T23:42:02Z",
+   "source": "Yahoo Finance",
+   "title": "Michael Burry Says He's Looking at Netflix Stock in the High $30s. I'd Consider It Now, Well Above That.",
+   "link": "https://www.fool.com/investing/2026/11/21/michael-burry-says-he-s-looking-at-netflix-stock-in-the-high-usd30s-i-d-consider-it-now-well-above-that/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T23:20:48Z",
+   "source": "Yahoo Finance",
+   "title": "Alphabet Stock Just Hit a 1-Year Low. Why Is Google's Parent Borrowing So Much Money?",
+   "link": "https://www.fool.com/investing/2026/11/21/alphabet-stock-just-hit-a-1-year-low-why-is-google-s-parent-borrowing-so-much-money/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T22:50:00Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Falls 48% From Peak as AI Selloff Spreads to Bitcoin and Crypto",
+   "link": "https://www.cryptoprowl.com/releases/nvidia-falls-48-from-peak-as-ai-selloff-spreads-to-bitcoin-and-crypto-8017?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T22:47:28Z",
+   "source": "Yahoo Finance",
+   "title": "Williams Companies Slashed Its Dividend in 2016. Here’s What $1,000 Invested Then Is Worth Today",
+   "link": "https://247wallst.com/investing/2026/11/21/williams-companies-slashed-its-dividend-in-2016-heres-what-1000-invested-then-is-worth-today/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T22:47:00Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia's new China threat could reach your 401(k)",
+   "link": "https://www.thestreet.com/retirement/nvidias-new-china-threat-could-reach-your-401k?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T22:35:02Z",
+   "source": "Yahoo Finance",
+   "title": "Novo Nordisk's Wegovy Pill Is Capturing 80% of New Oral Obesity Prescriptions. Is NVO Stock a Buy?",
+   "link": "https://www.fool.com/investing/2026/11/21/novo-nordisks-wegovy-pill-is-capturing-80-of-new-oral-obesity-prescriptions-is-nvo-stock-a-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T22:25:02Z",
+   "source": "Yahoo Finance",
+   "title": "Defense Stocks Fell After the Midterms. Here’s the 1 Defense Name I’d Buy Anyway -- and Why It Isn’t Lockheed Martin.",
+   "link": "https://www.fool.com/investing/2026/11/21/defense-stocks-fell-after-the-midterms-heres-the-1-defense-name-id-buy-anyway-and-why-it-isnt-lockheed-martin/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T22:11:02Z",
+   "source": "Yahoo Finance",
+   "title": "Is Tilray a Buy at Its Record Low, or Is It a Value Trap?",
+   "link": "https://www.fool.com/investing/2026/11/21/is-tilray-a-buy-at-its-record-low-or-is-it-a-value-trap/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T22:07:02Z",
+   "source": "Yahoo Finance",
+   "title": "Prediction: This Will Be Nvidia’s Stock Price in 2027 After Its Phenomenal Q3 Results",
+   "link": "https://www.fool.com/investing/2026/11/21/prediction-this-will-be-nvidia-s-stock-price-in-2027-after-its-phenomenal-q3-results/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T21:53:54Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia faces US accounting probe amid deepening turmoil: media",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-faces-us-accounting-probe-215354861.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T21:43:03Z",
+   "source": "Yahoo Finance",
+   "title": "Renaissance Technologies Grew Its SanDisk Stake More Than 55-Fold to $481 Million",
+   "link": "https://247wallst.com/investing/2026/11/21/renaissance-technologies-grew-its-sandisk-stake-more-than-55-fold-to-481-million/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T21:23:02Z",
+   "source": "Yahoo Finance",
+   "title": "Verizon Pays Out $11.7 Billion a Year in Dividends. Here’s the Free Cash Flow Math Behind Its 6.2%-Yielding Payout.",
+   "link": "https://www.fool.com/investing/2026/11/21/verizon-pays-out-usd11-7-billion-a-year-in-dividends-here-s-the-free-cash-flow-math-behind-its-6-2-yielding-payout/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T21:22:00Z",
+   "source": "Yahoo Finance",
+   "title": "Worried About Black Monday? What Wall Street Says Could Happen.",
+   "link": "https://finance.yahoo.com/m/32305bc8-6a1c-3b7f-af69-650d80df753a/worried-about-black-monday%3F.html?.tsrc=rss"
+  },
+  {
    "published": "2026-11-21T21:12:02Z",
    "source": "Yahoo Finance",
    "title": "Micron Stock Just Hit Its Lowest Price Since May. I'd Buy More Now.",
@@ -726,6 +807,12 @@
    "source": "Yahoo Finance",
    "title": "AI Selloff Has Opened New Ways To Play Semiconductor Short Exposure",
    "link": "https://finance.yahoo.com/technology/ai/articles/ai-selloff-opened-ways-play-211024484.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-21T21:07:42Z",
+   "source": "Yahoo Finance",
+   "title": "A tale of two Nvidias",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/tale-two-nvidias-210742550.html?.tsrc=rss"
   },
   {
    "published": "2026-11-21T21:05:02Z",
@@ -770,36 +857,6 @@
    "link": "https://247wallst.com/investing/2026/11/21/the-sp-500-is-having-the-longest-losing-streak-since-february-2020/?.tsrc=rss"
   },
   {
-   "published": "2026-11-21T19:47:02Z",
-   "source": "Yahoo Finance",
-   "title": "Meet the Warren Buffett Rule That Makes This Consumer Stock a Buy With $1,000 Right Now",
-   "link": "https://www.fool.com/investing/2026/11/21/meet-the-warren-buffett-rule-that-makes-this-consumer-stock-a-buy-with-1000-right-now/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T19:35:02Z",
-   "source": "Yahoo Finance",
-   "title": "Better Recent IPO: SpaceX or Anthropic?",
-   "link": "https://www.fool.com/investing/2026/11/21/better-recent-ipo-spacex-or-anthropic/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T19:30:08Z",
-   "source": "Yahoo Finance",
-   "title": "Cathie Wood Doubles Down On ‘Highest Conviction Names’ Nvidia, Tesla and AMD As Cyclical Tech Stocks Get ‘Slaughtered’ Amid Market Pullback",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-doubles-down-highest-193008245.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T19:27:02Z",
-   "source": "Yahoo Finance",
-   "title": "Medtronic Is About to Report Its First Earnings Since Spinning Off MiniMed. Should You Buy the Stock Before Nov. 24?",
-   "link": "https://www.fool.com/investing/2026/11/21/medtronic-is-about-to-report-its-first-earnings-since-spinning-off-minimed-should-you-buy-the-stock-before-nov-24/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T19:25:02Z",
-   "source": "Yahoo Finance",
-   "title": "2 Growth Stocks That Could Double by 2031",
-   "link": "https://www.fool.com/investing/2026/11/21/2-growth-stocks-that-could-double-by-2031/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-21T19:22:53Z",
    "source": "Yahoo Finance",
    "title": "T-Bills Are Beating the Nasdaq, S&P 500 and Dow This Year",
@@ -812,52 +869,10 @@
    "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures%3A-after.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-21T19:15:02Z",
-   "source": "Yahoo Finance",
-   "title": "Better Buy: Bitcoin vs. Ethereum",
-   "link": "https://www.fool.com/investing/2026/11/21/better-buy-bitcoin-vs-ethereum/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T19:07:02Z",
-   "source": "Yahoo Finance",
-   "title": "The S&P 500 Heads Into Thanksgiving Below Its Peak. Here's How the Holiday Week Has Usually Gone Since 1950.",
-   "link": "https://www.fool.com/investing/2026/11/21/the-s-and-p-500-heads-into-thanksgiving-below-its-peak-here-s-how-the-holiday-week-has-usually-gone-since-1950/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T18:57:02Z",
-   "source": "Yahoo Finance",
-   "title": "Could Investing $500 a Month in Nebius Help You Retire a Millionaire?",
-   "link": "https://www.fool.com/investing/2026/11/21/could-investing-500-a-month-in-nebius-help-you-retire-a-millionaire/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T18:47:02Z",
-   "source": "Yahoo Finance",
-   "title": "Worried About a Market Crash? This AI Stock Should Bounce Back Fastest.",
-   "link": "https://www.fool.com/investing/2026/11/21/worried-about-a-market-crash-this-ai-stock-should-bounce-back-fastest/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T18:47:00Z",
-   "source": "Yahoo Finance",
-   "title": "Debt-heavy CoreWeave just got $350M from Jensen Huang’s charity",
-   "link": "https://www.thestreet.com/investing/debt-heavy-coreweave-350m-jensen-huang-charity?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T18:35:02Z",
-   "source": "Yahoo Finance",
-   "title": "Should You Buy Nvidia Stock Right Now?",
-   "link": "https://www.fool.com/investing/2026/11/21/should-you-buy-nvidia-stock-right-now/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-21T18:33:00Z",
    "source": "Yahoo Finance",
    "title": "T-Mobile leak reveals major phone plan change for core customers",
    "link": "https://www.thestreet.com/retail/t-mobile-t-select-prepaid-wireless-plans-leak?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-21T18:32:03Z",
-   "source": "Yahoo Finance",
-   "title": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
-   "link": "https://www.trefis.com/stock/meta/articles/627455/meta-stopped-its-buybacks-to-build-ai-how-much-more-can-it-spend/2026-11-21?.tsrc=rss"
   },
   {
    "published": "2026-11-21T18:32:03Z",
@@ -876,24 +891,6 @@
    "source": "Decrypt",
    "title": "GTA 6 Leaker Dangles a PC Port Behind a $15 Million Crypto Pump",
    "link": "https://decrypt.co/383756/gta-6-leaker-dangles-pc-port-15-million-crypto-pump"
-  },
-  {
-   "published": "2026-11-21T17:50:00Z",
-   "source": "CoinDesk",
-   "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
-   "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
-  },
-  {
-   "published": "2026-11-21T17:01:02Z",
-   "source": "Decrypt",
-   "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
-   "link": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec"
-  },
-  {
-   "published": "2026-11-21T16:57:34Z",
-   "source": "CNBC",
-   "title": "Trump says there could be a 'positive spin' from the latest FBI database hack",
-   "link": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html"
   }
  ]
 }
