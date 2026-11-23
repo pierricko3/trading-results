@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T21:30:46Z",
+ "generated_at": "2026-11-23T00:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.41,
   "cash": 81.15,
   "perf_pct": -0.0059,
-  "bench_pct": -0.1897,
+  "bench_pct": -0.1884,
   "drawdown": 0.0083,
   "halted": false,
   "trade_count": 3
@@ -24,34 +24,38 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 60992.94,
+   "price": 61314.08,
    "trend": "neutre",
-   "score": -0.1,
+   "score": 0.019,
    "news_score": -0.5,
    "news_conf": 0.24,
-   "tech_score": -0.075,
+   "tech_score": 0.19,
    "in_position": false,
-   "patterns": []
+   "patterns": [
+    "Avalement haussier"
+   ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1725.71,
+   "price": 1725.82,
    "trend": "neutre",
-   "score": -0.034,
+   "score": 0.083,
    "news_score": 0.0,
    "news_conf": 0.0,
-   "tech_score": -0.076,
+   "tech_score": 0.185,
    "in_position": false,
-   "patterns": []
+   "patterns": [
+    "Avalement haussier"
+   ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 70.39,
-   "trend": "baissière",
-   "score": -0.266,
+   "price": 70.77,
+   "trend": "neutre",
+   "score": -0.026,
    "news_score": 0.0,
    "news_conf": 0.0,
-   "tech_score": -0.591,
+   "tech_score": -0.058,
    "in_position": false,
    "patterns": [
     "Doji (indécision)"
@@ -61,9 +65,9 @@
    "symbol": "NVDA",
    "price": 125.79000091552734,
    "trend": "baissière",
-   "score": -0.293,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": -0.243,
+   "news_score": 0.25,
+   "news_conf": 0.36,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": [
@@ -74,9 +78,9 @@
    "symbol": "AAPL",
    "price": 342.67999267578125,
    "trend": "neutre",
-   "score": -0.174,
-   "news_score": -0.5,
-   "news_conf": 0.48,
+   "score": -0.091,
+   "news_score": -0.25,
+   "news_conf": 0.36,
    "tech_score": -0.092,
    "in_position": true,
    "patterns": [
@@ -123,11 +127,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794585630,
-   100.15,
-   90.82
-  ],
   [
    1794600030,
    100.07,
@@ -572,6 +571,11 @@
    1795383041,
    99.41,
    81.03
+  ],
+  [
+   1795392030,
+   99.41,
+   81.16
   ]
  ],
  "last_directive": {
@@ -713,10 +717,70 @@
  },
  "headlines": [
   {
+   "published": "2026-11-22T23:56:13Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures Rise As Oracle, Korea Try To Ease Market Fears; Look For These Absolute Losers",
+   "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures-rise-as.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T23:43:00Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Just Lost Nearly Half Its Value. A 62-Year-Old With $1 Million in an S&P 500 Index Fund Owns About $50,000 of It Without Buying a Share",
+   "link": "https://247wallst.com/investing/2026/11/22/nvidia-just-lost-nearly-half-its-value-a-62-year-old-with-1-million-in-an-sp-500-index-fund-owns-about-50000-of-it-without-buying-a-share/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T23:24:02Z",
+   "source": "Yahoo Finance",
+   "title": "Upstart Is Yesterday's News. Is This Fintech Stock the Better Buy?",
+   "link": "https://www.fool.com/investing/2026/11/22/upstart-is-yesterdays-news-is-this-fintech-stock-the-better-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T22:55:02Z",
+   "source": "Yahoo Finance",
+   "title": "Apple Is Now 25% of Berkshire Hathaway's Stock Portfolio. Here's What Holding Every Share Tells Investors.",
+   "link": "https://www.fool.com/investing/2026/11/22/apple-is-now-25-of-berkshire-hathaway-s-stock-portfolio-here-s-what-holding-every-share-tells-investors/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T22:50:02Z",
+   "source": "Yahoo Finance",
+   "title": "Where Will USA Rare Earth Stock Be in 5 Years? This Mine Holds the Keys.",
+   "link": "https://www.fool.com/investing/2026/11/22/where-will-usa-rare-earth-stock-be-in-5-years-this-mine-holds-the-keys/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T22:47:09Z",
+   "source": "Cointelegraph",
+   "title": "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest",
+   "link": "https://cointelegraph.com/magazine/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-22T22:21:02Z",
+   "source": "Yahoo Finance",
+   "title": "Should You Buy Tesla or SpaceX Stock Before Their Potential Merger?",
+   "link": "https://www.fool.com/investing/2026/11/22/should-you-buy-tesla-or-spacex-stock-before-merger/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T22:03:02Z",
+   "source": "Yahoo Finance",
+   "title": "3 AI Hardware Stocks Down More Than 30% From Their Records to Buy Now and Hold Through 2030",
+   "link": "https://www.fool.com/investing/2026/11/22/3-ai-hardware-stocks-down-more-than-30-from-their-records-to-buy-now-and-hold-through-2030/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T21:34:00Z",
+   "source": "Yahoo Finance",
+   "title": "Altria Yields 5.9%. Here's How Many Shares You'd Need for $5,000 in Yearly Dividend Income.",
+   "link": "https://www.fool.com/investing/2026/11/22/altria-yields-59-heres-how-many-shares-youd-need-f/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-22T21:20:02Z",
    "source": "Yahoo Finance",
    "title": "Procter & Gamble Has Raised Its Dividend 70 Straight Years. Here's Why I'd Buy Before 2027.",
    "link": "https://www.fool.com/investing/2026/11/22/procter-gamble-has-raised-its-dividend-70-straight-years-heres-why-id-buy-before-2027/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-22T21:17:16Z",
+   "source": "Yahoo Finance",
+   "title": "Charlie Bilello Flags the Nasdaq 100’s First Bear Market Since April 2025",
+   "link": "https://247wallst.com/investing/2026/11/22/charlie-bilello-flags-the-nasdaq-100s-first-bear-market-since-april-2025/?.tsrc=rss"
   },
   {
    "published": "2026-11-22T21:12:53Z",
@@ -735,12 +799,6 @@
    "source": "Yahoo Finance",
    "title": "Jeff Bezos sends a strong signal to Nvidia stock investors as CEO search heats up",
    "link": "https://www.thestreet.com/investing/jeff-bezos-sends-a-strong-signal-to-nvidia-stock-investors-as-ceo-search-heats-up?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T21:05:29Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Due As Oracle, Korea Try To Ease Market Fears; Look For These Absolute Losers",
-   "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures-due-as.html?.tsrc=rss"
   },
   {
    "published": "2026-11-22T20:50:02Z",
@@ -791,58 +849,10 @@
    "link": "https://www.fool.com/investing/2026/11/22/uber-trades-16-times-forward-earnings-and-30-discount-all-time-high-stock-price-here-why-robotaxis-make-that-a-mistake/?.tsrc=rss"
   },
   {
-   "published": "2026-11-22T19:50:24Z",
-   "source": "Yahoo Finance",
-   "title": "Ken Fisher and 13 Other Big Funds Bought Arista Networks Last Quarter, While 10 Sold. Who’s Right?",
-   "link": "https://www.tikr.com/blog/ken-fisher-and-13-other-big-funds-bought-arista-networks-last-quarter-while-10-sold-whos-right?ref=yahoofinance&tlnk=yf-261122-96cgvpf5&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T19:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "Your 401(k) Has New Contribution Limits for 2027. Here's What You Need to Know",
-   "link": "https://www.fool.com/retirement/2026/11/22/your-401-k-has-new-contribution-limits-for-2027-here-s-what-you-need-to-know/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T19:37:02Z",
-   "source": "Yahoo Finance",
-   "title": "What These 6 Snack and Beverage Stocks Have in Common",
-   "link": "https://www.fool.com/investing/2026/11/22/what-these-6-snack-and-beverage-stocks-have-in-common/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-22T19:30:00Z",
    "source": "CoinDesk",
    "title": "More on the pending oversight hearings: State of Crypto",
    "link": "https://www.coindesk.com/"
-  },
-  {
-   "published": "2026-11-22T19:22:02Z",
-   "source": "Yahoo Finance",
-   "title": "Here's What a $1,000 Investment in Broadcom Stock Could Be Worth By 2035",
-   "link": "https://www.fool.com/investing/2026/11/22/here-s-what-a-usd1-000-investment-in-broadcom-stock-could-be-worth-by-2035/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T19:06:39Z",
-   "source": "Yahoo Finance",
-   "title": "Cognizant Technology Solutions (CTSH) Puts AI To Work In Healthcare And Cybersecurity",
-   "link": "https://finance.yahoo.com/technology/ai/articles/cognizant-technology-solutions-ctsh-puts-190639419.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T19:05:02Z",
-   "source": "Yahoo Finance",
-   "title": "Walmart Has Raised Its Dividend 53 Straight Years. I'd Buy It Before December and Never Sell.",
-   "link": "https://www.fool.com/investing/2026/11/22/walmart-has-raised-its-dividend-53-straight-years-id-buy-it-before-december-and-never-sell/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T19:00:51Z",
-   "source": "Yahoo Finance",
-   "title": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters",
-   "link": "https://finance.yahoo.com/markets/article/stocks-are-on-fire-sale-as-anthropic-ipo-fails-to-calm-ai-trade-jitters-190051253.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T18:57:02Z",
-   "source": "Yahoo Finance",
-   "title": "Palantir Stock Could Finish 2026 Lower. Its Only 2 Losing Years Ended Very Differently.",
-   "link": "https://www.fool.com/investing/2026/11/22/palantir-stock-could-finish-2026-lower-its-only-2-losing-years-ended-very-differently/?.tsrc=rss"
   },
   {
    "published": "2026-11-22T18:55:05Z",
@@ -885,12 +895,6 @@
    "source": "Yahoo Finance",
    "title": "Members of Congress Must Disclose Their Stock Trades. NANC Copies the Democrats’ Buys Into One ETF",
    "link": "https://247wallst.com/investing/etf/2026/11/22/members-of-congress-must-disclose-their-stock-trades-nanc-copies-the-democrats-buys-into-one-etf/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-22T14:44:02Z",
-   "source": "Yahoo Finance",
-   "title": "Apple’s CEO Calls Memory Pricing “Unprecedented.” Its Purchase Obligations Jumped $33 Billion in a Quarter",
-   "link": "https://www.tikr.com/blog/apples-ceo-calls-memory-pricing-unprecedented-its-purchase-obligations-jumped-33-billion-in-a-quarter?ref=yahoofinance&tlnk=yf-261122-5m68j2ch&.tsrc=rss"
   }
  ]
 }
