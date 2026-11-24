@@ -1,22 +1,30 @@
 {
- "generated_at": "2026-11-24T20:50:46Z",
+ "generated_at": "2026-11-24T21:30:55Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
   "initial": 100.0,
   "equity": 99.75,
-  "cash": 99.75,
+  "cash": 81.41,
   "perf_pct": -0.0025,
-  "bench_pct": -0.1636,
-  "drawdown": 0.0048,
+  "bench_pct": -0.1608,
+  "drawdown": 0.0049,
   "halted": false,
-  "trade_count": 4
+  "trade_count": 5
  },
- "positions": [],
+ "positions": [
+  {
+   "symbol": "AAPL",
+   "value": 18.34,
+   "pnl_pct": -0.0005,
+   "entry_price": 354.3671,
+   "stop": 331.1311
+  }
+ ],
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 59735.27,
+   "price": 59955.23,
    "trend": "baissière",
    "score": -0.265,
    "news_score": -0.2,
@@ -31,11 +39,11 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1677.85,
+   "price": 1681.96,
    "trend": "baissière",
-   "score": -0.248,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": -0.198,
+   "news_score": 0.25,
+   "news_conf": 0.36,
    "tech_score": -0.551,
    "in_position": false,
    "patterns": [
@@ -46,11 +54,11 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 69.36,
+   "price": 69.57,
    "trend": "baissière",
-   "score": -0.224,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": -0.174,
+   "news_score": 0.25,
+   "news_conf": 0.36,
    "tech_score": -0.497,
    "in_position": false,
    "patterns": [
@@ -60,10 +68,10 @@
   },
   {
    "symbol": "NVDA",
-   "price": 154.13999938964844,
+   "price": 155.47999572753906,
    "trend": "baissière",
-   "score": -0.457,
-   "news_score": -0.59,
+   "score": -0.357,
+   "news_score": -0.232,
    "news_conf": 0.508,
    "tech_score": -0.65,
    "in_position": false,
@@ -73,13 +81,13 @@
   },
   {
    "symbol": "AAPL",
-   "price": 353.25,
+   "price": 354.19000244140625,
    "trend": "haussière",
-   "score": 0.253,
-   "news_score": 0.25,
-   "news_conf": 0.36,
+   "score": 0.336,
+   "news_score": 0.5,
+   "news_conf": 0.48,
    "tech_score": 0.453,
-   "in_position": false,
+   "in_position": true,
    "patterns": [
     "Marteau inversé (rebond possible)",
     "Avalement baissier"
@@ -87,17 +95,25 @@
   },
   {
    "symbol": "SPY",
-   "price": 718.2249755859375,
+   "price": 718.7899780273438,
    "trend": "baissière",
    "score": -0.263,
    "news_score": 0.0,
-   "news_conf": 0.24,
+   "news_conf": 0.48,
    "tech_score": -0.584,
    "in_position": false,
    "patterns": []
   }
  ],
  "recent_trades": [
+  {
+   "time": "2026-11-24T21:30:51Z",
+   "symbol": "AAPL",
+   "side": "buy",
+   "price": 354.3671,
+   "pnl_pct": 0.0,
+   "reason": "Score +0.34 (actus +0.24, technique +0.45), tendance haussière, chandeliers : Marteau inversé (rebond possible), Avalement baissier. IA : Mode sans IA : 3 mots positifs, 1 négatifs sur 12 titres."
+  },
   {
    "time": "2026-11-23T16:00:30Z",
    "symbol": "AAPL",
@@ -132,11 +148,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794750642,
-   100.02,
-   88.32
-  ],
   [
    1794758430,
    100.02,
@@ -581,6 +592,11 @@
    1795553440,
    99.75,
    83.64
+  ],
+  [
+   1795555851,
+   99.75,
+   83.92
   ]
  ],
  "last_directive": {
@@ -594,7 +610,7 @@
    "value": 11,
    "label": "Extreme Fear"
   },
-  "vix": 27.17
+  "vix": 26.36
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -630,21 +646,21 @@
  "costs": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 99.75454976587312,
+  "equity": 99.74538133014883,
   "profiles": {
    "crypto": "Kraken, ordres au marché",
    "stock": "Alpaca, actions et ETF américains"
   },
   "fees": 0.0,
-  "slippage": 0.03850004456416275,
+  "slippage": 0.047668480288451706,
   "fees_pct_capital": 0.0,
-  "gross_pl": -0.20695018956271508,
-  "before_fees": -0.24545023412687783,
-  "net_pl": -0.24545023412687783,
+  "gross_pl": -0.20695018956271727,
+  "before_fees": -0.254618669851169,
+  "net_pl": -0.254618669851169,
   "tax_rate": 0.314,
   "tax_est": 0.0,
-  "net_after_tax": -0.24545023412687783,
-  "trade_count": 4,
+  "net_after_tax": -0.254618669851169,
+  "trade_count": 5,
   "platforms": {
    "crypto": [
     {
@@ -652,7 +668,7 @@
      "label": "Kraken, ordres au marché",
      "note": "0,40 % taker sous 50 000 $/mois ; accessible depuis la France (agrément irlandais, passeport UE)",
      "fees": 0,
-     "net": -0.24545023412687783,
+     "net": -0.254618669851169,
      "active": true
     },
     {
@@ -660,7 +676,7 @@
      "label": "Kraken, ordres à cours limité",
      "note": "0,25 % maker, mais un ordre limite peut ne pas être exécuté",
      "fees": 0,
-     "net": -0.24545023412687783,
+     "net": -0.254618669851169,
      "active": false
     },
     {
@@ -668,7 +684,7 @@
      "label": "Coinbase Advanced",
      "note": "0,50 % taker au palier de base",
      "fees": 0,
-     "net": -0.24545023412687783,
+     "net": -0.254618669851169,
      "active": false
     },
     {
@@ -676,7 +692,7 @@
      "label": "Binance",
      "note": "0,10 % : mais n'accepte plus de nouveaux clients en France d'après plusieurs sources",
      "fees": 0,
-     "net": -0.24545023412687783,
+     "net": -0.254618669851169,
      "active": false
     },
     {
@@ -684,7 +700,7 @@
      "label": "eToro, crypto réelle",
      "note": "1 % par position, soit 2 % l'aller-retour, spread en plus",
      "fees": 0,
-     "net": -0.24545023412687783,
+     "net": -0.254618669851169,
      "active": false
     }
    ],
@@ -694,23 +710,23 @@
      "label": "Alpaca, actions et ETF américains",
      "note": "0 commission ; compte à déclarer (3916-bis), pas de marge",
      "fees": 0.0,
-     "net": -0.24545023412687783,
+     "net": -0.254618669851169,
      "active": true
     },
     {
      "key": "ibkr_fixed",
      "label": "Interactive Brokers, tarif fixe",
      "note": "0,005 $/action, minimum 1 $, plafonné à 1 % du montant",
-     "fees": 0.7700019260342628,
-     "net": -1.0154521601611406,
+     "fees": 0.9534623248773252,
+     "net": -1.208080994728494,
      "active": false
     },
     {
      "key": "etoro_stock",
      "label": "eToro, actions réelles",
      "note": "1 $ (parfois 2 $) par ordre, achat et vente",
-     "fees": 4.0,
-     "net": -4.245450234126878,
+     "fees": 5.0,
+     "net": -5.254618669851169,
      "active": false
     }
    ]
@@ -722,16 +738,148 @@
  },
  "headlines": [
   {
+   "published": "2026-11-24T21:21:45Z",
+   "source": "Yahoo Finance",
+   "title": "Dell handily tops estimates, lifts sales and profit guidance",
+   "link": "https://finance.yahoo.com/technology/ai/article/dell-handily-tops-estimates-lifts-sales-and-profit-guidance-212145887.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:19:13Z",
+   "source": "Yahoo Finance",
+   "title": "Huang's return fails to dispel doubts as Nvidia shares drop",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/huangs-return-fails-dispel-doubts-164158462.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:16:02Z",
+   "source": "Decrypt",
+   "title": "Coldcard Bitcoin Exploit, Revisited: How a Hidden Flaw Survived Years of Audits",
+   "link": "https://decrypt.co/383930/coldcard-bitcoin-exploit-how-hidden-flaw-survived-years-audits"
+  },
+  {
+   "published": "2026-11-24T21:15:23Z",
+   "source": "CNBC",
+   "title": "Nvidia shares fall more than 5% as Huang comeback rally cools",
+   "link": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html"
+  },
+  {
+   "published": "2026-11-24T21:15:09Z",
+   "source": "Yahoo Finance",
+   "title": "She Retires at 65 With a $900,000 All-Stock 401(k) as the S&P 500 Swings From Its Worst Week to Its Best Day Since April 2025. The 8.6% Drop Erases $77,400, and the Rebound Still Leaves Her $38,409 Sh",
+   "link": "https://247wallst.com/personal-finance/2026/11/24/she-retires-at-65-with-a-900000-all-stock-401k-right-after-the-sp-500s-worst-week-since-april-2025-the-8-6-drop-erases-77400-and-mondays-best-day-since-april-2025-still-leaves-her-38409/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:14:50Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia's Historic 31% Rally Unravels In Just One Day. AI Stocks Plunge As Nasdaq Sinks 2%.",
+   "link": "https://www.ibtimes.com/us-stocks-mixed-ai-selloff-consumer-confidence-3810150?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:13:39Z",
+   "source": "CNBC",
+   "title": "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
+   "link": "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html"
+  },
+  {
+   "published": "2026-11-24T21:13:24Z",
+   "source": "Yahoo Finance",
+   "title": "Is Apple (AAPL) Above Fair Value As ETF Buying Returns?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-above-fair-value-211324050.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:13:23Z",
+   "source": "Yahoo Finance",
+   "title": "Top 3 Insider Owned Growth Stocks To Watch In November 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/top-3-insider-owned-growth-211323768.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:07:19Z",
+   "source": "CNBC",
+   "title": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years",
+   "link": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html"
+  },
+  {
+   "published": "2026-11-24T21:06:00Z",
+   "source": "Yahoo Finance",
+   "title": "Microsoft (MSFT) Is One of the Safest Ways to Own AI",
+   "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-one-safest-ways-210600451.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:05:02Z",
+   "source": "Yahoo Finance",
+   "title": "Did Nvidia Make a Big Mistake by Reinstating Jensen Huang as CEO so Quickly?",
+   "link": "https://www.fool.com/investing/2026/11/24/did-nvidia-make-a-big-mistake-by-reinstating-jensen-huang-as-ceo/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:04:03Z",
+   "source": "CNBC",
+   "title": "Anthropic closes below $83 IPO price, but analysts are still largely positive",
+   "link": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
+  },
+  {
+   "published": "2026-11-24T21:03:14Z",
+   "source": "Yahoo Finance",
+   "title": "The Biggest Earnings Winners Grind Dell And Sandisk Into The Dust",
+   "link": "https://finance.yahoo.com/m/e45ffa23-8286-379b-b6e0-081e46a83f75/the-biggest-earnings-winners.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:01:45Z",
+   "source": "Yahoo Finance",
+   "title": "nVent Electric (NVT) Stock Is Down 8.4% Today: AI Chip Selloff Drags Power Peers",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvent-electric-nvt-stock-down-210145373.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:01:42Z",
+   "source": "Yahoo Finance",
+   "title": "Why MaxLinear (MXL) Stock Is Plunging Today: Chip Stocks Sell Off",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/why-maxlinear-mxl-stock-plunging-210142402.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:01:35Z",
+   "source": "Yahoo Finance",
+   "title": "Rambus (RMBS) Stock Is Down 11.4% Today: Chip Sector AI Selloff",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/rambus-rmbs-stock-down-11-210135197.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:01:30Z",
+   "source": "Yahoo Finance",
+   "title": "Advanced Energy (AEIS) Stock Is Down 9.6% Today Without Company News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-energy-aeis-stock-down-210130944.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:01:30Z",
+   "source": "Yahoo Finance",
+   "title": "Why MKS (MKSI) Stock Is Down Today: Chip Stocks Slide on AI Selloff",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/why-mks-mksi-stock-down-210130421.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T21:01:16Z",
+   "source": "Yahoo Finance",
+   "title": "Why Is Semtech (SMTC) Stock Plunging Today? Chip Selloff, Analog Peer ADI Drops",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/why-semtech-smtc-stock-plunging-210116284.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T20:59:55Z",
+   "source": "Yahoo Finance",
+   "title": "Tesla and SpaceX Just Assembled Deal Teams for a $3.2 Trillion Merger. Here's What Investors Need to Know.",
+   "link": "https://www.fool.com/investing/2026/11/24/tesla-and-spacex-just-assembled-deal-teams-for-a-usd3-2-trillion-merger-here-s-what-investors-need-to-know/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T20:54:50Z",
+   "source": "Yahoo Finance",
+   "title": "Update: US Equity Indexes Mixed as Investors Rotate into Defensives Amid Weakening AI Trade",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-investors-205450035.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T20:48:27Z",
+   "source": "Cointelegraph",
+   "title": "Utah moves to dismiss criminal charges against Kalshi after trading halt",
+   "link": "https://cointelegraph.com/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
    "published": "2026-11-24T20:45:57Z",
    "source": "CNBC",
    "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
    "link": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html"
-  },
-  {
-   "published": "2026-11-24T20:42:11Z",
-   "source": "Yahoo Finance",
-   "title": "Sector Update: Tech Stocks Fall Late Afternoon",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-204211371.html?.tsrc=rss"
   },
   {
    "published": "2026-11-24T20:42:07Z",
@@ -746,118 +894,10 @@
    "link": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html"
   },
   {
-   "published": "2026-11-24T20:37:14Z",
-   "source": "Yahoo Finance",
-   "title": "Anthropic stock falls below IPO price; CEO sells $280 million in shares",
-   "link": "https://www.thestreet.com/investing/stocks/anthropic-stock-falls-below-ipo-price-ceo-sells-280-million-in-shares?.tsrc=rss"
-  },
-  {
    "published": "2026-11-24T20:36:02Z",
    "source": "Decrypt",
    "title": "Ethereum Foundation Says AI Is a More Urgent Threat Than Quantum Computing",
    "link": "https://decrypt.co/383927/ethereum-foundation-ai-more-urgent-threat-quantum-computing"
-  },
-  {
-   "published": "2026-11-24T20:35:02Z",
-   "source": "Yahoo Finance",
-   "title": "If a Recession Hits in 2027, This Is the 1 ETF I Want in My Portfolio",
-   "link": "https://www.fool.com/investing/2026/11/24/if-a-recession-hits-in-2027-this-is-the-1-etf-i-want-in-my-portfolio/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:31:40Z",
-   "source": "Yahoo Finance",
-   "title": "Why Is Vishay (VSH) Stock Down Today? Chip Selloff Drags Semiconductors",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-vishay-vsh-stock-down-203140382.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:31:30Z",
-   "source": "Yahoo Finance",
-   "title": "Why Is Everpure (P) Stock Down Today? AI Chip, Storage Selloff Weighs",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-everpure-p-stock-down-203130134.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:31:25Z",
-   "source": "Yahoo Finance",
-   "title": "Why Flex (FLEX) Stock Is Down Today: AI Chip Selloff Hits Peers",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-flex-flex-stock-down-203125271.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:31:25Z",
-   "source": "Yahoo Finance",
-   "title": "Why KLA (KLAC) Stock Is Falling Today: Chip Sector Selloff",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-kla-klac-stock-falling-203125431.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:31:23Z",
-   "source": "Yahoo Finance",
-   "title": "Why Ichor Holdings (ICHR) Stock Is Plunging Today: Semiconductor Equipment Selloff",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-ichor-holdings-ichr-stock-203123402.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:31:13Z",
-   "source": "Yahoo Finance",
-   "title": "Why Is NXP (NXPI) Stock Down Today? Chip Sector Selloff Drags Shares",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-nxp-nxpi-stock-down-203113766.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:30:31Z",
-   "source": "Yahoo Finance",
-   "title": "Mentari Therapeutics (MTRI) Stock Is Up 12.3% Today Without Company News",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/mentari-therapeutics-mtri-stock-12-203031402.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:30:21Z",
-   "source": "Yahoo Finance",
-   "title": "LiveWire (LVWR) Stock Is Soaring 93.9% Today Without Company News",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/livewire-lvwr-stock-soaring-93-203021356.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:30:19Z",
-   "source": "Yahoo Finance",
-   "title": "Nutanix (NTNX) Stock Is Down 7.2% Today in Tech Selloff",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nutanix-ntnx-stock-down-7-203019506.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:27:01Z",
-   "source": "Yahoo Finance",
-   "title": "President Trump Made Millions From Nvidia Shares After Jensen Huang Was Reinstated as CEO",
-   "link": "https://firstformoney.com/president-trump-made-millions-from-nvidia-shares-after-jensen-huang-was-reinstated-as-ceo/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:25:02Z",
-   "source": "Yahoo Finance",
-   "title": "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?",
-   "link": "https://www.fool.com/investing/2026/11/24/micron-vs-sandisk-which-ai-memory-stock-is-the-better-buy/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:20:22Z",
-   "source": "Yahoo Finance",
-   "title": "Dan Ives Says Jensen Huang Is “Worth $1 Trillion to Nvidia.” Congress Isn’t Done With Him",
-   "link": "https://www.tikr.com/blog/dan-ives-says-jensen-huang-is-worth-1-trillion-to-nvidia-congress-isnt-done-with-him?ref=yahoofinance&tlnk=yf-261124-9j3wgprw&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:16:19Z",
-   "source": "Yahoo Finance",
-   "title": "Huang to Testify Publicly Before Senators Dec. 3",
-   "link": "https://finance.yahoo.com/video/huang-testify-publicly-senators-dec-201619161.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:15:01Z",
-   "source": "Yahoo Finance",
-   "title": "Anthropic Stock Just Broke Below Its $83 IPO Price. Is It a Bargain Buy?",
-   "link": "https://www.fool.com/investing/2026/11/24/anthropic-stock-just-broke-below-its-usd83-ipo-price-is-it-a-bargain-buy/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:12:54Z",
-   "source": "Yahoo Finance",
-   "title": "Wall Street Cuts Nvidia Price Targets By 25% Despite Latest Reversal",
-   "link": "https://beincrypto.com/wall-street-changes-nvidia-stock-price-target/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T20:12:52Z",
-   "source": "Yahoo Finance",
-   "title": "Why Hewlett Packard Enterprise Stock Fell 16% Today",
-   "link": "https://www.fool.com/investing/2026/11/24/why-hewlett-packard-enterprise-stock-fell-16-today/?.tsrc=rss"
   },
   {
    "published": "2026-11-24T20:02:49Z",
@@ -876,30 +916,6 @@
    "source": "CNBC",
    "title": "Anthropic shares fall below IPO price. Traders see even more pain",
    "link": "https://www.cnbc.com/2026/11/24/anthropic-options-trading-ipo-price.html"
-  },
-  {
-   "published": "2026-11-24T19:45:11Z",
-   "source": "Yahoo Finance",
-   "title": "Why the Jensen Huang rally faded so quickly",
-   "link": "https://finance.yahoo.com/video/why-the-jensen-huang-rally-faded-so-quickly-194511286.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T19:44:23Z",
-   "source": "Cointelegraph",
-   "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
-   "link": "https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-24T19:35:32Z",
-   "source": "Decrypt",
-   "title": "Bitcoin Losses Are the Worst Since FTX. Is the Bottom Near?",
-   "link": "https://decrypt.co/383909/bitcoin-losses-worst-since-ftx-is-bottom-near"
-  },
-  {
-   "published": "2026-11-24T19:32:13Z",
-   "source": "Yahoo Finance",
-   "title": "At 63, a Robo-Adviser Bought You 11 Funds You Can’t Explain. These 3 ETFs Do the Same Job",
-   "link": "https://247wallst.com/investing/etf/2026/11/24/at-63-a-robo-adviser-bought-you-11-funds-you-cant-explain-these-3-etfs-do-the-same-job/?.tsrc=rss"
   }
  ]
 }
