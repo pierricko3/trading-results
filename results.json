@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T04:00:34Z",
+ "generated_at": "2026-11-24T05:50:48Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.75,
   "cash": 99.75,
   "perf_pct": -0.0025,
-  "bench_pct": -0.1494,
+  "bench_pct": -0.1471,
   "drawdown": 0.0048,
   "halted": false,
   "trade_count": 4
@@ -16,10 +16,10 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 60310.34,
+   "price": 60639.75,
    "trend": "neutre",
-   "score": 0.036,
-   "news_score": 0.143,
+   "score": 0.099,
+   "news_score": 0.333,
    "news_conf": 0.6,
    "tech_score": -0.024,
    "in_position": false,
@@ -31,22 +31,22 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1696.13,
+   "price": 1707.19,
    "trend": "neutre",
-   "score": 0.037,
-   "news_score": 0.0,
-   "news_conf": 0.0,
+   "score": 0.103,
+   "news_score": 0.5,
+   "news_conf": 0.24,
    "tech_score": 0.083,
    "in_position": false,
    "patterns": []
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.37,
+   "price": 71.8,
    "trend": "neutre",
-   "score": 0.031,
-   "news_score": 0.0,
-   "news_conf": 0.0,
+   "score": 0.097,
+   "news_score": 0.5,
+   "news_conf": 0.24,
    "tech_score": 0.07,
    "in_position": false,
    "patterns": []
@@ -55,9 +55,9 @@
    "symbol": "NVDA",
    "price": 165.18499755859375,
    "trend": "baissière",
-   "score": 0.037,
-   "news_score": 1.0,
-   "news_conf": 0.6,
+   "score": -0.144,
+   "news_score": 0.75,
+   "news_conf": 0.36,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": [
@@ -68,9 +68,9 @@
    "symbol": "AAPL",
    "price": 349.6199951171875,
    "trend": "haussière",
-   "score": 0.253,
-   "news_score": 0.25,
-   "news_conf": 0.36,
+   "score": 0.336,
+   "news_score": 0.5,
+   "news_conf": 0.48,
    "tech_score": 0.453,
    "in_position": false,
    "patterns": [
@@ -82,8 +82,8 @@
    "symbol": "SPY",
    "price": 722.3900146484375,
    "trend": "baissière",
-   "score": -0.263,
-   "news_score": 0.0,
+   "score": -0.131,
+   "news_score": 0.5,
    "news_conf": 0.48,
    "tech_score": -0.584,
    "in_position": false,
@@ -125,11 +125,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794689439,
-   100.02,
-   87.91
-  ],
   [
    1794691864,
    100.02,
@@ -574,13 +569,18 @@
    1795492830,
    99.75,
    85.06
+  ],
+  [
+   1795499443,
+   99.75,
+   85.29
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 0,
-  "text": "2 sources : Yahoo Finance, CNBC (23/11) : forte hausse des indices US sur le retour de J. Huang chez Nvidia, mais mouvement ponctuel et déjà passé ; pas d'indicateur concret de risk_off. — Contexte : le 23/11, les actions US bondissent (S&P 500 environ +4,5 %, Nvidia en forte hausse) après le retour",
-  "received_at": "2026-11-23T20:50:40Z"
+  "text": "2 sources : Yahoo Finance, CNBC (24/11) : rebond des valeurs IA après le retour de J. Huang chez Nvidia ; aucun indicateur concret de risk_off. — Contexte : le 24/11, les marchés asiatiques et les futures US prolongent le rebond des valeurs IA après le retour de Jensen Huang comme CEO de Nvidia (Yah",
+  "received_at": "2026-11-24T05:50:43Z"
  },
  "indicators": {
   "fear_greed": {
@@ -715,22 +715,118 @@
  },
  "headlines": [
   {
-   "published": "2026-11-24T03:52:16Z",
+   "published": "2026-11-24T05:41:28Z",
    "source": "Yahoo Finance",
-   "title": "In Taiwan, investors 'really happy' at Jensen Huang's return",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-investors-really-happy-jensen-035216471.html?.tsrc=rss"
+   "title": "Stocks climb as Huang's return to Nvidia lifts investor optimism",
+   "link": "https://www.euronews.com/2026/11/24/stocks-climb-as-huangs-return-to-nvidia-lifts-investor-optimism?.tsrc=rss"
   },
   {
-   "published": "2026-11-24T03:47:48Z",
+   "published": "2026-11-24T05:26:13Z",
    "source": "Yahoo Finance",
-   "title": "AMD Stock Dips Overnight After Nvidia-Triggered Rally: AMD Registers 337M Shares For Resale Tied To OpenAI, Meta Warrants",
-   "link": "https://stocktwits.com/news-articles/markets/equity/amd-stock-dips-overnight-after-nvidia-triggered-rally-amd-registers-337-m-shares-for-resale-tied-to-open-ai-meta-warrants/cNbru6MR9jU?.tsrc=rss"
+   "title": "Luceco And 2 Other British Penny Stocks To Own",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/luceco-2-other-british-penny-052613190.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-24T03:37:02Z",
+   "published": "2026-11-24T05:09:34Z",
+   "source": "CNBC",
+   "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+   "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html"
+  },
+  {
+   "published": "2026-11-24T05:07:30Z",
+   "source": "Cointelegraph",
+   "title": "Why 42 Macro says it’s waiting to buy the Bitcoin dip",
+   "link": "https://cointelegraph.com/markets/why-42-macro-says-its-waiting-to-buy-the-bitcoin-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-24T05:07:16Z",
+   "source": "CNBC",
+   "title": "AI adoption grows in Asia, but measuring the gains remains tricky",
+   "link": "https://www.cnbc.com/2026/11/24/aws-asia-gains-roi.html"
+  },
+  {
+   "published": "2026-11-24T05:06:42Z",
    "source": "Yahoo Finance",
-   "title": "Nvidia Just Built Agent Security Into Its Chips. What Does That Mean for CrowdStrike?",
-   "link": "https://www.fool.com/investing/2026/11/23/nvidia-just-built-agent-security-into-its-chips-what-does-that-mean-for-crowdstrike/?.tsrc=rss"
+   "title": "Can Cisco Stock Hit $120?",
+   "link": "https://www.trefis.com/stock/csco/articles/627586/can-cisco-stock-hit-120/2026-11-23?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T05:06:42Z",
+   "source": "Yahoo Finance",
+   "title": "The 10-Year Topped 5% For The First Time Since 2007. What Happened Next?",
+   "link": "https://www.trefis.com/stock/spy/articles/627401/the-10-year-topped-5-for-the-first-time-since-2007-what-happened-next/2026-11-23?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T05:06:42Z",
+   "source": "Yahoo Finance",
+   "title": "Stocks Opened Up, Then Fell 3% By The Close. What Happened The Last 45 Times?",
+   "link": "https://www.trefis.com/stock/spy/articles/627441/stocks-opened-up-then-fell-3-by-the-close-what-happened-the-last-45-times/2026-11-23?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T05:06:42Z",
+   "source": "Yahoo Finance",
+   "title": "1966 Or 1995: Which Way Does America's $2.1 Trillion Deficit Go?",
+   "link": "https://www.trefis.com/stock/spy/articles/627413/1966-or-1995-which-way-does-america-s-2-1-trillion-deficit-go/2026-11-23?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T05:06:42Z",
+   "source": "Yahoo Finance",
+   "title": "The Inflation Math, Updated: The Fed Is Fighting Oil",
+   "link": "https://www.trefis.com/stock/spy/articles/627433/the-inflation-math-updated-the-fed-is-fighting-oil/2026-11-23?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T05:06:42Z",
+   "source": "Yahoo Finance",
+   "title": "Disney Stops Reporting Streaming Profit. Should You Worry?",
+   "link": "https://www.trefis.com/stock/dis/articles/627655/disney-stops-reporting-streaming-profit-should-you-worry/2026-11-23?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T05:06:42Z",
+   "source": "Yahoo Finance",
+   "title": "Can Agnico Eagle Stock Bounce Off $151 Again?",
+   "link": "https://www.trefis.com/stock/aem/articles/627858/can-agnico-eagle-stock-bounce-off-151-again/2026-11-23?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T05:06:42Z",
+   "source": "Yahoo Finance",
+   "title": "Can Sales Abroad Lift Hims & Hers Stock?",
+   "link": "https://www.trefis.com/stock/hims/articles/627650/can-sales-abroad-lift-hims-hers-stock/2026-11-23?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T05:05:08Z",
+   "source": "CNBC",
+   "title": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
+   "link": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+  },
+  {
+   "published": "2026-11-24T05:04:47Z",
+   "source": "Yahoo Finance",
+   "title": "The Path Ahead as Jensen Huang Returns as Nvidia's CEO",
+   "link": "https://finance.yahoo.com/video/path-ahead-jensen-huang-returns-050447539.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T04:51:27Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia scandal lands on Southeast Asia as US blacklists Singapore's Megaspeed",
+   "link": "http://www.intellinews.com/nvidia-scandal-lands-on-southeast-asia-as-us-blacklists-singapore-s-megaspeed-487816/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T04:47:31Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Corp. (NVDA) Has Made Investors a Fortune — Is Now Time to Book Profits?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-corp-nvda-made-investors-044731067.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-24T04:27:38Z",
+   "source": "CNBC",
+   "title": "China has changed tactics but is still thwarting India's rise, a U.S. panel says",
+   "link": "https://www.cnbc.com/2026/11/24/us-china-thwarting-india-growth.html"
+  },
+  {
+   "published": "2026-11-24T04:17:00Z",
+   "source": "Yahoo Finance",
+   "title": "Apple's five-device plan creates an iPhone buying dilemma",
+   "link": "https://www.thestreet.com/technology/apples-five-device-plan-creates-an-iphone-buying-dilemma?.tsrc=rss"
   },
   {
    "published": "2026-11-24T03:32:26Z",
@@ -739,100 +835,16 @@
    "link": "https://www.cnbc.com/2026/11/24/iowa-detonation-bomb-court-.html"
   },
   {
-   "published": "2026-11-24T03:31:25Z",
-   "source": "Yahoo Finance",
-   "title": "Asian stocks rally after Wall Street rebound as Jensen Huang returns as Nvidia’s CEO",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rally-wall-street-033125464.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T03:27:54Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally",
-   "link": "https://finance.yahoo.com/m/be493228-4ecf-338d-9017-054d3d6efc36/dow-jones-futures%3A-tech.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T03:25:09Z",
-   "source": "Yahoo Finance",
-   "title": "IREN Ltd. (IREN) Just Exploded 24%. Here’s What Sent Shares Flying",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/iren-ltd-iren-just-exploded-032509936.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T03:23:55Z",
-   "source": "Yahoo Finance",
-   "title": "Michael Burry Bought Nvidia Calls, Cut His Semiconductor Shorts Before The Rally – But He’s Not Done Questioning Jensen Huang",
-   "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-bought-nvidia-calls-cut-semiconductor-shorts-before-rally-not-done-questioning-jensen-huang/cNbrugeR9jD?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T03:20:57Z",
-   "source": "Yahoo Finance",
-   "title": "Astera Labs (ALAB) Shares Are on Fire. What’s Behind the Surge?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-alab-shares-fire-032307598.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T03:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "SpaceX Stock Is Down 39% From Its High. Here's What Has to Happen Before I'd Buy.",
-   "link": "https://www.fool.com/investing/2026/11/23/spacex-stock-is-down-39-from-its-high-here-s-what-has-to-happen-before-i-d-buy/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T03:17:59Z",
-   "source": "Yahoo Finance",
-   "title": "Credo Technology (CRDO) Just Made a Stunning Comeback",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-crdo-just-made-031759842.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T03:15:09Z",
-   "source": "Yahoo Finance",
-   "title": "POET Technologies Is Just One Of 3 Top Growth Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/poet-technologies-just-one-3-031509221.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T03:13:37Z",
-   "source": "Yahoo Finance",
-   "title": "AI Stock Rebound Has Asia Pacific Brokers Back on Retail Investors Radar",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ai-stock-rebound-asia-pacific-031337654.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-24T03:13:22Z",
    "source": "Cointelegraph",
    "title": "Google wants to make you the star of your own AI slop movies",
    "link": "https://cointelegraph.com/news/google-wants-make-you-star-your-own-ai-slop-movies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-24T03:12:06Z",
-   "source": "Yahoo Finance",
-   "title": "ASE Technology (ASX) Became an AI Rally Winner. Investors Took Notice",
-   "link": "https://finance.yahoo.com/technology/ai/articles/ase-technology-asx-became-ai-031206429.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T03:09:39Z",
-   "source": "Yahoo Finance",
-   "title": "Dell Technologies (DELL) Roars Back, Gets 2 Major Catalysts Working in Its Favor",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-roars-back-030939608.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T03:07:01Z",
-   "source": "Yahoo Finance",
-   "title": "Anthropic Stock Fell About 20% From Its First Trade in Its First 2 Days. Here's the Price at Which I'd Buy It.",
-   "link": "https://www.fool.com/investing/2026/11/23/anthropic-stock-fell-about-20-from-its-first-trade-in-its-first-2-days-here-s-the-price-at-which-i-d-buy-it/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-24T03:05:49Z",
    "source": "CNBC",
    "title": "Six key questions raised by Jensen Huang's return to Nvidia",
    "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html"
-  },
-  {
-   "published": "2026-11-24T03:05:19Z",
-   "source": "Yahoo Finance",
-   "title": "Navitas Semiconductor (NVTS) Just Posted a Monster Comeback. Here’s What Changed",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/navitas-semiconductor-nvts-just-posted-030519692.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T03:05:00Z",
-   "source": "Yahoo Finance",
-   "title": "Dead Cat Bounce? AI Stocks Climb 20%+, but IREN, Applied Digital Stay Down 50%+",
-   "link": "https://beincrypto.com/ai-stocks-dead-cat-bounce-iren/?.tsrc=rss"
   },
   {
    "published": "2026-11-24T02:37:39Z",
@@ -881,18 +893,6 @@
    "source": "CNBC",
    "title": "CrowdStrike CEO defends Zscaler acquisition, calls it a 'winning combination'",
    "link": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-deal-ceo-george-kurtz.html"
-  },
-  {
-   "published": "2026-11-23T23:43:34Z",
-   "source": "Cointelegraph",
-   "title": "CFTC staff say exchanges can count Bitcoin toward operating reserves",
-   "link": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-23T23:42:27Z",
-   "source": "CNBC",
-   "title": "AI adoption grows in Asia, but measuring the gains remains tricky",
-   "link": "https://www.cnbc.com/2026/11/24/aws-asia-gains-roi.html"
   }
  ]
 }
