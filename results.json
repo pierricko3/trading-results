@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T04:00:35Z",
+ "generated_at": "2026-11-25T05:50:49Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.75,
   "cash": 81.41,
   "perf_pct": -0.0025,
-  "bench_pct": -0.164,
+  "bench_pct": -0.1658,
   "drawdown": 0.0049,
   "halted": false,
   "trade_count": 5
@@ -24,11 +24,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 59361.7,
+   "price": 59128.67,
    "trend": "baissière",
-   "score": -0.496,
-   "news_score": -0.636,
-   "news_conf": 0.444,
+   "score": -0.424,
+   "news_score": -0.455,
+   "news_conf": 0.333,
    "tech_score": -0.757,
    "in_position": false,
    "patterns": [
@@ -39,7 +39,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1662.65,
+   "price": 1657.63,
    "trend": "baissière",
    "score": -0.3,
    "news_score": -0.5,
@@ -53,7 +53,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 69.24,
+   "price": 68.72,
    "trend": "baissière",
    "score": -0.198,
    "news_score": -0.5,
@@ -69,8 +69,8 @@
    "symbol": "NVDA",
    "price": 155.47999572753906,
    "trend": "baissière",
-   "score": -0.419,
-   "news_score": -0.453,
+   "score": -0.348,
+   "news_score": -0.2,
    "news_conf": 0.508,
    "tech_score": -0.65,
    "in_position": false,
@@ -80,9 +80,9 @@
    "symbol": "AAPL",
    "price": 354.19000244140625,
    "trend": "haussière",
-   "score": 0.344,
-   "news_score": 0.0,
-   "news_conf": 0.48,
+   "score": 0.41,
+   "news_score": 0.2,
+   "news_conf": 0.6,
    "tech_score": 0.763,
    "in_position": true,
    "patterns": [
@@ -148,11 +148,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794778241,
-   100.02,
-   87.86
-  ],
   [
    1794787230,
    100.02,
@@ -597,13 +592,18 @@
    1795579230,
    99.75,
    83.6
+  ],
+  [
+   1795585843,
+   99.75,
+   83.42
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 2,
-  "text": "Repli de la tech (Nasdaq, Nvidia) et du bitcoin le 24/11 (Yahoo Finance, CNBC, Cointelegraph, Decrypt), mais pas d'indicateur macro concret justifiant risk_off. — Contexte du 24/11 : le Nasdaq reprend sa baisse, Nvidia et Anthropic reculent (Yahoo Finance) ; le retour de Jensen Huang chez Nvidia res",
-  "received_at": "2026-11-24T20:50:40Z"
+  "text": "Repli tech et Nvidia le 24/11 (Yahoo Finance, CNBC), futures en baisse avant une donnée d'inflation non datée avec certitude ; pas assez d'indicateurs concrets pour risk_off. — Contexte au 25/11 : S&P 500 et Nasdaq clôturent en baisse, futures en repli avant une donnée d'inflation ; vente IA qui gag",
+  "received_at": "2026-11-25T05:50:43Z"
  },
  "indicators": {
   "fear_greed": {
@@ -615,7 +615,7 @@
  "indicator_stress": "",
  "directive_track_record": {
   "n": 55,
-  "pending": 2,
+  "pending": 4,
   "hit_rate": 0.509090909090909,
   "mean_signed": 0.007178640000950877,
   "enough": true,
@@ -738,16 +738,142 @@
  },
  "headlines": [
   {
+   "published": "2026-11-25T05:33:54Z",
+   "source": "Yahoo Finance",
+   "title": "Why Investors Are Suddenly Turning Against AXT Inc. (AXTI)?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/why-investors-suddenly-turning-against-053354130.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T05:32:55Z",
+   "source": "Cointelegraph",
+   "title": "Solana DEX Velocity halts trading over bug just months after relaunch",
+   "link": "https://cointelegraph.com/news/solana-dex-velocity-halts-transactions-over-bug-coming-2-months-after-relaunch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-25T05:28:52Z",
+   "source": "Yahoo Finance",
+   "title": "What Just Went Wrong With Astera Labs (ALAB)?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/just-went-wrong-astera-labs-052852331.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T05:24:46Z",
+   "source": "Yahoo Finance",
+   "title": "From Smiling to Selling: Why Credo Technology (CRDO) is Getting Hammered",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/smiling-selling-why-credo-technology-052446524.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T05:20:52Z",
+   "source": "Yahoo Finance",
+   "title": "Donald Trump Floats Jensen Huang Pardon, US Stake In Nvidia – But NVDA Loses Momentum",
+   "link": "https://stocktwits.com/news-articles/markets/equity/donald-trump-floats-jensen-huang-pardon-us-stake-in-nvidia-but-nvda-loses-momentum/cNbHPnyR9lL?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T05:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "Costco Hasn't Split Its Stock Since 2000. Here's Why 2027 Could Be the Year.",
+   "link": "https://www.fool.com/investing/2026/11/25/costco-hasn-t-split-its-stock-since-2000-here-s-why-2027-could-be-the-year/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T05:13:56Z",
+   "source": "Yahoo Finance",
+   "title": "November 2026 Growth Stocks With Strong Earnings Potential",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/november-2026-growth-stocks-strong-051356592.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T05:11:15Z",
+   "source": "Yahoo Finance",
+   "title": "SK Hynix (NasdaqGS:SKHY) Stock May Trade At A Discount Despite AI Demand News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-nasdaqgs-skhy-stock-051115290.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T04:57:49Z",
+   "source": "Yahoo Finance",
+   "title": "Xiaomi shares jump over 8% as premium phone sales cushion rising chip costs",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/xiaomi-shares-jump-over-8-045749074.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T04:57:22Z",
+   "source": "CoinDesk",
+   "title": "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive",
+   "link": "https://www.coindesk.com/markets/2026/11/25/crypto-traders-can-now-hedge-nvidia-and-oil-bets-on-derive"
+  },
+  {
+   "published": "2026-11-25T04:57:02Z",
+   "source": "Yahoo Finance",
+   "title": "The Semiconductor ETF Kept Falling After Nvidia Raised Its Forecast. Time to Buy?",
+   "link": "https://www.fool.com/investing/2026/11/24/the-semiconductor-etf-kept-falling-after-nvidia-raised-its-forecast-time-to-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T04:50:08Z",
+   "source": "CoinDesk",
+   "title": "A year after buying bitcoin, Czech central bank won't say what it's worth",
+   "link": "https://www.coindesk.com/markets/2026/11/23/a-year-after-buying-bitcoin-czech-central-bank-won-t-say-what-it-s-worth"
+  },
+  {
+   "published": "2026-11-25T04:40:37Z",
+   "source": "Yahoo Finance",
+   "title": "COHR Stock Swings After Nvidia-Led AI Rally: $15M Insider Buy Draws Attention",
+   "link": "https://stocktwits.com/news-articles/markets/equity/cohr-stock-swings-after-nvidia-led-ai-rally-15-m-insider-buy-draws-attention/cNbHcl8R9lg?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T04:35:01Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic vs. SpaceX: Here's the Better IPO Stock to Buy With $1,000 Right Now",
+   "link": "https://www.fool.com/investing/2026/11/24/anthropic-vs-spacex-here-s-the-better-ipo-stock-to-buy-with-usd1-000-right-now/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T04:33:00Z",
+   "source": "Yahoo Finance",
+   "title": "Jim Cramer resets Nvidia stock target as Jensen Huang returns as CEO",
+   "link": "https://www.thestreet.com/investing/stocks/jim-cramer-nvidia-stock-target-jensen-huang?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T04:22:39Z",
+   "source": "Yahoo Finance",
+   "title": "Le Monde details suspected Nvidia chip diversion network through Southeast Asia",
+   "link": "https://finance.yahoo.com/technology/ai/articles/le-monde-details-suspected-nvidia-042239633.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T04:14:42Z",
+   "source": "Cointelegraph",
+   "title": "Trump willing to pardon Jensen Huang, says it won’t be necessary",
+   "link": "https://cointelegraph.com/news/trump-willing-to-pardon-jensen-huang-but-says-it-wont-be-necessary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-25T04:06:01Z",
+   "source": "CNBC",
+   "title": "‘Ready for any storm’: UAE minister optimistic on economy as IMF lifts forecast",
+   "link": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html"
+  },
+  {
+   "published": "2026-11-25T04:05:26Z",
+   "source": "Yahoo Finance",
+   "title": "Asian stocks mostly decline as AI shares fall following a retreat on Wall Street",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-mostly-decline-ai-040526833.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T04:05:25Z",
+   "source": "Yahoo Finance",
+   "title": "Asian stocks slide as AI selloff deepens, U.S. tariff threats weigh on sentiment",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-slide-ai-selloff-040525614.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T04:04:33Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
+   "link": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3B-trump.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-25T03:58:32Z",
+   "source": "CNBC",
+   "title": "China’s Xiamen Airlines to buy 50 Boeing jets in $7.4 billion deal",
+   "link": "https://www.cnbc.com/2026/11/25/china-xiamen-boeing-deal.html"
+  },
+  {
    "published": "2026-11-25T03:52:03Z",
    "source": "CNBC",
    "title": "SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names",
    "link": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html"
-  },
-  {
-   "published": "2026-11-25T03:46:29Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
-   "link": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3B-trump.html?.tsrc=rss"
   },
   {
    "published": "2026-11-25T03:35:20Z",
@@ -756,58 +882,10 @@
    "link": "https://www.coindesk.com/policy/2026/11/24/trump-says-he-s-willing-to-give-nvidia-s-huang-a-pardon-doesn-t-think-he-needs-one"
   },
   {
-   "published": "2026-11-25T03:21:23Z",
-   "source": "Yahoo Finance",
-   "title": "South Korea's chipmakers rally on Huang's return",
-   "link": "http://www.intellinews.com/south-korea-s-chipmakers-rally-on-huang-s-return-488025/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-25T03:20:10Z",
-   "source": "Yahoo Finance",
-   "title": "Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key Inflation Data: DELL, AMBA, SOXL, MSTR In Focus",
-   "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-amid-tech-selloff-ahead-of-key-inflation-data-dell-amba-soxl-mstr-in-focus/cNbHbLoR9lJ?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-25T03:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "World's Best Space Company SpaceX Will Soon Be 40% Better",
-   "link": "https://www.fool.com/investing/2026/11/24/world-best-space-company-spacex-soon-40-better/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-25T03:12:32Z",
-   "source": "Yahoo Finance",
-   "title": "Lattice Semiconductor (LSCC) Could Be 37% Below Fair Value On AI Chip Optimism",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/lattice-semiconductor-lscc-could-37-031232846.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-25T03:12:21Z",
-   "source": "Yahoo Finance",
-   "title": "3 Stocks Investors Are Watching For Corporate Governance And Litigation Demand",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-investors-watching-corporate-031221183.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-25T03:01:26Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang Reportedly Says Succession Plan Risks ‘Unnecessary Hierarchy’ At Nvidia — Crypto Bettors Wager on Another Exit",
-   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63613509/nvidia-ceo-jensen-huang-succession-plan-polymarket-prediction-market?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
-  },
-  {
    "published": "2026-11-25T02:50:08Z",
    "source": "CNBC",
    "title": "Op-ed: Trump’s Nvidia board intervention put a price on national security. Our adversaries will take note",
    "link": "https://www.cnbc.com/2026/11/24/trump-nvidia-jensen-huang-national-security-china-chips.html"
-  },
-  {
-   "published": "2026-11-25T02:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang's Return Could Make a Tesla/SpaceX Merger More Likely",
-   "link": "https://www.fool.com/investing/2026/11/24/jensen-huang-s-return-could-make-a-tesla-spacex-merger-more-likely/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-25T02:45:48Z",
-   "source": "Yahoo Finance",
-   "title": "Breaking down Nvidia’s ‘boardroom blunder’",
-   "link": "https://www.cnn.com/2026/11/24/business/video/kiss-cam-bid-vod-hrzn?cid=external-feeds_iluminar_yahoo&.tsrc=rss"
   },
   {
    "published": "2026-11-25T02:43:33Z",
@@ -816,52 +894,16 @@
    "link": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html"
   },
   {
-   "published": "2026-11-25T02:42:19Z",
-   "source": "Yahoo Finance",
-   "title": "Tech firms back in crosshairs as Huang rally reverses",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-firms-back-crosshairs-huang-024219799.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-25T02:39:47Z",
-   "source": "Yahoo Finance",
-   "title": "Never say never: how Jensen Huang got his job back at Nvidia​‌",
-   "link": "https://www.cnn.com/2026/11/24/business/video/we-were-wrong-bid-vod-hrzn?cid=external-feeds_iluminar_yahoo&.tsrc=rss"
-  },
-  {
    "published": "2026-11-25T02:36:43Z",
    "source": "CNBC",
    "title": "Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11",
    "link": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html"
   },
   {
-   "published": "2026-11-25T02:27:19Z",
-   "source": "Yahoo Finance",
-   "title": "Dan Ives Says ‘Base Case’ for Nvidia Stock Is $250 After Jensen Huang Returns as CEO: ‘China Loophole Issues’ Keep Him Short of $300",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/dan-ives-says-case-nvidia-022719368.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-25T02:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "1 Reason I Haven’t Bought Oklo Stock -- and Probably Never Will",
-   "link": "https://www.fool.com/investing/2026/11/24/1-reason-i-haven-t-bought-oklo-stock-and-probably-never-will/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-25T02:09:45Z",
    "source": "CNBC",
    "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
    "link": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html"
-  },
-  {
-   "published": "2026-11-25T02:09:32Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia’s Rebound, Falling Oil And A Strong Dollar: Three Signals Complicating The Fed’s December Decision",
-   "link": "https://stocktwits.com/news-articles/markets/equity/fed-december-rate-hike-oil-prices-nvidia-rally-inflation/cNbuClGR9l5?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-25T01:42:27Z",
-   "source": "Yahoo Finance",
-   "title": "Wall St futures fall after S&P 500, Nasdaq end lower; inflation data eyed",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-fall-p-014227385.html?.tsrc=rss"
   },
   {
    "published": "2026-11-25T01:40:59Z",
@@ -874,48 +916,6 @@
    "source": "CNBC",
    "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
    "link": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html"
-  },
-  {
-   "published": "2026-11-25T00:52:33Z",
-   "source": "Yahoo Finance",
-   "title": "5 Sleeper Blue-Chip Stock Picks for Steady Long-Term Gains",
-   "link": "https://www.kiplinger.com/investing/blue-chip-stocks/sleeper-blue-chip-stock-picks-for-steady-long-term-gains?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-25T00:12:12Z",
-   "source": "Yahoo Finance",
-   "title": "S&P 500, Nasdaq End Lower As AI Jitters Resurface With Nvidia’s Governance Issues And Talks Of Fresh Import Tariffs — NVDA, DELL, TSLA, TGTX In Focus",
-   "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-as-ai-jitters-resurface-with-nvidia-s-governance-issues-and-talks-of-fresh-import-tariffs-nvda-dell-tsla-tgtx-in-focus/cNbuDhyR9lT?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T23:48:16Z",
-   "source": "Cointelegraph",
-   "title": "Hackers breach CIA intelligence network in latest US cyberattack",
-   "link": "https://cointelegraph.com/news/hackers-breach-cia-intelligence-network-in-latest-us-cyberattack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-24T23:13:49Z",
-   "source": "CNBC",
-   "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
-   "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html"
-  },
-  {
-   "published": "2026-11-24T23:03:24Z",
-   "source": "CNBC",
-   "title": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets",
-   "link": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html"
-  },
-  {
-   "published": "2026-11-24T23:00:28Z",
-   "source": "Yahoo Finance",
-   "title": "Tech Keeps Eating Hollywood As Netflix Buys Historic Seinfeld Lot",
-   "link": "https://finance.yahoo.com/m/34be458f-965e-30c4-8fb7-e730267a65a9/tech-keeps-eating-hollywood.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-24T22:36:02Z",
-   "source": "Decrypt",
-   "title": "OpenAI and Anthropic Insiders Fear Their Next AI Models Are Too Dangerous to Release",
-   "link": "https://decrypt.co/383933/openai-and-anthropic-insiders-fear-next-ai-models-too-dangerous"
   }
  ]
 }
