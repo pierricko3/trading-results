@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T05:50:47Z",
+ "generated_at": "2026-11-26T08:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.81,
   "cash": 81.41,
   "perf_pct": -0.0019,
-  "bench_pct": -0.1601,
+  "bench_pct": -0.1614,
   "drawdown": 0.0042,
   "halted": false,
   "trade_count": 5
@@ -24,45 +24,43 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 60812.35,
+   "price": 60559.95,
    "trend": "neutre",
-   "score": -0.214,
-   "news_score": -0.429,
+   "score": -0.269,
+   "news_score": -0.6,
    "news_conf": 0.6,
-   "tech_score": -0.162,
+   "tech_score": -0.158,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)",
     "Marteau (rebond possible)",
-    "Avalement haussier"
+    "Avalement haussier",
+    "Étoile filante (essoufflement)"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1695.46,
-   "trend": "neutre",
-   "score": -0.112,
-   "news_score": 0.0,
+   "price": 1689.96,
+   "trend": "baissière",
+   "score": -0.434,
+   "news_score": -0.5,
    "news_conf": 0.48,
-   "tech_score": -0.249,
+   "tech_score": -0.67,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)",
     "Avalement haussier",
     "Étoile filante (essoufflement)"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.03,
+   "price": 70.88,
    "trend": "neutre",
-   "score": 0.023,
-   "news_score": 0.25,
+   "score": -0.015,
+   "news_score": -0.25,
    "news_conf": 0.12,
-   "tech_score": 0.015,
+   "tech_score": 0.002,
    "in_position": false,
    "patterns": [
-    "Marteau inversé (rebond possible)",
     "Doji (indécision)"
    ]
   },
@@ -70,9 +68,9 @@
    "symbol": "NVDA",
    "price": 149.27000427246094,
    "trend": "baissière",
-   "score": -0.348,
-   "news_score": -0.2,
-   "news_conf": 0.508,
+   "score": -0.312,
+   "news_score": -0.084,
+   "news_conf": 0.425,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -81,8 +79,8 @@
    "symbol": "AAPL",
    "price": 355.44500732421875,
    "trend": "haussière",
-   "score": 0.206,
-   "news_score": 0.0,
+   "score": 0.074,
+   "news_score": -0.5,
    "news_conf": 0.48,
    "tech_score": 0.458,
    "in_position": true,
@@ -96,8 +94,8 @@
    "symbol": "SPY",
    "price": 716.7100219726562,
    "trend": "baissière",
-   "score": -0.145,
-   "news_score": 0.2,
+   "score": -0.277,
+   "news_score": -0.2,
    "news_conf": 0.6,
    "tech_score": -0.468,
    "in_position": false,
@@ -149,11 +147,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794873630,
-   99.82,
-   86.84
-  ],
   [
    1794888030,
    99.82,
@@ -598,6 +591,11 @@
    1795672242,
    99.81,
    83.99
+  ],
+  [
+   1795680030,
+   99.81,
+   83.86
   ]
  ],
  "last_directive": {
@@ -615,10 +613,10 @@
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 57,
-  "pending": 8,
-  "hit_rate": 0.5087719298245614,
-  "mean_signed": 0.007370280953990972,
+  "n": 59,
+  "pending": 6,
+  "hit_rate": 0.5084745762711864,
+  "mean_signed": 0.007387128743775449,
   "enough": true,
   "min_sample": 20,
   "by_symbol": {
@@ -631,12 +629,12 @@
     "hit_rate": 0.25
    },
    "BTC/USDT": {
-    "n": 18,
-    "hit_rate": 0.7222222222222222
+    "n": 19,
+    "hit_rate": 0.6842105263157895
    },
    "NVDA": {
-    "n": 23,
-    "hit_rate": 0.43478260869565216
+    "n": 24,
+    "hit_rate": 0.4583333333333333
    },
    "ETH/USDT": {
     "n": 1,
@@ -739,6 +737,108 @@
  },
  "headlines": [
   {
+   "published": "2026-11-26T07:54:02Z",
+   "source": "Yahoo Finance",
+   "title": "Prediction: This Is What Nvidia Stock Will Be Worth by 2028",
+   "link": "https://www.fool.com/investing/2026/11/26/prediction-this-is-what-nvidia-stock-will-be-worth-by-2028/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-26T07:45:05Z",
+   "source": "CNBC",
+   "title": "Taking on Starlink: Europe’s largest satellite factory opens in push to rival Musk",
+   "link": "https://www.cnbc.com/2026/11/26/starlink-satellites-aerospacelab-factory-belgium.html"
+  },
+  {
+   "published": "2026-11-26T07:41:08Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Could Shift Chips To ‘Better-Funded Buyers’ As Neoclouds Face Shakeout: Analyst Sees ‘Smaller Top Tier’",
+   "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-could-shift-chips-to-better-funded-buyers-as-neoclouds-face-shakeout-analyst-sees-smaller-top-tier/cNbxWjpR9ZZ?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-26T07:32:42Z",
+   "source": "Yahoo Finance",
+   "title": "Apple Is November's Mag7 Winner — Nvidia Takes The Biggest Hit",
+   "link": "https://stocktwits.com/news-articles/markets/equity/apple-is-november-s-mag7-winner-nvidia-takes-the-biggest-hit/cNbxWaAR9Zm?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-26T07:30:11Z",
+   "source": "CNBC",
+   "title": "Robots could be doing household chores in just 1-2 years, Chinese EV firm says",
+   "link": "https://www.cnbc.com/2026/11/26/china-ev-xpeng-humanoid-robots-household-chores.html"
+  },
+  {
+   "published": "2026-11-26T07:23:42Z",
+   "source": "CNBC",
+   "title": "Wealthy Europeans look beyond stocks amid AI selloff. Here’s where they’re investing",
+   "link": "https://www.cnbc.com/2026/11/26/wealthy-europeans-alternative-investments-ai.html"
+  },
+  {
+   "published": "2026-11-26T07:22:13Z",
+   "source": "Yahoo Finance",
+   "title": "Mike Pompeo Has ‘No Doubt’ Alice Huang Coordinated With Communist Party of China: Crypto Bettors Weigh Odds of Her Arrest",
+   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63660281/mike-pompeo-has-no-doubt-alice-huang-coordinated-with-communist-party-of-china-crypto-bettors-weigh-odds-of-her-arrest?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+  },
+  {
+   "published": "2026-11-26T07:11:42Z",
+   "source": "Yahoo Finance",
+   "title": "Asian stocks stabilise after tech rout",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-enjoy-another-bounce-023024729.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-26T07:09:25Z",
+   "source": "CoinDesk",
+   "title": "Zcash developers want users to move $300 million out of an older privacy system",
+   "link": "https://www.coindesk.com/tech/2026/11/26/zcash-developers-want-users-to-move-usd300-million-out-of-an-older-privacy-system"
+  },
+  {
+   "published": "2026-11-26T06:39:34Z",
+   "source": "CNBC",
+   "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+   "link": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html"
+  },
+  {
+   "published": "2026-11-26T06:30:51Z",
+   "source": "Yahoo Finance",
+   "title": "MU, SNDK, SKHY Jump As Nvidia Tests Kioxia Memory Fix — Analyst Presses Memory Giants For ‘Massive’ Buybacks",
+   "link": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-skhy-nvidia-kioxia-memory-fix-analyst-memory-giants-buybacks/cNbxQFgR9ZK?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-26T06:29:16Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia stops shipping AI servers to 4 Southeast Asian countries- FT",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stops-shipping-ai-servers-062916311.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-26T06:28:44Z",
+   "source": "Yahoo Finance",
+   "title": "Kioxia jumps 14% after Nvidia collaboration as chip stocks rebound",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/kioxia-jumps-14-nvidia-collaboration-062844097.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-26T06:19:09Z",
+   "source": "CoinDesk",
+   "title": "Over 1,000 Bitcoin miners were tricked into working for a thief by a fake internet route",
+   "link": "https://www.coindesk.com/markets/2026/11/26/hackers-hijacked-1-000-plus-bitcoin-mines-in-one-second-by-faking-internet-routes"
+  },
+  {
+   "published": "2026-11-26T06:00:00Z",
+   "source": "Cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-26T05:53:08Z",
+   "source": "Cointelegraph",
+   "title": "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report",
+   "link": "https://cointelegraph.com/news/uk-fca-defi-regulation-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-26T05:50:34Z",
+   "source": "CNBC",
+   "title": "North Korea's Kim calls for nuclear arsenal expansion, says status 'will never change'",
+   "link": "https://www.cnbc.com/2026/11/26/north-korea-kim-nuclear-weapons-expansion.html"
+  },
+  {
    "published": "2026-11-26T05:36:01Z",
    "source": "CNBC",
    "title": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
@@ -787,10 +887,10 @@
    "link": "https://www.fool.com/investing/2026/11/26/2-ways-anthropic-s-ipo-pays-off-for-alphabet-investors/?.tsrc=rss"
   },
   {
-   "published": "2026-11-26T05:16:38Z",
-   "source": "CNBC",
-   "title": "North Korea's Kim calls for nuclear arsenal expansion, says status 'will never change'",
-   "link": "https://www.cnbc.com/2026/11/26/north-korea-kim-nuclear-weapons-expansion.html"
+   "published": "2026-11-26T05:01:00Z",
+   "source": "Yahoo Finance",
+   "title": "Is the Stock Market Open Today? Here Are the Trading Hours for Thanksgiving.",
+   "link": "https://finance.yahoo.com/m/535e2705-a042-38b6-9a9a-e1e743df5f27/is-the-stock-market-open.html?.tsrc=rss"
   },
   {
    "published": "2026-11-26T04:55:16Z",
@@ -815,108 +915,6 @@
    "source": "Yahoo Finance",
    "title": "Global markets rebound as tech shares recover and tariff fears ease",
    "link": "https://www.euronews.com/2026/11/26/anxiety-over-the-ai-boom-and-inflation-drags-wall-street-lower?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T04:24:45Z",
-   "source": "Cointelegraph",
-   "title": "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
-   "link": "https://cointelegraph.com/news/senate-democrats-urge-sec-to-scrap-crypto-tokenized-stock-exemptions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-26T04:22:55Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Reportedly Sold Its Most Advanced AI Chips to US Firms Controlled by Chinese Parents as Jensen Huang Set to Face Congress",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-reportedly-sold-most-advanced-042255874.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T04:20:18Z",
-   "source": "CNBC",
-   "title": "Hedge funds are no longer just for the rich. They’re wooing everyday investors",
-   "link": "https://www.cnbc.com/2026/11/26/hedge-funds-retail-investors.html"
-  },
-  {
-   "published": "2026-11-26T04:19:00Z",
-   "source": "Yahoo Finance",
-   "title": "Kioxia and NVIDIA Collaborate to Expand Effective High-Bandwidth Memory Capacity with SSDs",
-   "link": "https://finance.yahoo.com/technology/ai/articles/kioxia-nvidia-collaborate-expand-effective-041900475.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T04:14:03Z",
-   "source": "Yahoo Finance",
-   "title": "‘I Don’t Think He Needs a Pardon at All’: JD Vance Defends Nvidia CEO Jensen Huang as Crypto Bettors Put Him Atop Trump’s List",
-   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63659548/jd-vance-jensen-huang-trump-pardon-nvidia?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T04:12:18Z",
-   "source": "CNBC",
-   "title": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
-   "link": "https://www.cnbc.com/2026/11/26/trump-us-tariff-india-trade.html"
-  },
-  {
-   "published": "2026-11-26T04:06:32Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Rise After Nasdaq Slashes Losses In Wild Market Ride",
-   "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-after.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T04:02:36Z",
-   "source": "Yahoo Finance",
-   "title": "HLTH 2026: Quest Diagnostics' Patrick Plewman Breaks Down Whoop Partnership",
-   "link": "https://finance.yahoo.com/video/hlth-2026-quest-diagnostics-patrick-040236490.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T04:00:15Z",
-   "source": "CNBC",
-   "title": "Judge blocks FCC early-renewal process for Disney-owned ABC stations, for now",
-   "link": "https://www.cnbc.com/2026/11/26/fcc-disney-abc-stations-judge-block.html"
-  },
-  {
-   "published": "2026-11-26T03:44:40Z",
-   "source": "Yahoo Finance",
-   "title": "Michael Burry Says He’s Shorting The Market’s ‘Generals’ As Apple Flashes A Warning Last Seen In 2002",
-   "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-shorting-market-generals-apple-warning-last-seen-in-2002/cNbx7IxR9Ze?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T03:32:53Z",
-   "source": "CNBC",
-   "title": "South Korea upgrades growth forecast, raises benchmark rates to highest in two years",
-   "link": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html"
-  },
-  {
-   "published": "2026-11-26T03:22:47Z",
-   "source": "Yahoo Finance",
-   "title": "Trump admin weighed using Cold War law to reinstate Nvidia CEO Huang, WaPo reports",
-   "link": "https://finance.yahoo.com/technology/articles/trump-admin-weighed-using-cold-032247551.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T03:19:44Z",
-   "source": "CNBC",
-   "title": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
-   "link": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html"
-  },
-  {
-   "published": "2026-11-26T03:13:43Z",
-   "source": "CNBC",
-   "title": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
-   "link": "https://www.cnbc.com/2026/11/26/dennys-jensen-huang-nvidia.html"
-  },
-  {
-   "published": "2026-11-26T03:11:46Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia chips reach Chinese-owned U.S. firms despite export curbs, CBS reports",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-chips-reach-chinese-owned-031146505.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T03:09:47Z",
-   "source": "CNBC",
-   "title": "K-beauty stocks rally as Korean brands top Amazon bestseller lists globally ahead of Black Friday",
-   "link": "https://www.cnbc.com/2026/11/26/k-beauty-firms-amazon-sales-black-friday.html"
-  },
-  {
-   "published": "2026-11-26T03:07:02Z",
-   "source": "Yahoo Finance",
-   "title": "Is Nvidia Stock a Buy After Dell's Record AI Backlog?",
-   "link": "https://www.fool.com/investing/2026/11/25/is-nvidia-stock-a-buy-after-dell-s-record-ai-backlog/?.tsrc=rss"
   }
  ]
 }
