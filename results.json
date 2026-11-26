@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T20:00:36Z",
+ "generated_at": "2026-11-26T20:50:46Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.81,
   "cash": 81.41,
   "perf_pct": -0.0019,
-  "bench_pct": -0.1594,
+  "bench_pct": -0.159,
   "drawdown": 0.0042,
   "halted": false,
   "trade_count": 5
@@ -24,7 +24,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 60698.81,
+   "price": 60771.95,
    "trend": "neutre",
    "score": 0.042,
    "news_score": 0.25,
@@ -38,7 +38,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1703.64,
+   "price": 1704.75,
    "trend": "neutre",
    "score": -0.043,
    "news_score": -0.2,
@@ -52,7 +52,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.27,
+   "price": 71.34,
    "trend": "neutre",
    "score": -0.012,
    "news_score": 0.0,
@@ -67,9 +67,9 @@
    "symbol": "NVDA",
    "price": 149.27000427246094,
    "trend": "baissière",
-   "score": -0.342,
-   "news_score": -0.25,
-   "news_conf": 0.36,
+   "score": -0.293,
+   "news_score": 0.0,
+   "news_conf": 0.24,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -146,11 +146,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794923444,
-   99.82,
-   87.23
-  ],
   [
    1794931230,
    99.77,
@@ -595,13 +590,18 @@
    1795723230,
    99.81,
    84.06
+  ],
+  [
+   1795726241,
+   99.81,
+   84.1
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 0,
-  "text": "Veille de Thanksgiving, marchés US fermés ; signaux mitigés (Yahoo Finance, CoinDesk, Cointelegraph), aucun indicateur concret et convergent pour risk_off. — Contexte au 26/11 : Thanksgiving, marchés US fermés, liquidité crypto mince (Cointelegraph, CoinDesk) ; Bitcoin quasi stable, sans direction c",
-  "received_at": "2026-11-26T13:50:44Z"
+  "text": "Thanksgiving, marchés US fermés ; signaux crypto/IA mitigés (Decrypt, Cointelegraph, Yahoo Finance, CNBC), pas d'indicateur concret et convergent pour risk_off. — Contexte au 26/11 : marchés US fermés (Thanksgiving), liquidité mince ; repli des valeurs IA/puces (Yahoo Finance), Bitcoin ~60 000 $ ave",
+  "received_at": "2026-11-26T20:50:41Z"
  },
  "indicators": {
   "fear_greed": {
@@ -736,6 +736,42 @@
  },
  "headlines": [
   {
+   "published": "2026-11-26T20:30:14Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia halts server shipments to 4 countries just weeks after Jensen Huang’s affair with alleged spy was exposed",
+   "link": "https://nypost.com/2026/11/26/business/nvidia-halts-server-shipments-to-4-southeast-asian-countries-report/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-26T20:29:02Z",
+   "source": "Yahoo Finance",
+   "title": "Here’s How Many Shares of Procter & Gamble You’d Need to Own to Collect $1,000 in Annual Dividends",
+   "link": "https://www.fool.com/investing/2026/11/26/here-s-how-many-shares-of-procter-and-gamble-you-d-need-to-own-to-collect-usd1-000-in-annual-dividends/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-26T20:25:28Z",
+   "source": "CNBC",
+   "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+   "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
+  },
+  {
+   "published": "2026-11-26T20:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "If a Market Correction Is Around the Corner, I'm Making This 1 Easy Move",
+   "link": "https://www.fool.com/investing/2026/11/26/if-market-correction-around-corner-making-this-1-easy-move/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-26T20:05:18Z",
+   "source": "Cointelegraph",
+   "title": "Japan weighs tighter oversight of DeFi, self-custodial wallets",
+   "link": "https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-26T20:03:54Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+   "link": "https://finance.yahoo.com/technology/articles/nvidia-hits-pause-chip-shipments-200354308.html?.tsrc=rss"
+  },
+  {
    "published": "2026-11-26T19:50:02Z",
    "source": "Yahoo Finance",
    "title": "Anthropic Stock Is Now Trading as ANT. Should You Buy Today or Wait?",
@@ -776,12 +812,6 @@
    "source": "Yahoo Finance",
    "title": "This Oversold Artificial Intelligence (AI) Stock Will Skyrocket 123% in 2027, According to Wall Street",
    "link": "https://www.fool.com/investing/2026/11/26/this-oversold-artificial-intelligence-ai-stock-will-skyrocket-123-in-2027-according-to-wall-street/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T18:44:15Z",
-   "source": "CNBC",
-   "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
-   "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
   },
   {
    "published": "2026-11-26T18:38:06Z",
@@ -862,40 +892,16 @@
    "link": "https://finance.yahoo.com/technology/ai/articles/apple-removes-talkie-app-store-180937483.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-26T18:05:39Z",
-   "source": "Yahoo Finance",
-   "title": "Billionaire John Overdeck’s former fund, Two Sigma Raised Its Nvidia Stake 67% to $2.39 Billion",
-   "link": "https://247wallst.com/investing/2026/11/26/billionaire-john-overdecks-former-fund-two-sigma-raised-its-nvidia-stake-67-to-2-39-billion/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T18:01:02Z",
-   "source": "Yahoo Finance",
-   "title": "Here's What Would Prove Me Wrong About Netflix Stock",
-   "link": "https://www.fool.com/investing/2026/11/26/here-s-what-would-prove-me-wrong-about-netflix-stock/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-26T17:52:15Z",
    "source": "CNBC",
    "title": "Semiconductor chips are the new oil. Here's why",
    "link": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html"
   },
   {
-   "published": "2026-11-26T17:47:02Z",
-   "source": "Yahoo Finance",
-   "title": "Alphabet Could Be the Safest Way to Own Anthropic. Here’s the Math.",
-   "link": "https://www.fool.com/investing/2026/11/26/alphabet-could-be-the-safest-way-to-own-anthropic-here-s-the-math/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-26T17:39:53Z",
    "source": "Cointelegraph",
    "title": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
    "link": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-26T17:35:02Z",
-   "source": "Yahoo Finance",
-   "title": "Should You Buy Nvidia After Its Sharp Decline? Warren Buffett’s Long-Held Investment Philosophy Provides a Clear Answer",
-   "link": "https://www.fool.com/investing/2026/11/26/should-you-buy-nvidia-warren-buffett-investment-philosophy-provides-a-clear-answer/?.tsrc=rss"
   },
   {
    "published": "2026-11-26T17:30:00Z",
@@ -908,12 +914,6 @@
    "source": "Yahoo Finance",
    "title": "Apple, Exxon and Lowe’s Are Rewarding Shareholders Beyond Their Regular Dividends",
    "link": "https://247wallst.com/investing/2026/11/26/apple-exxon-and-lowes-are-rewarding-shareholders-beyond-their-regular-dividends/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T17:00:31Z",
-   "source": "Yahoo Finance",
-   "title": "Was CrowdStrike’s $43.9 Billion Bid for Zscaler the Right Move at the Wrong Time?",
-   "link": "https://247wallst.com/investing/2026/11/26/was-crowdstrikes-43-9-billion-bid-for-zscaler-the-right-move-at-the-wrong-time/?.tsrc=rss"
   }
  ]
 }
