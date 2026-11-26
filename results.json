@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T20:50:46Z",
+ "generated_at": "2026-11-26T21:30:56Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.81,
   "cash": 81.41,
   "perf_pct": -0.0019,
-  "bench_pct": -0.159,
+  "bench_pct": -0.1579,
   "drawdown": 0.0042,
   "halted": false,
   "trade_count": 5
@@ -24,7 +24,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 60771.95,
+   "price": 60950.05,
    "trend": "neutre",
    "score": 0.042,
    "news_score": 0.25,
@@ -38,7 +38,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1704.75,
+   "price": 1707.09,
    "trend": "neutre",
    "score": -0.043,
    "news_score": -0.2,
@@ -52,7 +52,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.34,
+   "price": 71.62,
    "trend": "neutre",
    "score": -0.012,
    "news_score": 0.0,
@@ -93,8 +93,8 @@
    "symbol": "SPY",
    "price": 716.7100219726562,
    "trend": "baissière",
-   "score": -0.277,
-   "news_score": -0.2,
+   "score": -0.321,
+   "news_score": -0.333,
    "news_conf": 0.6,
    "tech_score": -0.468,
    "in_position": false,
@@ -146,11 +146,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794931230,
-   99.77,
-   86.09
-  ],
   [
    1794945630,
    99.77,
@@ -595,6 +590,11 @@
    1795726241,
    99.81,
    84.1
+  ],
+  [
+   1795728650,
+   99.81,
+   84.21
   ]
  ],
  "last_directive": {
@@ -612,10 +612,10 @@
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 62,
-  "pending": 3,
-  "hit_rate": 0.5,
-  "mean_signed": 0.006240298547078378,
+  "n": 64,
+  "pending": 1,
+  "hit_rate": 0.484375,
+  "mean_signed": 0.00582701926028272,
   "enough": true,
   "min_sample": 20,
   "by_symbol": {
@@ -628,12 +628,12 @@
     "hit_rate": 0.25
    },
    "BTC/USDT": {
-    "n": 20,
-    "hit_rate": 0.65
+    "n": 21,
+    "hit_rate": 0.6190476190476191
    },
    "NVDA": {
-    "n": 25,
-    "hit_rate": 0.48
+    "n": 26,
+    "hit_rate": 0.46153846153846156
    },
    "ETH/USDT": {
     "n": 2,
@@ -736,6 +736,36 @@
  },
  "headlines": [
   {
+   "published": "2026-11-26T21:13:53Z",
+   "source": "Cointelegraph",
+   "title": "UK is ‘getting it wrong’ on DeFi regulation, says Coinbase",
+   "link": "https://cointelegraph.com/news/uk-wrong-defi-regulation-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-26T21:13:17Z",
+   "source": "CNBC",
+   "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+   "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
+  },
+  {
+   "published": "2026-11-26T21:01:03Z",
+   "source": "Decrypt",
+   "title": "What Is Self-Custody? How to Hold Your Own Crypto Keys",
+   "link": "https://decrypt.co/resources/what-is-self-custody-how-to-hold-your-own-crypto-keys"
+  },
+  {
+   "published": "2026-11-26T20:56:02Z",
+   "source": "Yahoo Finance",
+   "title": "SpaceX Is a Great Company. Is It a Great Stock at This Price?",
+   "link": "https://www.fool.com/investing/2026/11/26/spacex-is-a-great-company-is-it-a-great-stock-at-this-price/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-26T20:50:17Z",
+   "source": "Yahoo Finance",
+   "title": "Is Bitcoin a Good Investment for Building Wealth After a 50% Drop?",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/26/is-bitcoin-a-good-investment-for-building-wealth-after-a-50-drop/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-26T20:30:14Z",
    "source": "Yahoo Finance",
    "title": "Nvidia halts server shipments to 4 countries just weeks after Jensen Huang’s affair with alleged spy was exposed",
@@ -746,12 +776,6 @@
    "source": "Yahoo Finance",
    "title": "Here’s How Many Shares of Procter & Gamble You’d Need to Own to Collect $1,000 in Annual Dividends",
    "link": "https://www.fool.com/investing/2026/11/26/here-s-how-many-shares-of-procter-and-gamble-you-d-need-to-own-to-collect-usd1-000-in-annual-dividends/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T20:25:28Z",
-   "source": "CNBC",
-   "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
-   "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
   },
   {
    "published": "2026-11-26T20:20:02Z",
@@ -890,30 +914,6 @@
    "source": "Yahoo Finance",
    "title": "Apple Removes Talkie From App Store After Reports of Inappropriate AI Messages",
    "link": "https://finance.yahoo.com/technology/ai/articles/apple-removes-talkie-app-store-180937483.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T17:52:15Z",
-   "source": "CNBC",
-   "title": "Semiconductor chips are the new oil. Here's why",
-   "link": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html"
-  },
-  {
-   "published": "2026-11-26T17:39:53Z",
-   "source": "Cointelegraph",
-   "title": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
-   "link": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-26T17:30:00Z",
-   "source": "CoinDesk",
-   "title": "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds",
-   "link": "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds"
-  },
-  {
-   "published": "2026-11-26T17:07:34Z",
-   "source": "Yahoo Finance",
-   "title": "Apple, Exxon and Lowe’s Are Rewarding Shareholders Beyond Their Regular Dividends",
-   "link": "https://247wallst.com/investing/2026/11/26/apple-exxon-and-lowes-are-rewarding-shareholders-beyond-their-regular-dividends/?.tsrc=rss"
   }
  ]
 }
