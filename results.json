@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-27T04:00:34Z",
+ "generated_at": "2026-11-27T05:50:48Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 99.81,
-  "cash": 81.41,
-  "perf_pct": -0.0019,
-  "bench_pct": -0.1532,
-  "drawdown": 0.0042,
+  "equity": 99.72,
+  "cash": 62.17,
+  "perf_pct": -0.0028,
+  "bench_pct": -0.151,
+  "drawdown": 0.0051,
   "halted": false,
-  "trade_count": 5
+  "trade_count": 6
  },
  "positions": [
   {
@@ -19,16 +19,23 @@
    "pnl_pct": 0.003,
    "entry_price": 354.3671,
    "stop": 332.1384
+  },
+  {
+   "symbol": "ETH/USDT",
+   "value": 19.15,
+   "pnl_pct": -0.0045,
+   "entry_price": 1741.9906,
+   "stop": 1654.1909
   }
  ],
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 61429.48,
+   "price": 61744.02,
    "trend": "neutre",
-   "score": 0.093,
-   "news_score": 0.25,
-   "news_conf": 0.36,
+   "score": 0.242,
+   "news_score": 0.6,
+   "news_conf": 0.6,
    "tech_score": 0.097,
    "in_position": false,
    "patterns": [
@@ -39,13 +46,13 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1729.3,
+   "price": 1741.12,
    "trend": "neutre",
-   "score": 0.12,
-   "news_score": 0.25,
-   "news_conf": 0.12,
+   "score": 0.368,
+   "news_score": 1.0,
+   "news_conf": 0.48,
    "tech_score": 0.231,
-   "in_position": false,
+   "in_position": true,
    "patterns": [
     "Avalement haussier",
     "Avalement haussier"
@@ -53,11 +60,11 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 72.76,
+   "price": 73.17,
    "trend": "neutre",
-   "score": -0.008,
-   "news_score": 0.25,
-   "news_conf": 0.12,
+   "score": 0.124,
+   "news_score": 0.75,
+   "news_conf": 0.36,
    "tech_score": -0.054,
    "in_position": false,
    "patterns": [
@@ -70,9 +77,9 @@
    "symbol": "NVDA",
    "price": 149.27000427246094,
    "trend": "baissière",
-   "score": -0.161,
+   "score": -0.128,
    "news_score": 0.5,
-   "news_conf": 0.48,
+   "news_conf": 0.6,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -81,9 +88,9 @@
    "symbol": "AAPL",
    "price": 355.44500732421875,
    "trend": "haussière",
-   "score": 0.256,
-   "news_score": 0.25,
-   "news_conf": 0.36,
+   "score": 0.404,
+   "news_score": 0.6,
+   "news_conf": 0.6,
    "tech_score": 0.458,
    "in_position": true,
    "patterns": [
@@ -96,8 +103,8 @@
    "symbol": "SPY",
    "price": 716.7100219726562,
    "trend": "baissière",
-   "score": -0.277,
-   "news_score": -0.2,
+   "score": -0.163,
+   "news_score": 0.143,
    "news_conf": 0.6,
    "tech_score": -0.468,
    "in_position": false,
@@ -107,6 +114,14 @@
   }
  ],
  "recent_trades": [
+  {
+   "time": "2026-11-27T05:50:43Z",
+   "symbol": "ETH/USDT",
+   "side": "buy",
+   "price": 1741.9906,
+   "pnl_pct": 0.0,
+   "reason": "Score +0.37 (actus +0.48, technique +0.23), tendance neutre, chandeliers : Avalement haussier, Avalement haussier. IA : Mode sans IA : 4 mots positifs, 0 négatifs sur 6 titres."
+  },
   {
    "time": "2026-11-24T21:30:51Z",
    "symbol": "AAPL",
@@ -149,11 +164,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794951049,
-   99.77,
-   86.89
-  ],
   [
    1794960030,
    99.77,
@@ -598,13 +608,18 @@
    1795752030,
    99.81,
    84.68
+  ],
+  [
+   1795758643,
+   99.72,
+   84.9
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 0,
-  "text": "Thanksgiving, marchés US fermés ; signaux crypto/IA mitigés (Decrypt, Cointelegraph, Yahoo Finance, CNBC), pas d'indicateur concret et convergent pour risk_off. — Contexte au 26/11 : marchés US fermés (Thanksgiving), liquidité mince ; repli des valeurs IA/puces (Yahoo Finance), Bitcoin ~60 000 $ ave",
-  "received_at": "2026-11-26T20:50:41Z"
+  "text": "Journée de repli après Thanksgiving (séance US écourtée) ; titres CNBC/Yahoo Finance mitigés (guerre Iran, repli des puces IA), aucun indicateur concret et convergent pour risk_off. — Contexte au 27/11 : Black Friday, séance US écourtée et liquidité mince ; CNBC rapporte des tensions liées à l'Iran,",
+  "received_at": "2026-11-27T05:50:43Z"
  },
  "indicators": {
   "fear_greed": {
@@ -615,10 +630,10 @@
  },
  "indicator_stress": "",
  "directive_track_record": {
-  "n": 64,
-  "pending": 1,
-  "hit_rate": 0.484375,
-  "mean_signed": 0.00582701926028272,
+  "n": 65,
+  "pending": 0,
+  "hit_rate": 0.47692307692307695,
+  "mean_signed": 0.005737372810124524,
   "enough": true,
   "min_sample": 20,
   "by_symbol": {
@@ -635,8 +650,8 @@
     "hit_rate": 0.6190476190476191
    },
    "NVDA": {
-    "n": 26,
-    "hit_rate": 0.46153846153846156
+    "n": 27,
+    "hit_rate": 0.4444444444444444
    },
    "ETH/USDT": {
     "n": 2,
@@ -647,61 +662,61 @@
  "costs": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 99.8103545452166,
+  "equity": 99.72415094629726,
   "profiles": {
    "crypto": "Kraken, ordres au marché",
    "stock": "Alpaca, actions et ETF américains"
   },
-  "fees": 0.0,
-  "slippage": 0.047668480288451706,
-  "fees_pct_capital": 0.0,
-  "gross_pl": -0.14197697449495084,
-  "before_fees": -0.18964545478340256,
-  "net_pl": -0.18964545478340256,
+  "fees": 0.07662967633832772,
+  "slippage": 0.057242402869450426,
+  "fees_pct_capital": 0.0007662967633832772,
+  "gross_pl": -0.14197697449496455,
+  "before_fees": -0.19921937736441497,
+  "net_pl": -0.2758490537027427,
   "tax_rate": 0.314,
   "tax_est": 0.0,
-  "net_after_tax": -0.18964545478340256,
-  "trade_count": 5,
+  "net_after_tax": -0.2758490537027427,
+  "trade_count": 6,
   "platforms": {
    "crypto": [
     {
      "key": "kraken",
      "label": "Kraken, ordres au marché",
      "note": "0,40 % taker sous 50 000 $/mois ; accessible depuis la France (agrément irlandais, passeport UE)",
-     "fees": 0,
-     "net": -0.18964545478340256,
+     "fees": 0.07662967633832772,
+     "net": -0.2758490537027427,
      "active": true
     },
     {
      "key": "kraken_limit",
      "label": "Kraken, ordres à cours limité",
      "note": "0,25 % maker, mais un ordre limite peut ne pas être exécuté",
-     "fees": 0,
-     "net": -0.18964545478340256,
+     "fees": 0.04789354771145482,
+     "net": -0.2471129250758698,
      "active": false
     },
     {
      "key": "coinbase",
      "label": "Coinbase Advanced",
      "note": "0,50 % taker au palier de base",
-     "fees": 0,
-     "net": -0.18964545478340256,
+     "fees": 0.09578709542290964,
+     "net": -0.2950064727873246,
      "active": false
     },
     {
      "key": "binance",
      "label": "Binance",
      "note": "0,10 % : mais n'accepte plus de nouveaux clients en France d'après plusieurs sources",
-     "fees": 0,
-     "net": -0.18964545478340256,
+     "fees": 0.01915741908458193,
+     "net": -0.2183767964489969,
      "active": false
     },
     {
      "key": "etoro_crypto",
      "label": "eToro, crypto réelle",
      "note": "1 % par position, soit 2 % l'aller-retour, spread en plus",
-     "fees": 0,
-     "net": -0.18964545478340256,
+     "fees": 0.19157419084581928,
+     "net": -0.39079356821023425,
      "active": false
     }
    ],
@@ -711,7 +726,7 @@
      "label": "Alpaca, actions et ETF américains",
      "note": "0 commission ; compte à déclarer (3916-bis), pas de marge",
      "fees": 0.0,
-     "net": -0.18964545478340256,
+     "net": -0.2758490537027427,
      "active": true
     },
     {
@@ -719,7 +734,7 @@
      "label": "Interactive Brokers, tarif fixe",
      "note": "0,005 $/action, minimum 1 $, plafonné à 1 % du montant",
      "fees": 0.9534623248773252,
-     "net": -1.1431077796607276,
+     "net": -1.2293113785800678,
      "active": false
     },
     {
@@ -727,7 +742,7 @@
      "label": "eToro, actions réelles",
      "note": "1 $ (parfois 2 $) par ordre, achat et vente",
      "fees": 5.0,
-     "net": -5.189645454783403,
+     "net": -5.275849053702743,
      "active": false
     }
    ]
@@ -738,6 +753,96 @@
   }
  },
  "headlines": [
+  {
+   "published": "2026-11-27T05:46:04Z",
+   "source": "CNBC",
+   "title": "Fast cars, big money: Why sportswear races into Formula 1 as sponsorship spending soars 75%",
+   "link": "https://www.cnbc.com/2026/11/27/nike-formula-1-sportswear-brands-sponsorship-adidas-puma.html"
+  },
+  {
+   "published": "2026-11-27T05:22:36Z",
+   "source": "Cointelegraph",
+   "title": "Japan’s crypto security group taps SEAL to speed up hack response",
+   "link": "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-27T05:15:55Z",
+   "source": "CNBC",
+   "title": "China’s factories are growing profits again, but the AI boom is picking the winners",
+   "link": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html"
+  },
+  {
+   "published": "2026-11-27T05:14:09Z",
+   "source": "Yahoo Finance",
+   "title": "Learn Why The Bull Case For Nvidia Stock Could Change Following CEO Reinstatement",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-nvidia-051409281.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T05:06:32Z",
+   "source": "CoinDesk",
+   "title": "Ripple's lending plan moves closer to tapping XRP Ledger's $800 million in stablecoins",
+   "link": "https://www.coindesk.com/markets/2026/11/27/ripple-s-lending-plan-moves-closer-to-tapping-xrp-ledger-s-usd950-million-in-stablecoins"
+  },
+  {
+   "published": "2026-11-27T04:47:36Z",
+   "source": "Cointelegraph",
+   "title": "Ethereum devs set Glamsterdam’s Hoodi rollout for mid-December after delays",
+   "link": "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-27T04:45:47Z",
+   "source": "CoinDesk",
+   "title": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
+   "link": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack"
+  },
+  {
+   "published": "2026-11-27T04:29:47Z",
+   "source": "CoinDesk",
+   "title": "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know",
+   "link": "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know"
+  },
+  {
+   "published": "2026-11-27T04:23:58Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
+   "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T04:23:01Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia (NVDA) Stock Fair Value Falls After Analysts Reassess Leadership And Regulatory Risks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-stock-fair-value-042301514.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T04:20:55Z",
+   "source": "CNBC",
+   "title": "SpaceX shares jump on alternative trading platform after Musk says he will expand share donations",
+   "link": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html"
+  },
+  {
+   "published": "2026-11-27T04:17:27Z",
+   "source": "Yahoo Finance",
+   "title": "Asian stocks rise as tech rebound, easing U.S. trade concerns lift sentiment",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rise-tech-rebound-041727436.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T04:14:19Z",
+   "source": "Yahoo Finance",
+   "title": "Singapore yet to confirm if Nvidia has halted advanced chip shipments- deputy PM",
+   "link": "https://finance.yahoo.com/technology/articles/singapore-yet-confirm-nvidia-halted-041419330.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T04:11:20Z",
+   "source": "Yahoo Finance",
+   "title": "Neoclouds Told To Choose: Nvidia Chips Or Chinese Customers",
+   "link": "https://finance.yahoo.com/technology/articles/neoclouds-told-choose-nvidia-chips-041120920.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T03:53:02Z",
+   "source": "Yahoo Finance",
+   "title": "Amazon Lost 40 Satellites on a Boeing-Lockheed Rocket in November. SpaceX Is the Only Company That Can Fix Amazon’s Problem. Is the Stock a Buy Near $130?",
+   "link": "https://www.fool.com/investing/2026/11/26/amazon-lost-40-satellites-on-a-boeing-lockheed-rocket-in-november-spacex-is-the-only-company-that-can-fix-amazon-s-problem-is-the-stock-a-buy-near-usd130/?.tsrc=rss"
+  },
   {
    "published": "2026-11-27T03:30:23Z",
    "source": "CNBC",
@@ -781,22 +886,10 @@
    "link": "https://www.fool.com/investing/2026/11/26/stocks-are-plunging-right-now-heres-what-history-s/?.tsrc=rss"
   },
   {
-   "published": "2026-11-27T02:04:09Z",
-   "source": "CNBC",
-   "title": "China industrial profits growth surges to a 5-month high of 20.1% in October",
-   "link": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html"
-  },
-  {
    "published": "2026-11-27T01:47:38Z",
    "source": "Cointelegraph",
    "title": "AI is driving a flood of crypto bug reports. Now it’s helping sort them",
    "link": "https://cointelegraph.com/news/ai-driving-flood-of-crypto-bug-reports-now-helping-sort-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-27T01:34:35Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
-   "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss"
   },
   {
    "published": "2026-11-27T00:39:25Z",
@@ -829,94 +922,16 @@
    "link": "https://www.fool.com/investing/2026/11/26/these-2-ai-chip-stocks-are-down-36-to-39-from-their-highs-here-s-what-history-says-happens-next/?.tsrc=rss"
   },
   {
-   "published": "2026-11-26T23:45:02Z",
-   "source": "Yahoo Finance",
-   "title": "2 Dividend Stocks to Buy in November and 1 to Leave on the Shelf",
-   "link": "https://www.fool.com/investing/2026/11/26/2-dividend-stocks-to-buy-in-november-and-1-to-leave-on-the-shelf/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T23:14:44Z",
-   "source": "Yahoo Finance",
-   "title": "Not Nvidia. Not Micron. If I Could Buy and Hold Only 1 Artificial Intelligence (AI) Semiconductor Stock Through 2030, This Would Be It.",
-   "link": "https://www.fool.com/investing/2026/11/26/not-nvidia-not-micron-if-i-could-buy-and-hold-only-1-artificial-intelligence-ai-semiconductor-stock-through-2030-this-would-be-it/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-26T23:07:11Z",
    "source": "Yahoo Finance",
    "title": "Dave Ramsey Is 66 and Owns Zero Bonds. Should Retirees Follow Him?",
    "link": "https://247wallst.com/personal-finance/2026/11/26/dave-ramsey-is-66-and-owns-zero-bonds-should-retirees-follow-him/?.tsrc=rss"
   },
   {
-   "published": "2026-11-26T23:00:49Z",
-   "source": "Yahoo Finance",
-   "title": "Did Jensen Huang’s Alleged Chinese Spy Get Him to Do Anything Nvidia Didn’t Want?",
-   "link": "https://unchainedcrypto.com/did-jensen-huangs-alleged-chinese-spy-get-him-to-do-anything-nvidia-didnt-want/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T22:50:49Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Is the Worst-Performing \"Magnificent Seven\" Stock This Year. Is It a Buy Before 2027?",
-   "link": "https://www.fool.com/investing/2026/11/26/nvidia-is-the-worst-performing-magnificent-seven-stock-this-year-is-it-a-buy-before-2027/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T22:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "Prediction: These 3 Consumer Stocks Will Beat the S&P 500 Over the Next 10 Years",
-   "link": "https://www.fool.com/investing/2026/11/26/prediction-these-3-consumer-stocks-will-beat-the-sp-500-over-the-next-10-years/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-26T22:39:46Z",
    "source": "Cointelegraph",
    "title": "‘Very racist’ Netflix SBF series, BitMart’s $319M shortfall: Asia Express",
    "link": "https://cointelegraph.com/magazine/very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-26T22:35:02Z",
-   "source": "Yahoo Finance",
-   "title": "Should You Buy Tesla Stock Before December?",
-   "link": "https://www.fool.com/investing/2026/11/26/should-you-buy-tesla-stock-before-december/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T22:28:03Z",
-   "source": "Yahoo Finance",
-   "title": "Loonie weakens amid Thanksgiving holiday lull, Canadian labor market data",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/loonie-weakens-amid-thanksgiving-holiday-222803240.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T22:12:06Z",
-   "source": "Cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-26T22:07:55Z",
-   "source": "Yahoo Finance",
-   "title": "Jim Lebenthal Says This Is “a Correction, Not Something Worse.” Why He’s Buying More Alphabet",
-   "link": "https://247wallst.com/investing/2026/11/26/jim-lebenthal-says-this-is-a-correction-not-something-worse-why-hes-buying-more-alphabet/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T22:01:02Z",
-   "source": "Decrypt",
-   "title": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown",
-   "link": "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown"
-  },
-  {
-   "published": "2026-11-26T21:42:43Z",
-   "source": "Cointelegraph",
-   "title": "BNB Chain details new layer-1 for trading, private finance and AI",
-   "link": "https://cointelegraph.com/news/bnb-chain-details-new-layer-1-trading-private-finance-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-26T21:33:47Z",
-   "source": "Cointelegraph",
-   "title": "Binance completes withdrawal recovery four weeks after $6.3B hack",
-   "link": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-26T21:13:53Z",
-   "source": "Cointelegraph",
-   "title": "UK is ‘getting it wrong’ on DeFi regulation, says Coinbase",
-   "link": "https://cointelegraph.com/news/uk-wrong-defi-regulation-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   }
  ]
 }
