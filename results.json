@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T20:50:44Z",
+ "generated_at": "2026-11-27T21:30:54Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.06,
   "cash": 80.49,
   "perf_pct": -0.0094,
-  "bench_pct": -0.1579,
+  "bench_pct": -0.1582,
   "drawdown": 0.0117,
   "halted": false,
   "trade_count": 7
@@ -24,7 +24,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 59808.01,
+   "price": 59803.19,
    "trend": "baissière",
    "score": -0.165,
    "news_score": 0.2,
@@ -38,7 +38,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1667.22,
+   "price": 1665.18,
    "trend": "baissière",
    "score": -0.039,
    "news_score": 0.6,
@@ -53,7 +53,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 72.01,
+   "price": 71.88,
    "trend": "neutre",
    "score": -0.003,
    "news_score": 0.25,
@@ -70,8 +70,8 @@
    "symbol": "NVDA",
    "price": 150.6199951171875,
    "trend": "baissière",
-   "score": -0.288,
-   "news_score": 0.333,
+   "score": -0.332,
+   "news_score": 0.2,
    "news_conf": 0.6,
    "tech_score": -0.883,
    "in_position": false,
@@ -83,9 +83,9 @@
    "symbol": "AAPL",
    "price": 358.70001220703125,
    "trend": "haussière",
-   "score": 0.41,
-   "news_score": 0.6,
-   "news_conf": 0.6,
+   "score": 0.344,
+   "news_score": 0.5,
+   "news_conf": 0.48,
    "tech_score": 0.471,
    "in_position": true,
    "patterns": [
@@ -168,11 +168,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1795017630,
-   99.77,
-   85.94
-  ],
   [
    1795032030,
    99.77,
@@ -617,6 +612,11 @@
    1795812639,
    99.06,
    84.21
+  ],
+  [
+   1795815048,
+   99.06,
+   84.18
   ]
  ],
  "last_directive": {
@@ -758,10 +758,34 @@
  },
  "headlines": [
   {
+   "published": "2026-11-27T21:28:56Z",
+   "source": "Yahoo Finance",
+   "title": "5 Best Tech Stocks to Buy for 2027 According to Hedge Funds",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-tech-stocks-buy-030856400.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T21:15:29Z",
+   "source": "Cointelegraph",
+   "title": "Franklin Templeton makes room for HYPE in crypto index ETF",
+   "link": "https://cointelegraph.com/news/franklin-templeton-hype-crypto-index-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-27T21:06:00Z",
+   "source": "Yahoo Finance",
+   "title": "Jensen Huang Is Back. Nvidia’s (NVDA) Bull Case Remains",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-back-nvidia-nvda-210600721.html?.tsrc=rss"
+  },
+  {
    "published": "2026-11-27T20:46:02Z",
    "source": "Decrypt",
    "title": "Could AI Break Bitcoin? Not Yet, Research Firm K33 Says",
    "link": "https://decrypt.co/384218/could-ai-break-bitcoin-not-yet-research-firm-k33-says"
+  },
+  {
+   "published": "2026-11-27T20:41:29Z",
+   "source": "Yahoo Finance",
+   "title": "AI Chip Stocks Swung Wildly—While Warren Buffett’s Apple Climbed 26%",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-swung-wildly-204129003.html?.tsrc=rss"
   },
   {
    "published": "2026-11-27T19:55:54Z",
@@ -890,24 +914,6 @@
    "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-jensen-183902792.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-27T18:39:02Z",
-   "source": "Yahoo Finance",
-   "title": "Should You Invest in Anthropic Stock Now or Wait? Here's What History Says.",
-   "link": "https://www.fool.com/investing/2026/11/27/should-you-invest-in-anthropic-stock-now-or-wait-heres-what-history-says/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T18:37:01Z",
-   "source": "Yahoo Finance",
-   "title": "Where Will AbbVie Stock Be in 5 Years? Its 2 Immunology Blockbusters Are Still Growing 20%-Plus per Year",
-   "link": "https://www.fool.com/investing/2026/11/27/where-will-abbvie-stock-be-in-5-years-its-2-immunology-blockbusters-are-still-growing-20-plus-per-year/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T18:31:02Z",
-   "source": "Yahoo Finance",
-   "title": "For a Little While, Nvidia Faced a Future Without Jensen Huang",
-   "link": "https://www.fool.com/investing/2026/11/27/for-a-little-while-nvidia-faced-a-future-without-jensen-huang/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-27T18:24:06Z",
    "source": "CNBC",
    "title": "SpaceX shares jump over 4% amid tech rally and after Musk says he will expand on Trump Account share donations",
@@ -930,12 +936,6 @@
    "source": "Decrypt",
    "title": "Hackers Hit US Air Force Cloud System Running Air-Defense and Munitions Data",
    "link": "https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data"
-  },
-  {
-   "published": "2026-11-27T17:37:23Z",
-   "source": "Cointelegraph",
-   "title": "China sets March 2027 rollout for blockchain identity regulations",
-   "link": "https://cointelegraph.com/news/china-march-2027-rollout-blockchain-identity-regulations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   }
  ]
 }
