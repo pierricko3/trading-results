@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T00:00:34Z",
+ "generated_at": "2026-11-27T04:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.81,
   "cash": 81.41,
   "perf_pct": -0.0019,
-  "bench_pct": -0.161,
+  "bench_pct": -0.1532,
   "drawdown": 0.0042,
   "halted": false,
   "trade_count": 5
@@ -24,39 +24,41 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 60594.06,
+   "price": 61429.48,
    "trend": "neutre",
-   "score": -0.13,
-   "news_score": 0.0,
-   "news_conf": 0.48,
-   "tech_score": -0.289,
+   "score": 0.093,
+   "news_score": 0.25,
+   "news_conf": 0.36,
+   "tech_score": 0.097,
    "in_position": false,
    "patterns": [
     "Doji (indécision)",
-    "Avalement baissier"
+    "Avalement baissier",
+    "Avalement haussier"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1689.68,
+   "price": 1729.3,
    "trend": "neutre",
-   "score": 0.018,
+   "score": 0.12,
    "news_score": 0.25,
-   "news_conf": 0.36,
-   "tech_score": -0.071,
+   "news_conf": 0.12,
+   "tech_score": 0.231,
    "in_position": false,
    "patterns": [
+    "Avalement haussier",
     "Avalement haussier"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.07,
+   "price": 72.76,
    "trend": "neutre",
-   "score": -0.199,
-   "news_score": 0.0,
-   "news_conf": 0.24,
-   "tech_score": -0.442,
+   "score": -0.008,
+   "news_score": 0.25,
+   "news_conf": 0.12,
+   "tech_score": -0.054,
    "in_position": false,
    "patterns": [
     "Doji (indécision)",
@@ -68,9 +70,9 @@
    "symbol": "NVDA",
    "price": 149.27000427246094,
    "trend": "baissière",
-   "score": -0.095,
-   "news_score": 0.6,
-   "news_conf": 0.6,
+   "score": -0.161,
+   "news_score": 0.5,
+   "news_conf": 0.48,
    "tech_score": -0.65,
    "in_position": false,
    "patterns": []
@@ -79,9 +81,9 @@
    "symbol": "AAPL",
    "price": 355.44500732421875,
    "trend": "haussière",
-   "score": 0.206,
-   "news_score": 0.0,
-   "news_conf": 0.48,
+   "score": 0.256,
+   "news_score": 0.25,
+   "news_conf": 0.36,
    "tech_score": 0.458,
    "in_position": true,
    "patterns": [
@@ -94,8 +96,8 @@
    "symbol": "SPY",
    "price": 716.7100219726562,
    "trend": "baissière",
-   "score": -0.321,
-   "news_score": -0.333,
+   "score": -0.277,
+   "news_score": -0.2,
    "news_conf": 0.6,
    "tech_score": -0.468,
    "in_position": false,
@@ -147,11 +149,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794948640,
-   99.77,
-   86.13
-  ],
   [
    1794951049,
    99.77,
@@ -596,6 +593,11 @@
    1795737630,
    99.81,
    83.9
+  ],
+  [
+   1795752030,
+   99.81,
+   84.68
   ]
  ],
  "last_directive": {
@@ -737,16 +739,100 @@
  },
  "headlines": [
   {
+   "published": "2026-11-27T03:30:23Z",
+   "source": "CNBC",
+   "title": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
+   "link": "https://www.cnbc.com/2026/11/27/us-iran-war-trump-hormuz-italian-killed-trump.html"
+  },
+  {
+   "published": "2026-11-27T03:21:49Z",
+   "source": "Yahoo Finance",
+   "title": "5 Best Quantum Computing Stocks To Buy for 2027",
+   "link": "https://finance.yahoo.com/technology/articles/5-best-quantum-computing-stocks-032149616.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T03:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Is Down 35% From Its All-Time High, Tied for Its Biggest Drop Since the AI Boom Began. Is It a Buy?",
+   "link": "https://www.fool.com/investing/2026/11/26/nvidia-is-down-35-from-its-all-time-high-tied-for-its-biggest-drop-since-the-ai-boom-began-is-it-a-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T03:19:05Z",
+   "source": "Yahoo Finance",
+   "title": "Apple (AAPL) Has Found a New AI Opportunity That Has Little to Do With the iPhone",
+   "link": "https://finance.yahoo.com/technology/ai/articles/apple-aapl-found-ai-opportunity-031905510.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T03:17:00Z",
+   "source": "Yahoo Finance",
+   "title": "Target cut its Apple Black Friday discount in half",
+   "link": "https://www.thestreet.com/retail/target-cut-its-apple-black-friday-discount-in-half?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T03:08:56Z",
+   "source": "Yahoo Finance",
+   "title": "5 Best Tech Stocks to Buy for 2027 According to Hedge Funds",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-tech-stocks-buy-030856400.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T02:20:00Z",
+   "source": "Yahoo Finance",
+   "title": "Stocks Are Plunging Right Now. Here's What History Says Investors Should Do.",
+   "link": "https://www.fool.com/investing/2026/11/26/stocks-are-plunging-right-now-heres-what-history-s/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T02:04:09Z",
+   "source": "CNBC",
+   "title": "China industrial profits growth surges to a 5-month high of 20.1% in October",
+   "link": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html"
+  },
+  {
+   "published": "2026-11-27T01:47:38Z",
+   "source": "Cointelegraph",
+   "title": "AI is driving a flood of crypto bug reports. Now it’s helping sort them",
+   "link": "https://cointelegraph.com/news/ai-driving-flood-of-crypto-bug-reports-now-helping-sort-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-27T01:34:35Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
+   "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T00:39:25Z",
+   "source": "Yahoo Finance",
+   "title": "Trump Says Huang Is Excited About His ‘Second Term’ at Nvidia",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/trump-says-huang-excited-second-003925008.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T00:35:39Z",
+   "source": "Cointelegraph",
+   "title": "Privacy coins face diverging fortunes as KuCoin moves to drop Monero",
+   "link": "https://cointelegraph.com/news/privacy-coins-kucoin-drop-monero-grayscale-zcash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-27T00:28:02Z",
+   "source": "Yahoo Finance",
+   "title": "1 Incredibly Cheap Artificial Intelligence (AI) Stock to Buy Before It Doubles in 2027",
+   "link": "https://www.fool.com/investing/2026/11/26/1-incredibly-cheap-artificial-intelligence-ai-stock-to-buy-before-it-doubles-in-2027/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T00:22:29Z",
+   "source": "CNBC",
+   "title": "Sovereign wealth funds are acting more like private equity giants — and inheriting their risks",
+   "link": "https://www.cnbc.com/2026/11/27/swf-private-equity-risks.html"
+  },
+  {
+   "published": "2026-11-27T00:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "These 2 AI Chip Stocks Are Down 36% to 39% From Their Highs. Here’s What History Says Happens Next.",
+   "link": "https://www.fool.com/investing/2026/11/26/these-2-ai-chip-stocks-are-down-36-to-39-from-their-highs-here-s-what-history-says-happens-next/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-26T23:45:02Z",
    "source": "Yahoo Finance",
    "title": "2 Dividend Stocks to Buy in November and 1 to Leave on the Shelf",
    "link": "https://www.fool.com/investing/2026/11/26/2-dividend-stocks-to-buy-in-november-and-1-to-leave-on-the-shelf/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T23:34:05Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
-   "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss"
   },
   {
    "published": "2026-11-26T23:14:44Z",
@@ -797,12 +883,6 @@
    "link": "https://finance.yahoo.com/markets/currencies/articles/loonie-weakens-amid-thanksgiving-holiday-222803240.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-26T22:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "Tech Stock Sell-Off: Down 13%, Is Microsoft a Buy Now?",
-   "link": "https://www.fool.com/investing/2026/11/26/tech-stock-sell-off-down-13-is-microsoft-a-buy-now/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-26T22:12:06Z",
    "source": "Cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -821,18 +901,6 @@
    "link": "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown"
   },
   {
-   "published": "2026-11-26T21:52:43Z",
-   "source": "Yahoo Finance",
-   "title": "‘Room to Spare,’ Says Investor About Oracle Stock",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/room-spare-says-investor-oracle-215243159.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T21:50:02Z",
-   "source": "Yahoo Finance",
-   "title": "O’Reilly’s Sales to Professional Mechanics Jumped 12.7% Last Quarter. Here’s Why That’s the Clearest Sign of Its Moat.",
-   "link": "https://www.fool.com/investing/2026/11/26/oreilly-sales-professional-mechanics-jumped-last-quarter-why-that-s-the-clearest-sign-of-its-moat/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-26T21:42:43Z",
    "source": "Cointelegraph",
    "title": "BNB Chain details new layer-1 for trading, private finance and AI",
@@ -845,76 +913,10 @@
    "link": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-26T21:33:02Z",
-   "source": "Yahoo Finance",
-   "title": "The Nasdaq Composite Is in a Correction, but These 3 Dividend Stocks Are Near 52-Week Highs. Here's Why They're Still Worth Buying Right Now.",
-   "link": "https://www.fool.com/investing/2026/11/26/the-nasdaq-composite-is-in-a-correction-but-these-3-dividend-stocks-are-near-52-week-highs-here-s-why-they-re-still-worth-buying-right-now/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T21:22:00Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-return-doesn-t-212200380.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T21:20:02Z",
-   "source": "Yahoo Finance",
-   "title": "Sandisk’s 8-for-1 Split Is Done. Here’s What Investors Should Do Next.",
-   "link": "https://www.fool.com/investing/2026/11/26/sandisks-8-for-1-split-is-done-heres-what-investors-should-do-next/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-26T21:13:53Z",
    "source": "Cointelegraph",
    "title": "UK is ‘getting it wrong’ on DeFi regulation, says Coinbase",
    "link": "https://cointelegraph.com/news/uk-wrong-defi-regulation-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-26T21:13:17Z",
-   "source": "CNBC",
-   "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
-   "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
-  },
-  {
-   "published": "2026-11-26T21:01:03Z",
-   "source": "Decrypt",
-   "title": "What Is Self-Custody? How to Hold Your Own Crypto Keys",
-   "link": "https://decrypt.co/resources/what-is-self-custody-how-to-hold-your-own-crypto-keys"
-  },
-  {
-   "published": "2026-11-26T20:56:02Z",
-   "source": "Yahoo Finance",
-   "title": "SpaceX Is a Great Company. Is It a Great Stock at This Price?",
-   "link": "https://www.fool.com/investing/2026/11/26/spacex-is-a-great-company-is-it-a-great-stock-at-this-price/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T20:50:17Z",
-   "source": "Yahoo Finance",
-   "title": "Is Bitcoin a Good Investment for Building Wealth After a 50% Drop?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/26/is-bitcoin-a-good-investment-for-building-wealth-after-a-50-drop/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T20:30:14Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia halts server shipments to 4 countries just weeks after Jensen Huang’s affair with alleged spy was exposed",
-   "link": "https://nypost.com/2026/11/26/business/nvidia-halts-server-shipments-to-4-southeast-asian-countries-report/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T20:29:02Z",
-   "source": "Yahoo Finance",
-   "title": "Here’s How Many Shares of Procter & Gamble You’d Need to Own to Collect $1,000 in Annual Dividends",
-   "link": "https://www.fool.com/investing/2026/11/26/here-s-how-many-shares-of-procter-and-gamble-you-d-need-to-own-to-collect-usd1-000-in-annual-dividends/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-26T20:05:18Z",
-   "source": "Cointelegraph",
-   "title": "Japan weighs tighter oversight of DeFi, self-custodial wallets",
-   "link": "https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-26T19:01:02Z",
-   "source": "Decrypt",
-   "title": "Before the Sell-Off, AI Stocks Showed Dot-Com-Level Bubble Signals: Study",
-   "link": "https://decrypt.co/384066/before-the-sell-off-ai-stocks-showed-dot-com-level-bubble-signals-study"
   }
  ]
 }
