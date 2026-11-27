@@ -1,42 +1,35 @@
 {
- "generated_at": "2026-11-27T13:50:50Z",
+ "generated_at": "2026-11-27T16:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 99.58,
-  "cash": 62.17,
-  "perf_pct": -0.0042,
-  "bench_pct": -0.1519,
-  "drawdown": 0.0066,
+  "equity": 99.09,
+  "cash": 80.49,
+  "perf_pct": -0.0091,
+  "bench_pct": -0.1588,
+  "drawdown": 0.0114,
   "halted": false,
-  "trade_count": 6
+  "trade_count": 7
  },
  "positions": [
   {
    "symbol": "AAPL",
-   "value": 18.4,
-   "pnl_pct": 0.003,
+   "value": 18.6,
+   "pnl_pct": 0.014,
    "entry_price": 354.3671,
-   "stop": 332.1384
-  },
-  {
-   "symbol": "ETH/USDT",
-   "value": 19.0,
-   "pnl_pct": -0.0121,
-   "entry_price": 1741.9906,
-   "stop": 1654.1909
+   "stop": 335.7826
   }
  ],
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 61536.0,
-   "trend": "neutre",
-   "score": -0.015,
-   "news_score": -0.269,
-   "news_conf": 0.411,
-   "tech_score": 0.103,
+   "price": 60091.98,
+   "trend": "baissière",
+   "score": -0.281,
+   "news_score": -0.189,
+   "news_conf": 0.5,
+   "tech_score": -0.508,
    "in_position": false,
    "patterns": [
     "Avalement baissier",
@@ -46,13 +39,13 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1727.84,
-   "trend": "neutre",
-   "score": 0.029,
-   "news_score": 0.25,
-   "news_conf": 0.36,
-   "tech_score": -0.046,
-   "in_position": true,
+   "price": 1672.71,
+   "trend": "baissière",
+   "score": -0.135,
+   "news_score": 0.5,
+   "news_conf": 0.48,
+   "tech_score": -0.593,
+   "in_position": false,
    "patterns": [
     "Avalement haussier",
     "Étoile filante (essoufflement)"
@@ -60,12 +53,12 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 73.42,
+   "price": 72.17,
    "trend": "neutre",
-   "score": 0.032,
-   "news_score": -0.25,
-   "news_conf": 0.12,
-   "tech_score": 0.107,
+   "score": -0.099,
+   "news_score": 0.0,
+   "news_conf": 0.24,
+   "tech_score": -0.22,
    "in_position": false,
    "patterns": [
     "Étoile filante (essoufflement)",
@@ -75,10 +68,10 @@
   },
   {
    "symbol": "NVDA",
-   "price": 149.27000427246094,
+   "price": 147.55499267578125,
    "trend": "baissière",
-   "score": -0.057,
-   "news_score": 0.714,
+   "score": -0.095,
+   "news_score": 0.6,
    "news_conf": 0.6,
    "tech_score": -0.65,
    "in_position": false,
@@ -86,11 +79,11 @@
   },
   {
    "symbol": "AAPL",
-   "price": 355.44500732421875,
+   "price": 359.3450012207031,
    "trend": "haussière",
-   "score": 0.206,
-   "news_score": 0.0,
-   "news_conf": 0.24,
+   "score": 0.338,
+   "news_score": 0.5,
+   "news_conf": 0.48,
    "tech_score": 0.458,
    "in_position": true,
    "patterns": [
@@ -101,10 +94,10 @@
   },
   {
    "symbol": "SPY",
-   "price": 716.7100219726562,
+   "price": 725.4400024414062,
    "trend": "baissière",
-   "score": -0.277,
-   "news_score": -0.5,
+   "score": -0.211,
+   "news_score": 0.0,
    "news_conf": 0.24,
    "tech_score": -0.468,
    "in_position": false,
@@ -114,6 +107,14 @@
   }
  ],
  "recent_trades": [
+  {
+   "time": "2026-11-27T16:00:30Z",
+   "symbol": "ETH/USDT",
+   "side": "sell",
+   "price": 1671.8736,
+   "pnl_pct": -0.0479,
+   "reason": "Signal retombé. Score -0.13 (actus +0.24, technique -0.59), tendance baissière, chandeliers : Avalement haussier, Étoile filante (essoufflement). IA : Mode sans IA : 3 mots positifs, 1 négatifs sur 7 titres."
+  },
   {
    "time": "2026-11-27T05:50:43Z",
    "symbol": "ETH/USDT",
@@ -164,11 +165,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1794988830,
-   99.77,
-   87.14
-  ],
   [
    1795003230,
    99.77,
@@ -613,6 +609,11 @@
    1795787444,
    99.58,
    84.81
+  ],
+  [
+   1795795230,
+   99.09,
+   84.12
   ]
  ],
  "last_directive": {
@@ -626,7 +627,7 @@
    "value": 12,
    "label": "Extreme Fear"
   },
-  "vix": 25.37
+  "vix": 25.42
  },
  "indicator_stress": "",
  "directive_track_record": {
@@ -662,61 +663,61 @@
  "costs": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 99.57810507711457,
+  "equity": 99.09098145215147,
   "profiles": {
    "crypto": "Kraken, ordres au marché",
    "stock": "Alpaca, actions et ETF américains"
   },
-  "fees": 0.07662967633832772,
-  "slippage": 0.057242402869450426,
-  "fees_pct_capital": 0.0007662967633832772,
-  "gross_pl": -0.28802284367765035,
-  "before_fees": -0.3452652465471008,
-  "net_pl": -0.4218949228854285,
+  "fees": 0.1501749292442506,
+  "slippage": 0.0664401583604353,
+  "fees_pct_capital": 0.0015017492924425061,
+  "gross_pl": -0.6924034602438466,
+  "before_fees": -0.7588436186042818,
+  "net_pl": -0.9090185478485324,
   "tax_rate": 0.314,
   "tax_est": 0.0,
-  "net_after_tax": -0.4218949228854285,
-  "trade_count": 6,
+  "net_after_tax": -0.9090185478485324,
+  "trade_count": 7,
   "platforms": {
    "crypto": [
     {
      "key": "kraken",
      "label": "Kraken, ordres au marché",
      "note": "0,40 % taker sous 50 000 $/mois ; accessible depuis la France (agrément irlandais, passeport UE)",
-     "fees": 0.07662967633832772,
-     "net": -0.4218949228854285,
+     "fees": 0.1501749292442506,
+     "net": -0.9090185478485324,
      "active": true
     },
     {
      "key": "kraken_limit",
      "label": "Kraken, ordres à cours limité",
      "note": "0,25 % maker, mais un ordre limite peut ne pas être exécuté",
-     "fees": 0.04789354771145482,
-     "net": -0.3931587942585556,
+     "fees": 0.09385933077765662,
+     "net": -0.8527029493819385,
      "active": false
     },
     {
      "key": "coinbase",
      "label": "Coinbase Advanced",
      "note": "0,50 % taker au palier de base",
-     "fees": 0.09578709542290964,
-     "net": -0.4410523419700104,
+     "fees": 0.18771866155531325,
+     "net": -0.9465622801595951,
      "active": false
     },
     {
      "key": "binance",
      "label": "Binance",
      "note": "0,10 % : mais n'accepte plus de nouveaux clients en France d'après plusieurs sources",
-     "fees": 0.01915741908458193,
-     "net": -0.3644226656316827,
+     "fees": 0.03754373231106265,
+     "net": -0.7963873509153445,
      "active": false
     },
     {
      "key": "etoro_crypto",
      "label": "eToro, crypto réelle",
      "note": "1 % par position, soit 2 % l'aller-retour, spread en plus",
-     "fees": 0.19157419084581928,
-     "net": -0.5368394373929201,
+     "fees": 0.3754373231106265,
+     "net": -1.1342809417149082,
      "active": false
     }
    ],
@@ -726,7 +727,7 @@
      "label": "Alpaca, actions et ETF américains",
      "note": "0 commission ; compte à déclarer (3916-bis), pas de marge",
      "fees": 0.0,
-     "net": -0.4218949228854285,
+     "net": -0.9090185478485324,
      "active": true
     },
     {
@@ -734,7 +735,7 @@
      "label": "Interactive Brokers, tarif fixe",
      "note": "0,005 $/action, minimum 1 $, plafonné à 1 % du montant",
      "fees": 0.9534623248773252,
-     "net": -1.3753572477627536,
+     "net": -1.8624808727258575,
      "active": false
     },
     {
@@ -742,7 +743,7 @@
      "label": "eToro, actions réelles",
      "note": "1 $ (parfois 2 $) par ordre, achat et vente",
      "fees": 5.0,
-     "net": -5.4218949228854285,
+     "net": -5.909018547848532,
      "active": false
     }
    ]
@@ -754,184 +755,184 @@
  },
  "headlines": [
   {
-   "published": "2026-11-27T13:44:00Z",
+   "published": "2026-11-27T15:52:00Z",
+   "source": "CNBC",
+   "title": "Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher",
+   "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
+  },
+  {
+   "published": "2026-11-27T15:50:22Z",
+   "source": "Yahoo Finance",
+   "title": "Jensen Huang Said Nvidia’s Blackwell Chips Were Too Big to Smuggle. Bloomberg Just Found Them in China.",
+   "link": "https://247wallst.com/investing/2026/11/27/jensen-huang-said-nvidias-blackwell-chips-were-too-big-to-smuggle-bloomberg-just-found-them-in-china/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:49:29Z",
+   "source": "CNBC",
+   "title": "'The Traitors' ended with a $246,300 prize—here's who won and what they told us about spending it",
+   "link": "https://www.cnbc.com/make-it/2026/11/27/the-traitors-ends-with-246300-prize-heres-how-much-goes-to-taxes.html"
+  },
+  {
+   "published": "2026-11-27T15:48:35Z",
+   "source": "Yahoo Finance",
+   "title": "Trump Is Heading to Arizona to Break Ground on TSMC’s Newest Chip Plant",
+   "link": "https://247wallst.com/investing/2026/11/27/trump-is-heading-to-arizona-to-break-ground-on-tsmcs-newest-chip-plant/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:42:20Z",
+   "source": "Yahoo Finance",
+   "title": "Is Walmart Stock Priced Like 1999 Again?",
+   "link": "https://www.trefis.com/stock/wmt/articles/629160/walmart-is-priced-almost-like-1999-holders-then-waited-12-years/2026-11-27?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:33:24Z",
+   "source": "Yahoo Finance",
+   "title": "Prediction: This Overlooked AI Stock Could Be a Big Winner in Nvidia’s Shadow",
+   "link": "https://247wallst.com/investing/2026/11/27/prediction-this-overlooked-ai-stock-could-be-a-big-winner-in-nvidias-shadow/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:32:40Z",
+   "source": "Yahoo Finance",
+   "title": "SoFi’s 500-Stock ETF Doesn’t Weight Strictly by Size. SFY Tilts America’s Biggest Companies Toward Growth",
+   "link": "https://247wallst.com/investing/etf/2026/11/27/sofis-500-stock-etf-doesnt-weight-strictly-by-size-sfy-tilts-americas-biggest-companies-toward-growth/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:32:23Z",
+   "source": "Yahoo Finance",
+   "title": "Dan Ives Calls Nvidia's China Risk 'Containable', While Gene Munster Says AI Trade Is In The 'Penalty Box'",
+   "link": "https://stocktwits.com/news-articles/markets/equity/dan-ives-calls-nvidia-china-risk-containable-while-gene-munster-says-ai-trade-is-in-the-penalty-box/cNbCUJtR9V4?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:31:36Z",
+   "source": "Yahoo Finance",
+   "title": "5 Best Up and Coming Data Center Stocks to Buy for 2027",
+   "link": "https://finance.yahoo.com/technology/articles/5-best-coming-data-center-153136779.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:31:10Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market Today: Dow Rises, Nasdaq Up As Anthropic, SpaceX Gain; Biotech Name Plummets (Live Coverage)",
+   "link": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:30:17Z",
+   "source": "Yahoo Finance",
+   "title": "BC-Most Active Stocks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153017329.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:28:28Z",
+   "source": "Yahoo Finance",
+   "title": "Can AI earn a spot in the creative world? Ja Rule think so.",
+   "link": "https://finance.yahoo.com/video/can-ai-earn-a-spot-in-the-creative-world-ja-rule-think-so-152828382.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:27:38Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market Surges As Jensen Huang Returns As Nvidia CEO; Abercrombie Leads Retail Winners: Weekly Review",
+   "link": "https://finance.yahoo.com/m/82f15783-4cdf-3fac-b3ea-8874aa7f1b48/stock-market-surges-as-jensen.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:25:01Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic vs. SpaceX: Which Is the Better Giant IPO Buy?",
+   "link": "https://www.fool.com/investing/2026/11/27/anthropic-vs-spacex-which-is-the-better-giant-ipo-buy/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:22:36Z",
+   "source": "Yahoo Finance",
+   "title": "All these Nvidia headlines are just noise: Why you should keep watching AI spending",
+   "link": "https://finance.yahoo.com/video/all-these-nvidia-headlines-are-just-noise-why-you-should-keep-watching-ai-spending-152236102.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:12:18Z",
+   "source": "Yahoo Finance",
+   "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
+   "link": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:10:01Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia halts sales to SE Asia, SpaceX surges on Musk's share promise",
+   "link": "https://finance.yahoo.com/video/nvidia-halts-sales-to-se-asia-spacex-surges-on-musks-share-promise-151001061.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:09:29Z",
+   "source": "Yahoo Finance",
+   "title": "Stocks gain as tech rebound holds, but Nvidia dips",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-mostly-rise-markets-025702679.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:09:00Z",
+   "source": "Yahoo Finance",
+   "title": "Anthropic Stock Jumps to Reveal Its True Place in the AI Trade",
+   "link": "https://finance.yahoo.com/m/eac9c281-033c-3c73-8b9a-a27703a8cdc9/anthropic-stock-jumps-to.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:08:31Z",
+   "source": "CNBC",
+   "title": "Top 10 things to watch in the stock market on Black Friday",
+   "link": "https://www.cnbc.com/investingclub/2026/11/27/top-10-things-to-watch-in-the-stock-market-on-black-friday.html"
+  },
+  {
+   "published": "2026-11-27T15:07:00Z",
+   "source": "Yahoo Finance",
+   "title": "Jim Cramer offers an unusual explanation for Nvidia stock’s price",
+   "link": "https://www.thestreet.com/investing/stocks/jim-cramer-offers-an-unusual-explanation-for-nvidia-stocks-price?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:05:02Z",
+   "source": "Yahoo Finance",
+   "title": "Berkshire Hathaway’s CEO, Greg Abel, Just Bought $9.6 Billion Worth of 1 of Buffett’s Favorite Stocks",
+   "link": "https://www.fool.com/investing/2026/11/27/berkshire-hathaway-s-ceo-greg-abel-just-bought-usd9-6-billion-worth-of-1-of-buffett-s-favorite-stocks/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:04:00Z",
+   "source": "Yahoo Finance",
+   "title": "Neocloud firms face tighter terms than Nvidia’s old 50% AI chip cutoff",
+   "link": "https://www.proactiveinvestors.com/companies/news/1102588/neocloud-firms-face-tighter-terms-than-nvidia-s-old-50-ai-chip-cutoff-1102588.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T15:03:13Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market Today: Markets Off to a Strong Black Friday Start",
+   "link": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T14:52:40Z",
+   "source": "CNBC",
+   "title": "German software firm SAP is reportedly cutting at least 10,000 jobs in AI push",
+   "link": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html"
+  },
+  {
+   "published": "2026-11-27T14:52:33Z",
+   "source": "Yahoo Finance",
+   "title": "The Nasdaq Needs Two Huge Days to Dodge Its Worst November Since 2008",
+   "link": "https://247wallst.com/investing/2026/11/27/the-nasdaq-needs-two-huge-days-to-dodge-its-worst-november-since-2008/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T14:40:54Z",
    "source": "Cointelegraph",
-   "title": "Binance to launch tokenized IPO program after regulatory approval: Yi He",
-   "link": "https://cointelegraph.com/news/binance-ipo-program-regulatory-approval-yi-he?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   "title": "What was Coinbase worth while Nasdaq was closed?",
+   "link": "https://cointelegraph.com/news/what-was-coinbase-worth-while-nasdaq-was-closed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-   "published": "2026-11-27T13:41:24Z",
+   "published": "2026-11-27T14:14:00Z",
    "source": "Yahoo Finance",
-   "title": "Apple gains smartphone share as memory crunch squeezes budget Android phones",
-   "link": "https://finance.yahoo.com/technology/article/apple-gains-smartphone-share-as-memory-crunch-squeezes-budget-android-phones-134124966.html?.tsrc=rss"
+   "title": "Pre-Markets Up Ahead of Shortened Trading Session",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/pre-markets-ahead-shortened-trading-141400040.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-27T13:37:59Z",
-   "source": "Yahoo Finance",
-   "title": "Apple Now Ships 57% of U.S. Smartphones as Memory Costs Crush Cheap Android Phones",
-   "link": "https://247wallst.com/investing/2026/11/27/apple-now-ships-57-of-u-s-smartphones-as-memory-costs-crush-cheap-android-phones/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T13:37:49Z",
-   "source": "Yahoo Finance",
-   "title": "Was investor Leopold Aschenbrenner right about AI, but wrong on risk?",
-   "link": "https://finance.yahoo.com/video/was-investor-leopold-aschenbrenner-right-about-ai-but-wrong-on-risk-133749438.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T13:32:10Z",
+   "published": "2026-11-27T14:12:55Z",
    "source": "CNBC",
-   "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
-   "link": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html"
+   "title": "EU leaders fail to break $1.7 trillion budget deadlock as political pressure mounts",
+   "link": "https://www.cnbc.com/2026/11/27/eu-budget-2028-2034-deadlock.html"
   },
   {
-   "published": "2026-11-27T13:29:43Z",
-   "source": "CNBC",
-   "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
-   "link": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html"
-  },
-  {
-   "published": "2026-11-27T13:28:26Z",
-   "source": "Cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-27T13:25:02Z",
+   "published": "2026-11-27T14:06:53Z",
    "source": "Yahoo Finance",
-   "title": "Is Nvidia a Screaming Buy or a Value Trap?",
-   "link": "https://www.fool.com/investing/2026/11/27/is-nvidia-a-screaming-buy-or-a-value-trap/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T13:24:17Z",
-   "source": "Decrypt",
-   "title": "Binance Fully Lifts Withdrawal Suspension Four Weeks After $6.4B Hack",
-   "link": "https://decrypt.co/384121/binance-fully-lifts-withdrawal-suspension-four-weeks-after-6-4b-hack"
-  },
-  {
-   "published": "2026-11-27T13:21:56Z",
-   "source": "CNBC",
-   "title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
-   "link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html"
-  },
-  {
-   "published": "2026-11-27T13:19:10Z",
-   "source": "CoinDesk",
-   "title": "Kalshi turns to small businesses as legal battles threaten forecasts on sports",
-   "link": "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports"
-  },
-  {
-   "published": "2026-11-27T13:15:02Z",
-   "source": "Yahoo Finance",
-   "title": "UnitedHealth Keeps Raising Guidance. Here's What a $10,000 Investment Could Be Worth If the Turnaround Sticks.",
-   "link": "https://www.fool.com/investing/2026/11/27/unitedhealth-keeps-raising-guidance-heres-what-a-10000-investment-could-be-worth-if-the-turnaround-sticks/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T13:15:01Z",
-   "source": "CNBC",
-   "title": "New car prices are at a record high. Here's where to look for deals",
-   "link": "https://www.cnbc.com/2026/11/27/new-car-buying-deals-buying-tips.html"
-  },
-  {
-   "published": "2026-11-27T13:08:54Z",
-   "source": "Yahoo Finance",
-   "title": "Stock Futures Rise as Wall Street Heads for Weekly Gains",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/stock-futures-rise-wall-street-130854779.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T13:08:07Z",
-   "source": "CNBC",
-   "title": "Rheinmetall reins in growth ambitions as Europe's rearmament boom hits hurdles",
-   "link": "https://www.cnbc.com/2026/11/27/rheinmetall-stock-cmd-guidance-sales.html"
-  },
-  {
-   "published": "2026-11-27T13:07:17Z",
-   "source": "Yahoo Finance",
-   "title": "Stock Market Today: Dow Jumps 715 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
-   "link": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T13:06:54Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
-   "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T13:05:02Z",
-   "source": "CNBC",
-   "title": "It’s not just you: Durable goods are getting less reliable, from sputtering cars to glitching smart TVs",
-   "link": "https://www.cnbc.com/make-it/2026/11/27/durable-goods-reliability-cars-appliances-tvs.html"
-  },
-  {
-   "published": "2026-11-27T13:03:58Z",
-   "source": "Yahoo Finance",
-   "title": "JEPI Gets the Attention. JPMorgan’s 0.12% Quality ETF Has Quietly Grown Past $9 Billion",
-   "link": "https://247wallst.com/investing/etf/2026/11/27/jepi-gets-the-attention-jpmorgans-0-12-quality-etf-has-quietly-grown-past-9-billion/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T13:00:42Z",
-   "source": "CNBC",
-   "title": "Spain’s election could pull Madrid closer to Trump’s Washington",
-   "link": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html"
-  },
-  {
-   "published": "2026-11-27T12:58:07Z",
-   "source": "Yahoo Finance",
-   "title": "Why Should Apple Stock Holders Watch The December Quarter?",
-   "link": "https://www.trefis.com/stock/aapl/articles/629378/why-should-apple-stock-holders-watch-the-december-quarter/2026-11-27?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T12:57:54Z",
-   "source": "Yahoo Finance",
-   "title": "Down 26% This Year, Is It Time to Buy Salesforce Stock Before Earnings?",
-   "link": "https://247wallst.com/investing/2026/11/27/down-26-this-year-is-it-time-to-buy-salesforce-stock-before-earnings/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T12:49:02Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia stock is still paying the price for the Jensen Huang CEO drama",
-   "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-is-still-paying-the-price-for-the-jensen-huang-ceo-drama-124902053.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T12:48:00Z",
-   "source": "Yahoo Finance",
-   "title": "Allstate Joins Growing List of Companies Hit by Tech Outages",
-   "link": "https://www.wsj.com/finance/allstate-joins-growing-list-of-companies-hit-by-tech-outages-77dbb488?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T12:45:06Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
-   "link": "https://finance.yahoo.com/video/nvidia-blackwell-chips-turn-china-124506631.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T12:45:00Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Chips Turn Up at China Site Linked to Alice Huang",
-   "link": "https://finance.yahoo.com/video/nvidia-chips-turn-china-linked-124500841.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T12:40:08Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia Blackwell chips found in Shanghai data center tied to Alice Huang",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-blackwell-chips-found-shanghai-124008621.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T12:39:54Z",
-   "source": "Cointelegraph",
-   "title": "Brazil’s stock exchange pushes stablecoin launch back to 2027",
-   "link": "https://cointelegraph.com/news/brazil-b3-stablecoin-tokenization-launch-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-27T12:38:55Z",
-   "source": "Yahoo Finance",
-   "title": "Trump Wants a GDP Investigation Over the “Fake” Pre-Election Number",
-   "link": "https://247wallst.com/investing/2026/11/27/trump-wants-a-gdp-investigation-over-the-fake-pre-election-number/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T12:37:49Z",
-   "source": "Yahoo Finance",
-   "title": "Latest News In Cloud AI - Cloudera Advances Data Control With Digital Sovereignty Solution",
-   "link": "https://finance.yahoo.com/technology/ai/articles/latest-news-cloud-ai-cloudera-123749135.html?.tsrc=rss"
+   "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Technology Stock Rebound",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140653942.html?.tsrc=rss"
   }
  ]
 }
