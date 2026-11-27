@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T20:00:34Z",
+ "generated_at": "2026-11-27T20:50:44Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.06,
   "cash": 80.49,
   "perf_pct": -0.0094,
-  "bench_pct": -0.1576,
+  "bench_pct": -0.1579,
   "drawdown": 0.0117,
   "halted": false,
   "trade_count": 7
@@ -24,11 +24,11 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 59876.87,
+   "price": 59808.01,
    "trend": "baissière",
-   "score": -0.222,
-   "news_score": 0.033,
-   "news_conf": 0.5,
+   "score": -0.165,
+   "news_score": 0.2,
+   "news_conf": 0.6,
    "tech_score": -0.513,
    "in_position": false,
    "patterns": [
@@ -38,7 +38,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1670.09,
+   "price": 1667.22,
    "trend": "baissière",
    "score": -0.039,
    "news_score": 0.6,
@@ -53,7 +53,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.95,
+   "price": 72.01,
    "trend": "neutre",
    "score": -0.003,
    "news_score": 0.25,
@@ -70,9 +70,9 @@
    "symbol": "NVDA",
    "price": 150.6199951171875,
    "trend": "baissière",
-   "score": -0.266,
-   "news_score": 0.5,
-   "news_conf": 0.48,
+   "score": -0.288,
+   "news_score": 0.333,
+   "news_conf": 0.6,
    "tech_score": -0.883,
    "in_position": false,
    "patterns": [
@@ -168,11 +168,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1795009846,
-   99.77,
-   86.66
-  ],
   [
    1795017630,
    99.77,
@@ -617,13 +612,18 @@
    1795809630,
    99.06,
    84.24
+  ],
+  [
+   1795812639,
+   99.06,
+   84.21
   ]
  ],
  "last_directive": {
   "regime": "neutral",
-  "assets_annotated": 1,
-  "text": "Rebond d'ouverture (Yahoo Finance : Wall Street en hausse avant l'ouverture, Asie et Europe en hausse ; CoinDesk : IA en tête) mais séance US écourtée (Black Friday) ; aucun indicateur convergent pour risk_off. — Contexte au 27/11 : Black Friday, séance US écourtée, liquidité mince ; Yahoo Finance s",
-  "received_at": "2026-11-27T13:50:44Z"
+  "assets_annotated": 0,
+  "text": "3 sources : Yahoo Finance, CNBC, Decrypt. Indices en hausse (meilleure semaine de Thanksgiving en 18 ans) mais inquiétudes IA persistantes ; signaux crypto mixtes ; rien de convergent pour risk_off. — Au 27/11 soir : Wall Street termine une semaine de Thanksgiving très favorable (Yahoo Finance), mai",
+  "received_at": "2026-11-27T20:50:39Z"
  },
  "indicators": {
   "fear_greed": {
@@ -758,10 +758,34 @@
  },
  "headlines": [
   {
+   "published": "2026-11-27T20:46:02Z",
+   "source": "Decrypt",
+   "title": "Could AI Break Bitcoin? Not Yet, Research Firm K33 Says",
+   "link": "https://decrypt.co/384218/could-ai-break-bitcoin-not-yet-research-firm-k33-says"
+  },
+  {
    "published": "2026-11-27T19:55:54Z",
    "source": "Yahoo Finance",
    "title": "TSLA Stock Clocks Best Week In 18 Months: Tesla Reportedly Eyes Buying German Toolmaker Amid Cybercab, Optimus Scaling Plans",
    "link": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-clocks-best-week-in-18-months-tesla-reportedly-eyes-buying-german-toolmaker-amid-cybercab-optimus-scaling-plans/cNb6PBlR9VL?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T19:54:29Z",
+   "source": "Yahoo Finance",
+   "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
+   "link": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T19:53:08Z",
+   "source": "Yahoo Finance",
+   "title": "Amazon, Target and Walmart Chase Holiday Toy Spending",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-target-walmart-chase-holiday-195308961.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T19:49:36Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia Stocks Slip 1.66% as S&P Weighs Downgrade Over Key-Man Risk",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-slip-1-66-194936975.html?.tsrc=rss"
   },
   {
    "published": "2026-11-27T19:48:09Z",
@@ -794,12 +818,6 @@
    "link": "https://www.fool.com/investing/2026/11/27/rtx-unit-pratt-and-whitney-wins-usd2-5-billion-navy-contract/?.tsrc=rss"
   },
   {
-   "published": "2026-11-27T19:19:22Z",
-   "source": "Yahoo Finance",
-   "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
-   "link": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-indexes.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-27T19:19:02Z",
    "source": "Yahoo Finance",
    "title": "Anthropic Gets a Blockbuster IPO; Take-Two Gets a Blockbuster GTA VI Release",
@@ -810,6 +828,12 @@
    "source": "Yahoo Finance",
    "title": "Black Friday Stock Deals: 7 Bargains Our Analysts Are Watching Now",
    "link": "https://www.fool.com/investing/2026/11/27/black-friday-stock-deals-7-bargains-our-analysts-are-watching-now/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T19:10:43Z",
+   "source": "Yahoo Finance",
+   "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
+   "link": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-indexes.html?.tsrc=rss"
   },
   {
    "published": "2026-11-27T19:09:46Z",
@@ -848,12 +872,6 @@
    "link": "https://finance.yahoo.com/technology/articles/jim-cramer-still-bullish-5-184921596.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-27T18:48:43Z",
-   "source": "Yahoo Finance",
-   "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
-   "link": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss"
-  },
-  {
    "published": "2026-11-27T18:46:20Z",
    "source": "CNBC",
    "title": "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
@@ -890,12 +908,6 @@
    "link": "https://www.fool.com/investing/2026/11/27/for-a-little-while-nvidia-faced-a-future-without-jensen-huang/?.tsrc=rss"
   },
   {
-   "published": "2026-11-27T18:29:33Z",
-   "source": "Yahoo Finance",
-   "title": "Peter Thiel Takes $122M of Palantir Off the Market",
-   "link": "https://app.moby.co/home/news/news-peter-thiel-takes-122m-of-palantir-off-the-market?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss"
-  },
-  {
    "published": "2026-11-27T18:24:06Z",
    "source": "CNBC",
    "title": "SpaceX shares jump over 4% amid tech rally and after Musk says he will expand on Trump Account share donations",
@@ -924,18 +936,6 @@
    "source": "Cointelegraph",
    "title": "China sets March 2027 rollout for blockchain identity regulations",
    "link": "https://cointelegraph.com/news/china-march-2027-rollout-blockchain-identity-regulations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-27T17:17:00Z",
-   "source": "Yahoo Finance",
-   "title": "New $799 smart glasses challenge Apple, but with a major catch",
-   "link": "https://www.thestreet.com/technology/new-orrorin-799-smart-glasses-challenge-apple-but-dont-offer-all-features?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T17:15:07Z",
-   "source": "Yahoo Finance",
-   "title": "I Tested More Than 100 Trading Strategies With AI. Most Of Them Failed, And The Reasons Why Were More Interesting Than The Winners",
-   "link": "https://finance.yahoo.com/markets/options/articles/tested-more-100-trading-strategies-171507159.html?.tsrc=rss"
   }
  ]
 }
