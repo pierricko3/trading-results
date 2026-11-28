@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T05:50:48Z",
+ "generated_at": "2026-11-28T08:00:34Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 98.82,
   "cash": 62.65,
   "perf_pct": -0.0118,
-  "bench_pct": -0.1613,
+  "bench_pct": -0.161,
   "drawdown": 0.0141,
   "halted": false,
   "trade_count": 8
@@ -22,8 +22,8 @@
   },
   {
    "symbol": "SOL/USDT",
-   "value": 17.63,
-   "pnl_pct": -0.0114,
+   "value": 17.64,
+   "pnl_pct": -0.011,
    "entry_price": 71.7759,
    "stop": 68.4179
   }
@@ -31,40 +31,41 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 59782.67,
+   "price": 59836.93,
    "trend": "baissière",
-   "score": 0.016,
-   "news_score": 0.5,
-   "news_conf": 0.48,
-   "tech_score": -0.258,
+   "score": -0.162,
+   "news_score": 0.0,
+   "news_conf": 0.24,
+   "tech_score": -0.36,
    "in_position": false,
    "patterns": [
     "Doji (indécision)",
-    "Doji (indécision)",
-    "Marteau inversé (rebond possible)"
+    "Marteau inversé (rebond possible)",
+    "Marteau (rebond possible)"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1655.01,
+   "price": 1658.07,
    "trend": "baissière",
-   "score": 0.036,
-   "news_score": 1.0,
-   "news_conf": 0.48,
-   "tech_score": -0.507,
+   "score": -0.063,
+   "news_score": 0.5,
+   "news_conf": 0.24,
+   "tech_score": -0.287,
    "in_position": false,
    "patterns": [
-    "Doji (indécision)"
+    "Doji (indécision)",
+    "Marteau (rebond possible)"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.24,
+   "price": 71.27,
    "trend": "haussière",
-   "score": 0.318,
-   "news_score": 0.5,
-   "news_conf": 0.24,
-   "tech_score": 0.559,
+   "score": 0.135,
+   "news_score": 0.0,
+   "news_conf": 0.0,
+   "tech_score": 0.301,
    "in_position": true,
    "patterns": [
     "Pendu (retournement possible)",
@@ -76,9 +77,9 @@
    "symbol": "NVDA",
    "price": 149.35000610351562,
    "trend": "baissière",
-   "score": -0.068,
-   "news_score": 1.0,
-   "news_conf": 0.6,
+   "score": -0.398,
+   "news_score": 0.0,
+   "news_conf": 0.0,
    "tech_score": -0.883,
    "in_position": false,
    "patterns": [
@@ -89,9 +90,9 @@
    "symbol": "AAPL",
    "price": 357.989990234375,
    "trend": "haussière",
-   "score": 0.41,
-   "news_score": 0.6,
-   "news_conf": 0.6,
+   "score": 0.262,
+   "news_score": 0.25,
+   "news_conf": 0.36,
    "tech_score": 0.471,
    "in_position": true,
    "patterns": [
@@ -104,9 +105,9 @@
    "symbol": "SPY",
    "price": 726.9190063476562,
    "trend": "baissière",
-   "score": -0.269,
-   "news_score": 0.5,
-   "news_conf": 0.24,
+   "score": -0.335,
+   "news_score": 0.0,
+   "news_conf": 0.0,
    "tech_score": -0.743,
    "in_position": false,
    "patterns": [
@@ -182,11 +183,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1795046430,
-   99.77,
-   85.78
-  ],
   [
    1795060830,
    99.77,
@@ -631,6 +627,11 @@
    1795845043,
    98.82,
    83.87
+  ],
+  [
+   1795852830,
+   98.82,
+   83.9
   ]
  ],
  "last_directive": {
@@ -680,7 +681,7 @@
  "costs": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 98.81717343300139,
+  "equity": 98.82459739129078,
   "profiles": {
    "crypto": "Kraken, ordres au marché",
    "stock": "Alpaca, actions et ETF américains"
@@ -688,12 +689,12 @@
   "fees": 0.22122307125308882,
   "slippage": 0.07531673782181007,
   "fees_pct_capital": 0.0022122307125308884,
-  "gross_pl": -0.8862867579237149,
-  "before_fees": -0.961603495745525,
-  "net_pl": -1.1828265669986138,
+  "gross_pl": -0.8788627996343211,
+  "before_fees": -0.9541795374561312,
+  "net_pl": -1.17540260870922,
   "tax_rate": 0.314,
   "tax_est": 0.0,
-  "net_after_tax": -1.1828265669986138,
+  "net_after_tax": -1.17540260870922,
   "trade_count": 8,
   "platforms": {
    "crypto": [
@@ -702,7 +703,7 @@
      "label": "Kraken, ordres au marché",
      "note": "0,40 % taker sous 50 000 $/mois ; accessible depuis la France (agrément irlandais, passeport UE)",
      "fees": 0.22122307125308882,
-     "net": -1.1828265669986138,
+     "net": -1.17540260870922,
      "active": true
     },
     {
@@ -710,7 +711,7 @@
      "label": "Kraken, ordres à cours limité",
      "note": "0,25 % maker, mais un ordre limite peut ne pas être exécuté",
      "fees": 0.1382644195331805,
-     "net": -1.0998679152787054,
+     "net": -1.0924439569893116,
      "active": false
     },
     {
@@ -718,7 +719,7 @@
      "label": "Coinbase Advanced",
      "note": "0,50 % taker au palier de base",
      "fees": 0.276528839066361,
-     "net": -1.238132334811886,
+     "net": -1.2307083765224922,
      "active": false
     },
     {
@@ -726,7 +727,7 @@
      "label": "Binance",
      "note": "0,10 % : mais n'accepte plus de nouveaux clients en France d'après plusieurs sources",
      "fees": 0.055305767813272205,
-     "net": -1.016909263558797,
+     "net": -1.0094853052694033,
      "active": false
     },
     {
@@ -734,7 +735,7 @@
      "label": "eToro, crypto réelle",
      "note": "1 % par position, soit 2 % l'aller-retour, spread en plus",
      "fees": 0.553057678132722,
-     "net": -1.514661173878247,
+     "net": -1.5072372155888532,
      "active": false
     }
    ],
@@ -744,7 +745,7 @@
      "label": "Alpaca, actions et ETF américains",
      "note": "0 commission ; compte à déclarer (3916-bis), pas de marge",
      "fees": 0.0,
-     "net": -1.1828265669986138,
+     "net": -1.17540260870922,
      "active": true
     },
     {
@@ -752,7 +753,7 @@
      "label": "Interactive Brokers, tarif fixe",
      "note": "0,005 $/action, minimum 1 $, plafonné à 1 % du montant",
      "fees": 0.9534623248773252,
-     "net": -2.136288891875939,
+     "net": -2.128864933586545,
      "active": false
     },
     {
@@ -760,7 +761,7 @@
      "label": "eToro, actions réelles",
      "note": "1 $ (parfois 2 $) par ordre, achat et vente",
      "fees": 5.0,
-     "net": -6.182826566998614,
+     "net": -6.17540260870922,
      "active": false
     }
    ]
@@ -771,6 +772,60 @@
   }
  },
  "headlines": [
+  {
+   "published": "2026-11-28T07:48:02Z",
+   "source": "Yahoo Finance",
+   "title": "After an S&P 500 Correction, Your Money Could Double in 4 Years. Stock Market History Shows Reasons for Hope.",
+   "link": "https://www.fool.com/investing/2026/11/28/after-an-s-and-p-500-correction-your-money-could-double-in-4-years-stock-market-history-shows-reasons-for-hope/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-28T07:43:00Z",
+   "source": "Cointelegraph",
+   "title": "Binance receives in-principle approval, plans Asia hub in Bhutan",
+   "link": "https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-28T07:25:02Z",
+   "source": "Yahoo Finance",
+   "title": "The Best Natural Gas Stocks to Buy and Hold Through 2040",
+   "link": "https://www.fool.com/investing/2026/11/28/the-best-natural-gas-stocks-to-buy-and-hold-through-2040/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-28T07:13:02Z",
+   "source": "Yahoo Finance",
+   "title": "Dan Ives Sees ‘Rollercoaster Ride’ Ahead For AI Stocks, But Says Nvidia Bull Case Remains Intact — ‘Our Stress Test Stands’",
+   "link": "https://stocktwits.com/news-articles/markets/equity/dan-ives-ai-stocks-rollercoaster-ride-nvidia-bull-case-intact/cNRRs2jR9Vt?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-28T07:11:44Z",
+   "source": "Yahoo Finance",
+   "title": "Why Delta Electronics Stock Is A Key AI Data Center Play Outside China",
+   "link": "https://finance.yahoo.com/technology/ai/articles/why-delta-electronics-stock-key-071144588.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-28T06:23:50Z",
+   "source": "Yahoo Finance",
+   "title": "AXT Inc. (AXTI) Joins the Market’s Biggest Winners",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-joins-market-062350204.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-28T06:10:03Z",
+   "source": "Yahoo Finance",
+   "title": "Nvidia And AI Infrastructure Stocks Worth Watching For Data Center Demand",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-ai-infrastructure-stocks-worth-061003955.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-28T06:00:01Z",
+   "source": "CNBC",
+   "title": "Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
+   "link": "https://www.cnbc.com/2026/11/28/saudi-arabia-vision-2030-spending.html"
+  },
+  {
+   "published": "2026-11-28T06:00:01Z",
+   "source": "CNBC",
+   "title": "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
+   "link": "https://www.cnbc.com/2026/11/28/dangote-refinery-oil-ipo-nigeria-africa-energy.html"
+  },
   {
    "published": "2026-11-28T05:31:54Z",
    "source": "Yahoo Finance",
@@ -844,28 +899,10 @@
    "link": "https://www.fool.com/investing/2026/11/27/3-reasons-i-might-buy-more-nvidia-in-december/?.tsrc=rss"
   },
   {
-   "published": "2026-11-28T00:54:55Z",
-   "source": "Yahoo Finance",
-   "title": "Why Monte Rosa Therapeutics Stock Slumped Today",
-   "link": "https://www.fool.com/investing/2026/11/27/why-monte-rosa-therapeutics-stock-slumped-today/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-28T00:33:22Z",
    "source": "Yahoo Finance",
    "title": "2027 smartphone market outlook: Apple to outperform as shipments fall 5%",
    "link": "https://finance.yahoo.com/technology/articles/2027-smartphone-market-outlook-apple-003322633.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-28T00:29:02Z",
-   "source": "Yahoo Finance",
-   "title": "Anthropic's Best Customers Spend 20 Times More Than the Rest. That's Why I'm Buying the Stock.",
-   "link": "https://www.fool.com/investing/2026/11/27/anthropic-s-best-customers-spend-20-times-more-than-the-rest-that-s-why-i-m-buying-the-stock/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T23:23:55Z",
-   "source": "Yahoo Finance",
-   "title": "Plot Twist: Nvidia’s Vera Rubin Gets 2-6.5x GB300’s Tokens per Dollar. Amazon’s Trainium Edge Was Against the Old Chip",
-   "link": "https://www.tikr.com/blog/plot-twist-nvidias-vera-rubin-gets-2-6-5x-gb300s-tokens-per-dollar-amazons-trainium-edge-was-against-the-old-chip?ref=yahoofinance&tlnk=yf-261127-2mxwqf36&.tsrc=rss"
   },
   {
    "published": "2026-11-27T22:12:51Z",
@@ -886,22 +923,10 @@
    "link": "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims"
   },
   {
-   "published": "2026-11-27T21:37:57Z",
-   "source": "Yahoo Finance",
-   "title": "Billionaire Chase Coleman’s Tiger Global Raised Its Cerebras Stake 48% to $790 Million",
-   "link": "https://247wallst.com/investing/2026/11/27/billionaire-chase-colemans-tiger-global-raised-its-cerebras-stake-48-to-790-million/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-27T21:29:46Z",
    "source": "Yahoo Finance",
    "title": "S&P 500, Nasdaq End Best Week In Over A Year As AI Optimism Makes Comeback — VZ, ANT, ADBE, TSLA In Focus",
    "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-best-week-in-over-a-year-as-ai-optimism-makes-comeback/cNb6EtcR9VK?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T21:28:56Z",
-   "source": "Yahoo Finance",
-   "title": "5 Best Tech Stocks to Buy for 2027 According to Hedge Funds",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-tech-stocks-buy-030856400.html?.tsrc=rss"
   },
   {
    "published": "2026-11-27T21:15:29Z",
@@ -926,30 +951,6 @@
    "source": "Yahoo Finance",
    "title": "OpenAI Reportedly Fires Back At Apple Over Trade Secrets And Hardware Suppliers",
    "link": "https://stocktwits.com/news-articles/markets/equity/open-ai-reportedly-fires-back-at-apple-over-trade-secrets-and-hardware-suppliers/cNb65s2R9Vi?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T19:53:08Z",
-   "source": "Yahoo Finance",
-   "title": "Amazon, Target and Walmart Chase Holiday Toy Spending",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-target-walmart-chase-holiday-195308961.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T19:46:02Z",
-   "source": "Decrypt",
-   "title": "4 Scary Bitcoin Charts That Suggest This Bear Market Is Different",
-   "link": "https://decrypt.co/384177/bitcoin-4-scary-charts-crypto-winter-bear-market"
-  },
-  {
-   "published": "2026-11-27T19:23:00Z",
-   "source": "Cointelegraph",
-   "title": "Bitcoin whales pile into BTC despite shrinking profit cushion",
-   "link": "https://cointelegraph.com/markets/bitcoin-whales-pile-btc-despite-shrinking-profit-cushion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-27T19:03:16Z",
-   "source": "Yahoo Finance",
-   "title": "Fidelity Counted 654,000 401(k) Millionaires in the Third Quarter of 2025, Up From 544,000 a Year Earlier",
-   "link": "https://247wallst.com/personal-finance/2026/11/27/fidelity-counted-654000-401k-millionaires-in-the-third-quarter-of-2025-up-from-544000-a-year-earlier/?.tsrc=rss"
   }
  ]
 }
