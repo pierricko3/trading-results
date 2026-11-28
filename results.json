@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-28T04:00:35Z",
+ "generated_at": "2026-11-28T05:50:48Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 98.94,
+  "equity": 98.82,
   "cash": 62.65,
-  "perf_pct": -0.0106,
-  "bench_pct": -0.1591,
-  "drawdown": 0.0129,
+  "perf_pct": -0.0118,
+  "bench_pct": -0.1613,
+  "drawdown": 0.0141,
   "halted": false,
   "trade_count": 8
  },
@@ -22,8 +22,8 @@
   },
   {
    "symbol": "SOL/USDT",
-   "value": 17.75,
-   "pnl_pct": -0.0045,
+   "value": 17.63,
+   "pnl_pct": -0.0114,
    "entry_price": 71.7759,
    "stop": 68.4179
   }
@@ -31,7 +31,7 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 60041.48,
+   "price": 59782.67,
    "trend": "baissière",
    "score": 0.016,
    "news_score": 0.5,
@@ -46,7 +46,7 @@
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1666.22,
+   "price": 1655.01,
    "trend": "baissière",
    "score": 0.036,
    "news_score": 1.0,
@@ -59,7 +59,7 @@
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.74,
+   "price": 71.24,
    "trend": "haussière",
    "score": 0.318,
    "news_score": 0.5,
@@ -182,11 +182,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1795037450,
-   99.77,
-   85.47
-  ],
   [
    1795046430,
    99.77,
@@ -631,13 +626,18 @@
    1795838430,
    98.94,
    84.09
+  ],
+  [
+   1795845043,
+   98.82,
+   83.87
   ]
  ],
  "last_directive": {
   "regime": "neutral",
   "assets_annotated": 0,
-  "text": "3 sources : Yahoo Finance, CNBC, Decrypt. Indices en hausse (meilleure semaine de Thanksgiving en 18 ans) mais inquiétudes IA persistantes ; signaux crypto mixtes ; rien de convergent pour risk_off. — Au 27/11 soir : Wall Street termine une semaine de Thanksgiving très favorable (Yahoo Finance), mai",
-  "received_at": "2026-11-27T20:50:39Z"
+  "text": "3 sources : Yahoo Finance, CNBC, Cointelegraph. Semaine de Thanksgiving positive pour les indices US, mais craintes IA persistantes et signaux crypto mixtes ; rien de convergent pour risk_off. — Au 28/11 matin : S&P 500 et Nasdaq concluent leur meilleure semaine en plus d'un an grâce au retour de l'",
+  "received_at": "2026-11-28T05:50:43Z"
  },
  "indicators": {
   "fear_greed": {
@@ -680,7 +680,7 @@
  "costs": {
   "currency": "$",
   "initial": 100.0,
-  "equity": 98.94090607115825,
+  "equity": 98.81717343300139,
   "profiles": {
    "crypto": "Kraken, ordres au marché",
    "stock": "Alpaca, actions et ETF américains"
@@ -688,12 +688,12 @@
   "fees": 0.22122307125308882,
   "slippage": 0.07531673782181007,
   "fees_pct_capital": 0.0022122307125308884,
-  "gross_pl": -0.7625541197668485,
-  "before_fees": -0.8378708575886585,
-  "net_pl": -1.0590939288417474,
+  "gross_pl": -0.8862867579237149,
+  "before_fees": -0.961603495745525,
+  "net_pl": -1.1828265669986138,
   "tax_rate": 0.314,
   "tax_est": 0.0,
-  "net_after_tax": -1.0590939288417474,
+  "net_after_tax": -1.1828265669986138,
   "trade_count": 8,
   "platforms": {
    "crypto": [
@@ -702,7 +702,7 @@
      "label": "Kraken, ordres au marché",
      "note": "0,40 % taker sous 50 000 $/mois ; accessible depuis la France (agrément irlandais, passeport UE)",
      "fees": 0.22122307125308882,
-     "net": -1.0590939288417474,
+     "net": -1.1828265669986138,
      "active": true
     },
     {
@@ -710,7 +710,7 @@
      "label": "Kraken, ordres à cours limité",
      "note": "0,25 % maker, mais un ordre limite peut ne pas être exécuté",
      "fees": 0.1382644195331805,
-     "net": -0.976135277121839,
+     "net": -1.0998679152787054,
      "active": false
     },
     {
@@ -718,7 +718,7 @@
      "label": "Coinbase Advanced",
      "note": "0,50 % taker au palier de base",
      "fees": 0.276528839066361,
-     "net": -1.1143996966550196,
+     "net": -1.238132334811886,
      "active": false
     },
     {
@@ -726,7 +726,7 @@
      "label": "Binance",
      "note": "0,10 % : mais n'accepte plus de nouveaux clients en France d'après plusieurs sources",
      "fees": 0.055305767813272205,
-     "net": -0.8931766254019308,
+     "net": -1.016909263558797,
      "active": false
     },
     {
@@ -734,7 +734,7 @@
      "label": "eToro, crypto réelle",
      "note": "1 % par position, soit 2 % l'aller-retour, spread en plus",
      "fees": 0.553057678132722,
-     "net": -1.3909285357213805,
+     "net": -1.514661173878247,
      "active": false
     }
    ],
@@ -744,7 +744,7 @@
      "label": "Alpaca, actions et ETF américains",
      "note": "0 commission ; compte à déclarer (3916-bis), pas de marge",
      "fees": 0.0,
-     "net": -1.0590939288417474,
+     "net": -1.1828265669986138,
      "active": true
     },
     {
@@ -752,7 +752,7 @@
      "label": "Interactive Brokers, tarif fixe",
      "note": "0,005 $/action, minimum 1 $, plafonné à 1 % du montant",
      "fees": 0.9534623248773252,
-     "net": -2.0125562537190724,
+     "net": -2.136288891875939,
      "active": false
     },
     {
@@ -760,7 +760,7 @@
      "label": "eToro, actions réelles",
      "note": "1 $ (parfois 2 $) par ordre, achat et vente",
      "fees": 5.0,
-     "net": -6.059093928841747,
+     "net": -6.182826566998614,
      "active": false
     }
    ]
@@ -771,6 +771,36 @@
   }
  },
  "headlines": [
+  {
+   "published": "2026-11-28T05:31:54Z",
+   "source": "Yahoo Finance",
+   "title": "NVDA Stock Could Hit A Bottom Next Week As Jensen Huang Faces Congress, Says Analyst — 'I Would Buy It With Both Hands'",
+   "link": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-hit-bottom-jensen-haung-congress/cNRRYXMR9Vp?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-28T05:20:02Z",
+   "source": "Yahoo Finance",
+   "title": "The First AI Stock I Plan to Buy in 2027",
+   "link": "https://www.fool.com/investing/2026/11/28/the-first-ai-stock-i-plan-to-buy-in-2027/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-28T05:06:19Z",
+   "source": "Yahoo Finance",
+   "title": "Taiwan, South Korea share chip whiplash but not the factory boom",
+   "link": "http://www.intellinews.com/taiwan-south-korea-share-chip-whiplash-but-not-the-factory-boom-488384/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-28T04:27:02Z",
+   "source": "Yahoo Finance",
+   "title": "SpaceX Stock Is Trading Below Its $135 IPO Price. History Says What Other Giant IPOs Did From There.",
+   "link": "https://www.fool.com/investing/2026/11/27/spacex-stock-is-trading-below-its-usd135-ipo-price-history-says-what-other-giant-ipos-did-from-there/?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-28T04:07:00Z",
+   "source": "Yahoo Finance",
+   "title": "Michael Burry still sees 2 stocks worth betting against",
+   "link": "https://www.thestreet.com/investing/michael-burry-palantir-metlife-puts?.tsrc=rss"
+  },
   {
    "published": "2026-11-28T03:13:02Z",
    "source": "Yahoo Finance",
@@ -874,28 +904,10 @@
    "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-tech-stocks-buy-030856400.html?.tsrc=rss"
   },
   {
-   "published": "2026-11-27T21:18:40Z",
-   "source": "Yahoo Finance",
-   "title": "Nvidia chips on sale for $3M in China — as Jensen Huang scandal and US crackdown chokes supply",
-   "link": "https://nypost.com/2026/11/27/tech/chinese-ads-selling-banned-nvidia-servers-for-3m-as-jensen-huang-scandal-chokes-supply-market-is-crazy/?.tsrc=rss"
-  },
-  {
    "published": "2026-11-27T21:15:29Z",
    "source": "Cointelegraph",
    "title": "Franklin Templeton makes room for HYPE in crypto index ETF",
    "link": "https://cointelegraph.com/news/franklin-templeton-hype-crypto-index-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-   "published": "2026-11-27T21:06:00Z",
-   "source": "Yahoo Finance",
-   "title": "Jensen Huang Is Back. Nvidia’s (NVDA) Bull Case Remains",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-back-nvidia-nvda-210600721.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T21:00:00Z",
-   "source": "Yahoo Finance",
-   "title": "Review & Preview: Gratitude Trade",
-   "link": "https://finance.yahoo.com/m/b4b967f3-ecb0-3cea-89c7-f0d0c38cee92/review-%26-preview%3A-gratitude.html?.tsrc=rss"
   },
   {
    "published": "2026-11-27T20:46:02Z",
@@ -908,12 +920,6 @@
    "source": "Yahoo Finance",
    "title": "AI Chip Stocks Swung Wildly—While Warren Buffett’s Apple Climbed 26%",
    "link": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-swung-wildly-204129003.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T20:35:00Z",
-   "source": "Yahoo Finance",
-   "title": "Can Record Black Friday Spending Lift Amazon Stock?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/record-black-friday-spending-lift-203500466.html?.tsrc=rss"
   },
   {
    "published": "2026-11-27T20:13:53Z",
@@ -944,12 +950,6 @@
    "source": "Yahoo Finance",
    "title": "Fidelity Counted 654,000 401(k) Millionaires in the Third Quarter of 2025, Up From 544,000 a Year Earlier",
    "link": "https://247wallst.com/personal-finance/2026/11/27/fidelity-counted-654000-401k-millionaires-in-the-third-quarter-of-2025-up-from-544000-a-year-earlier/?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T18:46:20Z",
-   "source": "CNBC",
-   "title": "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
-   "link": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html"
   }
  ]
 }
