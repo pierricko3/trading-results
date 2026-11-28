@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T21:30:54Z",
+ "generated_at": "2026-11-28T00:00:35Z",
  "mode": "simulation",
  "capital": {
   "currency": "$",
@@ -7,7 +7,7 @@
   "equity": 99.06,
   "cash": 80.49,
   "perf_pct": -0.0094,
-  "bench_pct": -0.1582,
+  "bench_pct": -0.1586,
   "drawdown": 0.0117,
   "halted": false,
   "trade_count": 7
@@ -24,44 +24,42 @@
  "assets": [
   {
    "symbol": "BTC/USDT",
-   "price": 59803.19,
+   "price": 59932.12,
    "trend": "baissière",
-   "score": -0.165,
-   "news_score": 0.2,
-   "news_conf": 0.6,
-   "tech_score": -0.513,
+   "score": -0.091,
+   "news_score": 0.5,
+   "news_conf": 0.48,
+   "tech_score": -0.495,
    "in_position": false,
    "patterns": [
-    "Avalement haussier",
+    "Doji (indécision)",
     "Doji (indécision)"
    ]
   },
   {
    "symbol": "ETH/USDT",
-   "price": 1665.18,
+   "price": 1662.91,
    "trend": "baissière",
-   "score": -0.039,
-   "news_score": 0.6,
-   "news_conf": 0.6,
-   "tech_score": -0.528,
+   "score": 0.033,
+   "news_score": 1.0,
+   "news_conf": 0.48,
+   "tech_score": -0.514,
    "in_position": false,
    "patterns": [
-    "Avalement haussier",
     "Étoile filante (essoufflement)",
     "Doji (indécision)"
    ]
   },
   {
    "symbol": "SOL/USDT",
-   "price": 71.88,
+   "price": 71.65,
    "trend": "neutre",
-   "score": -0.003,
-   "news_score": 0.25,
-   "news_conf": 0.36,
-   "tech_score": -0.116,
+   "score": 0.06,
+   "news_score": 0.5,
+   "news_conf": 0.24,
+   "tech_score": -0.013,
    "in_position": false,
    "patterns": [
-    "Avalement haussier",
     "Pendu (retournement possible)",
     "Doji (indécision)"
    ]
@@ -70,8 +68,8 @@
    "symbol": "NVDA",
    "price": 150.6199951171875,
    "trend": "baissière",
-   "score": -0.332,
-   "news_score": 0.2,
+   "score": -0.2,
+   "news_score": 0.6,
    "news_conf": 0.6,
    "tech_score": -0.883,
    "in_position": false,
@@ -83,9 +81,9 @@
    "symbol": "AAPL",
    "price": 358.70001220703125,
    "trend": "haussière",
-   "score": 0.344,
-   "news_score": 0.5,
-   "news_conf": 0.48,
+   "score": 0.361,
+   "news_score": 0.75,
+   "news_conf": 0.36,
    "tech_score": 0.471,
    "in_position": true,
    "patterns": [
@@ -98,9 +96,9 @@
    "symbol": "SPY",
    "price": 725.9199829101562,
    "trend": "baissière",
-   "score": -0.285,
-   "news_score": 0.25,
-   "news_conf": 0.36,
+   "score": -0.269,
+   "news_score": 0.5,
+   "news_conf": 0.24,
    "tech_score": -0.743,
    "in_position": false,
    "patterns": [
@@ -168,11 +166,6 @@
   }
  ],
  "equity_curve": [
-  [
-   1795032030,
-   99.77,
-   85.49
-  ],
   [
    1795035041,
    99.77,
@@ -617,6 +610,11 @@
    1795815048,
    99.06,
    84.18
+  ],
+  [
+   1795824030,
+   99.06,
+   84.14
   ]
  ],
  "last_directive": {
@@ -627,7 +625,7 @@
  },
  "indicators": {
   "fear_greed": {
-   "value": 12,
+   "value": 10,
    "label": "Extreme Fear"
   },
   "vix": 23.81
@@ -758,6 +756,30 @@
  },
  "headlines": [
   {
+   "published": "2026-11-27T22:12:51Z",
+   "source": "Cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "published": "2026-11-27T22:00:57Z",
+   "source": "CNBC",
+   "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+   "link": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html"
+  },
+  {
+   "published": "2026-11-27T21:46:03Z",
+   "source": "Decrypt",
+   "title": "OpenAI Turns the Tables on Apple With Its Own Trade-Secret Theft Claims",
+   "link": "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims"
+  },
+  {
+   "published": "2026-11-27T21:37:57Z",
+   "source": "Yahoo Finance",
+   "title": "Billionaire Chase Coleman’s Tiger Global Raised Its Cerebras Stake 48% to $790 Million",
+   "link": "https://247wallst.com/investing/2026/11/27/billionaire-chase-colemans-tiger-global-raised-its-cerebras-stake-48-to-790-million/?.tsrc=rss"
+  },
+  {
    "published": "2026-11-27T21:28:56Z",
    "source": "Yahoo Finance",
    "title": "5 Best Tech Stocks to Buy for 2027 According to Hedge Funds",
@@ -776,6 +798,12 @@
    "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-back-nvidia-nvda-210600721.html?.tsrc=rss"
   },
   {
+   "published": "2026-11-27T21:00:00Z",
+   "source": "Yahoo Finance",
+   "title": "Review & Preview: Gratitude Trade",
+   "link": "https://finance.yahoo.com/m/b4b967f3-ecb0-3cea-89c7-f0d0c38cee92/review-%26-preview%3A-gratitude.html?.tsrc=rss"
+  },
+  {
    "published": "2026-11-27T20:46:02Z",
    "source": "Decrypt",
    "title": "Could AI Break Bitcoin? Not Yet, Research Firm K33 Says",
@@ -786,6 +814,12 @@
    "source": "Yahoo Finance",
    "title": "AI Chip Stocks Swung Wildly—While Warren Buffett’s Apple Climbed 26%",
    "link": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-swung-wildly-204129003.html?.tsrc=rss"
+  },
+  {
+   "published": "2026-11-27T20:35:00Z",
+   "source": "Yahoo Finance",
+   "title": "Can Record Black Friday Spending Lift Amazon Stock?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/record-black-friday-spending-lift-203500466.html?.tsrc=rss"
   },
   {
    "published": "2026-11-27T19:55:54Z",
@@ -900,42 +934,6 @@
    "source": "CNBC",
    "title": "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
    "link": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html"
-  },
-  {
-   "published": "2026-11-27T18:43:36Z",
-   "source": "Yahoo Finance",
-   "title": "Trump’s AI Gambit Fuels Wild Thanksgiving Week on Wall Street",
-   "link": "https://finance.yahoo.com/technology/ai/articles/trump-ai-gambit-fuels-wild-184336528.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T18:39:02Z",
-   "source": "Yahoo Finance",
-   "title": "US Equity Indexes Rise as Jensen Huang's Return to Nvidia Guardrails AI Trade While Investors Slice Growth Exposure This Week",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-jensen-183902792.html?.tsrc=rss"
-  },
-  {
-   "published": "2026-11-27T18:24:06Z",
-   "source": "CNBC",
-   "title": "SpaceX shares jump over 4% amid tech rally and after Musk says he will expand on Trump Account share donations",
-   "link": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html"
-  },
-  {
-   "published": "2026-11-27T18:20:32Z",
-   "source": "CNBC",
-   "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
-   "link": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html"
-  },
-  {
-   "published": "2026-11-27T18:16:03Z",
-   "source": "Decrypt",
-   "title": "$7 Billion in Bitcoin Options Just Expired: Here’s What It Means",
-   "link": "https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means"
-  },
-  {
-   "published": "2026-11-27T17:43:29Z",
-   "source": "Decrypt",
-   "title": "Hackers Hit US Air Force Cloud System Running Air-Defense and Munitions Data",
-   "link": "https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data"
   }
  ]
 }
